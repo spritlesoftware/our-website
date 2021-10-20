@@ -1,0 +1,83 @@
+############# French navigation ##############
+# main menu
+
+[[main]]
+name = "Services"
+weight = 2  
+url = "services/"
+
+[[main]]
+name = "Our Work"
+url = "our-work/"
+weight = 3
+
+[[main]]
+name = "Products"
+weight = 4
+
+  [[main]]
+  parent = "Products"
+  name = "Freshworks Apps"
+  url =  "products/freshworks/"
+
+  [[main]]
+  parent = "Products"
+  name = "Zoho Apps"
+  url =  "products/zoho/"
+
+  [[main]]
+  parent = "Products"
+  name = "Ruby Gems"
+  url =  "career/"  
+
+[[main]]
+name = "Company"
+weight = 5 
+hasChildren = true
+
+  [[main]]
+  parent = "Company"
+  name = "Our Process"
+
+  [[main]]
+  parent = "Company"
+  name = "Knowledge Sharing"
+
+  [[main]]
+  parent = "Company"
+  name = "About Us"
+
+  [[main]]
+  parent = "Company"
+  name = "Careers"
+
+  [[main]]
+  parent = "Company"
+  name = "Latest News"
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 6
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 7
+
+
+# Footer menu
+[[footer]]
+name = "Faq"
+url = "faq/"
+weight = 1
+
+[[footer]]
+name = "Terms & Conditions"
+url = "terms-conditions/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3

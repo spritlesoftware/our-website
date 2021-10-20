@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $data := index site.Data site.Language.Lang }}
+
+<section class="section-padding testimonials-section pb-20" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 text-center mb-30">
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+    <div class="testimonials-items row">
+      {{ range .Params.testimonial_item }}
+      <div class="col-lg-4 col-md-6 mb-30">
+        <div class="testimonials-item bg-white">
+          <div class="block border rounded bg-white">
+            
+            <p class="h4 text-black-300 font-weight-light">{{ .content | markdownify }}</p>
+            <img loading="lazy" src="{{`images/testimonials/arrow.png` | absURL}}" alt="">
+          </div>
+          <div class="user-info d-flex align-items-center mt-30">
+            <img loading="lazy" class="d-inline rounded-circle mr-3" src="{{ .image | absURL }}" alt="{{.name}}">
+            <div class="pt-1">
+              <h5 class="font-weight-bold">{{ .name }}</h5>
+              <p>{{ .designation | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        <!-- testimonials-item -->
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

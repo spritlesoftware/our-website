@@ -1,0 +1,86 @@
+- id: quick_links
+  translation: Quick Links
+  
+- id: social_links
+  translation: Social Links
+  
+- id: subscribe
+  translation: Lets Subscribe Your Email
+  
+- id: home
+  translation: Home
+  
+- id: all_together
+  translation: All Together
+  
+- id: name
+  translation: Name
+  
+- id: mail
+  translation: Email Address
+  
+- id: website
+  translation: Company Website
+
+- id: phone_number
+  translation: Phone Number
+
+- id: company_name
+  translation: Company Name
+  
+- id: message
+  translation: Have something to say to us?
+  
+- id: submit
+  translation: Submit Now
+  
+- id: monthly
+  translation: Billed Monthly
+  
+- id: yearly
+  translation: Billed Annually
+  
+- id: month
+  translation: Month
+  
+- id: year
+  translation: Year
+  
+- id: view_job
+  translation: View Listing
+
+- id: free_trial
+  translation: Free Trial
+  
+- id: apply
+  translation: Apply for Job
+  
+- id: first_name
+  translation: First Name
+  
+- id: last_name
+  translation: Last Name
+  
+- id: company
+  translation: Current Company
+
+- id: minute_read
+  translation: Mins Read
+  
+- id: cv
+  translation: Resume/CV
+  
+- id: recent_post
+  translation: Recent Articles
+  
+- id: recomended
+  translation: Recomended
+
+- id: business_email
+  translation: Business Email
+
+- id: job_title
+  translation: Job Title
+
+- id: request_message
+  translation: Give us a heads up on what you are looking for!
