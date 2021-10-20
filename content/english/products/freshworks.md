@@ -1,7 +1,7 @@
 ---
 title : "Freshwork Apps"
 description : "this is meta description"
-layout : "freshworks-apps"
+layout : "detailed-product"
 draft : false
 
 
