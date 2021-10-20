@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Health Engineers - A unit of Spritle</title>
-    <link>https://spritlesoftware.github.io/our-website/healthcare/</link>
+    <link>https://spritlesoftware.github.io/healthcare/</link>
     <description>Recent content on Health Engineers - A unit of Spritle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://spritlesoftware.github.io/our-website/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://spritlesoftware.github.io/healthcare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Healthcare AI Voice Assistants</title>
-      <link>https://spritlesoftware.github.io/our-website/healthcare/appointment-booking-automation/</link>
+      <link>https://spritlesoftware.github.io/healthcare/appointment-booking-automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/healthcare/appointment-booking-automation/</guid>
+      <guid>https://spritlesoftware.github.io/healthcare/appointment-booking-automation/</guid>
       <description></description>
     </item>
     
