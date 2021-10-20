@@ -75,6 +75,8 @@
   </url><url>
     <loc>https://hewebsite.web.app/faq/</loc>
   </url><url>
+    <loc>https://hewebsite.web.app/products/freshworks/</loc>
+  </url><url>
     <loc>https://hewebsite.web.app/career/job-4/</loc>
   </url><url>
     <loc>https://hewebsite.web.app/career/job-6/</loc>
@@ -105,11 +107,15 @@
   </url><url>
     <loc>https://hewebsite.web.app/our-innovations/</loc>
   </url><url>
+    <loc>https://hewebsite.web.app/our-work/</loc>
+  </url><url>
     <loc>https://hewebsite.web.app/pricing-2/</loc>
   </url><url>
     <loc>https://hewebsite.web.app/pricing/</loc>
   </url><url>
     <loc>https://hewebsite.web.app/privacy-policy/</loc>
+  </url><url>
+    <loc>https://hewebsite.web.app/products/</loc>
   </url><url>
     <loc>https://hewebsite.web.app/request-a-demo/</loc>
   </url><url>
@@ -136,5 +142,7 @@
     <loc>https://hewebsite.web.app/terms-conditions/</loc>
   </url><url>
     <loc>https://hewebsite.web.app/testimonial/</loc>
+  </url><url>
+    <loc>https://hewebsite.web.app/products/zoho/</loc>
   </url>
 </urlset>

@@ -1,0 +1,4 @@
+[submodule "public/public"]
+	path = public/public
+	url = https://github.com/spritlesoftware/our-website.git
+	branch = main
