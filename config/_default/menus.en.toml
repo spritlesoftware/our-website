@@ -2,7 +2,7 @@
 # main menu
 
 [[main]]
-name = "Services"
+name = "Services-1"
 weight = 2  
 url = "services/"
 
