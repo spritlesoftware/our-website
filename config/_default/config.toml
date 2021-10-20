@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://hewebsite.web.app/"
+baseURL = "https://spritlesoftware.github.io/our-website/"
 title = "Health Engineers - A unit of Spritle"
 theme = "he"
 # post pagination

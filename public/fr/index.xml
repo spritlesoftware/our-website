@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Health Engineers - A unit of Spritle</title>
-    <link>https://hewebsite.web.app/fr/</link>
+    <link>https://spritlesoftware.github.io/our-website/fr/</link>
     <description>Recent content on Health Engineers - A unit of Spritle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://hewebsite.web.app/fr/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://spritlesoftware.github.io/our-website/fr/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Health Engineers - A unit of Spritle</title>
-    <link>https://hewebsite.web.app/fr/tags/</link>
+    <link>https://spritlesoftware.github.io/our-website/fr/tags/</link>
     <description>Recent content in Tags on Health Engineers - A unit of Spritle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://hewebsite.web.app/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://spritlesoftware.github.io/our-website/fr/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
