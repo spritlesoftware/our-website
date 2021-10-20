@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://spritlesoftware.github.io/fr/categories/</loc>
+    <loc>https://spritlesoftware.github.io/our-website/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://spritlesoftware.github.io/categories/"
+                href="https://spritlesoftware.github.io/our-website/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://spritlesoftware.github.io/fr/categories/"
+                href="https://spritlesoftware.github.io/our-website/fr/categories/"
                 />
   </url><url>
-    <loc>https://spritlesoftware.github.io/fr/</loc>
+    <loc>https://spritlesoftware.github.io/our-website/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://spritlesoftware.github.io/"
+                href="https://spritlesoftware.github.io/our-website/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://spritlesoftware.github.io/fr/"
+                href="https://spritlesoftware.github.io/our-website/fr/"
                 />
   </url><url>
-    <loc>https://spritlesoftware.github.io/fr/tags/</loc>
+    <loc>https://spritlesoftware.github.io/our-website/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://spritlesoftware.github.io/tags/"
+                href="https://spritlesoftware.github.io/our-website/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://spritlesoftware.github.io/fr/tags/"
+                href="https://spritlesoftware.github.io/our-website/fr/tags/"
                 />
   </url>
 </urlset>
