@@ -1,5 +1,6 @@
 # our-website
 Spritle Website
-Install Hugo -> https://gohugo.io/
-Start Server : hugo server 
-Build : hugo
+
+1. install hugo using `brew install hugo` or `sudo apt-get install hugo`
+2. then run hugo server
+
