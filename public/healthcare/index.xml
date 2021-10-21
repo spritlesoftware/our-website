@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Health Engineers - A unit of Spritle</title>
+    <title>Spritle Software</title>
     <link>https://spritlesoftware.github.io/our-website/healthcare/</link>
-    <description>Recent content on Health Engineers - A unit of Spritle</description>
+    <description>Recent content on Spritle Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://spritlesoftware.github.io/our-website/healthcare/index.xml" rel="self" type="application/rss+xml" />

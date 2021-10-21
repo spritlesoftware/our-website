@@ -38,14 +38,11 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Our Process"
+  url =  "how-it-works/"
 
   [[main]]
   parent = "Company"
   name = "Knowledge Sharing"
-
-  [[main]]
-  parent = "Company"
-  name = "About Us"
 
   [[main]]
   parent = "Company"

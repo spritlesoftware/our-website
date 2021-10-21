@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://spritlesoftware.github.io/our-website/"
-title = "Health Engineers - A unit of Spritle"
+title = "Spritle Software"
 theme = "he"
 # post pagination
 paginate = "6"
