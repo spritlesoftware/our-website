@@ -26,15 +26,6 @@
     </item>
     
     <item>
-      <title>Head Design</title>
-      <link>https://spritlesoftware.github.io/our-website/career/job-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://spritlesoftware.github.io/our-website/career/job-2/</guid>
-      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
-    </item>
-    
-    <item>
       <title>Java Developer</title>
       <link>https://spritlesoftware.github.io/our-website/career/job-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,20 +35,29 @@
     </item>
     
     <item>
-      <title>Laravel Developer - 1</title>
-      <link>https://spritlesoftware.github.io/our-website/career/job-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://spritlesoftware.github.io/our-website/career/job-1/</guid>
-      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
-    </item>
-    
-    <item>
       <title>Lead Product Designer</title>
       <link>https://spritlesoftware.github.io/our-website/career/job-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://spritlesoftware.github.io/our-website/career/job-5/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>React Native Mobile Developer</title>
+      <link>https://spritlesoftware.github.io/our-website/career/job-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spritlesoftware.github.io/our-website/career/job-2/</guid>
+      <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
+    </item>
+    
+    <item>
+      <title>Ruby on Rails Developer - 3    </title>
+      <link>https://spritlesoftware.github.io/our-website/career/job-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spritlesoftware.github.io/our-website/career/job-1/</guid>
       <description>About Copper At Copper, we want to make your neighborhood a little more familiar.</description>
     </item>
     

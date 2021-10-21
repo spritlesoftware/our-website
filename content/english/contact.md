@@ -12,8 +12,8 @@ contact_info:
   
   address_list:
   - "**US** - (614) 918-0411"
-  - "**Singapore** - 65 6652 5475"
-  - "**India** - 044 4855 4277"
+  - "**Singapore** - +65 6652 5475"
+  - "**India** - +91 44 4855 4277"
 
   contact_list:
   - name : "**US**"

@@ -2,7 +2,7 @@
 # main menu
 
 [[main]]
-name = "Services-1"
+name = "Services"
 weight = 2  
 url = "services/"
 
@@ -50,6 +50,7 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Careers"
+  url = "career/"
 
   [[main]]
   parent = "Company"

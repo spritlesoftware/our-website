@@ -1,5 +1,5 @@
 ---
-title : "Head Design"
+title : "React Native Mobile Developer"
 description : "this is meta description"
 job_type : "Part Time"
 draft : false

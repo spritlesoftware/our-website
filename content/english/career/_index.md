@@ -7,8 +7,8 @@ draft : false
 intro:
   enable : true
   title : "Create a world where anyone **belong anywhere**"
-  image : "images/career/01.jpg"
-  content : "We provide the supportive, flexible, family-like environment you require to provide high-level, challenging & better outcomes,. That is one of the reasons why our employee satisfaction is ranked one among all criterias"
+  image : "images/careers/spritle_team.jpeg"
+  content : "Spritle is a team of talented people ready to care about your product. We love coding. We love beautiful design. We love doing our job better than possible. Every product we craft is a challenge we are excited about."
   button:
     enable : true
     label : "Join Team"
@@ -18,8 +18,8 @@ intro:
 ################ Flexibility ####################
 flexibility:
   enable : true
-  title : "Flexibility to do your **best work from anywhere**"
-  content : "Lorem ipsum sadip dolor sit amet, consetetur sadip scing elitr, diam nonumy eirmod tempor invi duntut labore et dolore magna aliquyam erat, sed diam"
+  title : "Software is created for **people**"
+  content : "Our mission is to provide an ambience by which every person involved in creating such software be valued. Be it stakeholders, product owners, the end users or the development team, they are need a professional and friendly collaborations to build great software. We at Spritle try to provide that ambience."
   item:
   - name : "Value add"
     icon : "fas fa-hand-holding-usd"
@@ -73,20 +73,18 @@ benifits:
 gallery:
   enable : true
   item:
-  - image : "images/career/life-at/01.jpg"
+  - image : "images/careers/life-at/01.webp"
     width : "6"
-  - image : "images/career/life-at/02.jpg"
-    width : "4"
-  - image : "images/career/life-at/03.jpg"
-    width : "2"
-  - image : "images/career/life-at/04.jpg"
-    width : "2"
-  - image : "images/career/life-at/05.jpg"
-    width : "4"
-  - image : "images/career/life-at/06.jpg"
+  - image : "images/careers/life-at/02.jpeg"
+    width : "6"
+  - image : "images/careers/life-at/03.jpeg"
+    width : "6"
+  - image : "images/careers/life-at/04.jpeg"
+    width : "6"
+  - image : "images/careers/life-at/05.jpeg"
+    width : "6"
+  - image : "images/careers/life-at/06.jpeg"
     width : "6"
 ---
 
 ## Join our **growing team**
-Lorem ipsum sadip dolor sit amet, consetetur sadip scing elitr, diam nonumy eirmod tempor invi duntut labore
-et dolore magna aliquyam erat, sed diam
