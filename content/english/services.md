@@ -6,6 +6,7 @@ draft : false
 
 services:
 - name : "Web Application Development"
+  target : "web_application_development_services"
   icon : "fas fa-paperclip"
   image: "images/home/life-science-research-institutes.svg"
   content : "Lorem ipsum dolor , consetetur sadipscing gfed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
