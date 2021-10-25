@@ -1,55 +1,58 @@
 {{ define "main" }} {{ $data := index site.Data site.Language.Lang }}
 
-<!-- start Intro section -->
-{{if .Params.intro.enable }} {{with .Params.intro }}
+
+{{if .Params.start.enable }} {{with .Params.start }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Custom webapp section -->
-{{if .Params.customWebapp.enable }} {{with .Params.customWebapp }}
+
+{{if .Params.section1.enable }} {{with .Params.section1 }}
   {{ partial "left-image-right-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Performance tuning section -->
-{{if .Params.performance.enable }} {{with .Params.performance }}
+{{if .Params.section2.enable }} {{with .Params.section2 }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Healthcare section -->
-{{if .Params.Healthcare }} {{with .Params.Healthcare }}
+{{if .Params.section3 }} {{with .Params.section3 }}
   {{ partial "left-image-right-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Advanced section -->
-{{if .Params.Advanced.enable }} {{with .Params.Advanced }}
+{{if .Params.section4.enable }} {{with .Params.section4 }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
 <!-- start Microservices section -->
-{{if .Params.Microservices }} {{with .Params.Microservices }}
+{{if .Params.section5 }} {{with .Params.section5 }}
   {{ partial "left-image-right-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
 <!-- start API development section -->
-{{if .Params.APIDevelopment.enable }} {{with .Params.APIDevelopment }}
+{{if .Params.section5.enable }} {{with .Params.section5 }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
 <!-- start Frontend section -->
-{{if .Params.Frontend }} {{with .Params.Frontend }}
+{{if .Params.section6.enable }} {{with .Params.section6 }}
   {{ partial "left-image-right-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
 <!-- start Custom open source section -->
-{{if .Params.CustomandOpenSource.enable }} {{with .Params.CustomandOpenSource }}
+{{if .Params.section7.enable }} {{with .Params.section7 }}
+  {{ partial "right-image-left-text.html" . }}
+{{ end }} {{ end }}
+<!-- end section -->
+
+<!-- start Custom open source section -->
+{{if .Params.section8.enable }} {{with .Params.section8 }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
