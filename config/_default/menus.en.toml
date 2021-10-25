@@ -4,7 +4,16 @@
 [[main]]
 name = "Services"
 weight = 2  
-url = "services/"
+
+  [[main]]
+  parent = "Services"
+  name = "Home"
+  url =  "services/"
+
+  [[main]]
+  parent = "Services"
+  name = "Web Apps Development"
+  url =  "web_application_development_services/"
 
 [[main]]
 name = "Our Work"
