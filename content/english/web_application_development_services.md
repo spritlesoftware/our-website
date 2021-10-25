@@ -30,7 +30,7 @@ performance:
     - "Fix it with our database, web and application servers tuning services"
     - "You’ll witness the significant improvement achieved by a combination of database configuration changes with tuning of application queries"
 
-Healthcare:
+healthcare:
   enable: true
   title: "Healthcare Applications Development"
   image: "images/services/web/custom_web_app.png"
@@ -41,13 +41,13 @@ Healthcare:
     - "NLP based patient-practitioner interaction automation"
     - "End-to-end hospital & related process management system"
 
-Advanced:
+advanced:
   enable: true
   title: "Advanced Analytics Dashboard"
   image: "images/services/web/performance_tuning.png"
   content: "Your business is driven by data. Significant Real-time quantitative analysis of your operational performance helps to capitalize on the power of numbers to derive insights. Our Data scientists have brought out some of the most eloquent analytical dashboard and give you the power to visualize hundreds of metrics into meaningful information."
 
-Microservices:
+microservices:
   enable: true
   title: "Microservices Development"
   image: "images/services/web/custom_web_app.png"
@@ -60,13 +60,13 @@ Microservices:
     - "Reports"
     - "Analytics"
 
-APIDevelopment:
+apiDevelopment:
   enable: true
   title: "API Development"
   image: "images/services/web/custom_web_app.png"
   content: "The world today is a galactic chaos of standalone systems. Solutions cant operate effectively without external modular dependencies. The core of every software product is the collection of a network of API that seamlessly work in order to enable a handshake between these Individual building blocks. Work with our API architects and see how we plan and execute complex integration."
 
-Frontend:
+frontend:
   enable: true
   title: "Frontend App Development"
   image: "images/services/web/custom_web_app.png"
@@ -76,7 +76,7 @@ Frontend:
     - "AngularJS"
     - "NodeJS"
 
-CustomandOpenSource:
+customandOpenSource:
   enable: true
   title: "Custom & Open-Source ERP Development"
   image: "images/services/web/custom_web_app.png"
