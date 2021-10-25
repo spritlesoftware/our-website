@@ -2,8 +2,13 @@
 # main menu
 
 [[main]]
+name = "Our Works"
+url = "our-work/"
+weight = 1
+
+[[main]]
 name = "Services"
-weight = 2  
+weight = 2
 
   [[main]]
   parent = "Services"
@@ -15,10 +20,15 @@ weight = 2
   name = "Web Apps Development"
   url =  "web_application_development_services/"
 
-[[main]]
-name = "Our Work"
-url = "our-work/"
-weight = 3
+  [[main]]
+  parent = "Services"
+  name = "Mobile Apps Development"
+  url =  "mobile_service/"
+
+  [[main]]
+  parent = "Services"
+  name = "AI & ML Application Development Services"
+  url =  "ai-ml-application-development-services/"
 
 [[main]]
 name = "Products"
