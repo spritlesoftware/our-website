@@ -6,7 +6,6 @@
 {{ end }} {{ end }}
 <!-- end section -->
 
-
 {{if .Params.section1.enable }} {{with .Params.section1 }}
   {{ partial "left-image-right-text.html" . }}
 {{ end }} {{ end }}
@@ -27,32 +26,32 @@
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Microservices section -->
 {{if .Params.section5 }} {{with .Params.section5 }}
   {{ partial "left-image-right-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start API development section -->
-{{if .Params.section5.enable }} {{with .Params.section5 }}
+{{if .Params.section6.enable }} {{with .Params.section6 }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Frontend section -->
-{{if .Params.section6.enable }} {{with .Params.section6 }}
+{{if .Params.section7.enable }} {{with .Params.section7 }}
   {{ partial "left-image-right-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Custom open source section -->
-{{if .Params.section7.enable }} {{with .Params.section7 }}
+{{if .Params.section8.enable }} {{with .Params.section8 }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- start Custom open source section -->
-{{if .Params.section8.enable }} {{with .Params.section8 }}
+{{if .Params.section9.enable }} {{with .Params.section9 }}
+  {{ partial "right-image-left-text.html" . }}
+{{ end }} {{ end }}
+<!-- end section -->
+
+{{if .Params.section10.enable }} {{with .Params.section10 }}
   {{ partial "right-image-left-text.html" . }}
 {{ end }} {{ end }}
 <!-- end section -->

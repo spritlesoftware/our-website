@@ -88,5 +88,3 @@ section8:
     - "**Open Source Software** <br>We plug & play with open source software for requirement and have built robust enterprise"
     - "**Plugin for integration** <br>We have a large list of 3rd party module integration Plug-ins we have built for several Saas"
 ---
-
-## Apps developed **by us for Freshworks**
