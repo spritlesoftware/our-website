@@ -14,21 +14,25 @@ weight = 2
   parent = "Services"
   name = "Home"
   url =  "services/"
+  weight= 100
 
   [[main]]
   parent = "Services"
   name = "Web Apps Development"
   url =  "web_application_development_services/"
+  weight = 200
 
   [[main]]
   parent = "Services"
   name = "Mobile Apps Development"
   url =  "mobile_service/"
+  weight= 500
 
   [[main]]
   parent = "Services"
   name = "AI & ML Application Development Services"
   url =  "ai-ml-application-development-services/"
+  weight=1000
 
 [[main]]
 name = "Products"
@@ -47,7 +51,7 @@ weight = 4
   [[main]]
   parent = "Products"
   name = "Ruby Gems"
-  url =  "career/"  
+  url =  "products/rubygems"  
 
 [[main]]
 name = "Company"
@@ -58,19 +62,23 @@ hasChildren = true
   parent = "Company"
   name = "Our Process"
   url =  "how-it-works/"
+  weight=100
 
   [[main]]
   parent = "Company"
   name = "Knowledge Sharing"
+  weight=200
 
   [[main]]
   parent = "Company"
   name = "Careers"
   url = "career/"
+  weight=300
 
   [[main]]
   parent = "Company"
   name = "Latest News"
+  weight=400
 
 [[main]]
 name = "Blog"
