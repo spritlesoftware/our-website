@@ -8,7 +8,7 @@ services:
   - name: "Web Application Development"
     target: "web_application_development_services"
     icon: "fas fa-paperclip"
-    image: "images/home/life-science-research-institutes.svg"
+    image: "images/home/webapp.svg"
     content: "At the helm of driving global business and the changing times is web development..."
 
   - name: "Mobile Application Development  "
