@@ -1,16 +1,16 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
-favicon_32x32 = "images/favicon.png"
-favicon_16x16 = "images/favicon.png"
-apple_touch_icon = "images/favicon.png"
+favicon = "images/favicons/favicon-96x96.png"
+favicon_32x32 = "images/favicons/favicon-32x32.png"
+favicon_16x16 = "images/favicons/favicon-16x16.png"
+apple_touch_icon = "images/favicons/apple-icon.png"
 # logo
 logo_text = "Spritle Software"
-logo = "images/logo-final.png"
+logo = "images/spritle-logo.png"
 logo_width = "120px;"
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
-author = "Themefisher"
+description = "TAn interdisciplinary team of coders, analysts and user experience specialists dedicated to building state-of-the-art web & mobile application.Talk to us today!"
+author = "Spritle Team"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
