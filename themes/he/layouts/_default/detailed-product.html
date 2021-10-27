@@ -64,9 +64,10 @@
   data-aos-delay="150"
 >
   <div class="container">
+    <h2 class="section-title text-center">{{ .subtitle | markdownify }}</h2>
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-4 col-md-8 col-sm-10 mt-5 mt-lg-0">
-        <h2 class="section-title">{{ .subtitle | markdownify }}</h2>
+       
         <ul class="check-list list-unstyled">
           {{ range .bulletpoint }}
           <li class="mb-15">
@@ -105,7 +106,6 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-8 col-sm-10 mt-5 mt-lg-0">
-        <h2 class="section-title">{{ .subtitle | markdownify }}</h2>
         <ul class="check-list list-unstyled">
           {{ range .bulletpoints }}
           <li class="mb-15">

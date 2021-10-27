@@ -22,10 +22,12 @@ mission:
   sub-content: "About our Partnership"
   image: "images/products/fw-ki.svg"
   content: "As premium Freshworks partners who also happen to be pioneers in their partners program, we enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Freshworks based custom development or marketplace plug-ins. Catch a glimpse of our portfolio."
-  bulletpoints:
+  bulletpoint:
     - "**TAILOR-MADE APPS** - We are Specialized in customizing Zoho product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
-    - "**CHATBOTS** - Turn visitors into leads and customers into happy, engaged users. We develop both decision tree and AI-driven chatbots."
     - "**CRM-INTEGRATION** - We develop CRM integrated apps specific to client needs.All our apps developed through this partnership communicate through Zoho API and data."
+
+  bulletpoints:
+    - "**CHATBOTS** - Turn visitors into leads and customers into happy, engaged users. We develop both decision tree and AI-driven chatbots."
     - "**MARKETPLACE APPS** - Find apps that enhance your Freshworks experience. We develop and publish apps on the Freshworks marketplace that collaborates between multiple systems."
 
 apps:
