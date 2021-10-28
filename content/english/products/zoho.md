@@ -4,15 +4,10 @@ description: "this is meta description"
 layout: "detailed-product"
 draft: false
 
-intro:
-  enable: true
-  title: "About Zoho"
-  image: "/images/zoho/logo.png"
-  content: "Zoho Corporation Private Limited is an Indian software development company. The organisation focuses on web-based business tools and information technology, including an office tools suite, Internet of things management platform, and a suite of IT management software."
 partnership:
   enable: true
   title: "About our Partnership"
-  image: "/images/zoho/logo.png"
+  image: "images/products/zoho/Zoho-Authorized-Partner.png"
   content: "As solution Zoho partners who also happen to be resellers of their prodcuts we enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Zoho based custom development or marketplace extensions. Catch a glimpse of our portfolio."
 
 mission:
@@ -20,7 +15,7 @@ mission:
   title: "About our Partnership"
   subtitle: "Key Implementations"
   sub-content: "About our Partnership"
-  image: "images/products/fw-ki.svg"
+  image: "images/products/zoho/zohoimplementation.jpg"
   content: "As premium Freshworks partners who also happen to be pioneers in their partners program, we enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Freshworks based custom development or marketplace plug-ins. Catch a glimpse of our portfolio."
   bulletpoint:
     - "**TAILOR-MADE APPS** - We are Specialized in customizing Zoho product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
