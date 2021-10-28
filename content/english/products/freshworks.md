@@ -26,4 +26,9 @@ mission:
 
     - "**CHATBOTS** - We develop CRM integrated apps specific to client needs.All our apps developed through this partnership communicate through Zoho API and data."
 
+newLandingPage:
+  enable: true
+  main-title: "We are doing too good that we decided to have a dedicated unit for developing SAAS integrations plug-ins"
+  sub-title: "Visit our exclusive and specific website at"
+  link: "https://www.saasly.in" 
 ---
