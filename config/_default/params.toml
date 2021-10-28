@@ -61,7 +61,7 @@ button = "I Accept"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon : https://fontawesome.com/icons
-link = "#"
+link = "https://www.facebook.com/spritlesoftware"
 
 [[social]]
 title = "github"
