@@ -1,5 +1,4 @@
-{{ define "main" }}
-{{ $data := index site.Data site.Language.Lang }}
+{{ define "main" }} {{ $data := index site.Data site.Language.Lang }}
 
 <!-- start of services-section -->
 <section class="section-padding" data-aos="fade-in" data-aos-delay="150">
@@ -14,10 +13,17 @@
       <div class="col-lg-4 col-md-6 service-box">
         <div class="block p-4 p-xl-5 text-center">
           <div class="service-image text-center">
-            <img loading="lazy" class="img-fluid" src="{{ .image | absURL }}" alt="">
+            <img
+              loading="lazy"
+              class="img-fluid"
+              src="{{ .image | absURL }}"
+              alt=""
+            />
           </div>
           <a href="{{ .target | markdownify }}">
-            <h3 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h3>
+            <h3 class="font-weight-600 mt-20 mb-20">
+              {{ .name | markdownify }}
+            </h3>
           </a>
           <p>{{ .content | markdownify }}</p>
         </div>
@@ -32,5 +38,37 @@
 <!-- end of services-section -->
 
 {{partial "testimonial.html" . }}
+
+<!-- start of services-section -->
+{{if .Params.Reachus }} {{with .Params.Reachus}}
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 text-center mb-40">
+        <div class="row no-gutters">
+          <div class="col-12">
+            <div class="border-bottom border-md-0"></div>
+          </div>
+        </div>
+        <div class="content">
+          <b><h2>{{ .title }}</h2></b>
+        </div>
+        <h3>{{ .content }}</h3>
+        <h3>
+          <a href="mailto:info@spritle.com?subject=Spritle%20Software"
+            >{{ .click }}</a
+          >
+        </h3>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-12">
+        <div class="border-bottom border-md-0"></div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+<!-- end of services-section -->
 
 {{ end }}
