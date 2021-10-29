@@ -12,11 +12,13 @@ services:
     content: "At the helm of driving global business and the changing times is web development..."
 
   - name: "Mobile Application Development  "
+    target: "mobile_service"
     icon: "fas fa-bell"
     image: "images/home/serviceimages/mobileapp.svg"
     content: "Running in the race to contribute to the greatest innovation of the 21st century, yet..."
 
   - name: "AI and ML Services"
+    target: "ai-ml-application-development-services"
     icon: "fas fa-clipboard"
     image: "images/home/serviceimages/alml.svg"
     content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
@@ -35,6 +37,9 @@ services:
     icon: "fas fa-paperclip"
     image: "images/home/serviceimages/consulting.svg"
     content: "We know to put ourselves in your shoes and deliver feasible solutions necessary for your business..."
----
 
-## Our **Services**
+Reachus:
+  title: "Let us deliver your next idea!"
+  content: "Reach us at"
+  click: "info@spritle.com"
+---
