@@ -1,65 +1,104 @@
 {{ define "main" }}
 
-<section class="section-padding contact-section has-shapes" data-aos="fade-in" data-aos-delay="150">
+<section
+  class="section-padding contact-section has-shapes"
+  data-aos="fade-in"
+  data-aos-delay="150"
+>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-9 col-md-9 text-center mb-40">
-        <div class="content">
-          {{ .Content }}
-        </div>
+        <div class="content">{{ .Content }}</div>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-xl-6 col-lg-7">
-        <form method="POST" class="rounded shadow p-30" action="{{site.Params.contact_form_action}}">
+        <form
+          method="POST"
+          class="rounded shadow p-30"
+          action="{{site.Params.contact_form_action}}"
+        >
           <div class="form-group mb-30">
-            <label class="text-black-200 h5 font-weight-600 mb-2" for="fname">{{ i18n "name"}}</label>
-            <input class="form-control shadow-none" type="text" placeholder="Your name" id="fname" required>
+            <label class="text-black-200 h5 font-weight-600 mb-2" for="fname"
+              >{{ i18n "name"}}</label
+            >
+            <input
+              class="form-control shadow-none"
+              type="text"
+              placeholder="Your name"
+              id="fname"
+              required
+            />
           </div>
           <div class="form-group mb-30">
-            <label class="text-black-200 h5 font-weight-600 mb-2" for="website">{{i18n "company_name"}}</label>
-            <input class="form-control shadow-none" type="text" placeholder="Company name" required>
+            <label class="text-black-200 h5 font-weight-600 mb-2" for="website"
+              >{{i18n "company_name"}}</label
+            >
+            <input
+              class="form-control shadow-none"
+              type="text"
+              placeholder="Company name"
+              required
+            />
           </div>
           <div class="form-group mb-30">
-            <label class="text-black-200 h5 font-weight-600 mb-2" for="email">{{i18n "mail"}}</label>
-            <input class="form-control shadow-none" type="email" placeholder="your-id@email.com" id="email" required>
+            <label class="text-black-200 h5 font-weight-600 mb-2" for="email"
+              >{{i18n "mail"}}</label
+            >
+            <input
+              class="form-control shadow-none"
+              type="email"
+              placeholder="your-id@email.com"
+              id="email"
+              required
+            />
           </div>
           <div class="form-group mb-30">
-            <label class="text-black-200 h5 font-weight-600 mb-2" for="phone">{{i18n "phone_number"}}</label>
-            <input class="form-control shadow-none" type="tel" placeholder="Phone number" required>
+            <label class="text-black-200 h5 font-weight-600 mb-2" for="phone"
+              >{{i18n "phone_number"}}</label
+            >
+            <input
+              class="form-control shadow-none"
+              type="tel"
+              placeholder="Phone number"
+              required
+            />
           </div>
           <div class="form-group mb-30">
-            <label class="text-black-200 h5 font-weight-600 mb-2" for="message">{{i18n "message"}}</label>
-            <textarea class="form-control shadow-none" name="comment" rows="5" id="message" required></textarea>
+            <label class="text-black-200 h5 font-weight-600 mb-2" for="message"
+              >{{i18n "message"}}</label
+            >
+            <textarea
+              class="form-control shadow-none"
+              name="comment"
+              rows="5"
+              id="message"
+              required
+            ></textarea>
           </div>
-          <button class="btn btn-primary w-100" type="submit">{{ i18n "submit"}}</button>
+          <button class="btn btn-primary w-100" type="submit">
+            {{ i18n "submit"}}
+          </button>
         </form>
       </div>
       <div class="col-xl-4 col-lg-5 mt-5 mt-lg-0">
-        {{ if .Params.job_email.enable }}
-        {{ with .Params.job_email }}
+        {{ if .Params.job_email.enable }} {{ with .Params.job_email }}
         <div class="rounded shadow p-30 mb-30">
           <h3 class="font-weight-600">
             <i class="fas fa-briefcase text-primary mr-2"></i>
             {{ .title | markdownify }} {{ .email | markdownify }}
           </h3>
         </div>
-        {{ end }}
-        {{ end }}
-
-        {{ if .Params.general_email.enable }}
-        {{ with .Params.general_email }}
+        {{ end }} {{ end }} {{ if .Params.general_email.enable }} {{ with
+        .Params.general_email }}
         <div class="rounded shadow p-30 mb-30">
           <h3 class="font-weight-600">
-            <i class="fas fa-info-circle text-primary mr-2"></i>
+            <i class="fas fa-info-circle text-primary mr-2 fa-spin"></i>
             {{ .title | markdownify }} {{ .email | markdownify }}
           </h3>
         </div>
-        {{ end }}
-        {{ end }}
-
-        {{ if .Params.services.enable }}
-        {{ with .Params.services }}
+        {{ end }} {{ end }} {{ if .Params.services.enable }} {{ with
+        .Params.services }}
         <div class="rounded shadow p-30">
           <h3 class="font-weight-600">
             <i class="fas fa-phone text-primary mr-2"></i>
@@ -71,13 +110,33 @@
             <li class="mb-20">
               <i class="fas fa-phone text-primary mr-2"></i>
               {{ .place | markdownify }}
-              <a href="tel:{{ .phone | markdownify }}">{{ .phone | markdownify }}</a>
+              <a href="tel:{{ .phone | markdownify }}"
+                >{{ .phone | markdownify }}</a
+              >
             </li>
             {{ end }}
           </ul>
         </div>
-        {{ end }}
-        {{ end }}
+        {{ end }} {{ end }} {{ if .Params.location.enable }} {{ with
+        .Params.location }}
+        <div class="rounded shadow p-30">
+          <h3 class="font-weight-600">
+            <i class="fas fa-map-marker-alt text-primary mr-2 fa-spin"></i>
+            {{ .title | markdownify }}
+          </h3>
+
+          <ul class="list-unstyled check-list-primary mt-30">
+            {{ range .service_list }}
+            <li class="mb-20">
+              <i class="fas fa-map-marker-alt text-primary mr-2 fa-spin"></i>
+              <a href="{{ .geolocation | absLangURL }}" target="_blank">
+                {{ .place | markdownify }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>

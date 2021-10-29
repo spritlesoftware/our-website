@@ -61,14 +61,19 @@ button = "I Accept"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon : https://fontawesome.com/icons
-link = "#"
+link = "https://www.facebook.com/spritlesoftware"
 
 [[social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://github.com/spritlesoftware"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/company/219760/"
+
+[[social]]
+title = "Twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/spritlesoftware"
