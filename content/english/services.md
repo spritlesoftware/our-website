@@ -27,16 +27,19 @@ services:
     content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
   - name: "Internet of things"
+    event: false
     icon: "fas fa-bell"
     image: "images/home/serviceimages/iot.svg"
     content: "The idea of devices communicating with us and each other, opens up a futuristic lifestyle..."
 
   - name: "Design UI/UX"
+    event: false
     icon: "fas fa-clipboard"
     image: "images/home/serviceimages/uiux.svg"
     content: "Well, we all do judge a book by its cover. So we make apps that you can't refuse to use..."
 
   - name: "Consulting"
+    event: false
     icon: "fas fa-paperclip"
     image: "images/home/serviceimages/consulting.svg"
     content: "We know to put ourselves in your shoes and deliver feasible solutions necessary for your business..."
