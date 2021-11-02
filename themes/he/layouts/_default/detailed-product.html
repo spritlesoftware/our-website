@@ -198,15 +198,13 @@
                   alt="{{.name}}"
                 />
               </div>
-              <h5 class="font-weight-600 mt-20 mb-15 text-capitalize">
-                {{ .name | markdownify }}
-              </h5>
+              <a href="{{ .link }}" target="new">
+                <h5 class="font-weight-600 mt-20 mb-15 text-capitalize">
+                  {{ .name | markdownify }}
+                </h5>
+              </a>
               <p>{{ .content | markdownify }}</p>
               <span>
-                <p>{{ .title | markdownify }}</p>
-                <a href="{{ .link }}" target="new"
-                  >{{ .Gemlink | markdownify }}</a
-                ><br />
                 <p>{{ .builttitle | markdownify }}</p>
                 <p>{{ .Builtby | markdownify }}</p>
               </span>

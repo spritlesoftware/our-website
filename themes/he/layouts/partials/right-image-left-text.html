@@ -1,8 +1,8 @@
-<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+<section class="section-padding" data-aos="fade-up" data-aos-delay="150">
   <div class="container">
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <h3 class="section-title">{{ .title | markdownify }}</h3>
         <p class="pb-20">{{ .content | markdownify }}</p>
         <ul class="check-list list-unstyled">
           {{ range .bulletpoints }}
@@ -32,7 +32,7 @@
         <div class="d-inline-block">
           <img
             loading="lazy"
-            class="img-fluid rounded-sm"
+            class="img-fluid py-4 my-2"
             src="{{ .image | absURL}}"
           />
 
