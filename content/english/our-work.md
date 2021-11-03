@@ -83,4 +83,4 @@ testimonial_item:
 
 ## Accelerating innovations for better **Technology Solutions**
 
-"We are an interdisciplinary team of developers, consultants and user experience specialists"
+"We collaborate with product/tech companies at every stage, acting as a partner to meet their goals. Here are some of our favourite and interesting projects"

@@ -47,8 +47,15 @@ link = "contact"
 [subscription]
 enable = true
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+placeindia = "Chennai, India"
+indiageolocation = "https://g.page/spritlesoftware?share"
+link = "mailto:info@spritle.com?subject=Spritle%20Software"
+numberindia = "+91 44 4855 4277"
+numberlinkindia= "+914448554277"
+placesingapore = "Crawford Lane, Singapore"
+singaporegeolocation = "https://goo.gl/maps/E5jypQYo5qzqC6ow8"
+numbersingapore = "+65 6652 5475"
+numberlinksingapore = "+6566525475" 
 
 # cookies
 [cookies]
@@ -66,9 +73,14 @@ link = "https://www.facebook.com/spritlesoftware"
 [[social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://github.com/spritlesoftware"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/company/219760/"
+
+[[social]]
+title = "Twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/spritlesoftware"

@@ -14,7 +14,7 @@
   <div>
     <div class="container" style="padding-top: 100px; padding-bottom: 50px">
       <div class="row align-items-center justify-content-around">
-        <div class="col-lg-5 col-md-8 col-sm-10">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
           <div class="d-inline-block">
             <img
               loading="lazy"
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h3 class="section-title">{{ .title | markdownify }}</h3>
           <p class="pb-20">{{ .content | markdownify }}</p>
           <ul class="check-list list-unstyled">
             {{ range .bulletpoints }}

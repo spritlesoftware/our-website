@@ -57,6 +57,21 @@
 <!-- end section -->
 
 <!-- start section -->
+{{if .Params.partnerships }} {{with .Params.partnerships }}
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row align-items-center justify-content-around">
+      <div class="col-lg-11 col-md-8 col-sm-10 mt-5 mt-lg-0">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p class="pb-20">{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+<!-- end section -->
+
+<!-- start section -->
 {{if .Params.mission.enable }} {{with .Params.mission }}
 <section
   class="section-padding bg-light-gray has-bg-brash bg-brash-y"
@@ -66,8 +81,7 @@
   <div class="container">
     <h2 class="section-title text-center">{{ .subtitle | markdownify }}</h2>
     <div class="row align-items-center justify-content-around">
-      <div class="col-lg-4 col-md-8 col-sm-10 mt-5 mt-lg-0">
-       
+      <div class="col-lg-3 col-md-8 col-sm-10 mt-5 mt-lg-0">
         <ul class="check-list list-unstyled">
           {{ range .bulletpoint }}
           <li class="mb-15">
@@ -92,7 +106,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-lg-4 col-md-8 col-sm-10">
+      <div class="col-lg-6 col-md-8 col-sm-10">
         <div class="d-inline-block1 has-shadow1 shadow-right has-shapes">
           <img
             loading="lazy"
@@ -105,7 +119,7 @@
           <div class="shape-3 shape-lg bg-primary rounded-circle"></div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-8 col-sm-10 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-8 col-sm-10 mt-5 mt-lg-0">
         <ul class="check-list list-unstyled">
           {{ range .bulletpoints }}
           <li class="mb-15">
@@ -144,7 +158,28 @@
         <div class="content">{{.Content}}</div>
       </div>
     </div>
-    
+    <div class="row justify-content-center">
+      <div class="col-md-12 mb-25">
+        <div
+          class="team-filters text-uppercase text-center w-100"
+          data-toggle="buttons"
+        >
+          {{ $group := slice }} {{ range .Params.apps }} {{ $group = $group |
+          append .group }} {{ end }} {{ range ( $group | uniq ) }}
+          <label class="btn active mb-3">
+            <input
+              class="d-none"
+              type="radio"
+              name="shuffle-filter"
+              value="{{ . |urlize}}"
+              checked="checked"
+            />
+            {{ . | humanize }}
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div>
     <div id="masonry" class="row team-members has-colored-text">
       {{ range .Params.apps}}
       <div
@@ -157,12 +192,24 @@
           <div class="col-lg-12 col-md-12">
             <div class="text-center p-0 p-md-2 mb-30" data-aos="fade-up">
               <div class="has-text-color h2">
-                <i class="{{ .icon }}"></i>
+                <img
+                  loading="lazy"
+                  src="{{ .image | absURL }}"
+                  alt="{{.name}}"
+                />
               </div>
-              <h5 class="font-weight-600 mt-20 mb-15 text-capitalize">
-                {{ .name | markdownify }}
-              </h5>
+              <a href="{{ .link }}" target="new">
+                <h5 class="font-weight-600 mt-20 mb-15 text-capitalize">
+                  {{ .name | markdownify }}
+                </h5>
+              </a>
               <p>{{ .content | markdownify }}</p>
+              <span>
+                <p>{{ .builttitle | markdownify }}</p>
+                <p>{{ .Builtby | markdownify }}</p>
+              </span>
+
+              <span> </span>
             </div>
           </div>
         </div>
@@ -180,11 +227,6 @@
   class="section-padding pb-50 join-team-section has-shapes"
 >
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-9 text-center mb-40" data-aos="fade-in">
-        <div class="content">{{.Content}}</div>
-      </div>
-    </div>
     <div class="row justify-content-center mt-30">
       <div class="col-lg-12">
         <div class="row">
@@ -214,8 +256,9 @@
                   <path
                     fill-rule="evenodd"
                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-                  /></svg
-              ></a>
+                  />
+                </svg>
+              </a>
             </div>
           </div>
           {{ end }}
@@ -250,5 +293,49 @@
   ></div>
 </section>
 <!-- end of Apps list  section -->
+
+<!-- start section -->
+{{if .Params.cookingsection }} {{with .Params.cookingsection }}
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row align-items-center justify-content-around">
+      <h3 class="section-title">{{ .title | markdownify }}</h3>
+      <div class="col-lg-8 col-md-8 col-sm-10 mt-5 mt-lg-0">
+        <img
+          loading="lazy"
+          class="img-fluid rounded-sm"
+          src="{{ .image | absURL}}"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+<!-- end section -->
+
+<!-- start section -->
+{{if .Params.blogsection }} {{with .Params.blogsection }}
+<div class="d-flex align-items-center justify-content-around">
+  <div class="col-lg-4 col-md-4 mb-30">
+    <h3 class="section-title">{{ .title | markdownify }}</h3>
+    <div class="card border-0 h-100">
+      <img
+        loading="lazy"
+        class="card-img-top rounded"
+        src="{{ .image | absURL}}"
+      />
+      <div class="p-25 pb-0">
+        <a
+          class="h4 font-weight-bold d-block mb-15"
+          href="http://localhost:1313/our-website/blog/post-1/"
+          >{{ .subtitle | markdownify }}</a
+        >
+        <p>{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }} {{ end }}
+<!-- end section -->
 
 {{ end }}

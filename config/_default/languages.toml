@@ -4,9 +4,12 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
-footer_content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore dolore magna aliquyam eratnonumy onsetetur"
+footer_content = "An interdisciplinary team of coders, analysts and user experience specialists dedicated to building enterprise applications and premium digital products that bring your ideas to life, delight your users and help you achieve your goals."
 # copyright
-copyright = "© 2021 Spritle Software. All Rights Reserved."
+copyright = " © 2021 Spritle Software. All Rights Reserved."
+title= "Who we are!"
+policy = "Privacy Policy"
+
 
 
 

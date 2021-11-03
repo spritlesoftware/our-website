@@ -32,3 +32,8 @@ newLandingPage:
   sub-title: "Visit our exclusive and specific website at"
   link: "https://www.saasly.in" 
 ---
+---
+
+## “Our shiny brand new content site is now live.✨ to Visit click below.”
+
+## <a href="https://saasly.in/">**Saasly.in**</a>

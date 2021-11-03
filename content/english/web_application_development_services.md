@@ -6,7 +6,7 @@ draft: false
 
 start:
   enable: true
-  # title : "Web Applications Development"
+  title: "Web Applications Development"
   image: "images/services/web/web-app-development.png"
   content: "At the helm of driving global business and the changing times is web development. Working with some of the largest enterprises and startups has aided us to evolve into an innovation lab, bringing out cutting edge technology applications that drive businesses. We are premium consultants, industry experts and pioneers to build on Ruby and Rails, NodeJS and more."
 
@@ -34,7 +34,7 @@ section2:
 section3:
   enable: true
   title: "Healthcare Applications Development"
-  image: "images/services/web/custom_web_app.png"
+  image: "images/services/web/health_care.png"
   content: "With the necessity of utmost precision and security, healthcare technology is driven by the cutting edge innovation of today. Our acclaimed domain experts have built superior applications driving hospitals, practitioners and patience to effectively manage wellness-as-a-service."
   bulletpoints:
     - "AI & ML driven intelligent automation solutions"
@@ -45,13 +45,13 @@ section3:
 section4:
   enable: true
   title: "Advanced Analytics Dashboard"
-  image: "images/services/web/performance_tuning.png"
+  image: "images/services/web/dashboard.png"
   content: "Your business is driven by data. Significant Real-time quantitative analysis of your operational performance helps to capitalize on the power of numbers to derive insights. Our Data scientists have brought out some of the most eloquent analytical dashboard and give you the power to visualize hundreds of metrics into meaningful information."
 
 section5:
   enable: true
   title: "Microservices Development"
-  image: "images/services/web/custom_web_app.png"
+  image: "images/services/web/microservices.png"
   content: "Optimization of code production is the key metric we focus as a team to most efficiently deliver great quality output. Going with Microservices framework and building independently deployable, modular service containers enables communicates through a well-defined, lightweight mechanism. We have solid experience bringing out some great case studies working with Microservices with Ruby on Rails and NodeJS."
   bulletpoints:
     - "API"
@@ -64,13 +64,13 @@ section5:
 section6:
   enable: true
   title: "API Development"
-  image: "images/services/web/custom_web_app.png"
+  image: "images/services/web/api_developement.png"
   content: "The world today is a galactic chaos of standalone systems. Solutions cant operate effectively without external modular dependencies. The core of every software product is the collection of a network of API that seamlessly work in order to enable a handshake between these Individual building blocks. Work with our API architects and see how we plan and execute complex integration."
 
 section7:
   enable: true
   title: "Frontend App Development"
-  image: "images/services/web/custom_web_app.png"
+  image: "images/services/web/frontend_app.png"
   content: "Devices evolve faster than we release versions. How do we keep up to the changing frontend needs. Going responsive and with a mobile first approach has helped us to build some of the best frontend interfaces with rich user experience to keep you glued to the screens."
   bulletpoints:
     - "ReactJS"
@@ -80,7 +80,7 @@ section7:
 section8:
   enable: true
   title: "Custom & Open-Source ERP Development"
-  image: "images/services/web/custom_web_app.png"
+  image: "images/services/web/custom_open_source.png"
   content: "Your business needs a unique solution to solve your day-to-day process related problems and effectively improving production quality and quality. In most cases you need a tailored piece that fits your process. But most other cases, there are several Open source software and SaaS products that already have a cost effective and efficient solution that would fit your needs. Talk to our analysts who always research all available solutions in the market before they pitch anything to you."
   bulletpoints:
     - "**Independent Software Vendor for SaaS** <br>Certified experts here to support clients for the last mile customization of a pre defined solution"

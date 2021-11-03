@@ -1,59 +1,46 @@
-{{ define "main" }} {{ $data := index site.Data site.Language.Lang }}
-
-
-{{if .Params.start.enable }} {{with .Params.start }}
-  {{ partial "right-image-left-text.html" . }}
-{{ end }} {{ end }}
+{{ define "main" }} {{ $data := index site.Data site.Language.Lang }} {{if
+.Params.start.enable }} {{with .Params.start }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section1.enable }} {{with .Params.section1 }}
-  {{ partial "left-image-right-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section1}} {{with .Params.section1 }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section2.enable }} {{with .Params.section2 }}
-  {{ partial "right-image-left-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section2.enable }} {{with .Params.section2 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section3 }} {{with .Params.section3 }}
-  {{ partial "left-image-right-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section3 }} {{with .Params.section3 }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section4.enable }} {{with .Params.section4 }}
-  {{ partial "right-image-left-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section4.enable }} {{with .Params.section4 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section5 }} {{with .Params.section5 }}
-  {{ partial "left-image-right-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section5 }} {{with .Params.section5 }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section6.enable }} {{with .Params.section6 }}
-  {{ partial "right-image-left-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section6.enable }} {{with .Params.section6 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section7.enable }} {{with .Params.section7 }}
-  {{ partial "left-image-right-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section7.enable }} {{with .Params.section7 }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section8.enable }} {{with .Params.section8 }}
-  {{ partial "right-image-left-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section8.enable }} {{with .Params.section8 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section9.enable }} {{with .Params.section9 }}
-  {{ partial "right-image-left-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section9.enable }} {{with .Params.section9 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
-{{if .Params.section10.enable }} {{with .Params.section10 }}
-  {{ partial "right-image-left-text.html" . }}
-{{ end }} {{ end }}
+{{if .Params.section10.enable }} {{with .Params.section10 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
 
 {{ end }}

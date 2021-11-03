@@ -4,7 +4,12 @@ description: "this is meta description"
 layout: "detailed-product"
 draft: false
 
-partnership:
+intro:
+  enable: true
+  title: "About Zoho"
+  image: "images/products/zoho/Zoho_Corporation-Logo.svg"
+  content: "Zoho Corporation Private Limited is an Indian software development company. The organisation focuses on web-based business tools and information technology, including an office tools suite, Internet of things management platform, and a suite of IT management software."
+partnerships:
   enable: true
   title: "About our Partnership"
   image: "images/products/zoho/Zoho-Authorized-Partner.png"
@@ -15,7 +20,7 @@ mission:
   title: "About our Partnership"
   subtitle: "Key Implementations"
   sub-content: "About our Partnership"
-  image: "images/products/zoho/zohoimplementation.jpg"
+  image: "images/products/zoho/zohoimplementation.svg"
   content: "As premium Freshworks partners who also happen to be pioneers in their partners program, we enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Freshworks based custom development or marketplace plug-ins. Catch a glimpse of our portfolio."
   bulletpoint:
     - "**TAILOR-MADE APPS** - We are Specialized in customizing Zoho product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
@@ -27,45 +32,51 @@ mission:
 
 apps:
   - name: " Playstore"
-    image: "images/team/01.jpg"
+    image: "images/products/zoho/zohoappsicons/xplaystore.png.pagespeed.svg"
     content: "Never miss any valuable user response to.."
-    icon: "fas fa-magnet"
     group: "Zohodesk"
 
   - name: "SugarCRM"
-    image: "images/team/01.jpg"
+    image: "images/products/zoho/zohoappsicons/xsugarcrm.png.pagespeed.svg"
     content: "Keep your support and sales team up to date.."
-    icon: "fas fa-magnet"
     group: "Zohodesk"
 
   - name: " Infusionsoft"
-    image: "images/team/01.jpg"
+    image: "images/products/zoho/zohoappsicons/xinfusionsoft.png.pagespeed.svg"
     content: " Integrate Infusionsoft with Zoho Desk to view relev.."
-    icon: "fas fa-magnet"
     group: "Zohodesk"
 
   - name: "Constant Contact"
-    icon: "fas fa-magnet"
+    image: "images/products/zoho/zohoappsicons/xconstantcontact.png.pagespeed.svg"
     content: "Manage your Constant Contact mailing list.."
     group: "Zohodesk"
 
   - name: "Trustpilot"
-    image: "images/team/01.jpg"
+    image: "images/products/zoho/zohoappsicons/xtrustpilot.jpg.pagespeed.svg"
     content: "Automatically create Zoho Desk tickets for.."
-    icon: "fas fa-magnet"
     group: "Zohodesk"
 
   - name: "Insightly-crm"
-    image: "images/team/01.jpg"
+    image: "images/products/zoho/zohoappsicons/xinsightly.png.pagespeed.svg"
     content: "Keep your support and sales teams up to date.."
-    icon: "fas fa-magnet"
     group: "Zohodesk"
 
   - name: "Google MyBusiness"
-    image: "images/team/01.jpg"
+    image: "images/products/zoho/zohoappsicons/xgooglebusiness.png.pagespeed.svg"
     content: "Integrate Google My Business with.."
-    icon: "fas fa-magnet"
     group: "Zohodesk"
+
+cookingsection:
+  enable: true
+  title: "Cooking more apps for your business"
+  image: "images/zoho/cooking.png"
+
+blogsection:
+  enable: true
+  title: "Experience not only talks but also writes."
+  image: "images/zoho/zohoblog.jpg"
+  subtitle: "Ten Things I have learned while developing an app for Zoho Desk"
+  content: "Zoho Desk is web-based help desk software that gives us the ability to manage our customer support activities efficiently. Zoho Desk allows us to assign, track an..."
 ---
 
 ## Apps developed **by us for Zoho Marketplace**
