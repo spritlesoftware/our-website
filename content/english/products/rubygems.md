@@ -6,7 +6,8 @@ draft: false
 
 apps:
   - name: "Rails Plugin for Chargebee"
-    image: "images/products/rubygems/chargebee.svg"
+    event: true
+    image: "images/products/rubygems/chargebee.png"
     content: "Boilerplate classes to implement Subscription billing module on to your rails application."
     builttitle: "Bulit by:"
     Builtby: "**Sairam and Thirumal**"
@@ -15,7 +16,8 @@ apps:
     link: "https://github.com/spritlesoftware/chargebee-rails-subscriptions"
 
   - name: "Lorempixel_helper"
-    image: "images/products/rubygems/ruby_gems1.svg"
+    event: true
+    image: "images/products/rubygems/ruby_gems1.png"
     content: "A Rails view helper for lorempixel images via http://lorempixel.com."
     link: "https://github.com/spritlesoftware/lorempixel_helper"
     builttitle: "Bulit by:"
@@ -24,7 +26,8 @@ apps:
     group: "Ruby Gems"
 
   - name: "Sinfiniruby"
-    image: "images/products/rubygems/Sinfiniruby.svg"
+    event: true
+    image: "images/products/rubygems/Sinfiniruby.png"
     content: "A simple library for communicating with the sinfini SMS REST API."
     link: "https://github.com/spritlesoftware/sinfiniruby"
     builttitle: "Bulit by:"
@@ -33,8 +36,9 @@ apps:
     group: "Ruby Gems"
 
   - name: "git-log-time"
+    event: true
     icon: "fas fa-magnet"
-    image: "images/products/rubygems/ruby_gems1.svg"
+    image: "images/products/rubygems/ruby_gems1.png"
     content: "GIT log time to get timespent by developer for a given commit."
     link: "https://rubygems.org/gems/git-log-time"
     builttitle: "Bulit by:"
