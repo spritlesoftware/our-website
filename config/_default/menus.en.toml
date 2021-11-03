@@ -66,7 +66,7 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Our Process"
-  url =  "how-it-works/"
+  url =  "our-process/"
   weight=100
 
   [[main]]

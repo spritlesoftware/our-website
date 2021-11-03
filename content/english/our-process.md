@@ -1,7 +1,7 @@
 ---
 title: "Our Process"
 description: "this is meta description"
-layout: "specific-service-process"
+layout: "our-process"
 draft: false
 
 start:
