@@ -18,7 +18,7 @@ general_email:
 ############ Services ############
 services:
   enable: true
-  title: "Want to visit us? Here are the Google maps directions"
+  title: "Want to get on a quick call?, ring us at"
   service_list:
     - place: "**Ohio, USA:**"
       phone: "+1 (614) 918-0411"
@@ -32,7 +32,7 @@ services:
 ############ Services ############
 location:
   enable: true
-  title: "Want to get on a quick call?, ring us at"
+  title: "Want to visit us? Here are the Google maps directions "
   service_list:
     - place: "**Ohio, USA:**"
       geolocation: "https://goo.gl/maps/Q6pvbhR3KcYsKobu9"
