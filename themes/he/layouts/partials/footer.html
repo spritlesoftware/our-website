@@ -120,7 +120,7 @@
             <a href="privacy-policy/"
               >{{ site.Params.policy | markdownify }}
             </a>
-            {{site.Params.copyright | markdownify}}
+            {{replace site.Params.copyright "{year}" now.Year | markdownify}}
           </div>
         </div>
       </div>
@@ -137,7 +137,8 @@
 <!-- end footer -->
 
 <!-- strat scroll to top -->
-<span class="btn btn-primary scroll-to-top-btn smooth-scroll position-fixed">
+<span class="btn btn-primary scroll-to-top-btn smooth-scroll position-fixed show">
+  <a href="#" onclick="document.body.scrollTop=0;document.documentElement.scrollTop=0;event.preventDefault()" style="scroll-behavior: smooth;">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 32 32"
@@ -150,5 +151,6 @@
       d="M7.2 19.2L15.2 11.2C15.68 10.71 16.43 10.68 16.96 11.08L17.08 11.2L25.08 19.2L23.2 21.08L16.14 14.02L9.08 21.08L7.2 19.2Z"
     />
   </svg>
+</a>
 </span>
 <!-- end scroll to top -->
