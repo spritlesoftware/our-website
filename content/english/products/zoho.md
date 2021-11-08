@@ -26,7 +26,7 @@ mission:
 apps:
   - name: " Playstore"
     image: "images/zoho/playstore.png"
-    content: "Never miss any valuable user response to.."
+    content: "Never miss any valuable user response to .."
     group: "Zohodesk"
 
   - name: "SugarCRM"
