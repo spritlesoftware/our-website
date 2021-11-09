@@ -1,42 +1,29 @@
 ---
-title : "Full-Stack Designer"
-description : "this is meta description"
-job_type : "Part Time"
-draft : false
+title: "Full-Stack Designer"
+description: "this is meta description"
+job_type: "Part Time"
+draft: false
 ---
 
-### About Copper
-At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman
-(or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will
-have a go-to team to make everyday life easier.
+### About job
 
-As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors.
-Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a
-better everyday life for everyday people.
+We are hiring Full Stack Developers who are passionate, self-driven and capable of working in both front end and backend technologies.
 
-### What you’ll do
-* Design and implement systems for mitigating abusive behaviour on our platform.
-* Getting hands-on experience with Google Cloud Platform and technology/languages such as BigQuery, Scala,
-Scio, Luigi, Styx and Docker
-* Operate large scale real time and batch data pipelines and backend services
-* Understand use cases for abusive behaviour that enable teams to use our systems to integrate new
-detection methods, allowing for swift and correct mitigation.
+### Responsibilities
 
-### Background and Experience
-* +4 years of experience in managing data analyst teams including data analysts and/or data scientists
+- Collaborating with our designers & developers to make high-quality products on the web
+- Working with the peer developers and writing good code to implement & release features
+- Taking ownership of the features built and maintaining them by following software engineering best practices
+- Being creative in using tools and third-party services to deliver the code faster
 
-* +6 years experience in solving business problems using data and advanced analytical methods.
-* Experienced in building predictive and statistical models
-* Strong experience with SQL (MySQL, PostgreSQL, etc.)
-* Strong communication skills, both written and oral; comfortable presenting findings and recommendations
-to decision-makers
+### Requirements
 
-### You’ll love working with Copper because:
-* The People. You will be surrounded by some of the most talented, supportive, smart, and kind leaders and
-teams -- people you can be proud to work with!
-* The diverse culture. We believe that we make better decisions when our workforce reflects the diversity
-of the communities in which we operate. Women make up more than half of our team and leadership, and we
-strive to recruit and retain employees from all over the world.
-* Copper offers comprehensive medical benefits, generous vacation and holiday time off, commuter benefits,
-learning and development opportunities, career development training, monthly TaskRabbit product stipends,
-IKEA discounts, free lunch, weekly meditations, charity events.
+- Extensive experience in Javascript / NodeJS / Ruby on Rails in the back end
+- Proficiency in HTML, CSS and front end frameworks such as Angular, ReactJS, Vue.js
+- Experience with Version Control Systems like Git / Mercurial
+- Sound knowledge in Software engineering best practices
+- Sound knowledge in RestFul API Design
+- Good knowledge of database concepts
+- Strong communication skills
+- Experience in maintaining production servers
+- Experience with AWS / Rackspace / Digital Ocean / Heroku
