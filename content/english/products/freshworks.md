@@ -17,16 +17,16 @@ mission:
   sub-content: "About our Partnership"
   image: "images/products/freshworks/fw-ki.svg"
   bulletpoint:
-    - "**TAILOR-MADE APPS** - We are Specialized in customizing freshworks product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
+    - "**TAILOR-MADE APPS** - We are Specialized in customizing Freshworks product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
 
-    - "**CHATBOTS** - Find apps that enhance yo s experience. We develop and publish apps on the Freshworks marketplace that collaborates between multiple systems."
+    - "**CRM-INTEGRATION** - We develop CRM integrated apps specific to client needs.All our apps developed through this partnership communicate through Zoho API and data."
 
   bulletpoints:
-    - "**CHATBOTS** - Turn visitors into leads and customers into happy, engaged users. We develop both decision tree and AI-driven chatbots.  "
+    - "**CHATBOTS** - Turn visitors into leads and customers into happy, engaged users. We develop both decision tree and AI-driven chatbots."
 
-    - "**CHATBOTS** - We develop CRM integrated apps specific to client needs.All our apps developed through this partnership communicate through Zoho API and data."
+    - "**MARKETPLACE APPS** - Find apps that enhance your Freshworks experience. We develop and publish apps on the Freshworks marketplace that collaborates between multiple systems."
 ---
 
-## “Our shiny brand new content site is now live.✨ to Visit click below.”
+## “We got a good news✨ . We now have a dedicated team and website for SAAS Integrations."
 
-## <a href="https://saasly.in/">**Saasly.in**</a>
+## Visit<b> <a href="https://saasly.in" target="new">saasly.in </a></b>for more info.
