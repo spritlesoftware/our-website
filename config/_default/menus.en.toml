@@ -67,23 +67,29 @@ hasChildren = true
   parent = "Company"
   name = "Our Process"
   url =  "our-process/"
-  weight=100
+  weight=1
 
   [[main]]
   parent = "Company"
   name = "Knowledge Sharing"
-  weight=200
+  weight=2
+
+  [[main]]
+  parent = "Company"
+  name = "About us"
+  url = "about/"
+  weight=3
 
   [[main]]
   parent = "Company"
   name = "Careers"
   url = "career/"
-  weight=300
+  weight=4
 
   [[main]]
   parent = "Company"
   name = "Latest News"
-  weight=400
+  weight=5
 
 [[main]]
 name = "Blog"
@@ -118,12 +124,12 @@ url = "https://saasly.in/"
 weight = 4
 
 [[footer]]
-name = "Health Engineer"
+name = "healthengr.io"
 url = "https://healthengr.io/"
 weight = 5
 
 [[footer]]
-name = "Surveillens"
+name = "surveillens.ai"
 url = "https://www.surveillens.ai/"
 weight = 6
 
