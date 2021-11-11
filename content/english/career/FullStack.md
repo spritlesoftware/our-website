@@ -1,13 +1,13 @@
 ---
-title: "Full-Stack Designer"
+title: "Full-Stack Developer"
 description: "this is meta description"
-job_type: "Part Time"
+job_type: "Full Time"
 draft: false
 ---
 
 ### About job
 
-We are hiring Full Stack Developers who are passionate, self-driven and capable of working in both front end and backend technologies.
+- We are hiring Full Stack Developers who are passionate, self-driven and capable of working in both front end and backend technologies.
 
 ### Responsibilities
 
