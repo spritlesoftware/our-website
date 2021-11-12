@@ -267,22 +267,22 @@ testimonial:
 
   testimonial_item:
     - name: "Diego Vicente"
-      image: "images/users/01.jpg"
+      image: "images/clients/diego.png"
       designation: "CEO @Moddo"
       content: "For our Group of companies, Spritle means much more than a great technology company. We will always get their point of view before pursuing a new technology or a new project! Happy working with you."
 
     - name: "Ash Gaur"
-      image: "images/users/02.jpg"
+      image: "images/clients/ashutosh.png"
       designation: "COO @ReSubLime"
       content: "We found that they were invaluable to kickstart our web app and quickly get us to a customer ready product. In fact, I feel that we work so well together that we are essentially one team."
 
     - name: "Hadi Hosseini"
-      image: "images/users/03.jpg"
+      image: "images/clients/paul.png"
       designation: "Principal @Reach"
       content: "We have been working with Spritle now for over three years and what a run it has been. I wish to thank you for all your talent, creativity and energy. I am grateful to be a partner with Spritle."
 
     - name: "Sundar Ravindran"
-      image: "images/users/02.jpg"
+      image: "images/clients/sundar.png"
       designation: "CTO @BeerBoard"
       content: "Spritle is an extension of our infrastructure and has done well blending themselves into our work culture and understanding the scope. They go above and beyond to deliver the best possible outcomes."
 ---
