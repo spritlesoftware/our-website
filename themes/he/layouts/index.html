@@ -79,8 +79,9 @@
               <path
                 d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
                 fill="currentColor"
-              /></svg
-          ></span>
+              />
+            </svg>
+          </span>
         </a>
         {{ end }} {{ end }}
       </div>
@@ -132,7 +133,7 @@
 </div>
 {{ end }}
 <!-- end of videoModal -->
-{{ end }} {{ end }}
+{{ end }} {{ end }} {{partial "funfacts.html" . }}
 
 <!-- start of brand-carousel -->
 {{ partial "verticals-home.html" . }}
@@ -244,11 +245,12 @@
   <div class="container">
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-5 col-md-8 col-sm-10">
-        <div class="d-inline-block has-shadow shadow-left has-shapes">
+        <div class="d-inline-block">
           <img
             loading="lazy"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
+            width="800px"
           />
 
           <div class="shape-1 shape-md bg-secondary rounded-circle"></div>
@@ -302,8 +304,9 @@
                   <path
                     d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
                     fill="currentColor"
-                  /></svg
-              ></span>
+                  />
+                </svg>
+              </span>
             </a>
           </div>
         </div>
@@ -333,7 +336,7 @@
         <div class="row align-items-center colored-icon-box">
           {{ range $i, $e:= .list }}
 
-          <div class="col-sm-6 mx-auto" >
+          <div class="col-sm-6 mx-auto">
             <div
               class="
                 icon-box
@@ -364,98 +367,6 @@
 {{ end }} {{ end }}
 <!-- end of Why us -->
 <!-- start of domains-rate -->
-{{ if .Params.domains.enable }} {{ with .Params.domains }}
-<section
-  class="
-    section-padding
-    tools-use-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
-  data-aos="fade-in"
-  data-aos-delay="150"
-  style="
-    background-image: url(images/brushes/section-top.svg),
-      url(images/brushes/section-bottom.svg);
-  "
->
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-9 text-center mb-40">
-        <h2 class="section-title">{{.title}}</h2>
-        <p>{{.description}}</p>
-      </div>
-      <div class="col-xl-10">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mt-5 mt-lg-0">
-            <div class="row colored-icon-box">
-              {{ range $i, $e:= .list }} {{ if eq $i 2}}
-              <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
-                <div
-                  class="
-                    icon-box
-                    text-center
-                    shadow
-                    px-3 px-md-5 px-lg-2
-                    py-5
-                    mb-30
-                  "
-                >
-                  <img
-                    loading="lazy"
-                    class="img-fluid"
-                    src="{{ .image | absURL }}"
-                    alt=""
-                  />
-                  <h4 class="font-weight-bold text-black-200">
-                    {{ .name | markdownify }}
-                  </h4>
-                </div>
-              </div>
-              {{ else }}
-              <div class="col-sm-6" data-aos-delay="{{mul $i 100}}">
-                <div
-                  class="
-                    icon-box
-                    text-center
-                    shadow
-                    px-3 px-md-5 px-lg-2
-                    py-5
-                    mb-30
-                  "
-                >
-                  <img
-                    loading="lazy"
-                    class="img-fluid"
-                    src="{{ .image | absURL }}"
-                    alt=""
-                  />
-                  <h4 class="font-weight-bold text-black-200">
-                    {{ .name | markdownify }}
-                  </h4>
-                </div>
-              </div>
-              {{ end }} {{ end }}
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="has-colored-text growth-rate-counter">
-              <img
-                loading="lazy"
-                class="img-fluid py-4 my-2"
-                src="{{ .image | absURL }}"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }} {{ end }}
-<!-- end of domains-rate -->
 
 <!-- start of brand-carousel -->
 {{ if .Params.clients_logo_slider.enable }} {{ with .Params.clients_logo_slider
@@ -464,7 +375,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="section-title text-center mb-30">{{.title}}000</h2>
+        <h2 class="section-title text-center mb-30">{{.title}}</h2>
         <div class="brand-carousel">
           {{ range .logos }}
           <div

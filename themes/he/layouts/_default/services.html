@@ -14,11 +14,11 @@
         <div class="block p-4 p-xl-5 text-center">
           <div
             class="service-image text-center"
-            style="background-color: rgb(168, 240, 210)"
+            
           >
             <i
               class="{{ .icon }} fa-w-18"
-              style="width: 70%; height: 80%; color: black; padding-top: 10px"
+              style="width: 70%; height: 80%; color: {{ .colour }}; padding-top: 10px"
             ></i>
           </div>
           {{ if eq .event true }}

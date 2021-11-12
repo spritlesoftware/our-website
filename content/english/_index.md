@@ -11,7 +11,7 @@ banner:
   image: "https://www.spritle.com/images/pages/homepage_group__compressed.jpg"
   video:
     enable: true
-    video_embed_link: "https://www.youtube.com/embed/dyZcRRWiuuw"
+    video_embed_link: "https://www.youtube.com/embed/Zdd9kCaJg0I"
   button:
     enable: true
     button_label: "Get in touch"
@@ -34,35 +34,71 @@ products that bring your ideas to life,delight your users and help you achieve y
   layout : "services"
   draft : false
   services:
-  - name : "Web Application Development"
-    icon : "fas fa-paperclip"
-    image: "images/home/life-science-research-institutes.svg"
-    content : "Experience in working with renowned Universities & Institutes across the globe that adds value to their ongoing researches."
+    - name: "Web Application Development"
+      event: true
+      target: "web_application_development_services"
+      icon: "fa fa-desktop"
+      colour: "#13add5"
+      image: "images/home/serviceimages/webapp.svg"
+      content: "At the helm of driving global business and the changing times is web development..."
 
-  - name : "Mobile Application Development"
-    icon : "fas fa-bell"
-    image: "images/home/enterprise-companies.svg"
-    content : "Accelerating the development of new Digital Health Systems by closely working with the big Enterprise companies all over the world."
-    
-  - name : "AI and ML Services"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
+    - name: "Mobile Application Development  "
+      event: true
+      target: "mobile_service"
+      icon: "fa fa-mobile"
+      colour: "#ff8c00"
+      image: "images/home/serviceimages/mobileapp.svg"
+      content: "Running in the race to contribute to the greatest innovation of the 21st century, yet..."
 
-  - name : "Internet of things"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
+    - name: "AI and ML Services"
+      event: true
+      target: "ai-ml-application-development-services"
+      icon: "fab fa-connectdevelop "
+      colour: "#2e8b57"
+      image: "images/home/serviceimages/alml.svg"
+      content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
-  - name : "Design"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
-  
-  - name : "Consulting"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
+    - name: "Internet of things"
+      event: false
+      icon: "fa fa-microchip "
+      colour: "#b0c4de"
+      image: "images/home/serviceimages/iot.svg"
+      content: "The idea of devices communicating with us and each other, opens up a futuristic lifestyle..."
+
+    - name: "Design UI/UX"
+      event: false
+      icon: "far fa-edit"
+      colour: "#9400d3"
+      image: "images/home/serviceimages/uiux.svg"
+      content: "Well, we all do judge a book by its cover. So we make apps that you can't refuse to use..."
+
+    - name: "Consulting"
+      event: false
+      icon: "fas fa-handshake "
+      colour: "#ff9999"
+      image: "images/home/serviceimages/consulting.svg"
+      content: "We know to put ourselves in your shoes and deliver feasible solutions necessary for your business..."
+
+
+funfacts:
+  enable: true
+  funfacts_item:
+    - name: "Web Apps"
+      count: "125"
+      extension: "+"
+
+    - name: "Mobile Apps"
+      count: "67"
+      extension: "+"
+
+    - name: "Best Products"
+      count: "25"
+      extension: "+"
+
+    - name: "Happy Clients"
+      count: "106"
+      extension: "+"
+
 
 ################## CaseStudy ###############
 case_study:
@@ -82,12 +118,20 @@ clients_logo_slider:
   enable: true
   title: "Our Clients"
   logos:
-    - "images/clients/image1.png"
-    - "images/clients/image2.png"
-    - "images/clients/image3.png"
-    - "images/clients/image4.png"
-    - "images/clients/image6.png"
-    - "images/clients/image11.png"
+    - "images/clients/client-1.webp"
+    - "images/clients/client-2.webp"
+    - "images/clients/client-3.webp"
+    - "images/apps/un.png"
+    - "images/apps/motorola@2x.png"
+    - "images/apps/showdownlive@2x.png"
+    - "images/apps/beerboard@2x.png"
+    - "images/apps/stengg@2x.png"
+    - "images/apps/reach@2x.png"
+    - "images/apps/sitefly@2x.png"
+    - "images/apps/doctordb@2x.png"
+    - "images/apps/gss@2x.png"
+    - "images/apps/kutir@2x.png"
+    - "images/apps/sunedison@2x.png"
 
 ########################## How it works #########################
 homepage_tab:
@@ -196,23 +240,6 @@ achivement:
       count: "3000"
       extension: "+"
 
-domains:
-  enable: true
-  title: "You see it, We build it"
-  content: "doamins 2"
-  image: "images/screenshots/03.png"
-  list:
-    - name: "Genomics <br><br>  "
-      icon: "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
-      image: "images/home/genomics.svg"
-
-    - name: "Healthcare AI Automation"
-      icon: "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
-      image: "images/home/health-care-AI-voice-assistants.svg"
-
-    - name: "Brain Waves & Congnitive Analysis"
-      icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
-      image: "images/home/brain-wave-cognitive-analysis.svg"
 
 why_choose_us:
   enable: true
