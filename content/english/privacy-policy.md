@@ -5,42 +5,37 @@ layout : "regular"
 draft : false
 ---
 
-### GDPR Compliance
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.
 
-We collect certain identifying personal data when you sign up to our Service such as your name, email
-address, PayPal address (if different from email address), and telephone number. The personal data we
-collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy
-Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to
-the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our
-Site, we may collect non-identifying information from you, such as referring URL, browser, operating system,
-cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of
-your Internet Service Provider, or additional records from a third party, this information alone cannot
-usually be used to identify you.The term "personal data" does not include any anonymized and aggregated data
-made on the basis of personal data, which are wholly owned by Conclude.
+This privacy notice discloses the privacy practices for spritle.com. This privacy notice applies solely to information collected by this website. It will notify you of the following:
 
-### About Copper
-##### Service Provided As:
-The Service is provided for free during this pilot project, and is provided "as is" with
-no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any
-level of service or availability of the Service. A further description of the Service and our user support
-is available at the Site. contact at [hello@Copper.com](mailto:hello@Copper.com)
+* What personally identifiable information is collected from you through the website, how it is used and with whom it may be shared.
+* What choices are available to you regarding the use of your data.
+* The security procedures in place to protect the misuse of your information.
+* How you can correct any inaccuracies in the information.
+
+### **Information collection, use and sharing**
+
+We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contacts from you. We will not sell or rent this information to anyone.
+
+We will use your information to respond to you, regarding the reason you contacted us. We partner with another party to provide specific services. When the user signs up for these services, we will share names or other contact information that is necessary for the third party to provide these services. These parties are not allowed to use personally identifiable information except for the purpose of providing these services. Unless you ask us not to, we may contact you via email in the future to tell you about updates, new products or services, or changes to this privacy policy.
 
 
-##### Company Liability:
-If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible
-under this Agreement for all actions and omissions conducted by its designated users of the Service.
+### **Your access to and control over information:**
+You may opt-out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address given on our website:
 
-### When we collect personal data about you
 
-* Enhance or improve User experience, our Site, or our Service.
-* Send emails and updates about Conclude, Process transactions.
-* Send emails about our Site or respond to inquiries.
-* Including news and requests for agreement to amended legal documents such as this Privacy Policy and our Terms of Service.
+* See what data we have about you if any.
+* Change/correct any data we have about you.
+* Have us delete any data we have about you.
+* Express any concern you have about our use of your data.
 
-### Why we collect and use personal data
-Users of Conclude (i) must keep passwords secure and confidential; (ii) are solely responsible for User
-Data and all activity in their account while using the Service; (iii) must use commercially reasonable
-efforts access to their account, and notify Conclude promptly of any such unauthorized access; and (iv) may
-use the Service only in accordance with Conclude's online user guide and all applicable laws and
-regulations.
+### **Security**
+
+We take precautions to protect your information. When you submit information via the website, your information is protected both online and offline. Only employees who need the information to perform a specific job (for example, sales, engineering or marketing) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment.
+
+If you feel that we are not abiding by this privacy policy, you should contact us immediately via email at info@spritle.com.
+
+
+
+
+---
