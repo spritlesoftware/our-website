@@ -8,7 +8,7 @@ banner:
     - "Constructively **expanding your needs worldwide**"
     - "Collaborative efforts to **take the digital healthcare intso the next level**"
   content: "Demo Advanced Web & Mobile Solutions <br> Premium Apps,   Portals & Digital Solutions <br> Aim to innovate the cutting-edge technology of tomorrow"
-  image: "https://www.spritle.com/images/pages/homepage_group__compressed.jpg"
+  image: "images/home/22218203_1666207476752368_472588413189307584_o.jpg"
   video:
     enable: true
     video_embed_link: "https://www.youtube.com/embed/Zdd9kCaJg0I"
