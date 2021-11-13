@@ -118,20 +118,21 @@ clients_logo_slider:
   enable: true
   title: "Our Clients"
   logos:
-    - "images/clients/client-1.webp"
-    - "images/clients/client-2.webp"
-    - "images/clients/client-3.webp"
-    - "images/apps/un.png"
-    - "images/apps/motorola@2x.png"
-    - "images/apps/showdownlive@2x.png"
-    - "images/apps/beerboard@2x.png"
-    - "images/apps/stengg@2x.png"
-    - "images/apps/reach@2x.png"
-    - "images/apps/sitefly@2x.png"
-    - "images/apps/doctordb@2x.png"
-    - "images/apps/gss@2x.png"
-    - "images/apps/kutir@2x.png"
-    - "images/apps/sunedison@2x.png"
+    - "images/clients/client_icons/beerboard.png"
+    - "images/clients/client_icons/doctordb.png"
+    - "images/clients/client_icons/fw.png"
+    - "images/clients/client_icons/gss.png"
+    - "images/clients/client_icons/healthplotter.png"
+    - "images/clients/client_icons/kutir.png"
+    - "images/clients/client_icons/lm.png"
+    - "images/clients/client_icons/moddo.png"
+    - "images/clients/client_icons/motorola.png"
+    - "images/clients/client_icons/reach.png"
+    - "images/clients/client_icons/showdownlive.png"
+    - "images/clients/client_icons/sitefly.png"
+    - "images/clients/client_icons/stengg.png"
+    - "images/clients/client_icons/sunedison.png"
+    - "images/clients/client_icons/un.png"
 
 ########################## How it works #########################
 homepage_tab:
@@ -214,13 +215,15 @@ tools:
   title: "Medical Compliance & Data Standards"
   content: "We implement various Data Exchange Standards & Medical Compliance in our Software based on Client requirements designed to enable unambiguous data exchange and thereby facilitating meaningful solutions to Data Incompatibility within your stipulated budget."
   logos:
-    - "images/home/hipaa-complaint.png"
-    - "images/home/hl7-international.png"
-    - "images/home/hl7-fhir.png"
-    - "images/home/dicom-logo.png"
-    - "images/home/gdpr-logo.png"
-    - "images/home/loinc-logo.png"
-    - "images/home/ncpdp-logo.png"
+    - "images/home/coding.png"
+    - "images/home/Docker_(container_engine)_logo.svg"
+    - "images/home/React-icon.svg"
+    - "images/home/Ruby_on_Rails-logo.png"
+    - "images/home/Amazon_Web_Services_Logo.svg"
+    - "images/home/Node.js_logo.svg"
+    - "images/home/Kubernetes_logo.svg"
+    - "images/home/net_logo.svg"
+    - "images/home/django-logo-positive.svg"
 
 ############################## Achivement ##############################
 achivement:
