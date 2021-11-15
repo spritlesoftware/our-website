@@ -20,7 +20,7 @@ custom_script= ""
 # Preloader
 [preloader]
 enable = true
-preloader = "images/preloader.png" # use jpg, png, svg or gif format.
+preloader = "images/spritle-logo.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
 greetings_to = "Spritle"
 
