@@ -335,7 +335,9 @@ $(window).bind('load', function () {
 					dots: true,
 					arrows: false,
 					infinite: true,
-					speed: 400,
+					autoplay: true,
+					autoplaySpeed: 2000,
+					speed: 900,
 					slidesToShow: 3,
 					slidesToScroll: 1,
 					responsive: [{
