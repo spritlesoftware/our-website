@@ -8,7 +8,7 @@ draft: false
 mission:
   enable: true
   title: "Small Teams, Big Results!"
-  image: "images/about/02.jpg"
+  image: "images/careers/anniversarypic01.png"
   content: "Spritle is a team of talented people ready to care about your product. We love coding. We love beautiful design. We love doing our job better than possible. Every product we craft is a challenge we are excited about."
   bulletpoints:
 
@@ -36,7 +36,7 @@ funfacts:
 vision:
   enable: true
   title: "What Are The Main **Vision Of Company?**"
-  image: "images/about/03.jpg"
+  image: "images/careers/anniversarypic02.jpg"
   content: "Software is created for people, and so our mission is to provide an ambience by which every person involved in creating such software be valued. Be it stakeholders, product owners, the end users or the development team, they are need a professional and friendly collaborations to build great software. We at Spritle try to provide that ambience."
 
 ############### Featured testimonial ###############
@@ -58,7 +58,5 @@ gallery:
 
 visiontwo:
   enable: true
-  title: "What Are The Main **Vision Of Company?**"
-  image: "images/about/03.jpg"
   content: "Providing a team that you can always trust is our goal We surround ourselves with positive technologists, business partners and entrepreneurs. We welcome people to come work with us or just come along and observe us working. You can observe a team practicing what we preach."
 ---
