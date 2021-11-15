@@ -16,22 +16,21 @@ mission:
 funfacts:
   enable: true
   funfacts_item:
-    - name: "Launched in April of"
-      count: "2015"
-      extension: ""
-
-    - name: "Our product powers"
-      count: "1000"
+    - name: "Web Apps"
+      count: "125"
       extension: "+"
 
-    - name: "served customers"
-      count: "15"
-      extension: "M+"
-
-    - name: "Made by hand in"
-      count: "250"
+    - name: "Mobile Apps"
+      count: "67"
       extension: "+"
 
+    - name: "Best Products"
+      count: "25"
+      extension: "+"
+
+    - name: "Happy Clients"
+      count: "106"
+      extension: "+"
 ################## vision ###############
 vision:
   enable: true
