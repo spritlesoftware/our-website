@@ -299,20 +299,20 @@ testimonial:
     - name: "Diego Vicente"
       image: "images/clients/diego.png"
       designation: "CEO @Moddo"
-      content: "For our Group of companies, Spritle means much more than a great technology company. We will always get their point of view before pursuing a new technology or a new project! Happy working with you."
+      content: "The relationship that we have with spritle is by far one of the biggest assets our firm is glad to have. Their devotion and dedication to their clients is something truly admirable..."
 
     - name: "Ash Gaur"
       image: "images/clients/ashutosh.png"
       designation: "COO @ReSubLime"
-      content: "We found that they were invaluable to kickstart our web app and quickly get us to a customer ready product. In fact, I feel that we work so well together that we are essentially one team."
+      content: "Spritle provided invaluable support to our Kickstarter and they prioritized every detail, ensuring that we were given the best possible management and treatment..."
 
     - name: "Hadi Hosseini"
       image: "images/clients/paul.png"
       designation: "Principal @Reach"
-      content: "We have been working with Spritle now for over three years and what a run it has been. I wish to thank you for all your talent, creativity and energy. I am grateful to be a partner with Spritle."
+      content: "We have been working with Spritle now for over three years and what a run it has been. I wish to thank you for all your talent, creativity and energy. I am grateful to be a partner with Spritle..."
 
     - name: "Sundar Ravindran"
       image: "images/clients/sundar.png"
       designation: "CTO @BeerBoard"
-      content: "Spritle is an extension of our infrastructure and has done well blending themselves into our work culture and understanding the scope. They go above and beyond to deliver the best possible outcomes."
+      content: "Spritle is an extension of our infrastructure and has done well blending themselves into our work culture and understanding the scope. They go above and beyond to deliver the best outcomes..."
 ---
