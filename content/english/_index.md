@@ -160,7 +160,7 @@ homepage_tab:
         link: "our-process"
 
     # tab item
-    - name: "Branding & UI"
+    - name: "Branding and Userinterface"
       title: "Project **Analytics**"
       image: "images/process/p3.webp"
       content: "The visuals win most of the credits. Our designers are here to give a treat to your users and your business."
