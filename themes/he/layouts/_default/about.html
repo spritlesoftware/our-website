@@ -252,6 +252,12 @@
 {{ with .Params.testimonial }}
 <section class="section-padding pt-0 testimonials-section has-shapes">
   <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 text-center mb-30">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+    </div> 
     <div class="row">
       <div class="col-md-12">
         <div class="testimonials-carousel">
