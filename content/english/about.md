@@ -55,7 +55,30 @@ gallery:
     - image: "images/careers/life-at/06.jpeg"
       width: "6"
 
+testimonial:
+  enable: true
+  title: " Our **Leaders...**"
+  testimonial_item:
+    - name: "Mr. Loganathan"
+      image: "images/about/xloganathan-D.jpg.pagespeed.ic.FCwyKKpMEH.webp"
+      designation: "Founder of Spritle Software"
+
+    - name: "Mr. Manogar Loganathan"
+      image: "images/about/xmanogar-loganathan.jpg.pagespeed.ic.L5wxTqlQNf.webp"
+      designation: "CEO of Spritle Software"
+
+    - name: "Mr. Balaji D Loganathan"
+      image: "images/about/xbalaji-d-Loganathan.jpg.pagespeed.ic.anp8s8jm30.webp"
+      designation: "Co-founder & Managing Director of Spritle Software"
+
+    - name: "Surendran Sukumaran"
+      image: "images/about/1516840396361.jpeg"
+      designation: "Chief Technical Officer @ Spritle Software"
+
+
 visiontwo:
   enable: true
+  image : "images/careers/spritle_team.jpeg"
+  title : "Our **Goal**"
   content: "Providing a team that you can always trust is our goal We surround ourselves with positive technologists, business partners and entrepreneurs. We welcome people to come work with us or just come along and observe us working. You can observe a team practicing what we preach."
 ---
