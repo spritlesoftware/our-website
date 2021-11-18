@@ -375,7 +375,20 @@
 <!-- start of brand-carousel -->
 {{ if .Params.clients_logo_slider.enable }} {{ with .Params.clients_logo_slider
 }}
-<section class="section-padding overflow-hidden" data-aos="fade-in">
+<section
+  class="
+    section-padding
+    tools-use-section
+    has-shapes
+    bg-light-gray
+    has-bg-brash
+    bg-brash-y
+  "
+  style="
+    background-image: url('images/brushes/section-top.svg'),
+      url('images/brushes/section-bottom.svg');
+  "
+>
   <div class="container">
     <div class="row">
       <div class="col-md-12">

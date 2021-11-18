@@ -10,7 +10,18 @@ mission:
   title: "Small Teams, Big Results!"
   image: "images/careers/anniversarypic01.png"
   content: "Spritle is a team of talented people ready to care about your product. We love coding. We love beautiful design. We love doing our job better than possible. Every product we craft is a challenge we are excited about."
-  bulletpoints:
+  funfacts:
+    - name: "Years Of <br> Experience"
+      count: "12"
+      extension: "+"
+
+    - name: "More Real <br> Active users"
+      count: "1"
+      extension: "M+"
+
+    - name: "Employees <br> Work Here"
+      count: "200"
+      extension: "+"
 
 ################## Funfacts ###############
 funfacts:
