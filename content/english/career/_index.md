@@ -40,32 +40,67 @@ flexibility:
 benifits:
   enable: true
   title: "Benifits Of **Joining Our Team**"
-  content: "Lorem ipsum sadip dolor sit amet, consetetur sadip scing elitr, diam nonumy eirmod tempor invi duntut labore et dolore magna aliquyam erat, sed diam"
+  content: "The main benefits of working in our company are that you’ll get to know everyone, including the leadership team, and workforce is more interconnected. Your responsibilities will often stretch outside of those in your job description, so you’ll get a good understanding of what the company does as a whole, and your day-to-day life will often be quite varied. The breadth of exposure to diverse roles can aid your development and improve your holistic knowledge of how a company seamlessly works together. This means there’s more opportunity for training and mentoring, so you can advance in your career and reach your goals even quicker"
   item:
     - name: "Annual travel and <br>credit Too"
-      icon: "fas fa-lock"
+      icon: "fa fa-plane"
+      color: "#75dd02"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
-    - name: "Healthy food <br>and snacks"
-      icon: "fas fa-magnet"
+    - name: "Healthy snacks  & <br> Coffee"
+      icon: "fa fa-coffee"
+      color : "#119abe"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
     - name: "Comprehensive <br>health plans"
-      icon: "fas fa-link"
+      color: "#1e858b"
+      icon: "fa fa-heartbeat"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
     - name: "Maternity <br> and Paternity Leave"
-      icon: "fas fa-magnet"
+      icon: "fa fa-female"
+      color: "#ff4500"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
-    - name: "Reduced or <br> Flexible Working Hours"
+    - name: "Flexible Working Hours &<br> Weekly 2 Days off"
+      icon: "fa fa-briefcase"
+      color: "#75dd02"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
+
+    - name: "Employee allowance &<br> Employee Referral Bonus"
+      icon: "fas fa-rupee-sign"
+      color: "#FF6347"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
+      
+    - name: "Organizational Oriented Reimbursements"
+      icon: "fas fa-credit-card"
+      color : "#119abe"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
+
+    - name: "On Job Training &<br> Effective communication"
+      icon: "fas fa-graduation-cap"
+      color: "#1e858b"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
+
+    - name: "Involve Employees in <br>policies and decisions"
       icon: "fas fa-link"
+      color: "#00ffff"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
-    - name: "Comprehensive <br>health plans"
+    - name: "Blogger achievement awards"
+      icon: "fas fa-award"
+      color: "#ffdf00"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
+      
+    - name: "No Dress Code"
+      icon: "fas fa-tshirt"
+      color: "#ff4500"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
+
+    - name: "Event Sponsor &<br> Employee Motivation"
+      color: "#800080" 
       icon: "fas fa-lock"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
-
 #################### Gallery #####################
 gallery:
   enable: true
