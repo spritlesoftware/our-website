@@ -49,23 +49,6 @@ vision:
   image: "images/careers/anniversarypic02.jpg"
   content: "Software is created for people, and so our mission is to provide an ambience by which every person involved in creating such software be valued. Be it stakeholders, product owners, the end users or the development team, they are need a professional and friendly collaborations to build great software. We at Spritle try to provide that ambience."
 
-############### Featured testimonial ###############
-gallery:
-  enable: true
-  item:
-    - image: "images/careers/life-at/01.webp"
-      width: "6"
-    - image: "images/careers/life-at/02.jpeg"
-      width: "6"
-    - image: "images/careers/life-at/03.jpeg"
-      width: "6"
-    - image: "images/careers/life-at/04.jpeg"
-      width: "6"
-    - image: "images/careers/life-at/05.jpeg"
-      width: "6"
-    - image: "images/careers/life-at/06.jpeg"
-      width: "6"
-
 testimonial:
   enable: true
   title: " Our **Leaders...**"
@@ -90,6 +73,6 @@ testimonial:
 visiontwo:
   enable: true
   image : "images/careers/spritle_team.jpeg"
-  title : "Our **Goal**"
+  title : "Our **Goal...**"
   content: "Providing a team that you can always trust is our goal We surround ourselves with positive technologists, business partners and entrepreneurs. We welcome people to come work with us or just come along and observe us working. You can observe a team practicing what we preach."
 ---
