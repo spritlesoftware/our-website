@@ -1,17 +1,29 @@
 {{ with .Params.verticals }}
 <!-- start of services-section -->
-<section class="section-padding" data-aos="fade-in">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-10 col-md-10 text-center mb-40">
-            <h2 class="section-title">{{.title}}</h2>
-            <p>{{.description}}</p>
-        </div>
+<section
+  class="
+    section-padding
+    image-info-section
+    has-shapes
+    bg-light-gray
+    has-bg-brash
+    bg-brash-y
+  "
+  style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
+  data-aos="fade-up"
+  data-aos-delay="150"
+>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-md-10 text-center mb-40">
+        <h2 class="section-title">{{.title}}</h2>
+        <p>{{.description}}</p>
       </div>
-      <div class="row no-gutters">
-        {{ range .services }}
-        <div class="col-lg-4 col-md-6 service-box">
-          <div class="block p-4 p-xl-5 text-center">
+    </div>
+    <div class="row no-gutters">
+      {{ range .services }}
+      <div class="col-lg-4 col-md-6 service-box">
+        <div class="block p-4 p-xl-5 text-center">
           <div class="service-image text-center">
             <i
               class="{{ .icon }} fa-w-18"
@@ -27,15 +39,20 @@
           {{ else }}
           <h3 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h3>
           {{ end }}
-            <p>{{ .content | markdownify }}</p>
-          </div>
-        </div>
-        {{ end }}
-        <div class="col-12">
-          <div class="border-bottom border-md-0"></div>
+          <p>{{ .content | markdownify }}</p>
         </div>
       </div>
+      {{ end }}
+      <div class="col-12">
+        <div class="border-bottom border-md-0"></div>
+      </div>
     </div>
-  </section>
-  <!-- end of services-section -->
+  </div>
+  <div class="shape-3 shape-xs-2 bg-secondary rounded-circle"></div>
+  <div class="shape-4 shape-sm-2 bg-tertiary rounded-circle"></div>
+  <div class="shape-5 shape-sm bg-primary rounded-circle"></div>
+  <div class="shape-6 shape-xs bg-secondary rounded-circle"></div>
+  <div class="shape-7 shape-xs-2 bg-tertiary rounded-circle"></div>
+</section>
+<!-- end of services-section -->
 {{ end }}
