@@ -17,14 +17,6 @@ banner:
     button_label: "Get in touch"
     link: "contact"
 
-genomics_home:
-  enable: true
-  title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, **seddiam nonumy**"
-  banner_heading:
-    - "**Building better healthcare solutions** using Genomics"
-    - "Taking **health personalization one step closer to you**"
-    - "**Simplifying your Genomics needs**"
-  content: "We at Health Engineers are dedicated to Gene Data Analysis to provide transforming software solutions for practitioners, patients, healthcare providers & hospitals."
 
 verticals:
   title : "Interdisciplinary team of developers,
@@ -79,7 +71,7 @@ products that bring your ideas to life,delight your users and help you achieve y
       image: "images/home/serviceimages/consulting.svg"
       content: "We know to put ourselves in your shoes and deliver feasible solutions necessary for your business..."
 
-
+############ Fun Facts ###############
 funfacts:
   enable: true
   funfacts_item:
@@ -225,24 +217,6 @@ tools:
     - "images/home/net_logo.svg"
     - "images/home/django-logo-positive.svg"
 
-############################## Achivement ##############################
-achivement:
-  enable: true
-  title: "Average yearly growth rate **across our clients We able to achive**"
-  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et"
-  funfacts:
-    - name: "Years Of <br> Experience"
-      count: "24"
-      extension: "+"
-
-    - name: "More Real <br> Active users"
-      count: "10"
-      extension: "M+"
-
-    - name: "Employees <br> Work Here"
-      count: "3000"
-      extension: "+"
-
 
 why_choose_us:
   enable: true
@@ -265,14 +239,7 @@ why_choose_us:
     - name: "Finally, our best Business Analyst Team understands your requirement deep down to cover all blind spots & gives you the most flexible solution. And what's more, we do not charge you for the proposals we share!"
       icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
       image: "images/home/why-choose-us-4th-icon.svg"
-
-############################## Workflow ################################
-workflow:
-  enable: true
-  title: "Create an automated **workflow by setting**"
-  image: "images/screenshots/03.png"
-  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
-
+      
 ############################## about us ################################
 about_us:
   enable: true
