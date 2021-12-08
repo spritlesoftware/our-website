@@ -1,0 +1,50 @@
+<!-- start of testimonials-carousel -->
+{{ if .Params.testimonial.enable }} {{ with .Params.testimonial }}
+<section class="section-padding pt-0 testimonials-section has-shapes">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-9 text-center mb-30">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonials-carousel">
+          {{ range .testimonial_item }}
+          <div class="testimonials-item bg-white">
+            <img
+              loading="lazy"
+              width="100%"
+              height="auto"
+              src="{{ .image | absURL }}"
+              alt=""
+            />
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="shape-1 shape-sm bg-secondary rounded-circle d-none d-sm-block"
+  ></div>
+  <div
+    class="shape-2 shape-sm bg-primary rounded-circle d-none d-sm-block"
+  ></div>
+  <div
+    class="shape-3 shape-sm bg-tertiary rounded-circle d-none d-sm-block"
+  ></div>
+  <div
+    class="shape-4 shape-sm bg-secondary rounded-circle d-none d-sm-block"
+  ></div>
+  <div
+    class="shape-5 shape-xs bg-primary rounded-circle d-none d-sm-block"
+  ></div>
+  <div
+    class="shape-6 shape-xs-2 bg-tertiary rounded-circle d-none d-sm-block"
+  ></div>
+</section>
+{{ end }} {{ end }}
+<!-- end of testimonials-carousel -->

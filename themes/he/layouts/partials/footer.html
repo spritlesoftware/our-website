@@ -46,7 +46,7 @@
             {{ with site.Params.logo }}
             <img
               loading="lazy"
-              width="80px"
+              width="160px"
               class="img-fluid"
               src="{{ . | absURL }}"
               alt="{{ site.Title }}"
@@ -63,7 +63,7 @@
           <h5 class="font-weight-600 mb-20">{{ i18n "quick_links"}}</h5>
           <ul class="list-unstyled footer-links">
             {{ range site.Menus.footer }}
-            <li><a href="{{ .URL | absLangURL }}">{{.Name}}</a></li>
+            <li><a href="{{ .URL | absLangURL }}" target="new">{{.Name}}</a></li>
             {{ end }}
           </ul>
         </div>
@@ -89,7 +89,7 @@
           <h5 class="font-weight-600">Locations</h5>
           <br>
           <p>
-            <i class="fas fa-envelope-open-text text-primary mr-2 fa-spin"></i>
+            <i class="fas fa-envelope-open-text text-primary mr-2"></i>
             <a href="{{ .link | absURL }}">info@spritle.com</a>
             <a href="{{ .indiageolocation | absLangURL }}" target="_blank" style="text-decoration:none; color: black;" >
             <p class="font-weight-bold">{{ .placeindia | markdownify }}</p>
@@ -120,7 +120,7 @@
             <a href="privacy-policy/"
               >{{ site.Params.policy | markdownify }}
             </a>
-            {{site.Params.copyright | markdownify}}
+            {{replace site.Params.copyright "{year}" now.Year | markdownify}}
           </div>
         </div>
       </div>
@@ -138,6 +138,7 @@
 
 <!-- strat scroll to top -->
 <span class="btn btn-primary scroll-to-top-btn smooth-scroll position-fixed">
+  <a href="#" onclick="document.body.scrollTop=0;document.documentElement.scrollTop=0;event.preventDefault()" style="scroll-behavior: smooth;">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 32 32"
@@ -150,5 +151,6 @@
       d="M7.2 19.2L15.2 11.2C15.68 10.71 16.43 10.68 16.96 11.08L17.08 11.2L25.08 19.2L23.2 21.08L16.14 14.02L9.08 21.08L7.2 19.2Z"
     />
   </svg>
+</a>
 </span>
 <!-- end scroll to top -->
