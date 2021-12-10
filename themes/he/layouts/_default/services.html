@@ -12,15 +12,13 @@
       {{ range .Params.services }}
       <div class="col-lg-4 col-md-6 service-box">
         <div class="block p-4 p-xl-5 text-center">
-          <div class="service-image text-center">
+          <div
+            class="service-image text-center"
+            
+          >
             <i
               class="{{ .icon }} fa-w-18"
-              style="
-                width: 70%;
-                height: 80%;
-                color: hsl(171, 100%, 41%);
-                padding-top: 10px;
-              "
+              style="width: 70%; height: 80%; color: {{ .colour }}; padding-top: 10px"
             ></i>
           </div>
           {{ if eq .event true }}
@@ -59,7 +57,7 @@
           </div>
         </div>
         <div class="content">
-          <b><h2>{{ .title }}</h2></b>
+          <b><h2 class="section-title">{{ .title }}</h2></b>
         </div>
         <h3>{{ .content }}</h3>
         <h3>

@@ -20,7 +20,7 @@ custom_script= ""
 # Preloader
 [preloader]
 enable = true
-preloader = "images/preloader.png" # use jpg, png, svg or gif format.
+preloader = "images/spritle-logo.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
 greetings_to = "Spritle"
 
@@ -37,7 +37,7 @@ link = ""
 # Footer call to action
 [footer_call_to_action]
 enable = true
-title = "Get your **unique & incredible ideas** kickstarted now"
+title = "**Perfect** from **Beginning to End...**  kickstarted now"
 [footer_cta_button]
 enable = true
 label = "Get in touch"

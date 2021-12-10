@@ -9,6 +9,7 @@ services:
     event: true
     target: "web_application_development_services"
     icon: "fa fa-desktop"
+    colour: "#13add5"
     image: "images/home/serviceimages/webapp.svg"
     content: "At the helm of driving global business and the changing times is web development..."
 
@@ -16,6 +17,7 @@ services:
     event: true
     target: "mobile_service"
     icon: "fa fa-mobile"
+    colour: "#ff8c00"
     image: "images/home/serviceimages/mobileapp.svg"
     content: "Running in the race to contribute to the greatest innovation of the 21st century, yet..."
 
@@ -23,24 +25,28 @@ services:
     event: true
     target: "ai-ml-application-development-services"
     icon: "fab fa-connectdevelop "
+    colour: "#2e8b57"
     image: "images/home/serviceimages/alml.svg"
     content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
   - name: "Internet of things"
     event: false
     icon: "fa fa-microchip "
+    colour: "#b0c4de"
     image: "images/home/serviceimages/iot.svg"
     content: "The idea of devices communicating with us and each other, opens up a futuristic lifestyle..."
 
   - name: "Design UI/UX"
     event: false
     icon: "far fa-edit"
+    colour: "#9400d3"
     image: "images/home/serviceimages/uiux.svg"
     content: "Well, we all do judge a book by its cover. So we make apps that you can't refuse to use..."
 
   - name: "Consulting"
     event: false
     icon: "fas fa-handshake "
+    colour: "#ff9999"
     image: "images/home/serviceimages/consulting.svg"
     content: "We know to put ourselves in your shoes and deliver feasible solutions necessary for your business..."
 
