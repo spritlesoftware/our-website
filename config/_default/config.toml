@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://spritlesoftware.github.io/our-website/"
+baseURL = "https://beta.spritle.com/"
 title = "Spritle Software"
 theme = "he"
 # post pagination
