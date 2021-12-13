@@ -83,4 +83,4 @@ testimonial_item:
 
 ## Accelerating innovations for better **Technology Solutions**
 
-"We collaborate with product/tech companies at every stage, acting as a partner to meet their goals. Here are some of our favourite and interesting projects"
+"We collaborate with product/tech companies at every stage, acting as a partner to meet their goals. Here are some of our favourite and interesting projects and products"
