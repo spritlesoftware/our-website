@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Spritle Software</title>
-    <link>https://spritlesoftware.github.io/our-website/fr/categories/</link>
+    <link>https://beta.spritle.com/fr/categories/</link>
     <description>Recent content in Categories on Spritle Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://spritlesoftware.github.io/our-website/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://beta.spritle.com/fr/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
