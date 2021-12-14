@@ -91,8 +91,10 @@
           <p>
             <i class="fas fa-envelope-open-text text-primary mr-2"></i>
             <a href="{{ .link | absURL }}">info@spritle.com</a>
+            
             <a href="{{ .indiageolocation | absLangURL }}" target="_blank" style="text-decoration:none; color: black;" >
-            <p class="font-weight-bold">{{ .placeindia | markdownify }}</p>
+             
+            <p class="font-weight-bold"> <i class="fas fa-map-marker-alt text-primary mr-2"></i>{{ .placeindia | markdownify }}</p>
             </a>
             <p>
               <i class="fas fa-phone text-primary mr-2"></i>
@@ -101,7 +103,7 @@
           </p>
           <p class="font-weight-bold">
             <a href="{{ .singaporegeolocation | absLangURL }}" target="_blank" style="text-decoration:none; color: black;" >
-            <p class="font-weight-bold">{{ .placesingapore | markdownify}}</p>
+            <p class="font-weight-bold"> <i class="fas fa-map-marker-alt text-primary mr-2"></i>{{ .placesingapore | markdownify}}</p>
             </a>
             <i class="fas fa-phone text-primary mr-2"></i>
             <a href="tel:{{ .numberlinksingapore | markdownify }}">{{ .numbersingapore | markdownify }}</a>
