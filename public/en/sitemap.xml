@@ -2,147 +2,161 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://spritlesoftware.github.io/our-website/</loc>
+    <loc>https://beta.spritle.com/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://spritlesoftware.github.io/our-website/fr/"
+                href="https://beta.spritle.com/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://spritlesoftware.github.io/our-website/"
+                href="https://beta.spritle.com/"
                 />
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/blog/</loc>
+    <loc>https://beta.spritle.com/blog/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/categories/</loc>
+    <loc>https://beta.spritle.com/categories/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://spritlesoftware.github.io/our-website/fr/categories/"
+                href="https://beta.spritle.com/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://spritlesoftware.github.io/our-website/categories/"
+                href="https://beta.spritle.com/categories/"
                 />
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/categories/science/</loc>
+    <loc>https://beta.spritle.com/categories/science/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/categories/technology/</loc>
+    <loc>https://beta.spritle.com/categories/technology/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/blog/post-1/</loc>
+    <loc>https://beta.spritle.com/blog/post-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/blog/post-2/</loc>
+    <loc>https://beta.spritle.com/blog/post-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/blog/post-3/</loc>
+    <loc>https://beta.spritle.com/blog/post-3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/blog/post-4/</loc>
+    <loc>https://beta.spritle.com/blog/post-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/blog/post-5/</loc>
+    <loc>https://beta.spritle.com/blog/post-5/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/blog/post-6/</loc>
+    <loc>https://beta.spritle.com/blog/post-6/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/</loc>
+    <loc>https://beta.spritle.com/genomics/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/healthcare/</loc>
+    <loc>https://beta.spritle.com/healthcare/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/about/</loc>
+    <loc>https://beta.spritle.com/about/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/gene_report/</loc>
+    <loc>https://beta.spritle.com/genomics/gene_report/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/advisory-council/</loc>
+    <loc>https://beta.spritle.com/advisory-council/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/career/</loc>
+    <loc>https://beta.spritle.com/ai-ml-application-development-services/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/changelog/</loc>
+    <loc>https://beta.spritle.com/career/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/contact/</loc>
+    <loc>https://beta.spritle.com/changelog/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/faq/</loc>
+    <loc>https://beta.spritle.com/company/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/products/freshworks/</loc>
+    <loc>https://beta.spritle.com/contact/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/career/job-4/</loc>
+    <loc>https://beta.spritle.com/faq/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/career/job-6/</loc>
+    <loc>https://beta.spritle.com/products/freshworks/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/clinical-information-extraction/</loc>
+    <loc>https://beta.spritle.com/career/frontend/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/gene-analysis-summary/</loc>
+    <loc>https://beta.spritle.com/career/fullstack/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/lifestyle-suggestions/</loc>
+    <loc>https://beta.spritle.com/genomics/clinical-information-extraction/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/secured-pci-payment-solutions/</loc>
+    <loc>https://beta.spritle.com/genomics/gene-analysis-summary/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/supplement-marketplace/</loc>
+    <loc>https://beta.spritle.com/genomics/lifestyle-suggestions/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/genomics/supplement-recommendations-suggestions/</loc>
+    <loc>https://beta.spritle.com/genomics/secured-pci-payment-solutions/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/healthcare/appointment-booking-automation/</loc>
+    <loc>https://beta.spritle.com/genomics/supplement-marketplace/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/career/job-3/</loc>
+    <loc>https://beta.spritle.com/genomics/supplement-recommendations-suggestions/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/career/job-5/</loc>
+    <loc>https://beta.spritle.com/healthcare/appointment-booking-automation/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/our-innovations/</loc>
+    <loc>https://beta.spritle.com/knowledge_sharing/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/how-it-works/</loc>
+    <loc>https://beta.spritle.com/latest_news/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/our-work/</loc>
+    <loc>https://beta.spritle.com/products/minoot/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/pricing-2/</loc>
+    <loc>https://beta.spritle.com/mobile_service/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/pricing/</loc>
+    <loc>https://beta.spritle.com/our-innovations/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/privacy-policy/</loc>
+    <loc>https://beta.spritle.com/our-process/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/products/</loc>
+    <loc>https://beta.spritle.com/our-work/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/career/job-2/</loc>
+    <loc>https://beta.spritle.com/pricing-2/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/request-a-demo/</loc>
+    <loc>https://beta.spritle.com/pricing/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/resources/</loc>
+    <loc>https://beta.spritle.com/privacy-policy/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/career/job-1/</loc>
+    <loc>https://beta.spritle.com/products/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/services/</loc>
+    <loc>https://beta.spritle.com/career/reactnative/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/verticals/</loc>
+    <loc>https://beta.spritle.com/request-a-demo/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/tags/</loc>
+    <loc>https://beta.spritle.com/resources/</loc>
+  </url><url>
+    <loc>https://beta.spritle.com/products/rubygems/</loc>
+  </url><url>
+    <loc>https://beta.spritle.com/services/</loc>
+  </url><url>
+    <loc>https://beta.spritle.com/verticals/</loc>
+  </url><url>
+    <loc>https://beta.spritle.com/career/softwaretester/</loc>
+  </url><url>
+    <loc>https://beta.spritle.com/company/culture/spritexchange-sessions/</loc>
+  </url><url>
+    <loc>https://beta.spritle.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://spritlesoftware.github.io/our-website/fr/tags/"
+                href="https://beta.spritle.com/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://spritlesoftware.github.io/our-website/tags/"
+                href="https://beta.spritle.com/tags/"
                 />
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/team/</loc>
+    <loc>https://beta.spritle.com/team/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/terms-conditions/</loc>
+    <loc>https://beta.spritle.com/terms-conditions/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/testimonial/</loc>
+    <loc>https://beta.spritle.com/testimonial/</loc>
   </url><url>
-    <loc>https://spritlesoftware.github.io/our-website/products/zoho/</loc>
+    <loc>https://beta.spritle.com/web_application_development_services/</loc>
+  </url><url>
+    <loc>https://beta.spritle.com/products/zoho/</loc>
   </url>
 </urlset>

@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spritle Software</title>
-    <link>https://spritlesoftware.github.io/our-website/genomics/</link>
-    <description>Recent content on Spritle Software</description>
+    <title>Who we are!</title>
+    <link>https://beta.spritle.com/genomics/</link>
+    <description>Recent content on Who we are!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2021 Spritle Software. All Rights Reserved.</copyright><atom:link href="https://spritlesoftware.github.io/our-website/genomics/index.xml" rel="self" type="application/rss+xml" />
+    <copyright> © {year} Spritle Software. All Rights Reserved.</copyright><atom:link href="https://beta.spritle.com/genomics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Us reports </title>
-      <link>https://spritlesoftware.github.io/our-website/genomics/gene_report/</link>
+      <link>https://beta.spritle.com/genomics/gene_report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/genomics/gene_report/</guid>
+      <guid>https://beta.spritle.com/genomics/gene_report/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>https://spritlesoftware.github.io/our-website/genomics/clinical-information-extraction/</link>
+      <link>https://beta.spritle.com/genomics/clinical-information-extraction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/genomics/clinical-information-extraction/</guid>
+      <guid>https://beta.spritle.com/genomics/clinical-information-extraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>https://spritlesoftware.github.io/our-website/genomics/gene-analysis-summary/</link>
+      <link>https://beta.spritle.com/genomics/gene-analysis-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/genomics/gene-analysis-summary/</guid>
+      <guid>https://beta.spritle.com/genomics/gene-analysis-summary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>https://spritlesoftware.github.io/our-website/genomics/lifestyle-suggestions/</link>
+      <link>https://beta.spritle.com/genomics/lifestyle-suggestions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/genomics/lifestyle-suggestions/</guid>
+      <guid>https://beta.spritle.com/genomics/lifestyle-suggestions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>https://spritlesoftware.github.io/our-website/genomics/secured-pci-payment-solutions/</link>
+      <link>https://beta.spritle.com/genomics/secured-pci-payment-solutions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/genomics/secured-pci-payment-solutions/</guid>
+      <guid>https://beta.spritle.com/genomics/secured-pci-payment-solutions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>https://spritlesoftware.github.io/our-website/genomics/supplement-marketplace/</link>
+      <link>https://beta.spritle.com/genomics/supplement-marketplace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/genomics/supplement-marketplace/</guid>
+      <guid>https://beta.spritle.com/genomics/supplement-marketplace/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>https://spritlesoftware.github.io/our-website/genomics/supplement-recommendations-suggestions/</link>
+      <link>https://beta.spritle.com/genomics/supplement-recommendations-suggestions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spritlesoftware.github.io/our-website/genomics/supplement-recommendations-suggestions/</guid>
+      <guid>https://beta.spritle.com/genomics/supplement-recommendations-suggestions/</guid>
       <description></description>
     </item>
     
