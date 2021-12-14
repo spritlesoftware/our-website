@@ -71,6 +71,22 @@
 {{ end }} {{ end }}
 <!-- end section -->
 
+{{if .Params.minootsection }} {{with .Params.minootsection }}
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row align-items-center justify-content-around">
+      <h2 class="section-title">
+        <span style="color: #119abe">{{ .title | markdownify }}</span>
+        <span style="color: #66cc66"> {{ .title2 | markdownify }}</span>
+        <span style="color: #119abe">{{.title3 | markdownify }}</span>
+      </h2>
+      <div class="col-lg-8 col-md-8 col-sm-10 mt-5 mt-lg-0">
+        <h3 class="pb-20">{{ .content | markdownify }}</h3>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
 <!-- start section -->
 {{if .Params.mission.enable }} {{with .Params.mission }}
 <section
