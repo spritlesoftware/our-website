@@ -1,6 +1,6 @@
 ---
 title: "Design Services"
-description: "This ruby gem provides you with a set of boilerplate classes to accelerate the implementation of a subscription billing module onto your rails application."
+description: "Design Services"
 layout: "detailed-product"
 draft: false
 
