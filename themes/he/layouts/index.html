@@ -133,9 +133,8 @@
 </div>
 {{ end }}
 <!-- end of videoModal -->
-{{ end }} {{ end }} {{partial "funfacts.html" . }}
-
-
+{{ end }} {{ end }}
+<!--end-->
 
 {{ if .Params.about_us.enable }} {{ with .Params.about_us }}
 <!-- start section -->
@@ -170,7 +169,6 @@
 </section>
 {{ end }} {{ end }}
 <!-- end section -->
-
 
 <!-- start of brand-carousel -->
 {{ partial "verticals-home.html" . }}
@@ -221,18 +219,20 @@
             <div class="row align-items-center">
               <div class="anim-to-top col-lg-5 col-md-8 col-sm-10">
                 <div class="d-inline-block">
-                <img
-                  loading="lazy"
-                  class="img-fluid rounded-lg shadow"
-                  width="300px"
-                  height="500px"
-                  style="margin-left: 20px;"
-                  src="{{ .image | absURL }}"
-                  alt=""
-                />
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-lg"
+                    width="300px"
+                    height="500px"
+                    style="margin-left: 20px"
+                    src="{{ .image | absURL }}"
+                    alt=""
+                  />
+                </div>
               </div>
-              </div>
-              <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0 anim-to-bottom">
+              <div
+                class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0 anim-to-bottom"
+              >
                 <h2 class="section-title">{{ .title | markdownify }}</h2>
                 <p class="mb-30">{{ .content | markdownify }}</p>
                 {{ if .button.enable }} {{ with .button }}
@@ -432,8 +432,6 @@
 </section>
 {{ end }} {{ end }}
 <!-- end of brand-carousel -->
-
-
 
 {{ if .Params.tools.enable }} {{ with .Params.tools }}
 <section

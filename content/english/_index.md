@@ -1,30 +1,22 @@
 ---
 ############################ Banner ##################################
 banner:
-  enable : true
-  title : "Demo Creating a significant difference in the **Digital Healthcare Sector**"
+  enable: true
+  title: "Demo Creating a significant difference in the **Digital Healthcare Sector**"
   banner_heading:
-  - "Hand-crafted Software & Exciting Digital Experience to Inspire the Future"
-  - "Constructively **expanding your needs worldwide**"
-  - "Collaborative efforts to **take the digital healthcare intso the next level**"
-  content : "Demo Advanced Web & Mobile Solutions <br> Premium Apps,   Portals & Digital Solutions <br> Aim to innovate the cutting-edge technology of tomorrow"
-  image : "https://www.spritle.com/images/pages/homepage_group__compressed.jpg"
+    - "Hand-crafted Software & Exciting Digital Experience to Inspire the Future"
+    - "Constructively **expanding your needs worldwide**"
+    - "Collaborative efforts to **take the digital healthcare intso the next level**"
+  content: "Demo Advanced Web & Mobile Solutions <br> Premium Apps,   Portals & Digital Solutions <br> Aim to innovate the cutting-edge technology of tomorrow"
+  image: "images/home/22218203_1666207476752368_472588413189307584_o.jpg"
   video:
-    enable : true
-    video_embed_link : "https://www.youtube.com/embed/dyZcRRWiuuw"
+    enable: true
+    video_embed_link: "images/home/spritle.mp4"
   button:
-    enable : true
-    button_label : "Get in touch"
-    link : "contact"
+    enable: true
+    button_label: "Get in touch"
+    link: "contact"
 
-genomics_home:
-  enable : true
-  title : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, **seddiam nonumy**"
-  banner_heading:
-  - "**Building better healthcare solutions** using Genomics"
-  - "Taking **health personalization one step closer to you**"
-  - "**Simplifying your Genomics needs**"
-  content : "We at Health Engineers are dedicated to Gene Data Analysis to provide transforming software solutions for practitioners, patients, healthcare providers & hospitals."
 
 verticals:
   title : "Interdisciplinary team of developers,
@@ -34,249 +26,240 @@ products that bring your ideas to life,delight your users and help you achieve y
   layout : "services"
   draft : false
   services:
-  - name : "Web Application Development"
-    icon : "fas fa-paperclip"
-    image: "images/home/life-science-research-institutes.svg"
-    content : "Experience in working with renowned Universities & Institutes across the globe that adds value to their ongoing researches."
+    - name: "Web Application Development"
+      event: true
+      target: "web_application_development_services"
+      icon: "fa fa-desktop"
+      colour: "#13add5"
+      image: "images/home/serviceimages/webapp.svg"
+      content: "At the helm of driving global business and the changing times is web development..."
 
-  - name : "Mobile Application Development"
-    icon : "fas fa-bell"
-    image: "images/home/enterprise-companies.svg"
-    content : "Accelerating the development of new Digital Health Systems by closely working with the big Enterprise companies all over the world."
-    
-  - name : "AI and ML Services"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
+    - name: "Mobile Application Development  "
+      event: true
+      target: "mobile_service"
+      icon: "fa fa-mobile"
+      colour: "#ff8c00"
+      image: "images/home/serviceimages/mobileapp.svg"
+      content: "Running in the race to contribute to the greatest innovation of the 21st century, yet..."
 
-  - name : "Internet of things"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
+    - name: "AI and ML Services"
+      event: true
+      target: "ai-ml-application-development-services"
+      icon: "fab fa-connectdevelop "
+      colour: "#2e8b57"
+      image: "images/home/serviceimages/alml.svg"
+      content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
-  - name : "Design"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
-  
-  - name : "Consulting"
-    icon : "fas fa-clipboard"
-    image: "images/home/funded-digital-healthcare-startups.svg"
-    content : "We aim at providing new & safe software to people by joining hands with the Funded Start Ups & bring massive growth in business mutually."
+    - name: "Internet of things"
+      event: false
+      icon: "fa fa-microchip "
+      colour: "#b0c4de"
+      image: "images/home/serviceimages/iot.svg"
+      content: "The idea of devices communicating with us and each other, opens up a futuristic lifestyle..."
+
+    - name: "Design UI/UX"
+      event: false
+      icon: "far fa-edit"
+      colour: "#9400d3"
+      image: "images/home/serviceimages/uiux.svg"
+      content: "Well, we all do judge a book by its cover. So we make apps that you can't refuse to use..."
+
+    - name: "Consulting"
+      event: false
+      icon: "fas fa-handshake "
+      colour: "#ff9999"
+      image: "images/home/serviceimages/consulting.svg"
+      content: "We know to put ourselves in your shoes and deliver feasible solutions necessary for your business..."
+
+############ Fun Facts ###############
+funfacts:
+  enable: true
+  funfacts_item:
+    - name: "Web Apps"
+      count: "125"
+      extension: "+"
+
+    - name: "Mobile Apps"
+      count: "67"
+      extension: "+"
+
+    - name: "Best Products"
+      count: "25"
+      extension: "+"
+
+    - name: "Happy Clients"
+      count: "106"
+      extension: "+"
 
 
 ################## CaseStudy ###############
 case_study:
-  enable : true
-  title : "LivingMatrix Case Study"
+  enable: true
+  title: "LivingMatrix Case Study"
   subtitle: "The New Standard For Functional Medicine"
   button_label: "Read More.."
-  image : "/images/casestudies/lm.webp"
-  content : "LivingMatrix is the only technology-based, clinician-designed functional medicine platform for practitioners to effectively evaluate patients, create personalized actionable care plans, and track superior health outcomes over time."
+  image: "images/casestudies/lmax_monitor.png"
+  content: "LivingMatrix is the only technology-based, clinician-designed functional medicine platform for practitioners to effectively evaluate patients, create personalized actionable care plans, and track superior health outcomes over time."
   bulletpoints:
-  - "The LivingMatrix Practitioner Research Network is the first of its kind."
-  - "A formal practice-based research network of functional medicine practitioners and practices"
-  - "The LM-PRN is an exciting opportunity for practitioner members to participate in research collaborations, contribute to the evidence base, build industry recognition and grow credibility for their practices including"
+    - "The LivingMatrix Practitioner Research Network is the first of its kind."
+    - "A formal practice-based research network of functional medicine practitioners and practices"
+    - "The LM-PRN is an exciting opportunity for practitioner members to participate in research collaborations, contribute to the evidence base, build industry recognition and grow credibility for their practices including"
 
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
-  enable : true
-  title : "Our Clients"
+  enable: true
+  title: "Our Clients"
   logos:
-  - "images/clients/image1.png"
-  - "images/clients/image2.png"
-  - "images/clients/image3.png"
-  - "images/clients/image4.png"
-  - "images/clients/image6.png"
-  - "images/clients/image11.png"
-  
+    - "images/clients/client_icons/beerboard.png"
+    - "images/clients/client_icons/doctordb.png"
+    - "images/clients/client_icons/fw.png"
+    - "images/clients/client_icons/gss.png"
+    - "images/clients/client_icons/healthplotter.png"
+    - "images/clients/client_icons/kutir.png"
+    - "images/clients/client_icons/lm.png"
+    - "images/clients/client_icons/moddo.png"
+    - "images/clients/client_icons/motorola.png"
+    - "images/clients/client_icons/reach.png"
+    - "images/clients/client_icons/showdownlive.png"
+    - "images/clients/client_icons/sitefly.png"
+    - "images/clients/client_icons/stengg.png"
+    - "images/clients/client_icons/sunedison.png"
+    - "images/clients/client_icons/un.png"
 
 ########################## How it works #########################
 homepage_tab:
-  enable : true
-  title : "Our Quintessential Process to Achieve Perfection"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
+  enable: true
+  title: "Our Quintessential Process to Achieve Perfection"
   tablist:
-  # tab item
-  - name : "Onboarding & Discovery"
-    title : "Task **Management**"
-    image : "images/screenshots/how-it-works-1.jpg"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
-    button:
-      enable : true
-      label : "View More"
-      link : "how-it-works"
-      
-  # tab item
-  - name : "Wireframes & UX Design"
-    title : "Built In **Chat**"
-    image : "images/screenshots/03.png"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
-    button:
-      enable : true
-      label : "View More"
-      link : "how-it-works"
-      
-  # tab item
-  - name : "Branding & UI"
-    title : "Project **Analytics**"
-    image : "images/screenshots/04.png"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
-    button:
-      enable : true
-      label : "View More"
-      link : "how-it-works"
-      
-  # tab item
-  - name : "Development"
-    title : "Task **Collaboration**"
-    image : "images/screenshots/how-it-works-1.jpg"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
-    button:
-      enable : true
-      label : "View More"
-      link : "how-it-works"
-  # tab item  
+    # tab item
+    - name: "Onboarding & Discovery"
+      title: "Task **Management**"
+      image: "images/Company-Our process1/Onboarding & Discovery.png"
+      content: "Collaborate with our analysts to help us understand your pain points and derive at the most optimal solution."
+      button:
+        enable: true
+        label: "View More"
+        link: "our-process"
 
+    # tab item
+    - name: "Wireframes & UX Design"
+      title: "Built In **Chat**"
+      image: "images/Company-Our process1/Wireframe & UX Design.png"
+      content: "We understand the experience you want to share with your users and build that from the scratch."
+      button:
+        enable: true
+        label: "View More"
+        link: "our-process"
+
+    # tab item
+    - name: "Development"
+      title: "Task **Collaboration**"
+      image: "images/Company-Our process1/Development.png"
+      content: "We take small stories at a time and iteratively complete them to obtain exceptional business results"
+      button:
+        enable: true
+        label: "View More"
+        link: "our-process"
+
+    #tab item
+    - name: "Testing"
+      title: "Testing"
+      image: "images/Company-Our process1/Testing.png"
+      content: "We build quality into your product and application delivery lifecycle at any stage of your project by constantly testing"
+      button:
+        enable: true
+        label: "View More"
+        link: "our-process"
+
+    #tab item
+    - name: "Launch and Maintenance"
+      title: "Launch and Maintenance"
+      image: "images/Company-Our process1/Launch & Maintanence.png"
+      content: "We don’t walk away until your business is set. We stay till the system solves your purpose"
+      button:
+        enable: true
+        label: "View More"
+        link: "our-process"
 
 ############################## Tools in Use ########################
 tools:
-  enable : true
-  title : "Medical Compliance & Data Standards"
-  content : "We implement various Data Exchange Standards & Medical Compliance in our Software based on Client requirements designed to enable unambiguous data exchange and thereby facilitating meaningful solutions to Data Incompatibility within your stipulated budget."
+  enable: true
+  title: "Medical Compliance & Data Standards"
+  content: "We implement various Data Exchange Standards & Medical Compliance in our Software based on Client requirements designed to enable unambiguous data exchange and thereby facilitating meaningful solutions to Data Incompatibility within your stipulated budget."
   logos:
-  - "images/home/hipaa-complaint.png"
-  - "images/home/hl7-international.png"
-  - "images/home/hl7-fhir.png"
-  - "images/home/dicom-logo.png"
-  - "images/home/gdpr-logo.png"
-  - "images/home/loinc-logo.png"
-  - "images/home/ncpdp-logo.png"
+    - "images/home/coding.png"
+    - "images/home/Docker_(container_engine)_logo.svg"
+    - "images/home/React-icon.svg"
+    - "images/home/Ruby_on_Rails-logo.png"
+    - "images/home/Amazon_Web_Services_Logo.svg"
+    - "images/home/Node.js_logo.svg"
+    - "images/home/Kubernetes_logo.svg"
+    - "images/home/net_logo.svg"
+    - "images/home/django-logo-positive.svg"
 
-  
 
-############################## Achivement ##############################
-achivement:
-  enable : true
-  title : "Average yearly growth rate **across our clients We able to achive**"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et"
-  funfacts:
-  - name : "Years Of <br> Experience"
-    count : "24"
-    extension : "+"
-    
-  - name : "More Real <br> Active users"
-    count : "10"
-    extension : "M+"
-    
-  - name : "Employees <br> Work Here"
-    count : "3000"
-    extension : "+"
-
-domains:
-  enable : true
-  title : "You see it, We build it"
-  content : "doamins 2"
-  image : "images/screenshots/03.png" 
-  list:
-  - name : "Genomics <br><br>  "
-    icon : "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
-    image : "images/home/genomics.svg" 
-      
-  - name : "Healthcare AI Automation"
-    icon : "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
-    image : "images/home/health-care-AI-voice-assistants.svg" 
-      
-  - name : "Brain Waves & Congnitive Analysis"
-    icon : "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
-    image : "images/home/brain-wave-cognitive-analysis.svg" 
-    
- 
 why_choose_us:
-  enable : true
-  title : "Why Choose Us?"
-  content : "We are 13 years into the competitive world assuming the best among all the health engineers.And also we have the best customer support and international access."
-  image : "images/screenshots/03.png" 
+  enable: true
+  title: "Why Choose Us?"
+  content: "We are 13 years into the competitive world assuming the best among all the health engineers.And also we have the best customer support and international access."
+  image: "images/screenshots/03.png"
   list:
-  - name : "We have the perfect combination of cutting-edge technologies & development expertise to provide you with the best softwares. We strive more on understanding our Client's requirements first rather than cost. "
-    icon : "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
-    image : "images/home/why-choose-us-1st-icon.svg" 
+    - name: "We have the perfect combination of cutting-edge technologies & development expertise to provide you with the best softwares. We strive more on understanding our Client's requirements first rather than cost. "
+      icon: "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
+      image: "images/home/why-choose-us-1st-icon.svg"
+
+    - name: "We build highly-secured software & all our software is built with alignment to the data compliance regulations & medical data standards like HIPAA, HL7, FHIR, LOINC, NCPDP, DICOM, etc."
+      icon: "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
+      image: "images/home/why-choose-us-2nd-icon.svg"
+
+    - name: "Our experts are always in the process of learning new technologies & methods to improve the quality of the solutions that we provide. We will be there with you till the software's entire operating life cycle."
+      icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
+      image: "images/home/why-choose-us-3rd-icon.svg"
+
+    - name: "Finally, our best Business Analyst Team understands your requirement deep down to cover all blind spots & gives you the most flexible solution. And what's more, we do not charge you for the proposals we share!"
+      icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
+      image: "images/home/why-choose-us-4th-icon.svg"
       
-  - name : "We build highly-secured software & all our software is built with alignment to the data compliance regulations & medical data standards like HIPAA, HL7, FHIR, LOINC, NCPDP, DICOM, etc."
-    icon : "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
-    image : "images/home/why-choose-us-2nd-icon.svg" 
-      
-  - name : "Our experts are always in the process of learning new technologies & methods to improve the quality of the solutions that we provide. We will be there with you till the software's entire operating life cycle."
-    icon : "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
-    image : "images/home/why-choose-us-3rd-icon.svg" 
-
-  - name : "Finally, our best Business Analyst Team understands your requirement deep down to cover all blind spots & gives you the most flexible solution. And what's more, we do not charge you for the proposals we share!"
-    icon : "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
-    image : "images/home/why-choose-us-4th-icon.svg" 
-    
-
-
-############################## Workflow ################################
-workflow:
-  enable : true
-  title : "Create an automated **workflow by setting**"
-  image : "images/screenshots/03.png"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
-  
-
 ############################## about us ################################
 about_us:
-  enable : true
-  title : "Who Are We And **What Is Our Identity?**"
-  image : "images/home/ISO-Certified-Logo.png"
-  content : "We Health Engineers were awarded the ISO 9001: 2015 Quality Management System Certification to prove our competence & consistency among all."
+  enable: true
+  title: "Who Are We And **What Is Our Identity?**"
+  image: "images/home/ISO-Certified-Logo.png"
+  content: "We Health Engineers were awarded the ISO 9001: 2015 Quality Management System Certification to prove our competence & consistency among all."
   bulletpoints:
     - "Habit building in essential steps choose habit Good Things"
     - "Get an overview of Habit Calendars admiral general."
     - "Start building habit with Habitify on platform to new"
   images:
 
-    
-
 ############################# Testimonial ############################
 testimonial:
-  enable : true
-  title : "What Our **Client says**"
-  content : "Listen to the working experience with us by our Clients"
+  enable: true
+  title: "What Our **Client says**"
+  content: "Listen to the working experience with us by our Clients"
   button:
-    enable : true
-    label : "View All Testimonials"
-    link : "testimonial"
+    enable: true
+    label: "View All Testimonials"
+    link: "testimonial"
 
   testimonial_item:
-  - name : "Priya Kamani, MD MBA"
-    image : "images/users/01.jpg"
-    designation : "Founder, CEO @ Living Matrix Inc."
-    content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
-    
-  - name : "Brandon Mccutcheon"
-    image : "images/users/02.jpg"
-    designation : "Co-Founder, CEO @ Phraze Inc."
-    content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
-    
-  - name : "Hadi Hosseini"
-    image : "images/users/03.jpg"
-    designation : "Assistant Professor, Psychiatry & Behavioral Sciences @ Stanford University"
-    content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
-    
-  - name : "Arun Augustine"
-    image : "images/users/02.jpg"
-    designation : "Co-Founder, CEO @ Corner"
-    content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
+    - name: "Diego Vicente"
+      image: "images/clients/diego.png"
+      designation: "CEO @Moddo"
+      content: "The relationship that we have with spritle is by far one of the biggest assets our firm is glad to have. Their devotion and dedication to their clients is something truly admirable..."
 
-  - name : "Spencer Montogmery"
-    image : "images/users/02.jpg"
-    designation : "Orthopaedic Surgeon @ St. Michael's Hospital"
-    content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
+    - name: "Ash Gaur"
+      image: "images/clients/ashutosh.png"
+      designation: "COO @ReSubLime"
+      content: "Spritle provided invaluable support to our Kickstarter and they prioritized every detail, ensuring that we were given the best possible management and treatment..."
 
-  - name : "Alfred Seunghoon Song"
-    image : "images/users/02.jpg"
-    designation : "Clinical Innovation Fellow & Stanford General Surgery Resident"
-    content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
+    - name: "Hadi Hosseini"
+      image: "images/clients/paul.png"
+      designation: "Principal @Reach"
+      content: "We have been working with Spritle now for over three years and what a run it has been. I wish to thank you for all your talent, creativity and energy. I am grateful to be a partner with Spritle..."
 
+    - name: "Sundar Ravindran"
+      image: "images/clients/sundar.png"
+      designation: "CTO @BeerBoard"
+      content: "Spritle is an extension of our infrastructure and has done well blending themselves into our work culture and understanding the scope. They go above and beyond to deliver the best outcomes..."
 ---
