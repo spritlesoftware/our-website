@@ -52,7 +52,7 @@ start:
 section1:
   enable: true
   title: "AI & ML Driven Healthcare Applications Development"
-  image: "images/Spritle New Website Images/Services-AL & ML Dev/AI driven healthcare applications development 1 (2).png"
+  image: "images/Spritle_New_Website_Images/Services-AL & ML Dev/AI driven healthcare applications development 1 (2).png"
   content: "There is this bias on the investments made in healthcare tech and research. Rightfully so as improving life expectancy has been the core purpose driving most innovations. Hold good for Tech as well. AI and ML cloud driven solutions for real time monitoring, intelligent complex analysis, prescriptive predictions and many more. Neural networks are fed loads of new data continuously to keep learning and be ready for tomorrow. We are!"
 
 section2:
@@ -64,7 +64,7 @@ section2:
 section3:
   enable: true
   title: "Data Science and Big Data Analytics"
-  image: "images/Spritle New Website Images/Services-AL & ML Dev/Data Science and Data Analytics 1 (1).png"
+  image: "images/Spritle_New_Website_Images/Services-AL & ML Dev/Data Science and Data Analytics 1 (1).png"
   content: "Data business is the future. We know that and so we are in. Adapting early, as part of our heavy data analytical projects, we have evolved into Big Data experts taking on some of the more complex computations being performed seamlessly in real-time."
 
 section4:
@@ -76,7 +76,7 @@ section4:
 section5:
   enable: true
   title: "Cloud ML and Tensorflow Driven Apps"
-  image: "images/Spritle New Website Images/Services-AL & ML Dev/Cloud ML and Tensorflow driven apps 1 (1).png"
+  image: "images/Spritle_New_Website_Images/Services-AL & ML Dev/Cloud ML and Tensorflow driven apps 1 (1).png"
   content: "The sole purpose of the advent of computing is to reduce human dependencies for repetitive, binary and non creative tasks. It does drastically improve productivity and accuracy. RPA is the revolution that enables developers to automate simple to very complex intuitiveness driven tasks. Ride on the tide today to see a massive increase in your process efficiency."
 
 section6:
