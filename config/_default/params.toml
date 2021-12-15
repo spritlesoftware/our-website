@@ -6,7 +6,7 @@ favicon_16x16 = "images/favicons/favicon-16x16.png"
 apple_touch_icon = "images/favicons/apple-icon.png"
 # logo
 logo_text = "Spritle Software"
-logo = "images/spritle-logo.png"
+logo = "images/spritle_logo.png"
 logo_width = "120px;"
 # OpenGraph / Twitter Card metadata
 description = "TAn interdisciplinary team of coders, analysts and user experience specialists dedicated to building state-of-the-art web & mobile application.Talk to us today!"
@@ -20,7 +20,7 @@ custom_script= ""
 # Preloader
 [preloader]
 enable = true
-preloader = "images/spritle-logo.png" # use jpg, png, svg or gif format.
+preloader = "images/spritle_logo.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
 greetings_to = "Spritle"
 

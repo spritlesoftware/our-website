@@ -3,7 +3,7 @@
 
 [[main]]
 name = "Our Works"
-url = "our-work/"
+url = "work/"
 weight = 1
 
 [[main]]
@@ -58,6 +58,11 @@ weight = 4
   name = "Minoot"
   url =  "products/minoot"  
 
+  [[main]]
+  parent = "Products"
+  name = "Voicebot"
+  url =  "products/voicebot" 
+
 [[main]]
 name = "Company"
 weight = 5 
@@ -66,7 +71,7 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Our Process"
-  url =  "our-process/"
+  url =  "process/"
   weight=1
 
   [[main]]
@@ -90,6 +95,7 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Latest News"
+  url = "latest_news/"
   weight=5
 
 [[main]]
