@@ -11,7 +11,7 @@ banner:
   image: "images/home/22218203_1666207476752368_472588413189307584_o.jpg"
   video:
     enable: true
-    video_embed_link: "images/home/spritle.mp4"
+    video_embed_link: "https://www.youtube.com/embed/nHGx7b4woks"
   button:
     enable: true
     button_label: "Get in touch"
@@ -95,7 +95,7 @@ funfacts:
 ################## CaseStudy ###############
 case_study:
   enable: true
-  title: "LivingMatrix Case Study"
+  title: "Nestle Health Science"
   subtitle: "The New Standard For Functional Medicine"
   button_label: "Read More.."
   image: "images/casestudies/lmax_monitor.png"
