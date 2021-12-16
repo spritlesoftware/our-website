@@ -4,10 +4,10 @@ banner:
   enable: true
   title: "Demo Creating a significant difference in the **Digital Healthcare Sector**"
   banner_heading:
-    - "Hand-crafted Software & Exciting Digital Experience to Inspire the Future"
-    - "Constructively **expanding your needs worldwide**"
-    - "Collaborative efforts to **take the digital healthcare intso the next level**"
-  content: "Demo Advanced Web & Mobile Solutions <br> Premium Apps,   Portals & Digital Solutions <br> Aim to innovate the cutting-edge technology of tomorrow"
+    - "Hand-crafted Software & Exciting Digital Solutions to Inspire the **Future.**"
+    - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
+    - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
+  content: "Advanced custom made Softwares. <br> - Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
   image: "images/home/22218203_1666207476752368_472588413189307584_o.jpg"
   video:
     enable: true
@@ -126,21 +126,24 @@ clients_logo_slider:
   enable: true
   title: "Our Clients"
   logos:
-    - "images/clients/client_icons/beerboard.png"
-    - "images/clients/client_icons/doctordb.png"
-    - "images/clients/client_icons/fw.png"
-    - "images/clients/client_icons/gss.png"
-    - "images/clients/client_icons/healthplotter.png"
-    - "images/clients/client_icons/kutir.png"
-    - "images/clients/client_icons/lm.png"
-    - "images/clients/client_icons/moddo.png"
-    - "images/clients/client_icons/motorola.png"
-    - "images/clients/client_icons/reach.png"
-    - "images/clients/client_icons/showdownlive.png"
-    - "images/clients/client_icons/sitefly.png"
-    - "images/clients/client_icons/stengg.png"
-    - "images/clients/client_icons/sunedison.png"
-    - "images/clients/client_icons/un.png"
+    - "images/clients/clientslogonew/Beerboard.svg"
+    - "images/clients/clientslogonew/chargebee.svg"
+    - "images/clients/clientslogonew/doctordb.svg"
+    - "images/clients/clientslogonew/freshworks.svg"
+    - "images/clients/clientslogonew/geosnapshot.svg"
+    - "images/clients/clientslogonew/healthplotter.svg"
+    - "images/clients/clientslogonew/kutir.svg"
+    - "images/clients/clientslogonew/livingmatrix.svg"
+    - "images/clients/clientslogonew/moddo.svg"
+    - "images/clients/clientslogonew/motorola.svg"
+    - "images/clients/clientslogonew/reach.svg"
+    - "images/clients/clientslogonew/rubygems.svg"
+    - "images/clients/clientslogonew/showdownlive.svg"
+    - "images/clients/clientslogonew/sinfiniruby.svg"
+    - "images/clients/clientslogonew/stengineering.svg"
+    - "images/clients/clientslogonew/sitefly.svg"
+    - "images/clients/clientslogonew/sunedison.svg"
+    - "images/clients/clientslogonew/unitednations.svg"
 
 ########################## How it works #########################
 homepage_tab:
@@ -149,7 +152,7 @@ homepage_tab:
   tablist:
     # tab item
     - name: "Onboarding & Discovery"
-      title: "Task **Management**"
+      title: "**Task Management**"
       image: "images/Company-Our process1/Onboarding & Discovery.png"
       content: "Collaborate with our analysts to help us understand your pain points and derive at the most optimal solution."
       button:
@@ -159,9 +162,9 @@ homepage_tab:
 
     # tab item
     - name: "Wireframes & UX Design"
-      title: "Built In **Chat**"
+      title: "**User Experience**"
       image: "images/Company-Our process1/Wireframe & UX Design.png"
-      content: "We understand the experience you want to share with your users and build that from the scratch."
+      content: "We understand the experience you wish to share with your users. We provide our expertise to bring an easy user experience to your hands."
       button:
         enable: true
         label: "View More"
@@ -200,8 +203,8 @@ homepage_tab:
 ############################## Tools in Use ########################
 tools:
   enable: true
-  title: "Medical Compliance & Data Standards"
-  content: "We implement various Data Exchange Standards & Medical Compliance in our Software based on Client requirements designed to enable unambiguous data exchange and thereby facilitating meaningful solutions to Data Incompatibility within your stipulated budget."
+  title: "**Technology Trend Setters & Innovators**"
+  content: "With the rapidly evolving technology all around, Our Development Experts are always dolled up with the new coding languages. It is as simple as baking a cake."
   logos:
     - "images/home/coding.png"
     - "images/home/Docker_(container_engine)_logo.svg"
@@ -217,22 +220,22 @@ tools:
 why_choose_us:
   enable: true
   title: "Why Choose Us?"
-  content: "We are 13 years into the competitive world assuming the best among all the health engineers.And also we have the best customer support and international access."
+  content: "We are thirteen years into the competitive world, where our Solutions and Services speaks for Us."
   image: "images/screenshots/03.png"
   list:
-    - name: "We have the perfect combination of cutting-edge technologies & development expertise to provide you with the best softwares. We strive more on understanding our Client's requirements first rather than cost. "
+    - name: "We have the perfect combination of cutting-edge technologies & development expertise to provide you with the best software."
       icon: "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
       image: "images/home/why-choose-us-1st-icon.svg"
 
-    - name: "We build highly-secured software & all our software is built with alignment to the data compliance regulations & medical data standards like HIPAA, HL7, FHIR, LOINC, NCPDP, DICOM, etc."
+    - name: "We assure transparency at all stages of the project and provide you with maximum support you need."
       icon: "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
       image: "images/home/why-choose-us-2nd-icon.svg"
 
-    - name: "Our experts are always in the process of learning new technologies & methods to improve the quality of the solutions that we provide. We will be there with you till the software's entire operating life cycle."
+    - name: "Our experts are always in the process of learning new technologies & methods to improve the quality of the solutions that we provide."
       icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
       image: "images/home/why-choose-us-3rd-icon.svg"
 
-    - name: "Finally, our best Business Analyst Team understands your requirement deep down to cover all blind spots & gives you the most flexible solution. And what's more, we do not charge you for the proposals we share!"
+    - name: "Finally, our best Business Analyst Team understands your requirement deep down to cover all blind spots & gives you the most flexible solution."
       icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
       image: "images/home/why-choose-us-4th-icon.svg"
       
@@ -241,7 +244,7 @@ about_us:
   enable: true
   title: "Who Are We And **What Is Our Identity?**"
   image: "images/home/ISO-Certified-Logo.png"
-  content: "We Health Engineers were awarded the ISO 9001: 2015 Quality Management System Certification to prove our competence & consistency among all."
+  content: "We were awarded the ISO 9001: 2015 Quality Management System Certification to prove our competence & consistency among all."
   bulletpoints:
     - "Habit building in essential steps choose habit Good Things"
     - "Get an overview of Habit Calendars admiral general."
@@ -252,7 +255,7 @@ about_us:
 testimonial:
   enable: true
   title: "What Our **Client says**"
-  content: "Listen to the working experience with us by our Clients"
+  content: "Our work quality speaks for Us."
   button:
     enable: true
     label: "View All Testimonials"
