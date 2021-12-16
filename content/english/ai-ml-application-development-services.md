@@ -4,6 +4,46 @@ description: "Tomorrow is already here. In awe of the possibilities the future h
 layout: "specific-service"
 draft: false
 
+featured_testimonial:
+  enable: true
+  name: "Spritle Softwares"
+  designation: "Chennai-Singapore-USA"
+  quote: "“We at Health Engineers are dedicated to Gene Data Analysis to provide transforming software solutions for practitioners, patients, healthcare providers & hospitals.”"
+  image: "images/testimonials/01.jpg"
+  video:
+    enable: true
+    video_embed_link: "images/home/banner-video.mp4"
+
+genomic:
+  enable: true
+  title: "genomics"
+  image: "images/AI_ML_Page/Genomics.png"
+  content: "we helped in developing a software that made the process of creating personalized medicine based on the genes of a person to ensure maximum effect and minimum or no side effect a possibility."
+
+geosnapshot:
+  enable: true
+  title: "geosnapshot"
+  image: "images/AI_ML_Page/Geosnapshot.png"
+  content: "Using an AI enabled software for taking a picture to filter out images that you are present in from a file that contains a massive amount of jpegs."
+
+phraze:
+  enable: true
+  title: "phraze"
+  image: "images/AI_ML_Page/Voice Transcribe Automation.jpg"
+  content: "With the use of AI we convert speech to text involving language that has medical content in order to lessen the burden on the doctor who has to produce the prescription. "
+
+aivoicebot:
+  enable: true
+  title: "AI voicebot"
+  image: "images/AI_ML_Page/AIVoiceBots.gif"
+  content: "A voicebot dedicated to the medical industry that reduces the burden on the nurses and makes it easy to make appoimntments, regular checkups and other general functions observed by the nurses."
+
+computervision:
+  enable: true
+  title: "Computer Vision"
+  image: "images/AI_ML_Page/ComputerVision.png"
+  content: "An AI sotware designed solely for the purpose of visually managing the tasks and the safety of the employees that work in the industries."
+
 start:
   enable: true
   image: "images/services/ai-ml/ai_ml_banner.png"
@@ -12,7 +52,7 @@ start:
 section1:
   enable: true
   title: "AI & ML Driven Healthcare Applications Development"
-  image: "images/services/ai-ml/ai_driven_healthcare.png"
+  image: "images/Spritle_New_Website_Images/Services-AL & ML Dev/AI driven healthcare applications development 1 (2).png"
   content: "There is this bias on the investments made in healthcare tech and research. Rightfully so as improving life expectancy has been the core purpose driving most innovations. Hold good for Tech as well. AI and ML cloud driven solutions for real time monitoring, intelligent complex analysis, prescriptive predictions and many more. Neural networks are fed loads of new data continuously to keep learning and be ready for tomorrow. We are!"
 
 section2:
@@ -24,7 +64,7 @@ section2:
 section3:
   enable: true
   title: "Data Science and Big Data Analytics"
-  image: "images/services/ai-ml/data_science_and_data_analytics.png"
+  image: "images/Spritle_New_Website_Images/Services-AL & ML Dev/Data Science and Data Analytics 1 (1).png"
   content: "Data business is the future. We know that and so we are in. Adapting early, as part of our heavy data analytical projects, we have evolved into Big Data experts taking on some of the more complex computations being performed seamlessly in real-time."
 
 section4:
@@ -36,7 +76,7 @@ section4:
 section5:
   enable: true
   title: "Cloud ML and Tensorflow Driven Apps"
-  image: "images/services/ai-ml/cloud_ml_and_tensorflow.png"
+  image: "images/Spritle_New_Website_Images/Services-AL & ML Dev/Cloud ML and Tensorflow driven apps 1 (1).png"
   content: "The sole purpose of the advent of computing is to reduce human dependencies for repetitive, binary and non creative tasks. It does drastically improve productivity and accuracy. RPA is the revolution that enables developers to automate simple to very complex intuitiveness driven tasks. Ride on the tide today to see a massive increase in your process efficiency."
 
 section6:
@@ -50,4 +90,4 @@ section7:
   title: "Blockchain Apps Development"
   image: "images/services/ai-ml/blockchain_apps_development.png"
   content: "Going ICO and Crypto is touted to be an inevitable move business and commerce world needs to take up. The tech cant be more excited as the last decade has seen brilliant apps playing around the opportunities the domain ecosystem has to offer. A complex science if not dealt with expert consultants. Thankfully we have a geared team to take up your next Blockchain app idea."
----  
+---

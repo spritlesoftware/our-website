@@ -1,6 +1,7 @@
 baseURL = 'http://www.spritle.com/'
 languageCode = 'en-us'
 title = 'Spritle Software |  Advanced Web & Mobile Solutions'
+enableRobotsTXT = true
 [minify]
   disableCSS = false
   disableHTML = false
