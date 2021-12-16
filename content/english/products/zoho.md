@@ -13,7 +13,7 @@ intro:
 mission:
   enable: true
   subtitle: "Key Implementations"
-  image: "images/zoho/zoho.jpg"
+  image: "images/zoho/zoho-key-imp.png"
 
   bulletpoint:
     - "**TAILOR-MADE APPS** - We are Specialized in customizing Zoho product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
