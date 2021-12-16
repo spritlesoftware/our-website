@@ -21,6 +21,7 @@ genomic:
   image: "images/AI_ML_Page/Genomics.png"
   content: "Unveiling the gap of Nutrigenomics between **Nestle Health Science** and patients to deliver future healthcare by using our **Smart   AI-based Supplement Suggestion** System."
 
+
 geosnapshot:
   enable: true
   title: "Capturing memories - AI"
@@ -54,6 +55,10 @@ aivoicebot:
     - "Schedule appointments with the doctors"
     - "Collect health status pre surgery"
     - "Collect health status post surgery"
+  button:
+    enable : true
+    button_label : "View more..."
+    link : "products/voicebot"
 
 computervision:
   enable: true
@@ -69,16 +74,12 @@ products that bring your ideas to life,delight your users and help you achieve y
   draft : false
   services:
     - name: "Object Detection And Image/Video Processing"
-      event: true
-      target: ""
       icon: "fa fa-desktop"
       colour: "#13add5"
       image: "images/home/serviceimages/webapp.svg"
       content: "At the helm of driving global business and the changing times is web development..."
 
     - name: "Cloud ML And Tensorflow"
-      event: true
-      target: ""
       icon: "fa fa-mobile"
       colour: "#ff8c00"
       image: "images/home/serviceimages/mobileapp.svg"
