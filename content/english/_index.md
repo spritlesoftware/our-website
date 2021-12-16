@@ -7,7 +7,7 @@ banner:
     - "Hand-crafted Software & Exciting Digital Solutions to Inspire the **Future.**"
     - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
     - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
-  content: "Advanced custom made Softwares. <br> - Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
+  content: "Advanced custom made Softwares. <br>  Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
   image: "images/home/22218203_1666207476752368_472588413189307584_o.jpg"
   video:
     enable: true
@@ -118,8 +118,8 @@ case_study:
       extension: "+"
 
     - name: "Patients"
-      count: "2.8K"
-      extension: "+"
+      count: "2.8"
+      extension: "k+"
 
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
