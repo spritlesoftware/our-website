@@ -83,7 +83,7 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "About us"
-  url = "about/"
+  url = "about_us/"
   weight=3
 
   [[main]]
