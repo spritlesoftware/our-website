@@ -99,8 +99,8 @@ hasChildren = true
   weight=5
 
 [[main]]
-name = "Blog"
-url = "blog/"
+name = "Blogs"
+url = "blogs/"
 weight = 6
 
 [[main]]

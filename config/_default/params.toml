@@ -9,7 +9,7 @@ logo_text = "Spritle Software"
 logo = "images/spritle_logo.png"
 logo_width = "120px;"
 # OpenGraph / Twitter Card metadata
-description = "TAn interdisciplinary team of coders, analysts and user experience specialists dedicated to building state-of-the-art web & mobile application.Talk to us today!"
+description = "An interdisciplinary team of coders, analysts and user experience specialists dedicated to building state-of-the-art web & mobile application.Talk to us today!"
 author = "Spritle Team"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
