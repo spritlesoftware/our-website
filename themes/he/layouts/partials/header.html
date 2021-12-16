@@ -39,12 +39,12 @@
           />
         </svg>
       </button>
+
       <!-- mobile-nav control button -->
 
       <div class="collapse navbar-collapse" id="navlinks">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }} {{ if .HasChildren }}
-
           <li class="nav-item dropdown">
             <a
               class="
@@ -86,11 +86,6 @@
                     align-items-center
                   "
                   href="#"
-                  id="navbarDropdownsub"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
                 >
                   <span class="mr-1">{{ .Name }}</span>
                   <svg
@@ -106,14 +101,11 @@
                     />
                   </svg>
                 </a>
-                <ul
-                  class="submenu dropdown-menu"
-                  aria-labelledby="navbarDropdownsub"
-                >
+                <ul class="submenu dropdown-menu">
                   {{ range .Children }}
                   <li>
                     <a
-                      class="dropdown-item"
+                      class="nav-link"
                       h{{if
                       findRE
                       `^http`
@@ -129,7 +121,7 @@
               {{ else }}
               <li>
                 <a
-                  class="dropdown-item"
+                  class="nav-link"
                   h{{if
                   findRE
                   `^http`

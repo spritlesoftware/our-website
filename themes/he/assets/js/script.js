@@ -284,10 +284,11 @@ $(window).bind("load", function () {
           dots: false,
           arrows: false,
           infinite: true,
-          speed: 500,
+          speed: 7000,
           autoplay: true,
           slidesToShow: 5,
-          autoplaySpeed: 3000,
+          autoplaySpeed: 0,
+          cssEase: "linear",
           mobileFirst: true,
           slidesToScroll: 1,
           responsive: [
@@ -335,7 +336,7 @@ $(window).bind("load", function () {
           arrows: false,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 2000,
+          autoplaySpeed: 4000,
           speed: 500,
           fade: true,
           cssEase: "linear",
@@ -352,7 +353,7 @@ $(window).bind("load", function () {
           arrows: false,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 3000,
+          autoplaySpeed: 4000,
           speed: 300,
         });
       }
@@ -366,11 +367,11 @@ $(window).bind("load", function () {
           dots: true,
           arrows: false,
           infinite: true,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          speed: 900,
+          speed: 400,
           slidesToShow: 3,
           slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 4000,
           responsive: [
             {
               breakpoint: 991,
@@ -431,20 +432,22 @@ $(window).bind("load", function () {
     }
 
     // masonryFilter init
-    var containerEl = document.querySelector("#masonry");
-    if (containerEl) {
-      var Shuffle = window.Shuffle;
-      var myShuffle = new Shuffle(document.querySelector("#masonry"), {
-        itemSelector: ".masonry-item",
-        buffer: 1,
-      });
-      jQuery('input[name="shuffle-filter"]').on("change", function (evt) {
-        var input = evt.currentTarget;
-        if (input.checked) {
-          myShuffle.filter(input.value);
-        }
-      });
-    }
+    setTimeout(function () {
+      var containerEl = document.querySelector("#masonry");
+      if (containerEl) {
+        var Shuffle = window.Shuffle;
+        var myShuffle = new Shuffle(document.querySelector("#masonry"), {
+          itemSelector: ".masonry-item",
+          buffer: 1,
+        });
+        jQuery('input[name="shuffle-filter"]').on("change", function (evt) {
+          var input = evt.currentTarget;
+          if (input.checked) {
+            myShuffle.filter(input.value);
+          }
+        });
+      }
+    }, 1000);
   });
 
   // Form validation Init
@@ -526,20 +529,48 @@ $(window).bind("load", function () {
   };
 
   // Prevent closing from click inside dropdown
-  $(document).on("click", ".dropdown-menu", function (e) {
-    e.stopPropagation();
+  $(document).on("click", ".dropdown-menu", function (event) {
+    event.stopPropagation();
   });
 
   // make it as accordion for smaller screens
   if ($(window).width() < 992) {
-    $(".dropdown-menu a").click(function (e) {
+    $("a.dropdown-item").click(function (e) {
       e.preventDefault();
-      if ($(this).next(".submenu").length) {
-        $(this).next(".submenu").toggle();
-      }
-      $(".dropdown").on("hide.bs.dropdown", function () {
-        $(this).find(".submenu").hide();
-      });
+      e.stopPropagation();
+      $(".submenu-item ul").css({ display: "none" });
+      var i = $(this);
+      setTimeout(function (i) {
+        i.parent().find("ul").css({ display: "block" });
+      }, 3000);
     });
+  }
+
+  $(".history-timeline .timeline-list-wrap ul li a").click(function () {
+    $(".history-timeline .timeline-list-wrap ul li a").removeClass("active");
+    $(this).addClass("active");
+    var target = $(this).attr("data-id");
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $(target).offset().top - 140,
+      },
+      1000
+    );
+  });
+
+  $("a[href='#scroll-top']").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
+  });
+
+  var param = window.location.hash;
+  if (param != "") {
+    $("html, body").animate(
+      {
+        scrollTop: $(param).offset().top - 95,
+      },
+      2000
+    );
+    return false;
   }
 })(jQuery);
