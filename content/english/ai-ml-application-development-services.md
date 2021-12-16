@@ -12,37 +12,84 @@ featured_testimonial:
   image: "images/testimonials/01.jpg"
   video:
     enable: true
-    video_embed_link: "images/home/banner-video.mp4"
+    video_embed_link: "https://www.youtube.com/embed/nHGx7b4woks"
 
 genomic:
   enable: true
-  title: "genomics"
+  title: "Wellness from Core"
   image: "images/AI_ML_Page/Genomics.png"
-  content: "we helped in developing a software that made the process of creating personalized medicine based on the genes of a person to ensure maximum effect and minimum or no side effect a possibility."
+  content: "Unveiling the gap of Nutrigenomics between **Nestle Health Science** and patients to deliver future healthcare by using our **Smart   AI-based Supplement Suggestion** System."
 
 geosnapshot:
   enable: true
-  title: "geosnapshot"
+  title: "Capturing memories - AI"
   image: "images/AI_ML_Page/Geosnapshot.png"
-  content: "Using an AI enabled software for taking a picture to filter out images that you are present in from a file that contains a massive amount of jpegs."
+  content: "We have built a platform for **Geosnapshot** to find photos quickly and easily using Powerful AI technology enabling participants to find all of their photos real quick and  download."
+  facts:
+    - name: "Users"
+      count: "512768"
+      extension: ""
+
+    - name: "Events"
+      count: "2400"
+      extension: "+"
+
+    - name: "Photos"
+      count: "150000"
+      extension: "+"
 
 phraze:
   enable: true
-  title: "phraze"
+  title: "Smart Patientcare - NLP"
   image: "images/AI_ML_Page/Voice Transcribe Automation.jpg"
-  content: "With the use of AI we convert speech to text involving language that has medical content in order to lessen the burden on the doctor who has to produce the prescription. "
+  content: "Giving Phraze a functional **Transcribe Software** & seamless experience partnered with **Natural Language Processing & Speech Recognition** that help Practitioners connect better with Patients "
 
 aivoicebot:
   enable: true
   title: "AI voicebot"
   image: "images/AI_ML_Page/AIVoiceBots.gif"
-  content: "A voicebot dedicated to the medical industry that reduces the burden on the nurses and makes it easy to make appoimntments, regular checkups and other general functions observed by the nurses."
+  content: "Our AI Voice Bots enhancing patient experience for an **Eye Hospital in Singapore** by initiating Human-like conversation via calls to"
+  bulletpoints:
+    - "Schedule appointments with the doctors"
+    - "Collect health status pre surgery"
+    - "Collect health status post surgery"
 
 computervision:
   enable: true
   title: "Computer Vision"
   image: "images/AI_ML_Page/ComputerVision.png"
   content: "An AI sotware designed solely for the purpose of visually managing the tasks and the safety of the employees that work in the industries."
+verticals:
+  title : "Interdisciplinary team of developers,
+consultants and user experience specialists"
+  description : "We are dedicated to building enterprise applications and premium digital
+products that bring your ideas to life,delight your users and help you achieve your goals."
+  layout : "services"
+  draft : false
+  services:
+    - name: "Object Detection And Image/Video Processing"
+      event: true
+      target: "web_application_development_services"
+      icon: "fa fa-desktop"
+      colour: "#13add5"
+      image: "images/home/serviceimages/webapp.svg"
+      content: "At the helm of driving global business and the changing times is web development..."
+
+    - name: "Cloud ML And Tensorflow"
+      event: true
+      target: "mobile_service"
+      icon: "fa fa-mobile"
+      colour: "#ff8c00"
+      image: "images/home/serviceimages/mobileapp.svg"
+      content: "Running in the race to contribute to the greatest innovation of the 21st century, yet..."
+
+    - name: "AI Voice ChatBot"
+      event: true
+      target: "ai-ml-application-development-services"
+      icon: "fab fa-connectdevelop "
+      colour: "#2e8b57"
+      image: "images/home/serviceimages/alml.svg"
+      content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
 start:
   enable: true

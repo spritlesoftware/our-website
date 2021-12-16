@@ -4,6 +4,17 @@
       <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p class="pb-20">{{ .content | markdownify }}</p>
+        <div class="has-colored-text growth-rate-counter">
+          {{ range .facts }}
+          <div class="d-inline-block block-sm mr-30 mt-10">
+            <h2 class="has-text-color font-weight-bold">
+              <span class="jsCounter" data-count="{{.count}}">0</span
+              >{{.extension}}
+            </h2>
+            <p class="mt-10">{{ .name | markdownify }}</p>
+          </div>
+          {{ end }}
+        </div>
         <ul class="check-list list-unstyled">
           {{ range .bulletpoints }}
           <li class="mb-15">
@@ -28,6 +39,7 @@
           {{ end }}
         </ul>
       </div>
+      
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-inline-block">
           <img
@@ -38,5 +50,6 @@
         </div>
       </div>
     </div>
+    
   </div>
 </section>
