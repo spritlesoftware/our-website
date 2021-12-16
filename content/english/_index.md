@@ -99,11 +99,27 @@ case_study:
   subtitle: "The New Standard For Functional Medicine"
   button_label: "Read More.."
   image: "images/casestudies/lmax_monitor.png"
-  content: "LivingMatrix is the only technology-based, clinician-designed functional medicine platform for practitioners to effectively evaluate patients, create personalized actionable care plans, and track superior health outcomes over time."
+  content: "LivingMatrix is the only technology-based, **clinician-designed functional medicine platform** for practitioners to effectively evaluate patients, create personalized actionable care plans, and track superior health outcomes over time."
   bulletpoints:
     - "The LivingMatrix Practitioner Research Network is the first of its kind."
     - "A formal practice-based research network of functional medicine practitioners and practices"
     - "The LM-PRN is an exciting opportunity for practitioner members to participate in research collaborations, contribute to the evidence base, build industry recognition and grow credibility for their practices including"
+  facts:
+    - name: "MVP"
+      count: "90"
+      extension: ""
+
+    - name: "Practices "
+      count: "900"
+      extension: "+"
+
+    - name: " Practitioners"
+      count: "1500"
+      extension: "+"
+
+    - name: "Patients"
+      count: "2.8K"
+      extension: "+"
 
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
