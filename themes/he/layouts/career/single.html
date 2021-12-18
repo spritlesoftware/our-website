@@ -15,23 +15,28 @@
             <form method="POST" class="row shadow p-2 p-sm-4 mt-40" action="{{site.Params.contact_form_action}}">
               <div class="form-group mb-20 col-md-6">
                 <label class="text-black-200 h6 font-weight-600 mb-2" for="fname">{{i18n "first_name"}}*</label>
-                <input class="form-control shadow-none" type="text" placeholder="Jack" id="fname" required>
+                <input class="form-control shadow-none" 
+                type="text" placeholder="First Name" 
+                id="fname" name="First_Name" required>
               </div>
               <div class="form-group mb-20 col-md-6">
                 <label class="text-black-200 h6 font-weight-600 mb-2" for="lname">{{ i18n "last_name"}}*</label>
-                <input class="form-control shadow-none" type="text" placeholder="Barker" id="lname" required>
+                <input class="form-control shadow-none" 
+                type="text" placeholder="Last Name" id="lname"
+                name="Last_Name" required>
               </div>
               <div class="form-group mb-20 col-12">
                 <label class="text-black-200 h6 font-weight-600 mb-2" for="email">{{ i18n "mail"}}*</label>
-                <input class="form-control shadow-none" type="email" placeholder="jack@email.com" id="email" required>
+                <input class="form-control shadow-none" type="email" placeholder="your-id@email.com"
+                name="Email" id="email" required>
               </div>
               <div class="form-group mb-20 col-12">
                 <label class="text-black-200 h6 font-weight-600 mb-2" for="currentCompany">{{ i18n "company"}}</label>
-                <input class="form-control shadow-none" type="text" placeholder="Squarespace" id="currentCompany">
+                <input class="form-control shadow-none" type="text" placeholder="Company name" name="Company_name" id="currentCompany">
               </div>
               <div class="form-group mb-20 col-12">
                 <label class="text-black-200 h6 font-weight-600 mb-2" for="fileCV">{{i18n "cv"}}*</label>
-                <input class="form-control shadow-none p-10" type="file" id="fileCV" required>
+                <input class="form-control shadow-none p-10" type="file" id="fileCV" name="File" required>
                 <small class="font-weight-500">only doc, pdf or docx file allowed and file size will be less than 2MB</small>
               </div>
               <div class="form-group mb-20 col-12">
