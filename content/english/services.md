@@ -7,7 +7,7 @@ draft: false
 services:
   - name: "Web Application Development"
     event: true
-    target: "web_application_development_services"
+    target: "/web_application_development_services/"
     icon: "fa fa-desktop"
     colour: "#13add5"
     image: "images/home/serviceimages/webapp.svg"
@@ -15,7 +15,7 @@ services:
 
   - name: "Mobile Application Development  "
     event: true
-    target: "mobile_service"
+    target: "/mobile_service/"
     icon: "fa fa-mobile"
     colour: "#ff8c00"
     image: "images/home/serviceimages/mobileapp.svg"
@@ -23,7 +23,7 @@ services:
 
   - name: "AI and ML Services"
     event: true
-    target: "ai-ml-application-development-services"
+    target: "/ai-ml-application-development-services/"
     icon: "fab fa-connectdevelop "
     colour: "#2e8b57"
     image: "images/home/serviceimages/alml.svg"

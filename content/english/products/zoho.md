@@ -69,7 +69,7 @@ apps:
   - name: "Google MyBusiness"
     event: true
     image: "images/zoho/googlebusiness.png"
-    content: "Integrate Google My Business with.."
+    content: "Integrate Google My Business with Zoho Desk.."
     group: "Zohodesk"
     link: "https://marketplace.zoho.com/app/desk/google-mybusiness-integration-for-zoho-desk"
 

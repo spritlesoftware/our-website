@@ -12,7 +12,7 @@ intro:
   button:
     enable: true
     label: "Join Team"
-    link: "#join-team"
+    link: "contact/"
 
 ################ Flexibility ####################
 flexibility:
@@ -49,7 +49,7 @@ benifits:
 
     - name: "Healthy snacks  & <br> Coffee"
       icon: "fa fa-coffee"
-      color : "#119abe"
+      color: "#119abe"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
     - name: "Comprehensive <br>health plans"
@@ -71,10 +71,10 @@ benifits:
       icon: "fas fa-rupee-sign"
       color: "#FF6347"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
-      
+
     - name: "Organizational Oriented Reimbursements"
       icon: "fas fa-credit-card"
-      color : "#119abe"
+      color: "#119abe"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
     - name: "On Job Training &<br> Effective communication"
@@ -91,14 +91,14 @@ benifits:
       icon: "fas fa-award"
       color: "#ffdf00"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
-      
+
     - name: "No Dress Code"
       icon: "fas fa-tshirt"
       color: "#ff4500"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 
     - name: "Event Sponsor &<br> Employee Motivation"
-      color: "#800080" 
+      color: "#800080"
       icon: "fas fa-lock"
       content: "Lorem ipsum dolor sit amet, consectetur adipisc Nullam sit vel egestas in. Duis orci, suspendisse nec phasellus sapien natoque "
 #################### Gallery #####################

@@ -8,7 +8,7 @@ apps:
   - name: "Rails Plugin for Chargebee"
     event: true
     image: "images/products/rubygems/chargebee.png"
-    content: "Boilerplate classes to implement Subscription billing module on to your rails application."
+    content: "Boilerplate classes to implement Subscription billing module."
     builttitle: "Bulit by:"
     Builtby: "**Sairam and Thirumal**"
     icon: "fas fa-magnet"

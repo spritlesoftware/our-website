@@ -69,10 +69,9 @@ testimonial:
       image: "images/about/1516840396361.jpeg"
       designation: "Chief Technical Officer @ Spritle Software"
 
-
 visiontwo:
   enable: true
-  image : "images/careers/spritle_team.jpeg"
-  title : "Our **Goal...**"
+  image: "images/careers/spritle_team.jpeg"
+  title: "Our **Goal...**"
   content: "Providing a team that you can always trust is our goal We surround ourselves with positive technologists, business partners and entrepreneurs. We welcome people to come work with us or just come along and observe us working. You can observe a team practicing what we preach."
 ---

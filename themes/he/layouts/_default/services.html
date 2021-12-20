@@ -12,10 +12,7 @@
       {{ range .Params.services }}
       <div class="col-lg-4 col-md-6 service-box">
         <div class="block p-4 p-xl-5 text-center">
-          <div
-            class="service-image text-center"
-            
-          >
+          <div class="service-image text-center">
             <i
               class="{{ .icon }} fa-w-18"
               style="width: 70%; height: 80%; color: {{ .colour }}; padding-top: 10px"
@@ -56,7 +53,7 @@
             <div class="border-bottom border-md-0"></div>
           </div>
         </div>
-        <div class="content">
+        <div class="content mt-20">
           <b><h2 class="section-title">{{ .title }}</h2></b>
         </div>
         <h3>{{ .content }}</h3>

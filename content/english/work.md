@@ -6,17 +6,17 @@ draft: false
 
 testimonial_item:
   - name: "Livingmatrix"
-    image: "images/clients/client-1.webp"
+    image: "images/apps/lm.png"
     designation: "Functional Medicine"
     content: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions  ."
 
   - name: "Freshworks"
-    image: "images/clients/client-2.webp"
+    image: "images/apps/fw.png"
     designation: "Freshworks Integrations"
     content: "As an official solution partner, we helped over hundreds of Freshworks customers, each with a unique and innovative solutions. Know more.."
 
   - name: "Modoo"
-    image: "images/clients/client-3.webp"
+    image: "images/apps/moddo.png"
     designation: "Retail E-Commerce Platform"
     content: "A technology service that acts as a strategic partner, enabling the clients' brands and stores have all the necessary tools to sell more better."
 
@@ -83,4 +83,4 @@ testimonial_item:
 
 ## Accelerating innovations for better **Technology Solutions**
 
-"We collaborate with product/tech companies at every stage, acting as a partner to meet their goals. Here are some of our favourite and interesting projects and products"
+"<b>A Team with a Plan never gives up<b>. <br>Below are a few of our masterpieces created for the greatest Masterminds around the world."

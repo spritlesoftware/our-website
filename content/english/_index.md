@@ -118,7 +118,7 @@ case_study:
       extension: "+"
 
     - name: "Patients"
-      count: "2.8"
+      count: "3"
       extension: "k+"
 
 ########################## Clients Logo Slider #########################
@@ -172,7 +172,7 @@ homepage_tab:
 
     # tab item
     - name: "Development"
-      title: "Task **Collaboration**"
+      title: "**Task Collaboration**"
       image: "images/Company-Our process1/Development.png"
       content: "We take small stories at a time and iteratively complete them to obtain exceptional business results"
       button:
@@ -182,7 +182,7 @@ homepage_tab:
 
     #tab item
     - name: "Testing"
-      title: "Testing"
+      title: "**Testing**"
       image: "images/Company-Our process1/Testing.png"
       content: "We build quality into your product and application delivery lifecycle at any stage of your project by constantly testing"
       button:
@@ -192,7 +192,7 @@ homepage_tab:
 
     #tab item
     - name: "Launch and Maintenance"
-      title: "Launch and Maintenance"
+      title: "**Launch and Maintenance**"
       image: "images/Company-Our process1/Launch & Maintanence.png"
       content: "We don’t walk away until your business is set. We stay till the system solves your purpose"
       button:
