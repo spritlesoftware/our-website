@@ -7,12 +7,24 @@
     <div class="row align-items-center">
       <div class="col-lg-6 mt-5 mt-lg-0">
         <div class="pl-0 pl-lg-4">
-          <h2 class=" pb-20 mb-20">{{ .quote | markdownify }}</h2>
-          <p class=" border-bottom pb-20">{{ .subtitle | markdownify }}</p>
+          <h2 class="pb-20 mb-20">{{ .quote | markdownify }}</h2>
+          <p class="border-bottom pb-20">{{ .subtitle | markdownify }}</p>
           <p class="text-black-900 pt-20">
             <span class="border-right pr-2 mr-2">{{ .name }}</span>
             <span>{{ .designation | markdownify }}</span>
           </p>
+          {{if .button.enable }} {{with .button }}
+          <a
+            href="#"
+            id="open-demo-modal"
+            data-toggle="modal"
+            data-target="#myModal"
+            type="submit"
+            class="btn btn-primary mt-15"
+            >{{.button_label}}</a
+          >
+
+          {{ end }} {{ end }}
         </div>
       </div>
       <div class="col-lg-6">
@@ -127,7 +139,5 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
 {{if .Params.section5 }} {{with .Params.section5 }} {{ partial
 "left-image-right-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
-{{ partial "verticals-home.html" . }}
-
-
-{{ end }}
+{{ partial "verticals-home.html" . }} {{partial "collect-info-modal.html" .}} {{
+end }}
