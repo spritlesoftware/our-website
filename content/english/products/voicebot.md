@@ -20,7 +20,7 @@ banner:
   button:
     enable : true
     button_label : "Automation? We are the ones"
-    link : "contact"
+    link : "contact/"
 
 verticals:
   title : "Why go for Health Engineers Voice Bot Solution?"
@@ -78,15 +78,7 @@ section3:
     - "Voice-bots have started to take over the industry by storm and we Health engineers are going to help you make this process even smoother."
     - "Customize the Voice Bot according to your Hospital needs. Do not worry about the flow, we take care of them for you."
     - "We aim to ensure that you get the best service and we hope that we could play a small yet vital role in Hospital automation."
-  button:
-    enable : true
-    button_label : "Learn more about Us"
-    link : "healthcare/appointment-booking-automation/"
 
-collect_info:
-  title: "Have a project in mind?"
-  button_name: "Submit"
-  details_textarea_title: "Have Somthing to say to us?*"
-  form_name: "Project requirment"
+
 
 ---
