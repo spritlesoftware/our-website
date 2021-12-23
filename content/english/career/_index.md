@@ -11,7 +11,7 @@ intro:
   content: "Spritle is a team of talented people ready to care about your product. We love coding. We love beautiful design. We love doing our job better than possible. Every product we craft is a challenge we are excited about."
   button:
     enable: true
-    label: "Join Team"
+    button_label: "Join Team"
     link: "contact/"
 
 ################ Flexibility ####################

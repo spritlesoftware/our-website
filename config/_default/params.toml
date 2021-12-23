@@ -40,7 +40,7 @@ enable = true
 title = "**Perfect** from **Beginning to End...**  kickstarted now"
 [footer_cta_button]
 enable = true
-label = "Get in touch"
+button_label = "Get in touch"
 link = "contact"
 
 # Subscription

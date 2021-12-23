@@ -157,7 +157,7 @@ homepage_tab:
       content: "Collaborate with our analysts to help us understand your pain points and derive at the most optimal solution."
       button:
         enable: true
-        label: "View More"
+        button_label: "View More"
         link: "our-process"
 
     # tab item
@@ -167,7 +167,7 @@ homepage_tab:
       content: "We understand the experience you wish to share with your users. We provide our expertise to bring an easy user experience to your hands."
       button:
         enable: true
-        label: "View More"
+        button_label: "View More"
         link: "our-process"
 
     # tab item
@@ -177,7 +177,7 @@ homepage_tab:
       content: "We take small stories at a time and iteratively complete them to obtain exceptional business results"
       button:
         enable: true
-        label: "View More"
+        button_label: "View More"
         link: "our-process"
 
     #tab item
@@ -187,7 +187,7 @@ homepage_tab:
       content: "We build quality into your product and application delivery lifecycle at any stage of your project by constantly testing"
       button:
         enable: true
-        label: "View More"
+        button_label: "View More"
         link: "our-process"
 
     #tab item
@@ -197,7 +197,7 @@ homepage_tab:
       content: "We don’t walk away until your business is set. We stay till the system solves your purpose"
       button:
         enable: true
-        label: "View More"
+        button_label: "View More"
         link: "our-process"
 
 ############################## Tools in Use ########################
