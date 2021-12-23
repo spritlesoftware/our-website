@@ -13,6 +13,27 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-xl-6 col-lg-7">
+        <h3 class="justify-content-center p-30">
+          If You want to <b>apply for a job</b> click below...
+          <a type="submit" class="btn btn-primary has-icon mt-2 job_apply"
+            >Apply
+            <span class="icon"
+              ><svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+          </a>
+        </h3>
+
         <form
           method="POST"
           class="rounded shadow p-30"
@@ -133,7 +154,7 @@
           <ul class="list-unstyled check-list-primary mt-30">
             {{ range .service_list }}
             <li class="mb-20">
-              <i class="fas fa-map-marker-alt text-primary mr-2 "></i>
+              <i class="fas fa-map-marker-alt text-primary mr-2"></i>
               <a href="{{ .geolocation | absLangURL }}" target="_blank">
                 {{ .place | markdownify }}
               </a>
@@ -152,4 +173,34 @@
   <div class="shape-4 shape-sm-2 bg-tertiary rounded-circle"></div>
 </section>
 
+<script>
+  window.fwSettings = {
+    widget_id: 82000004922,
+  };
+  !(function () {
+    if ("function" != typeof window.FreshworksWidget) {
+      var n = function () {
+        n.q.push(arguments);
+      };
+      (n.q = []), (window.FreshworksWidget = n);
+    }
+  })();
+</script>
+<script
+  type="text/javascript"
+  src="https://ind-widget.freshworks.com/widgets/82000004922.js"
+  async
+  defer
+></script>
+<script>
+  var button = document.querySelector(".job_apply");
+  button.onclick = function () {
+    FreshworksWidget("open");
+  };
+</script>
+<script>
+  (function () {
+    FreshworksWidget("hide", "launcher");
+  })();
+</script>
 {{ end }}
