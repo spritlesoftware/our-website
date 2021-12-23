@@ -62,28 +62,8 @@
         </div>
         <p>{{ .content | markdownify }}</p>
 
-        {{if .button.enable }} {{with .button }}
-        <a
-          href="{{ .link | absLangURL }}"
-          type="submit"
-          class="btn btn-primary has-icon mt-15"
-          >{{.button_label}}
-          <span class="icon"
-            ><svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z"
-                fill="currentColor"
-              />
-            </svg>
-          </span>
-        </a>
-        {{ end }} {{ end }}
+        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
+        end }} {{ end }}
       </div>
     </div>
   </div>
@@ -142,8 +122,7 @@
     pt-120
     pb-120
     image-info-section
-    has-shapes
-    has-bg-brash
+    has-shapes has-bg-brash
     bg-brash-y
     overflow-hidden
   "
@@ -164,7 +143,7 @@
           <div class="shape-3 shape-lg bg-primary rounded-circle"></div>
         </div>
       </div>
-  
+
       <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <h4 class="section-title">{{ .subtitle | markdownify }}</h4>
@@ -210,7 +189,7 @@
           </div>
           {{ end }}
         </div>
-        <hr>
+        <hr />
         <ul class="check-list list-unstyled pt-20">
           {{ range .bulletpoints }}
           <li class="mb-15">
@@ -234,8 +213,6 @@
           </li>
           {{ end }}
         </ul>
-
-        
 
         <div class="col-md-12">
           <div class="mt-50 text-right">
@@ -262,7 +239,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -274,7 +250,6 @@
 </section>
 {{ end }} {{ end }}
 <!-- case study end section -->
-
 
 <!-- start of how-it-works tab -->
 {{ if .Params.homepage_tab.enable }} {{ with .Params.homepage_tab }}
@@ -371,12 +346,9 @@
 {{ end }} {{ end }}
 <!-- end of how-it-works tab -->
 
-
 <!-- start of brand-carousel -->
-{{ partial "verticals-home.html" . }}
-
-
-{{ if .Params.about_us.enable }} {{ with .Params.about_us }}
+{{ partial "verticals-home.html" . }} {{ if .Params.about_us.enable }} {{ with
+.Params.about_us }}
 <!-- start section -->
 <section class="section-padding" data-aos="fade-in">
   <div class="container">
