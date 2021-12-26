@@ -84,3 +84,21 @@
     Header append Vary: Accept-Encoding
   </FilesMatch>
 </IfModule>
+
+# 301 Redirect remove trailing slash
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [NE,R=301,L]
+
+RewriteCond %{HTTP_HOST} ^spritle\.com
+RewriteRule (.*) https://www.spritle.com/$1 [R=301,L]
+
+# Show content of the page even if .html is not mentioned
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+# 301 html from URL to non html
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
