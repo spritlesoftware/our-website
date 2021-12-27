@@ -10,29 +10,29 @@ weight = 1
 name = "Services"
 weight = 2
 
-  [[main]]
+ [[main]]
   parent = "Services"
   name = "Home"
   url =  "services/"
-  weight= 1
+  weight=1
 
   [[main]]
   parent = "Services"
-  name = "Web Apps Development"
-  url =  "web_application_development_services/"
+  name = "Custom Software Development"
+  url =  "custom_software_development/"
   weight = 2
 
   [[main]]
   parent = "Services"
-  name = "Mobile Apps Development"
-  url =  "mobile_service/"
-  weight= 3
+  name = "Digital Healthcare Services"
+  url =  "digital_healthcare_innovations/"
+  weight = 3
 
   [[main]]
   parent = "Services"
   name = "AI & ML Application Development Services"
   url =  "ai-ml-application-development-services/"
-  weight=4
+  weight= 4 
 
 [[main]]
 name = "Products"
