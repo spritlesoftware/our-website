@@ -13,7 +13,7 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-xl-6 col-lg-7">
-        <h3 class="justify-content-center p-30">
+        <h3 class="justify-content-center p-10">
           To apply for job
           <a class="job_apply" type="submit"><b>click here...</b></a> or send
           your profile to
@@ -22,10 +22,10 @@
 
         <form
           method="POST"
-          class="rounded shadow p-30"
+          class="rounded shadow p-10"
           action="{{site.Params.contact_form_action}}"
         >
-          <div class="form-group mb-30">
+          <div class="form-group mb-2">
             <label class="text-black-200 h5 font-weight-600 mb-2" for="fname"
               >{{ i18n "name"}}</label
             >
@@ -38,7 +38,7 @@
               required
             />
           </div>
-          <div class="form-group mb-30">
+          <div class="form-group mb-2">
             <label class="text-black-200 h5 font-weight-600 mb-2" for="website"
               >{{i18n "company_name"}}</label
             >
@@ -50,7 +50,7 @@
               required
             />
           </div>
-          <div class="form-group mb-30">
+          <div class="form-group mb-2">
             <label class="text-black-200 h5 font-weight-600 mb-2" for="email"
               >{{i18n "mail"}}</label
             >
@@ -63,7 +63,7 @@
               required
             />
           </div>
-          <div class="form-group mb-30">
+          <div class="form-group mb-2">
             <label class="text-black-200 h5 font-weight-600 mb-2" for="phone"
               >{{i18n "phone_number"}}</label
             >
@@ -75,14 +75,14 @@
               required
             />
           </div>
-          <div class="form-group mb-30">
+          <div class="form-group mb-2">
             <label class="text-black-200 h5 font-weight-600 mb-2" for="message"
               >{{i18n "message"}}</label
             >
             <textarea
               class="form-control shadow-none"
               name="comment"
-              rows="5"
+              rows="3"
               id="message"
               name="Message"
               required
@@ -93,31 +93,31 @@
           </button>
         </form>
       </div>
-      <div class="col-xl-4 col-lg-5 mt-5 mt-lg-0">
+      <div class="col-xl-4 col-lg-5 mt-110">
         {{ if .Params.job_email.enable }} {{ with .Params.job_email }}
-        <div class="rounded shadow p-30 mb-30">
-          <h3 class="font-weight-600">
+        <div class="rounded shadow p-10 mb-10">
+          <h5 class="font-weight-600">
             <i class="fas fa-briefcase text-primary mr-2"></i>
             {{ .title | markdownify }} {{ .email | markdownify }}
-          </h3>
+          </h5>
         </div>
         {{ end }} {{ end }} {{ if .Params.general_email.enable }} {{ with
         .Params.general_email }}
-        <div class="rounded shadow p-30 mb-30">
-          <h3 class="font-weight-600">
+        <div class="rounded shadow p-10 mb-10">
+          <h5 class="font-weight-600">
             <i class="fas fa-info-circle text-primary mr-2"></i>
             {{ .title | markdownify }} {{ .email | markdownify }}
-          </h3>
+          </h5>
         </div>
         {{ end }} {{ end }} {{ if .Params.services.enable }} {{ with
         .Params.services }}
-        <div class="rounded shadow p-30">
-          <h3 class="font-weight-600">
+        <div class="rounded shadow p-10">
+          <h5 class="font-weight-600">
             <i class="fas fa-phone text-primary mr-2"></i>
             {{ .title | markdownify }}
-          </h3>
+          </h5>
 
-          <ul class="list-unstyled check-list-primary mt-30">
+          <ul class="list-unstyled check-list-primary mt-10">
             {{ range .service_list }}
             <li class="mb-20">
               <i class="fas fa-phone text-primary mr-2"></i>
@@ -131,15 +131,15 @@
         </div>
         {{ end }} {{ end }} {{ if .Params.location.enable }} {{ with
         .Params.location }}
-        <div class="rounded shadow p-30">
-          <h3 class="font-weight-600">
+        <div class="rounded shadow p-10">
+          <h5 class="font-weight-600">
             <i class="fas fa-map-marker-alt text-primary mr-2"></i>
             {{ .title | markdownify }}
-          </h3>
+          </h5>
 
-          <ul class="list-unstyled check-list-primary mt-30">
+          <ul class="list-unstyled check-list-primary mt-10">
             {{ range .service_list }}
-            <li class="mb-20">
+            <li class="mb-10">
               <i class="fas fa-map-marker-alt text-primary mr-2"></i>
               <a href="{{ .geolocation | absLangURL }}" target="_blank">
                 {{ .place | markdownify }}
