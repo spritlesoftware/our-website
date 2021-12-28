@@ -5,21 +5,19 @@ layout: "services"
 draft: false
 
 services:
-  - name: "Web Application Development"
+  - name: "Digital Healthcare Services"
     event: true
-    target: "/web_application_development_services/"
-    icon: "fa fa-desktop"
-    colour: "#13add5"
-    image: "images/home/serviceimages/webapp.svg"
-    content: "At the helm of driving global business and the changing times is web development..."
+    target: "/digital_healthcare_innovations/"
+    imageevent: true
+    image: "images/home/serviceimages/Digital_healthcare.svg"
+    content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
-  - name: "Mobile Application Development  "
+  - name: "Custom Software Development"
     event: true
-    target: "/mobile_service/"
-    icon: "fa fa-mobile"
-    colour: "#ff8c00"
-    image: "images/home/serviceimages/mobileapp.svg"
-    content: "Running in the race to contribute to the greatest innovation of the 21st century, yet..."
+    target: "/custom_software_development/"
+    imageevent: true
+    image: "images/home/serviceimages/custom_software.svg"
+    content: "We bring your vision of ideal software to life with our potential Development team in place..."
 
   - name: "AI and ML Services"
     event: true
@@ -34,21 +32,21 @@ services:
     icon: "fa fa-microchip "
     colour: "#b0c4de"
     image: "images/home/serviceimages/iot.svg"
-    content: "The idea of devices communicating with us and each other, opens up a futuristic lifestyle..."
+    content: "The new way of communication, between one device to another over internet. Travelling towards a better experience..."
 
   - name: "Design UI/UX"
     event: false
     icon: "far fa-edit"
     colour: "#9400d3"
     image: "images/home/serviceimages/uiux.svg"
-    content: "Well, we all do judge a book by its cover. So we make apps that you can't refuse to use..."
+    content: "First impression is always the best impression. We make apps that you can’t refuse to use..."
 
   - name: "Consulting"
     event: false
     icon: "fas fa-handshake "
     colour: "#ff9999"
     image: "images/home/serviceimages/consulting.svg"
-    content: "We know to put ourselves in your shoes and deliver feasible solutions necessary for your business..."
+    content: "We know to put ourselves in your shoes and deliver feasible solutions that help you boost your business..."
 
 Reachus:
   title: "Let us deliver your next idea!"

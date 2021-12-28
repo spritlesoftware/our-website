@@ -13,10 +13,18 @@
       <div class="col-lg-4 col-md-6 service-box">
         <div class="block p-4 p-xl-5 text-center">
           <div class="service-image text-center">
+            {{ if eq .imageevent true}}
+            <img
+              loading="lazy"
+              class="img-fluid"
+              src="{{ .image | absURL }}"
+              alt=""
+            />{{ else }}
             <i
               class="{{ .icon }} fa-w-18"
               style="width: 70%; height: 80%; color: {{ .colour }}; padding-top: 10px"
             ></i>
+            {{ end }}
           </div>
           {{ if eq .event true }}
           <a href="{{ .target | markdownify }}">
