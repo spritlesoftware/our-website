@@ -59,7 +59,7 @@
             {{ range site.Params.social }}
             <li>
               <a href="{{ .link | safeURL }}" target="_blank"
-                >{{ .title | humanize }}</a
+                ><i class="{{ .icon }} text-primary mr-2"></i>{{ .title | humanize }}</a
               >
             </li>
             {{end }}

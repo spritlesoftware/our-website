@@ -5,7 +5,7 @@ layout: "detailed-product"
 draft: false
 
 apps:
-  - name: "Rails Plugin for Chargebee"
+  - name: "Chargebee"
     event: true
     image: "images/products/rubygems/chargebee.png"
     content: "Boilerplate classes to implement Subscription billing module."
@@ -28,7 +28,7 @@ apps:
   - name: "Sinfiniruby"
     event: true
     image: "images/products/rubygems/Sinfiniruby.png"
-    content: "A simple library for communicating with the sinfini SMS REST API."
+    content: "A simple library for communicate with the sinfini SMS REST API."
     link: "https://github.com/spritlesoftware/sinfiniruby"
     builttitle: "Bulit by:"
     Builtby: "**Surendran S**"
