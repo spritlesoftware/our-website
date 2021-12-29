@@ -45,9 +45,9 @@ funfacts:
 ################## vision ###############
 vision:
   enable: true
-  title: "What Are The Main **Vision Of Company?**"
+  title: "What is The Main **Vision Of the Company?**"
   image: "images/careers/anniversarypic02.jpg"
-  content: "Software is created for people, and so our mission is to provide an ambience by which every person involved in creating such software be valued. Be it stakeholders, product owners, the end users or the development team, they are need a professional and friendly collaborations to build great software. We at Spritle try to provide that ambience."
+  content: "Software is created for people, and so our mission is to provide an ambiance by which every person involved in creating such software be valued. Be it stakeholders, product owners, the end-users, or the development team, need a professional and friendly collaboration to build great software. We at Spritle provide you with that ambiance."
 
 testimonial:
   enable: true
@@ -72,6 +72,6 @@ testimonial:
 visiontwo:
   enable: true
   image: "images/careers/spritle_team.jpeg"
-  title: "Our **Goal...**"
-  content: "Providing a team that you can always trust is our goal We surround ourselves with positive technologists, business partners and entrepreneurs. We welcome people to come work with us or just come along and observe us working. You can observe a team practicing what we preach."
+  title: "Our **Goal is...**"
+  content: "Providing a team that you can always trust is our goal. We surround ourselves with positive technologists, business partners, and entrepreneurs. We welcome people to come work with us or just come along and observe us working. You can observe a team practicing what we preach."
 ---

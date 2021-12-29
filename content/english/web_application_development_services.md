@@ -1,12 +1,12 @@
 ---
-title: "Web Applications Development"
+title: "Web Application Development"
 description: "At the helm of driving global business & changing times is web apps. Considered as premium consultants & industry experts to build on Ruby-on-Rails and Node.js."
 layout: "specific-service"
 draft: false
 
 start:
   enable: true
-  title: "Web Applications Development"
+  title: "Web Application Development"
   image: "images/services/web/web-app-development.png"
   content: "At the helm of driving global business and the changing times is web development. Working with some of the largest enterprises and startups has aided us to evolve into an innovation lab, bringing out cutting edge technology applications that drive businesses. We are premium consultants, industry experts and pioneers to build on Ruby and Rails, NodeJS and more."
 
@@ -23,7 +23,7 @@ section1:
 
 section2:
   enable: true
-  title: "Performance Tuning For Web Apps"
+  title: "Performance Tuning For Web App"
   image: "images/services/web/performance_tuning.png"
   content: "Looking to investigate and diagnose performance problems efficiently. Bottlenecks occur during performance testing and load testing or performance modelling exercises or just anytime in your production environment."
   bulletpoints:
@@ -33,7 +33,7 @@ section2:
 
 section3:
   enable: true
-  title: "Healthcare Applications Development"
+  title: "Healthcare Application Development"
   image: "images/services/web/health_care.png"
   content: "With the necessity of utmost precision and security, healthcare technology is driven by the cutting edge innovation of today. Our acclaimed domain experts have built superior applications driving hospitals, practitioners and patience to effectively manage wellness-as-a-service."
   bulletpoints:
