@@ -54,15 +54,15 @@ testimonial:
   title: " Our **Leaders...**"
   testimonial_item:
     - name: "Mr. Loganathan"
-      image: "images/about/xloganathan-D.jpg.pagespeed.ic.FCwyKKpMEH.webp"
+      image: "images/about/loganathan-D.jpg"
       designation: "Founder of Spritle Software"
 
     - name: "Mr. Manogar Loganathan"
-      image: "images/about/xmanogar-loganathan.jpg.pagespeed.ic.L5wxTqlQNf.webp"
+      image: "images/about/manogar-loganathan.jpg"
       designation: "CEO of Spritle Software"
 
     - name: "Mr. Balaji D Loganathan"
-      image: "images/about/xbalaji-d-Loganathan.jpg.pagespeed.ic.anp8s8jm30.webp"
+      image: "images/about/balaji-d-Loganathan.jpg"
       designation: "Co-founder & Managing Director of Spritle Software"
 
     - name: "Surendran Sukumaran"
