@@ -19,27 +19,8 @@
         <div
           class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
         >
-          {{ if .video.enable }} {{ with .video }}
-          <button
-            type="button"
-            class="video-play-btn"
-            data-toggle="modal"
-            data-src="{{ .video_embed_link }}"
-            data-target="#videoModal"
-          >
-            <svg
-              width="1.8em"
-              height="1.8em"
-              viewBox="0 0 16 16"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-              />
-            </svg>
-          </button>
-          {{ end }} {{ end }}
+          {{ if .video.enable }} {{ with .video }} {{ partial "videomodel.html"
+          .}} {{ end }} {{ end }}
           <img
             loading="lazy"
             class="img-fluid"
@@ -79,39 +60,7 @@
 <!-- end of banner -->
 
 <!-- start of videoModal -->
-{{ if .video.enable }}
-<div
-  class="modal fade rounded"
-  id="videoModal"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-dialog-centered border-0" role="document">
-    <div class="modal-content">
-      <div class="modal-body p-0 bg-transparent">
-        <button
-          type="button"
-          class="close"
-          data-dismiss="modal"
-          aria-label="Close"
-        >
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe
-            class="embed-responsive-item"
-            src=""
-            id="showVideo"
-            allowscriptaccess="always"
-            allow="autoplay"
-          ></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{{ end }}
+{{ if .video.enable }} {{ partial "video.html" . }} {{ end }}
 <!-- end of videoModal -->
 {{ end }} {{ end }}
 <!--end-->
