@@ -22,7 +22,7 @@
         <form
           method="POST"
           class="rounded shadow p-10"
-          action="thankyou"
+          action="{{site.Params.contact_form_action}}"
         >
           <div class="form-group mb-2">
             <label class="text-black-200 h5 font-weight-600 mb-2" for="fname"
@@ -87,14 +87,17 @@
               required
             ></textarea>
           </div>
-          <button
-                  class="btn btn-primary w-100 btn-submit landingform"
-                  type="submit"
-                  id="thankyou"
-                  tar
-                >
-                  {{ i18n "submit"}}
-                </button>
+          
+            <a
+            onclick="redirect()"
+            class="btn btn-primary w-100 btn-submit landingform"
+            type="submit"
+            id="thankyou"
+            
+          >
+            {{ i18n "submit"}}
+        </a>
+         
         
         </form>
       </div>
@@ -165,8 +168,9 @@
 </section>
 
 <script>
-  function myFunction() {
-    location.replace("thankyou")
+  function redirect ()
+  {
+    window.location.href = '/thankyou';
   }
   </script>
 
