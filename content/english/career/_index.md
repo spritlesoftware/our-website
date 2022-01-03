@@ -1,5 +1,7 @@
 ---
 title: "Careers"
+custom_title_enabled: true
+custom_title_value: "Careers-spritle.com"
 description: "Experienced professionals Want to make a difference? So do we. Step in to explore the wealth of career opportunities in spritle and take your career to the next level."
 draft: false
 

@@ -1,4 +1,6 @@
 ---
+custom_title_enabled: true
+custom_title_value: "Machine learning development company|Custom built software solutions"
 title: "Custom built software solutions"
 description: "Spritle are reowned machine learning and AI development company that focus on custom built software applications which helps in reshaping the future of your business."
 keywords:

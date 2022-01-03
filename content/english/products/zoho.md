@@ -1,4 +1,6 @@
 ---
+custom_title_enabled: true
+custom_title_value: "Tailored-made apps, CRM-integration, Chatbots development - spritle.com"
 title: "Products-Zoho Apps"
 description: "Spritle develops tailored-made web and mobile apps, chatbots, CRM-integration, Marketplace apps that reshapes the future of your business."
 keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]

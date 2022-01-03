@@ -1,4 +1,6 @@
 ---
+custom_title_enabled: true
+custom_title_value: "Custom built apps, Chatbots, CRM integration - Spritle.com"
 title: "Products- Freshwork Apps"
 description: "Spritle develops custom-tailored web and mobile applications with CRM integration, Chatbots for healthcare industries,SaaS apps and much more.Get in touch to know more."
 keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]

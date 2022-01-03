@@ -1,4 +1,6 @@
 ---
+custom_title_enabled: true
+custom_title_value: "AI development company|Custom built software applications -spritle.com"
 title: "Products-Ruby Gems"
 description: "AI development company with deep expertise in machine learning, deep learning, NLP, conversational AI, computer vision, Image processing."
 keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]

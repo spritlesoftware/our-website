@@ -1,4 +1,6 @@
 ---
+custom_title_enabled: true
+custom_title_value: "Digital healthcare Solutions|AI applications in healthcare-spritle.com"
 title: "Knowledge Sharing"
 description: "Top custom-built software vendors for healthcare industries and hospitals that use AI technology to build personalized applications as per your requirements."
 keywords:

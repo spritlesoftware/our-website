@@ -1,4 +1,6 @@
 ---
+custom_title_enabled: true
+custom_title_value: "Latest news -spritle.com"
 title: "Latest Updates"
 description: "Check us out for all the latest development in technologies and how spritle contributes to be the best in latest inventions."
 layout: "detailed-product"

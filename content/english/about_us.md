@@ -1,4 +1,6 @@
 ---
+custom_title_enabled: true
+custom_title_value: "AI digital healthcare solutions|custom built software applications"
 title: "Company Overview"
 description: "Spritle are a team of coders, analysts & user experience specialists dedicated to building custom enterprise applications and premium digital products that bring your ideas to life."
 keywords: ["Clinical Assertions", "NLP healthcare diagnosis"]
