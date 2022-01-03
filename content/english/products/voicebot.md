@@ -1,7 +1,7 @@
 ---
 ############################ Banner ##################################
-layout : "Conversational Voicebot"
-title: "Voice Bot"
+layout : "voice_bot"
+title: "Conversational Voicebot"
 description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
 keywords : ["voicebots","conversational voicebots","custom built software for healthcare","voice assistance","healthcare conversational voicebots for hospitals"]
 Islanding: true
