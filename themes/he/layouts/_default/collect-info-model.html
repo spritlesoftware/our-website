@@ -1,0 +1,196 @@
+{{ with .Params.collect_info }}
+<div
+  class="modal fade"
+  id="myModal"
+tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLongTitle"
+  aria-hidden="true"
+  data-backdrop="static"
+  data-keyboard="true"
+>
+  <!-- Modal content -->
+  <div class="modal-dialog" role="document"></div>
+  <div class="modal-content col-lg-12 col-xl-12 col-md-12 col-sm-9">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="row">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-md-10 text-center">
+            <div class="content">
+              <h3
+                id="have-a-project-in-mind-lets-talk-together-to-collaborate-on-your-project-and-get-it-done-quickly"
+              >
+                {{.title}}
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-sm-10 col-md-12">
+              <form
+                method="POST"
+                class="rounded shadow p-30"
+                id="request_form"
+                action="{{site.Params.contact_form_action}}"
+                
+              >
+                <div class="form-row">
+                  <div class="form-group mb-30 col-md-6">
+                    <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="fname">{{ i18n "name"}}*</label>-->
+                    <input
+                      class="form-control shadow-none"
+                      type="text"
+                      name="fname"
+                      placeholder="Name*"
+                      id="fname"
+                      required
+                    />
+                  </div>
+                  <div class="form-group mb-30 col-md-6">
+                    <!-- <label class="text-black-200 h5 font-weight-600 mb-2" for="website">{{i18n "company_name"}}*</label>-->
+                    <input
+                      class="form-control shadow-none"
+                      type="text"
+                      name="company_name"
+                      placeholder="Company name*"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group mb-30 col-md-6">
+                    <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="email">{{i18n "mail"}}*</label>-->
+                    <input
+                      class="form-control shadow-none"
+                      type="email"
+                      name="email_address"
+                      placeholder="Email address*"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group mb-30 col-md-6">
+                    <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="phone">{{i18n "phone_number"}}*</label>-->
+                    <input
+                      class="form-control shadow-none acceptnumber"
+                      type="tel"
+                      name="phone_number"
+                      placeholder="Phone number*"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mb-30">
+                  <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="message">{{i18n "message"}}*</label>-->
+                  <textarea
+                    class="form-control shadow-none"
+                    name="comment"
+                    rows="3"
+                    id="message"
+                    placeholder="Have something to say to us?*"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group mb-30">
+                  <div
+                    class="g-recaptcha"
+                    data-sitekey="6Lf9RNkcAAAAAI5PRaFKWTHmioK6NYeyJVu9JbPk"
+                    data-callback="enableSubmit"
+                  ></div>
+                </div>
+            
+                <a
+          href="thankyouenquiry"
+          onclick="redirect()"
+          type="submit"
+          class="btn btn-primary btn-submit w-100" style="width:100">
+          {{ i18n "submit"}}
+        </a>
+                      
+              </form>
+            </div>
+            <div
+              class="contact-response col-xl-12 col-lg-12 col-sm-8 col-md-9"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}
+<style>
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    /*z-index: 1031; Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    display: block;
+    background-color: #fefefe;
+    margin: 1% auto; /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: auto;
+  }
+  @media (min-width: 320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .modal-content {
+      width: 100%;
+      margin-bottom: 40px;
+      padding-left: 30px;
+    }
+  }
+  @media (min-width: 480px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .modal-content {
+      width: 90%;
+    }
+  }
+  @media (min-width: 600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .modal-content {
+      width: 60%;
+    }
+  }
+  @media (min-width: 801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .modal-content {
+      width: 60%;
+    }
+  }
+  @media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .modal-content {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+    .modal-content {
+      width: 40%;
+    }
+  }
+</style>
+
+<script>
+    function redirect ()
+    {
+      window.location.href = '/thankyouenquiry';
+    }
+    </script>
