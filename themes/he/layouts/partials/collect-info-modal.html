@@ -36,6 +36,7 @@
                 class="rounded shadow p-30"
                 id="request_form"
                 action="{{site.Params.contact_form_action}}"
+                
               >
                 <div class="form-row">
                   <div class="form-group mb-30 col-md-6">
@@ -101,13 +102,14 @@
                     data-callback="enableSubmit"
                   ></div>
                 </div>
-                <button
-                  class="btn btn-primary btn-submit landingform"
-                  type="submit"
-                  id="submit_request_form"
-                >
-                  {{ i18n "submit"}}
-                </button>
+            
+                <a
+          href="{{ .link | absLangURL }}"
+          type="submit"
+          class="btn btn-primary btn-submit w-100" style="width:100">
+          {{ i18n "submit"}}
+        </a>
+                      
               </form>
             </div>
             <div
@@ -184,3 +186,10 @@
     }
   }
 </style>
+
+<script>
+  function myFunction() {
+    location.replace("thankyouenquiry")
+  }
+  </script>
+  

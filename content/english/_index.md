@@ -123,6 +123,8 @@ case_study:
       count: "3"
       extension: "k+"
 
+  link: 'lm_services'
+
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
   enable: true

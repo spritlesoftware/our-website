@@ -1,14 +1,7 @@
 {{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
 <!-- start of banner  -->
 <section
-  class="
-    banner
-    bg-cover-bottom
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-bottom
-  "
+  class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
   style="background-image: url('{{`images/brushes/banner.svg` | absURL }}')"
   data-aos="fade-in"
   data-aos-delay="150"
@@ -67,14 +60,7 @@
 <!-- case study start section -->
 {{if .Params.case_study.enable }} {{with .Params.case_study }}
 <section
-  class="
-    pt-120
-    pb-120
-    image-info-section
-    has-shapes has-bg-brash
-    bg-brash-y
-    overflow-hidden
-  "
+  class="pt-120 pb-120 image-info-section has-shapes has-bg-brash bg-brash-y overflow-hidden"
 >
   <div class="container">
     <div class="row align-items-center justify-content-around">
@@ -328,14 +314,7 @@
 
           <div class="col-sm-6 mx-auto">
             <div
-              class="
-                icon-box
-                text-center
-                shadow
-                px-3 px-md-5 px-lg-3
-                py-5
-                mb-30
-              "
+              class="icon-box text-center shadow px-3 px-md-5 px-lg-3 py-5 mb-30"
             >
               <img
                 loading="lazy"
@@ -384,14 +363,7 @@
 
 {{ if .Params.tools.enable }} {{ with .Params.tools }}
 <section
-  class="
-    section-padding
-    tools-use-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding tools-use-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="
     background-image: url('images/brushes/section-top.svg'),
       url('images/brushes/section-bottom.svg');
@@ -405,41 +377,18 @@
       </div>
       <div class="col-lg-6">
         <ul
-          class="
-            inCircle-tools
-            d-block d-sm-flex
-            align-items-center
-            justify-content-center
-          "
+          class="inCircle-tools d-block d-sm-flex align-items-center justify-content-center"
           id="inCircle-element"
         >
           {{ range $i, $e:= .logos }} {{ if eq $i 0 }}
           <li
-            class="
-              has-centered
-              lg
-              d-inline-flex
-              align-items-center
-              justify-content-center
-              bg-white
-              shadow
-              rounded-circle
-            "
+            class="has-centered lg d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle"
           >
             <img loading="lazy" src="{{ . |absURL}}" />
           </li>
           {{else}}
           <li
-            class="
-              has-centered
-              md
-              d-inline-flex
-              align-items-center
-              justify-content-center
-              bg-white
-              shadow
-              rounded-circle
-            "
+            class="has-centered md d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle"
           >
             <img loading="lazy" src="{{ . |absURL}}" />
           </li>
