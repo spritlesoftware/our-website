@@ -28,11 +28,6 @@ featured_testimonial:
     enable: true
     button_label: "Automation? We are the ones"
     link: "contact"
-collect_info:
-  title: "Have a project in mind?"
-  button_name: "Submit"
-  details_textarea_title: "Have Somthing to say to us?*"
-  form_name: "Project requirment"
 
 genomic:
   enable: true
@@ -113,4 +108,10 @@ verticals1:
       colour: "#2e8b57"
       image: "images/home/serviceimages/alml.svg"
       content: ""
+
+collect_info:
+  title: "Have a project in mind?"
+  button_name: "Submit"
+  details_textarea_title: "Have Somthing to say to us?*"
+  form_name: "Project requirment"
 ---

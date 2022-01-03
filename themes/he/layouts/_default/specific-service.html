@@ -13,17 +13,7 @@
             <span class="border-right pr-2 mr-2">{{ .name }}</span>
             <span>{{ .designation | markdownify }}</span>
           </p>
-          {{if .button.enable }} {{with .button }}
-          <a
-            href="#"
-            id="open-demo-modal"
-            data-toggle="modal"
-            data-target="#myModal"
-            type="submit"
-            class="btn btn-primary mt-15"
-            >{{.button_label}}</a
-          >
-
+          {{if .button.enable }} {{with .button }} {{ partial "button.html" .}}
           {{ end }} {{ end }}
         </div>
       </div>

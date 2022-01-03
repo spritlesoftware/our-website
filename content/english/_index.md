@@ -274,7 +274,7 @@ testimonial:
       designation: "COO @ReSubLime"
       content: "Spritle provided invaluable support to our Kickstarter and they prioritized every detail, ensuring that we were given the best possible management and treatment..."
 
-    - name: "Hadi Hosseini"
+    - name: "Paul Burgoyne"
       image: "images/clients/paul.png"
       designation: "Principal @Reach"
       content: "We have been working with Spritle now for over three years and what a run it has been. I wish to thank you for all your talent, creativity and energy. I am grateful to be a partner with Spritle..."
