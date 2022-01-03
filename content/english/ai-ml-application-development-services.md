@@ -21,7 +21,7 @@ featured_testimonial:
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
-  link : "thankyou"
+  link : "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
 
@@ -107,6 +107,8 @@ verticals1:
       colour: "#2e8b57"
       image: "images/home/serviceimages/alml.svg"
       content: ""
+
+
 
 
 ---
