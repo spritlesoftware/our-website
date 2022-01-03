@@ -173,14 +173,8 @@
           </li>
           {{ end }}
         </ul>
-        {{if .button.enable }} {{with .button }}
-        <a
-          href="{{ .link | absLangURL }}"
-          type="submit"
-          class="btn btn-primary mt-15"
-          >{{.button_label}}</a
-        >
-        {{ end }} {{ end }}
+        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
+        end }} {{ end }}
       </div>
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-block text-center">
@@ -282,4 +276,13 @@
 {{ end }} {{ end }}
 <!-- end section -->
 
+{{partial "collect-info-modal.html" .}}
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    var Choose = setTimeout(() => {
+      $("#myModal").modal("show");
+      clearTimeout(Choose);
+    }, 600);
+  });
+</script>
 {{ end }}
