@@ -1,6 +1,7 @@
 ---
-title: "Ruby Gems"
-description: "this is meta description"
+title: "Products-Ruby Gems"
+description: "AI development company with deep expertise in machine learning, deep learning, NLP, conversational AI, computer vision, Image processing."
+keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
 layout: "detailed-product"
 draft: false
 

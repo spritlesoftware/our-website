@@ -1,6 +1,12 @@
 ---
-title: "Our Works"
-description: "this is meta description"
+title: "Innovative Technology Solutions"
+description: "We develop custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
+keywords:
+  [
+    "Custom web application development services",
+    "Custom mobile application development",
+    "Digital Healthcare Solutions",
+  ]
 layout: "our-work"
 draft: false
 

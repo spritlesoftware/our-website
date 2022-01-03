@@ -1,6 +1,14 @@
 ---
 title: "AI & ML Application Development Services"
-description: "Tomorrow is already here. In awe of the possibilities the future has to offer, has had us intrigued and indulge in wanting to contribute to the AI-world. Machine learning, computer vision and fuzzy logic are the sciences we choose to have our hands-on."
+description: "Spritle offers artificial intelligience and machine learning services such as NLP, voicebot services,computer vision,image processing & more advanced services."
+keywords:
+  [
+    "Artificial Intelligence development company",
+    "Machine Learning Services",
+    "NLP",
+    "Natural Language Processing companies",
+    "computer vision, image processing",
+  ]
 layout: "specific-service"
 draft: false
 
@@ -15,23 +23,20 @@ featured_testimonial:
     enable: true
     video_embed_link: "https://www.youtube.com/embed/nHGx7b4woks"
   button:
-    enable : true
-    button_label : "Automation? We are the ones"
-    link : "contact"
+    enable: true
+    button_label: "Automation? We are the ones"
+    link: "contact"
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
 
-    
-
 genomic:
   enable: true
   title: "Wellness from Core"
   image: "images/AI_ML_Page/Genomics.png"
   content: "Unveiling the gap of Nutrigenomics between **Nestle Health Science** and patients to deliver future healthcare by using our **Smart   AI-based Supplement Suggestion** System."
-
 
 geosnapshot:
   enable: true
@@ -67,9 +72,9 @@ aivoicebot:
     - "Collect health status pre surgery"
     - "Collect health status post surgery"
   button:
-    enable : true
-    button_label : "View more..."
-    link : "products/voicebot"
+    enable: true
+    button_label: "View more..."
+    link: "products/voicebot"
 
 computervision:
   enable: true
@@ -80,12 +85,12 @@ computervision:
     - "Identify the anamolies at your place"
     - "Analyse them with our intuitive dashboard"
     - "Drive your place to Operational Excellence"
-  
+
 verticals1:
-  title : "We offer custom built AI and machine learning services"
-  description : ""
-  layout : "services"
-  draft : false
+  title: "We offer custom built AI and machine learning services"
+  description: ""
+  layout: "services"
+  draft: false
   services:
     - name: "Object Detection And Image/Video Processing"
       icon: "fa fa-desktop"
@@ -106,6 +111,4 @@ verticals1:
       colour: "#2e8b57"
       image: "images/home/serviceimages/alml.svg"
       content: ""
-
-
 ---

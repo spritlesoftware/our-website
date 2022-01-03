@@ -1,6 +1,12 @@
 ---
-title: "Digital Healthcare Services"
-description: "At the helm of driving global business & changing times is web apps. Considered as premium consultants & industry experts to build on Ruby-on-Rails and Node.js."
+title: "Digital Healthcare Solutions"
+description: "Gene-based supplements solutions that uses AI technology in Healthcare industries.We are HIPAA certified and offer custom built digital healthcare solutions."
+keywords:
+  [
+    "Supplement solutions through gene analysis",
+    "HIPAA certified,Digital healthcare solutions",
+    "Custom built software solutions",
+  ]
 layout: "specific-service"
 draft: false
 

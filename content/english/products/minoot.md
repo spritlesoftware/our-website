@@ -1,6 +1,7 @@
 ---
-title: "Minoot"
-description: "this is meta description"
+title: "Products-Minoot"
+description: "Spritle are the best in web and mobile application development that fits your brand and deliver high-quality patient care with cutting-edge healthcare solutions."
+keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
 layout: "detailed-product"
 draft: false
 

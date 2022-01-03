@@ -1,6 +1,7 @@
 ---
-title: "About Us"
-description: "this is meta description"
+title: "Company Overview"
+description: "Spritle are a team of coders, analysts & user experience specialists dedicated to building custom enterprise applications and premium digital products that bring your ideas to life."
+keywords: ["Clinical Assertions", "NLP healthcare diagnosis"]
 layout: "about"
 draft: false
 

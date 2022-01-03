@@ -1,6 +1,7 @@
 ---
+newtitle: "heeloo"
 title: "Contact Us"
-description: "this is meta description"
+description: "Call us to know more about what Spritle can do to help improvize your business in any industry with our AI digital solutions and services."
 layout: "contact"
 draft: false
 

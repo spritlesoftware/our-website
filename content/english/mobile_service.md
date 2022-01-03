@@ -1,6 +1,12 @@
 ---
-title: "Mobile  App Development"
-description: "Now a part of everyone’s body and lives,mobile development needs the utmost precision to deliver apps that work and that are loved to be used. We ace it!"
+title: "Cross Platform Mobile App Development"
+description: "Spritle is one of the leading companies in cross platform mobile app development that allows your product to run on multiple mobile operating systems."
+keywords:
+  [
+    "Custom web application development",
+    "Custom mobile application development",
+    "Cross platform mobile app development Digital Healthcare Solutions",
+  ]
 layout: "specific-service"
 draft: false
 
@@ -50,4 +56,4 @@ section7:
   title: "Trivia Gaming App Development"
   image: "images/services/mobile_app/trivia_gaming_apps_development.png"
   content: "We have brought ourselves a niche building Trivia gaming apps that are compelling to use. With excellent user experience, superior designs and our newest tech we have built some very successful gaming apps played by several hundreds of thousands of user everyday globally. Video streaming could get tricky if you do not have experts building it for you. Talk to us to bring your next game idea into life."
----  
+---

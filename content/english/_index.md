@@ -1,4 +1,6 @@
 ---
+description: "One of the best companies for Custom-built software solution with advanced AI technology development and healthcare digital solutions specifically designed for your business."
+keywords: ["Custom built softwares", "Digital healthcare solutions", "AI technology development company"]
 ############################ Banner ##################################
 banner:
   enable: true

@@ -1,6 +1,13 @@
 ---
 title: "Knowledge Sharing"
-description: "this is meta description"
+description: "Top custom-built software vendors for healthcare industries and hospitals that use AI technology to build personalized applications as per your requirements."
+keywords:
+  [
+    "Digital healthcare solutions and services",
+    " AI applications",
+    " custom built software solutions",
+    "cross platform app development",
+  ]
 layout: "knowledge"
 draft: false
 

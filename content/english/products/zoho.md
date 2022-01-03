@@ -1,6 +1,7 @@
 ---
-title: "Zoho Apps"
-description: "this is meta description"
+title: "Products-Zoho Apps"
+description: "Spritle develops tailored-made web and mobile apps, chatbots, CRM-integration, Marketplace apps that reshapes the future of your business."
+keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
 layout: "detailed-product"
 draft: false
 

@@ -1,8 +1,9 @@
 ---
 ############################ Banner ##################################
-layout : "voice_bot"
+layout : "Conversational Voicebot"
 title: "Voice Bot"
-description: "With Voicebot your patients get the treatment they deserve"
+description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
+keywords : ["voicebots","conversational voicebots","custom built software for healthcare","voice assistance","healthcare conversational voicebots for hospitals"]
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true

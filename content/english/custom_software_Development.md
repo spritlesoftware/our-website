@@ -1,6 +1,7 @@
 ---
-title: "Custom Software Development"
-description: "At the helm of driving global business & changing times is web apps. Considered as premium consultants & industry experts to build on Ruby-on-Rails and Node.js."
+title: "Custom Software Development Services"
+description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
+keywords : ["Custom web application development services","Cross platform mobile app development services"]
 layout: "specific-service"
 draft: false
 

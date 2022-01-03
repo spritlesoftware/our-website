@@ -1,6 +1,7 @@
 ---
-title: "Freshwork Apps"
-description: "this is meta description"
+title: "Products- Freshwork Apps"
+description: "Spritle develops custom-tailored web and mobile applications with CRM integration, Chatbots for healthcare industries,SaaS apps and much more.Get in touch to know more."
+keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
 layout: "detailed-product"
 draft: false
 
