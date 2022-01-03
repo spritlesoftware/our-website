@@ -13,7 +13,17 @@
             <span class="border-right pr-2 mr-2">{{ .name }}</span>
             <span>{{ .designation | markdownify }}</span>
           </p>
-          {{if .button.enable }} {{with .button }} {{ partial "button.html" .}}
+          {{if .button.enable }} {{with .button }}
+          <a
+            href="#"
+            id="open-demo-modal"
+            data-toggle="modal"
+            data-target="#myModal"
+            type="submit"
+            class="btn btn-primary mt-15"
+            >{{.button_label}}</a
+          >
+
           {{ end }} {{ end }}
         </div>
       </div>
@@ -80,5 +90,15 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
 {{if .Params.section5 }} {{with .Params.section5 }} {{ partial
 "left-image-right-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
-{{ partial "verticals-home.html" . }} {{partial "collect-info-modal.html" .}} {{
-end }}
+{{ partial "verticals-home.html" . }} {{partial "collect-info-modal.html" .}}
+{{partial "collect-info-modal.html" .}}
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    var Choose = setTimeout(() => {
+      $("#myModal").modal("show");
+      clearTimeout(Choose);
+    }, 6000);
+  });
+</script>
+
+{{ end }}

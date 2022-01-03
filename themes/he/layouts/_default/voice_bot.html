@@ -275,14 +275,3 @@
 </section>
 {{ end }} {{ end }}
 <!-- end section -->
-
-{{partial "collect-info-modal.html" .}}
-<script>
-  document.addEventListener("DOMContentLoaded", (event) => {
-    var Choose = setTimeout(() => {
-      $("#myModal").modal("show");
-      clearTimeout(Choose);
-    }, 600);
-  });
-</script>
-{{ end }}
