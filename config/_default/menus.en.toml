@@ -19,13 +19,13 @@ weight = 2
   [[main]]
   parent = "Services"
   name = "Custom Software Development"
-  url =  "custom_software_development/"
+  url =  "custom-software-development/"
   weight = 2
 
   [[main]]
   parent = "Services"
   name = "Digital Healthcare Services"
-  url =  "digital_healthcare_innovations/"
+  url =  "digital-healthcare-innovations/"
   weight = 3
 
   [[main]]
@@ -77,13 +77,13 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Knowledge Sharing"
-  url = "knowledge_sharing/"
+  url = "knowledge-sharing/"
   weight=2
 
   [[main]]
   parent = "Company"
   name = "About us"
-  url = "about_us/"
+  url = "about-us/"
   weight=3
 
   [[main]]
@@ -95,7 +95,7 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Latest News"
-  url = "latest_news/"
+  url = "latest-news/"
   weight=5
 
 [[main]]
@@ -112,12 +112,12 @@ weight = 7
 # Footer menu
 [[footer]]
 name = "Web Apps Development"
-url = "web_application_development_services/"
+url = "web-application-development-services/"
 weight = 1
 
 [[footer]]
 name = "Mobile Apps Development"
-url = "mobile_service/"
+url = "mobile-service/"
 weight = 2
 
 [[footer]]

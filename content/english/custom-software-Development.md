@@ -23,7 +23,7 @@ section1:
   button:
     enable : true
     button_label : "Read more.."
-    link : "web_application_development_services/"
+    link : "web-application-development-services/"
   
 
 
@@ -35,5 +35,5 @@ section2:
   button:
     enable : true
     button_label : "Read more.."
-    link : "mobile_service/"
+    link : "mobile-service/"
 ---
