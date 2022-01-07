@@ -26,7 +26,7 @@ banner:
     link : "contact/"
 
 verticals:
-  title : "Why go for Health Engineers Voice Bot Solution?"
+  title : "Why go for Spritle Voice Bot Solution?"
   description : "Witness the Next-Gen Patient Experience with our AI Voice Bot."
   layout : "services"
   draft : false
@@ -70,7 +70,7 @@ section2:
   enable : true
   title : "The **future** is now"
   image : "images/voicebot/1.gif"
-  contents : "It has always been a complex task to **make appointments, deal with nurses and do regular check-ups** at a hospital, but not anymore.<br/><br/>We at Health engineers are there to rush to your rescue by introducing AI Voice Bots.<br/><br/>This would not only speed up the processing in your hospital but also increase efficiency by making all those tasks only one click away from the comfort of your smart devices."
+  contents : "It has always been a complex task to **make appointments, deal with nurses and do regular check-ups** at a hospital, but not anymore.<br/><br/>We at Spritle are there to rush to your rescue by introducing AI Voice Bots.<br/><br/>This would not only speed up the processing in your hospital but also increase efficiency by making all those tasks only one click away from the comfort of your smart devices."
 
 section3:
   enable : true
@@ -78,7 +78,7 @@ section3:
   image : "images/voicebot/2.png"
   contents : ""
   bulletpoints:
-    - "Voice-bots have started to take over the industry by storm and we Health engineers are going to help you make this process even smoother."
+    - "Voice-bots have started to take over the industry by storm and we Spritle are going to help you make this process even smoother."
     - "Customize the Voice Bot according to your Hospital needs. Do not worry about the flow, we take care of them for you."
     - "We aim to ensure that you get the best service and we hope that we could play a small yet vital role in Hospital automation."
 
