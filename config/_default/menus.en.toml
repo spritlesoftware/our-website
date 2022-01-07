@@ -40,23 +40,14 @@ weight = 4
 
   [[main]]
   parent = "Products"
-  name = "Freshworks Apps"
-  url =  "products/freshworks/"
-
-  [[main]]
-  parent = "Products"
-  name = "Zoho Apps"
-  url =  "products/zoho/"
+  name = "Our Products"
+  url =  "products/product"
 
   [[main]]
   parent = "Products"
   name = "Ruby Gems"
   url =  "products/rubygems"  
 
-  [[main]]
-  parent = "Products"
-  name = "Minoot"
-  url =  "products/minoot"  
 
   [[main]]
   parent = "Products"

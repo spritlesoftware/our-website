@@ -1,7 +1,7 @@
 ---
 custom_title_enabled: true
 custom_title_value: "Tailored-made apps, CRM-integration, Chatbots development - spritle.com"
-title: "Products-Zoho Apps"
+title: "Products"
 description: "Spritle develops tailored-made web and mobile apps, chatbots, CRM-integration, Marketplace apps that reshapes the future of your business."
 keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
 layout: "detailed-product"
@@ -87,6 +87,35 @@ blogsection:
   image: "images/zoho/zohoblog.jpg"
   subtitle: "Ten Things I have learned while developing an app for Zoho Desk"
   content: "Zoho Desk is web-based help desk software that gives us the ability to manage our customer support activities efficiently. Zoho Desk allows us to assign, track an..."
+
+partnership:
+  enable: true
+  title: "About our Partnership"
+  image: "images/products/freshworks/freshworks-solution-partner.png"
+  content: "As premium Freshworks partners who also happen to be pioneers in their partners program.<br> We enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Freshworks based custom development or marketplace plug-ins. Catch a glimpse of our portfolio."
+
+missiontwo:
+  enable: true
+  title: "About our Partnership"
+  subtitle: "Key Implementations"
+  sub-content: "About our Partnership"
+  image: "images/products/freshworks/fw-ki.svg"
+  bulletpoint:
+    - "**TAILOR-MADE APPS** - We are Specialized in customizing Freshworks product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
+
+    - "**CRM-INTEGRATION** - We develop CRM integrated apps specific to client needs.All our apps developed through this partnership communicate through Zoho API and data."
+
+  bulletpoints:
+    - "**CHATBOTS** - Turn visitors into leads and customers into happy, engaged users. We develop both decision tree and AI-driven chatbots."
+
+    - "**MARKETPLACE APPS** - Find apps that enhance your Freshworks experience. We develop and publish apps on the Freshworks marketplace that collaborates between multiple systems."
+
+minootsection:
+  enable: true
+  title: "**Minoot : Contributed**"
+  title2: "**by**"
+  title3: "**us...**"
+  content: "We built an app called **Minoot**, is a smart way to stay in touch with our beloved ones by sending alert notification when our battery is about to drain out.It was happily built by **Sathyapriya S** and **Dhinakaran🙏.**.We no longer maintaining it."
 ---
 
 ## Apps developed **by us for Zoho Marketplace**
