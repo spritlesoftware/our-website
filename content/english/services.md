@@ -15,14 +15,14 @@ draft: false
 services:
   - name: "Digital Healthcare Services"
     event: true
-    target: "/digital_healthcare_innovations/"
+    target: "/digital-healthcare-innovations/"
     imageevent: true
     image: "images/home/serviceimages/Digital_healthcare.svg"
     content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
   - name: "Custom Software Development"
     event: true
-    target: "/custom_software_development/"
+    target: "/custom-software-development/"
     imageevent: true
     image: "images/home/serviceimages/custom_software.svg"
     content: "We bring your vision of ideal software to life with our potential Development team in place..."

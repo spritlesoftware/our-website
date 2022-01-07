@@ -32,14 +32,14 @@ products that bring your ideas to life,delight your users and help you achieve y
   services:
     - name: "Digital Healthcare Services"
       event: true
-      target: "/digital_healthcare_innovations/"
+      target: "/digital-healthcare-innovations/"
       imageevent: true
       image: "images/home/serviceimages/Digital_healthcare.svg"
       content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
     - name: "Custom Software Development"
       event: true
-      target: "/custom_software_development/"
+      target: "/custom-software-development/"
       imageevent: true
       image: "images/home/serviceimages/custom_software.svg"
       content: "We bring your vision of ideal software to life with our potential Development team in place..."
@@ -73,26 +73,6 @@ products that bring your ideas to life,delight your users and help you achieve y
       image: "images/home/serviceimages/consulting.svg"
       content: "We know to put ourselves in your shoes and deliver feasible solutions that help you boost your business..."
 
-############ Fun Facts ###############
-funfacts:
-  enable: true
-  funfacts_item:
-    - name: "Web Apps"
-      count: "125"
-      extension: "+"
-
-    - name: "Mobile Apps"
-      count: "67"
-      extension: "+"
-
-    - name: "Best Products"
-      count: "25"
-      extension: "+"
-
-    - name: "Happy Clients"
-      count: "106"
-      extension: "+"
-
 
 ################## CaseStudy ###############
 case_study:
@@ -123,7 +103,7 @@ case_study:
       count: "3"
       extension: "k+"
 
-  link: 'lm_services'
+  link: 'lm-services'
 
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
@@ -162,7 +142,7 @@ homepage_tab:
       button:
         enable: true
         button_label: "View More"
-        link: "our-process"
+        link: "process"
 
     # tab item
     - name: "Wireframes & UX Design"
@@ -172,7 +152,7 @@ homepage_tab:
       button:
         enable: true
         button_label: "View More"
-        link: "our-process"
+        link: "process"
 
     # tab item
     - name: "Development"
@@ -182,7 +162,7 @@ homepage_tab:
       button:
         enable: true
         button_label: "View More"
-        link: "our-process"
+        link: "process"
 
     #tab item
     - name: "Testing"
@@ -192,7 +172,7 @@ homepage_tab:
       button:
         enable: true
         button_label: "View More"
-        link: "our-process"
+        link: "process"
 
     #tab item
     - name: "Launch and Maintenance"
@@ -202,7 +182,7 @@ homepage_tab:
       button:
         enable: true
         button_label: "View More"
-        link: "our-process"
+        link: "process"
 
 ############################## Tools in Use ########################
 tools:
@@ -253,7 +233,6 @@ about_us:
     - "Habit building in essential steps choose habit Good Things"
     - "Get an overview of Habit Calendars admiral general."
     - "Start building habit with Habitify on platform to new"
-  images:
 
 ############################# Testimonial ############################
 testimonial:
