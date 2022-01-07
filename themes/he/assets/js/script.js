@@ -401,7 +401,7 @@ $(window).bind("load", function () {
         $("#videoModal").on("shown.bs.modal", function (e) {
           $("#showVideo").attr(
             "src",
-            $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+            $videoSrc + "?autoplay=1;mute=1&amp;modestbranding=1&amp;showinfo=0"
           );
         });
         $("#videoModal").on("hide.bs.modal", function (e) {
