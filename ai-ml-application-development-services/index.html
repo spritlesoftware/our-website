@@ -685,7 +685,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="rounded img-fluid"
-            src="/images/testimonials/01.jpg"
+            src="/images/testimonials/AI-&amp;-ML-Application-Development-Company.jpg"
+            alt="AI ML Application Development Services"
           />
         </div>
       </div>
@@ -737,14 +738,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -757,7 +751,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img
               loading="lazy"
               class="img-fluid rounded-lg"
-              src="/images/AI_ML_Page/Genomics.png"
+              src="/images/AI_ML_Page/Gene-Analysis-Dashboard.png"
+              alt="Custom Gene Data Analysis Software Development"
             />
           </div>
         </div>
@@ -826,7 +821,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="img-fluid rounded-sm"
-            src="/images/AI_ML_Page/Geosnapshot.png"
+            src="/images/AI_ML_Page/AI-based-Picture-Search-Application.png"
+            alt="AI powered Photo Searching Application"
           />
         </div>
       </div>
@@ -899,24 +895,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
+
   
 
 
   <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -929,7 +938,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img
               loading="lazy"
               class="img-fluid rounded-lg"
-              src="/images/AI_ML_Page/Voice%20Transcribe%20Automation.jpg"
+              src="/images/AI_ML_Page/Voice-Transcribe-Software-Development.jpg"
+              alt="Medical Transcription Software Development Company using NLP"
             />
           </div>
         </div>
@@ -1055,7 +1065,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="img-fluid rounded-sm"
-            src="/images/AI_ML_Page/AIVoiceBots.gif"
+            src="/images/AI_ML_Page/AI-powered-Voicebots.gif"
+            alt="Voice Automation Services for Hospitals using AI Voice Bots"
           />
         </div>
       </div>
@@ -1128,24 +1139,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
+
   
 
 
   <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -1159,6 +1183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               loading="lazy"
               class="img-fluid rounded-lg"
               src="https://www.surveillens.ai/assets/images/banner-2.png"
+              alt="Computer Vision in Manufacturing and Industry 4.0"
             />
           </div>
         </div>
@@ -1259,7 +1284,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+  
 
+<div id="mybutton">
+  <a
+    href="#"
+    class="Enquire"
+    data-toggle="modal"
+    data-target="#myModal"
+    type="submit"
+    >Enquire Now
+  </a>
+</div>
+
+ 
+
+<style>
+  a:hover {
+    text-decoration: none;
+  }
+  .Enquire {
+    background-color: #31b0d5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+  }
+
+  #mybutton {
+    position: fixed;
+    bottom: -4px;
+    z-index: 9;
+    margin-bottom: 300px;
+    transform: rotate(270deg);
+    right: -40px;
+  }
+</style>
+  
  
 <div
   class="modal fade"
@@ -1293,13 +1354,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-center">
           <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-sm-10 col-md-12">
-              <form
-                method="POST"
-                class="rounded shadow p-30"
-                id="request_form"
-                action="https://formspree.io/f/xknynkgl"
-                
-              >
+              <form class="rounded shadow p-30" id="request_form">
                 <div class="form-row">
                   <div class="form-group mb-30 col-md-6">
                     
@@ -1308,7 +1363,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       type="text"
                       name="fname"
                       placeholder="Name*"
-                      id="fname"
+                      id="fnames"
                       required
                     />
                   </div>
@@ -1319,6 +1374,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       type="text"
                       name="company_name"
                       placeholder="Company name*"
+                      id="company"
                       required
                     />
                   </div>
@@ -1342,6 +1398,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       type="tel"
                       name="phone_number"
                       placeholder="Phone number*"
+                      id="phone"
                       required
                     />
                   </div>
@@ -1364,14 +1421,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     data-callback="enableSubmit"
                   ></div>
                 </div>
-            
-                <a
-          href="/thankyouenquiry"
-          type="submit"
-          class="btn btn-primary btn-submit w-100" style="width:100">
-          Submit Now
-        </a>
-                      
+
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-submit w-100"
+                  style="width: 100"
+                >
+                  Submit Now
+                </button>
               </form>
             </div>
             <div
@@ -1449,207 +1506,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
 
-<div
-  class="modal fade"
-  id="myModal"
-  tabindex="-1"
-  role="dialog"
-  aria-labelledby="exampleModalLongTitle"
-  aria-hidden="true"
-  data-backdrop="static"
-  data-keyboard="true"
->
-  
-  <div class="modal-dialog" role="document"></div>
-  <div class="modal-content col-lg-12 col-xl-12 col-md-12 col-sm-9">
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <div class="row">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 col-md-10 text-center">
-            <div class="content">
-              <h3
-                id="have-a-project-in-mind-lets-talk-together-to-collaborate-on-your-project-and-get-it-done-quickly"
-              >
-                Have a project in mind?
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="row justify-content-center">
-            <div class="col-xl-12 col-lg-12 col-sm-10 col-md-12">
-              <form
-                method="POST"
-                class="rounded shadow p-30"
-                id="request_form"
-                action="https://formspree.io/f/xknynkgl"
-                
-              >
-                <div class="form-row">
-                  <div class="form-group mb-30 col-md-6">
-                    
-                    <input
-                      class="form-control shadow-none"
-                      type="text"
-                      name="fname"
-                      placeholder="Name*"
-                      id="fname"
-                      required
-                    />
-                  </div>
-                  <div class="form-group mb-30 col-md-6">
-                    
-                    <input
-                      class="form-control shadow-none"
-                      type="text"
-                      name="company_name"
-                      placeholder="Company name*"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-group mb-30 col-md-6">
-                    
-                    <input
-                      class="form-control shadow-none"
-                      type="email"
-                      name="email_address"
-                      placeholder="Email address*"
-                      id="email"
-                      required
-                    />
-                  </div>
-                  <div class="form-group mb-30 col-md-6">
-                    
-                    <input
-                      class="form-control shadow-none acceptnumber"
-                      type="tel"
-                      name="phone_number"
-                      placeholder="Phone number*"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group mb-30">
-                  
-                  <textarea
-                    class="form-control shadow-none"
-                    name="comment"
-                    rows="3"
-                    id="message"
-                    placeholder="Have something to say to us?*"
-                    required
-                  ></textarea>
-                </div>
-                <div class="form-group mb-30">
-                  <div
-                    class="g-recaptcha"
-                    data-sitekey="6Lf9RNkcAAAAAI5PRaFKWTHmioK6NYeyJVu9JbPk"
-                    data-callback="enableSubmit"
-                  ></div>
-                </div>
-            
-                <a
-          href="/thankyouenquiry"
-          type="submit"
-          class="btn btn-primary btn-submit w-100" style="width:100">
-          Submit Now
-        </a>
-                      
-              </form>
-            </div>
-            <div
-              class="contact-response col-xl-12 col-lg-12 col-sm-8 col-md-9"
-            ></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  frm.submit(function (e) {
+    e.preventDefault();
 
-<style>
-   
-  .modal {
-    display: none;  
-    position: fixed;  
-     
-    left: 0;
-    top: 0;
-    width: 100%;  
-    height: 100%;  
-    overflow: auto;  
-    background-color: rgb(0, 0, 0);  
-    background-color: rgba(0, 0, 0, 0.4);  
-  }
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
 
-   
-  .modal-content {
-    display: block;
-    background-color: #fefefe;
-    margin: 1% auto;  
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;  
-    height: auto;
-  }
-  @media (min-width: 320px) {
-     
-    .modal-content {
-      width: 100%;
-      margin-bottom: 40px;
-      padding-left: 30px;
-    }
-  }
-  @media (min-width: 480px) {
-     
-    .modal-content {
-      width: 90%;
-    }
-  }
-  @media (min-width: 600px) {
-     
-    .modal-content {
-      width: 60%;
-    }
-  }
-  @media (min-width: 801px) {
-     
-    .modal-content {
-      width: 60%;
-    }
-  }
-  @media (min-width: 1025px) {
-     
-    .modal-content {
-      width: 50%;
-    }
-  }
-  @media (min-width: 1281px) {
-     
-    .modal-content {
-      width: 40%;
-    }
-  }
-</style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
 <script>
   document.addEventListener("DOMContentLoaded", (event) => {
     var Choose = setTimeout(() => {
@@ -1658,7 +1541,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }, 6000);
   });
 </script>
-
 
     </main>
     

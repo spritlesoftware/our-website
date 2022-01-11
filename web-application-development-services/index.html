@@ -673,7 +673,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="img-fluid rounded-sm"
-            src="/images/services/web/web-app-development.png"
+            src="/images/services/web/Web-Application-Development.png"
+            alt="Web App Development Company"
           />
         </div>
       </div>
@@ -746,24 +747,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
+
   
 
 
   <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -776,7 +790,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img
               loading="lazy"
               class="img-fluid rounded-lg"
-              src="/images/services/web/custom_web_app.png"
+              src="/images/services/web/Custom-Web-Application-Development-Services.png"
+              alt="Custom Web App Development Company"
             />
           </div>
         </div>
@@ -961,7 +976,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="img-fluid rounded-sm"
-            src="/images/services/web/performance_tuning.png"
+            src="/images/services/web/Performance-Tuning-for-Web-Application.png"
+            alt="Web App Performance Tuning"
           />
         </div>
       </div>
@@ -1034,24 +1050,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
+
   
 
 
   <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -1064,7 +1093,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img
               loading="lazy"
               class="img-fluid rounded-lg"
-              src="/images/services/web/health_care.png"
+              src="/images/services/web/Digital-Healthcare-Application-Development.png"
+              alt="Digital Healthcare Solutions and Services "
             />
           </div>
         </div>
@@ -1189,7 +1219,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="img-fluid rounded-sm"
-            src="/images/services/web/dashboard.png"
+            src="/images/services/web/Dynamic-Analytical-Dashboard-Development.png"
+            alt="Dashboard Development Services and Analytics"
           />
         </div>
       </div>
@@ -1262,24 +1293,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
+
   
 
 
   <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -1292,7 +1336,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img
               loading="lazy"
               class="img-fluid rounded-lg"
-              src="/images/services/web/microservices.png"
+              src="/images/services/web/Microservices-Development.png"
+              alt="Single-function module development and API Integration"
             />
           </div>
         </div>
@@ -1435,7 +1480,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
   
 
-
+ 
  
 <style>
    
@@ -1502,84 +1547,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
 
-<style>
-   
-  .modal {
-    display: none;  
-    position: fixed;  
-     
-    left: 0;
-    top: 0;
-    width: 100%;  
-    height: 100%;  
-    overflow: auto;  
-    background-color: rgb(0, 0, 0);  
-    background-color: rgba(0, 0, 0, 0.4);  
-  }
+  frm.submit(function (e) {
+    e.preventDefault();
 
-   
-  .modal-content {
-    display: block;
-    background-color: #fefefe;
-    margin: 1% auto;  
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;  
-    height: auto;
-  }
-  @media (min-width: 320px) {
-     
-    .modal-content {
-      width: 100%;
-      margin-bottom: 40px;
-      padding-left: 30px;
-    }
-  }
-  @media (min-width: 480px) {
-     
-    .modal-content {
-      width: 90%;
-    }
-  }
-  @media (min-width: 600px) {
-     
-    .modal-content {
-      width: 60%;
-    }
-  }
-  @media (min-width: 801px) {
-     
-    .modal-content {
-      width: 60%;
-    }
-  }
-  @media (min-width: 1025px) {
-     
-    .modal-content {
-      width: 50%;
-    }
-  }
-  @media (min-width: 1281px) {
-     
-    .modal-content {
-      width: 40%;
-    }
-  }
-</style>
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+
 <script>
   document.addEventListener("DOMContentLoaded", (event) => {
     var Choose = setTimeout(() => {
@@ -1588,7 +1582,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }, 6000);
   });
 </script>
-
 
     </main>
     

@@ -674,7 +674,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="rounded img-fluid"
-            src="/images/digital_healthcare/bannerimage.webp"
+            src="/images/digital_healthcare/Digital-Healthcare-Application-Development-Company.webp"
+            alt="HIPAA Certified Software Development Company"
           />
         </div>
       </div>
@@ -744,14 +745,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -764,7 +758,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img
               loading="lazy"
               class="img-fluid rounded-lg"
-              src="/images/digital_healthcare/Scientist-speaking-at-conference-in-front-of-audience-%5BConverted%5D%20%281%29.webp"
+              src="/images/digital_healthcare/Business-Target-Audience.webp"
+              alt="Target Audience and Solution Partners "
             />
           </div>
         </div>
@@ -809,7 +804,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img
             loading="lazy"
             class="img-fluid rounded-sm"
-            src="/images/digital_healthcare/rm373batch7-blogbanner-01%20%281%29.webp"
+            src="/images/digital_healthcare/Healthcare-Solutions.webp"
+            alt="Innovative Digital Healthcare Solutions Development "
           />
         </div>
       </div>
@@ -882,13 +878,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
+
   
-  
 
 
 
@@ -899,7 +915,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-
+ 
  
 <style>
    
@@ -966,84 +982,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
 
-<style>
-   
-  .modal {
-    display: none;  
-    position: fixed;  
-     
-    left: 0;
-    top: 0;
-    width: 100%;  
-    height: 100%;  
-    overflow: auto;  
-    background-color: rgb(0, 0, 0);  
-    background-color: rgba(0, 0, 0, 0.4);  
-  }
+  frm.submit(function (e) {
+    e.preventDefault();
 
-   
-  .modal-content {
-    display: block;
-    background-color: #fefefe;
-    margin: 1% auto;  
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;  
-    height: auto;
-  }
-  @media (min-width: 320px) {
-     
-    .modal-content {
-      width: 100%;
-      margin-bottom: 40px;
-      padding-left: 30px;
-    }
-  }
-  @media (min-width: 480px) {
-     
-    .modal-content {
-      width: 90%;
-    }
-  }
-  @media (min-width: 600px) {
-     
-    .modal-content {
-      width: 60%;
-    }
-  }
-  @media (min-width: 801px) {
-     
-    .modal-content {
-      width: 60%;
-    }
-  }
-  @media (min-width: 1025px) {
-     
-    .modal-content {
-      width: 50%;
-    }
-  }
-  @media (min-width: 1281px) {
-     
-    .modal-content {
-      width: 40%;
-    }
-  }
-</style>
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+
 <script>
   document.addEventListener("DOMContentLoaded", (event) => {
     var Choose = setTimeout(() => {
@@ -1052,7 +1017,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }, 6000);
   });
 </script>
-
 
     </main>
     
