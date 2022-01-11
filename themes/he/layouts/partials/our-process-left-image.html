@@ -1,12 +1,5 @@
 <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -21,6 +14,7 @@
               class="img-fluid"
               src="{{
             .image | absURL}}"
+              alt="{{ .alt }}"
             />
           </div>
         </div>

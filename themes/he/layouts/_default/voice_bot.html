@@ -33,7 +33,7 @@
             class="img-fluid"
             alt="{{ .alt }}"
             src="{{ .image | absURL }}"
-            alt=""
+            alt="{{ .alt }}"
           />
 
           <div class="shape-lg bg-cyan rounded-circle"></div>
@@ -70,14 +70,7 @@
 <!-- start section -->
 
 <section
-  class="
-    section-padding
-    image-info-section
-    has-shapes
-    bg-light-gray
-    has-bg-brash
-    bg-brash-y
-  "
+  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -90,6 +83,7 @@
             loading="lazy"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
+            alt="{{ .alt }}"
           />
           <div class="shape-1 shape-md bg-yellow rounded-circle"></div>
           <div class="shape-2 shape-xl bg-cyan rounded-circle"></div>
@@ -146,7 +140,12 @@
         <div class="row mb-15">
           {{ range .images }}
           <div class="col-md-4 text-center">
-            <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
+            <img
+              loading="lazy"
+              class="img-fluid"
+              src="{{ . |absURL}}"
+              alt="{{ .alt }}"
+            />
           </div>
           {{ end }}
         </div>
@@ -182,6 +181,7 @@
             loading="lazy"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
+            alt="{{ .alt }}"
           />
           <div class="shape-1 shape-md bg-yellow rounded-circle"></div>
           <div class="shape-2 shape-xl bg-cyan rounded-circle"></div>
@@ -231,6 +231,7 @@
             loading="lazy"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
+            alt="{{ .alt }}"
           />
           <div class="shape-1 shape-md bg-yellow rounded-circle"></div>
           <div class="shape-2 shape-xl bg-cyan rounded-circle"></div>

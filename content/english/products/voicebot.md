@@ -18,8 +18,8 @@ banner:
   banner_heading:
   - "A voicebot can **understand your patients**"
   contents : "Say goodbye to waiting for your turn, with voicebots why bother! Be it the nurses or immediate healthcare assistance, this voicebot will be at your service."
-  image: "images/voicebot/banner.gif"
-  alt : "Digital Healthcare Software Developement Services"
+  image: "images/voicebot/AI-powered-Conversational-Bot.gif"
+  alt : "Conversational AI Voice Bots for Hospital Automation"
   button:
     enable : true
     button_label : "Automation? We are the ones"
@@ -55,7 +55,8 @@ audio_section:
 about_us:
   enable : true
   title : "Why AI **voicebots** ?" 
-  image : "images/voicebot/3.png"
+  image : "images/voicebot/AI-powered-Voicebots.png"
+  alt: "Automated Appointment Booking using Conversational AI Bot"
   contents : ""
   bulletpoints:
     - "Well, given that the worlds moving towards another technological world it’s only natural that the medical field needs to be following in suite."
@@ -69,13 +70,15 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "The **future** is now"
-  image : "images/voicebot/1.gif"
+  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  alt: "Workflow Diagram for Conversational AI Bots"
   contents : "It has always been a complex task to **make appointments, deal with nurses and do regular check-ups** at a hospital, but not anymore.<br/><br/>We at Spritle are there to rush to your rescue by introducing AI Voice Bots.<br/><br/>This would not only speed up the processing in your hospital but also increase efficiency by making all those tasks only one click away from the comfort of your smart devices."
 
 section3:
   enable : true
   title : "Time for **change**"
-  image : "images/voicebot/2.png"
+  image : "images/voicebot/AI-Query-Voicebot-for-Patients.png"
+  alt: "Query Management using Conversational AI Bots "
   contents : ""
   bulletpoints:
     - "Voice-bots have started to take over the industry by storm and we Spritle are going to help you make this process even smoother."

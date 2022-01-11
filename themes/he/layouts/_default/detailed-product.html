@@ -19,6 +19,7 @@
           loading="lazy"
           class="img-fluid rounded-sm"
           src="{{ .image | absURL}}"
+          alt="{{ .alt }}"
         />
       </div>
     </div>
@@ -37,6 +38,7 @@
         loading="lazy"
         class="card-img-top rounded"
         src="{{ .image | absURL}}"
+        alt="{{ .alt }}"
       />
       <div class="p-25 pb-0">
         <a
@@ -64,6 +66,7 @@
             loading="lazy"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL}}"
+            alt="{{ .alt }}"
           />
 
           <div class="shape-1 shape-md bg-secondary rounded-circle"></div>
@@ -138,6 +141,7 @@
                   loading="lazy"
                   class="img-fluid rounded-sm"
                   src="{{ .image | absURL}}"
+                  alt="{{ .alt }}"
                 />
               </div>
               <h6 class="text-black-800 mb-15">{{ .content }}</h6>

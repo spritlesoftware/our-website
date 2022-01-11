@@ -16,7 +16,8 @@ draft: false
 start:
   enable: true
   title: "Collaborate with our analysts to help us understand your pain points<br> and derive at the most optimal solution."
-  image: "images/process/p1.webp"
+  image: "images/process/Onboarding-Vendor-and-Software-Requirement-Analysis.webp"
+  alt: "Vendor Onboarding and Requirement Analysis"
   bulletpoints:
     - "**Scope Definition** <br>Understanding the business vision, goals and objectives."
     - "**Analysis** <br>Analyzing the elicted solution ideas, business, user, functionality."
@@ -27,7 +28,8 @@ start:
 section1:
   enable: true
   title: "We understand the experience you<br> want to share with your users <br>and build that from the scratch."
-  image: "images/process/p2.webp"
+  image: "images/process/Custom-Wireframes-and-UX-Design.webp"
+  alt: "Custom UI Design Services"
   bulletpoints:
     - "**UX/Wireframes** <br>Iterative Refinement process through ideation, click-flow generation."
     - "**Graphic Mock-ups** <br>Following a computational process of mocking-up visual page design."
@@ -37,7 +39,8 @@ section1:
 section2:
   enable: true
   title: "The visuals win most of the credits. Our designers are here to give a treat to your users and your business."
-  image: "images/process/p3.webp"
+  image: "images/process/Easy-User-Experience-with-custom-UI-design.webp"
+  alt: "UI/ UX Design Services"
   bulletpoints:
     - "**Draft Visual Design** <br>Our designers bring your branding and identity to your applications."
     - "**Feedback and Refine Design** <br>Based on the established Brand Concept provided by the client."
@@ -46,7 +49,8 @@ section2:
 section3:
   enable: true
   title: "We understand the experience you<br> want to share with your users and build that from the scratch."
-  image: "images/process/p4.webp"
+  image: "images/process/Custom-and-Legacy-Application-Development.webp"
+  alt: "Custom Web and Mobile Development Services"
   bulletpoints:
     - "**Initial Estimation** <br>We prepare an estimation based on features, your vision"
     - "**Choosing a Team & Technologies** <br>Once we know client's needs, we typically proceed have teams."
@@ -56,7 +60,8 @@ section3:
 section4:
   enable: true
   title: "Never worry about your existing <br> systems in place.Our systems seamlessly collaborate with<br> yours"
-  image: "images/process/p5.webp"
+  image: "images/process/Custom-API-Integration.webp"
+  alt: "Custom API Integration Services"
   bulletpoints:
     - "**Backend Integration** <br>Depending on your needs, our experts can create a consolidated"
     - "**Data Integration** <br>We integrate data sources across dispersed IT-environments"
@@ -66,7 +71,8 @@ section4:
 section5:
   enable: true
   title: "We build quality into your product and <br>application delivery lifecycle at any <br> stage of your project by constantly testing"
-  image: "images/process/p6.webp"
+  image: "images/process/Quality-Analysis-and-User-Acceptance-Testing.webp"
+  alt: "Manual and Automation Software Testing Services"
   bulletpoints:
     - "**Full-Cycle Testing** <br>We render QA and testing services along the whole development lifecycle"
     - "**Automated Testing** <br>We test the reliability, compatibility, performance"
@@ -76,8 +82,8 @@ section5:
 section6:
   enable: true
   title: "We don’t walk away until your business<br> is set. We stay till the system solves <br>your purpose"
-  image: "images/process/p7.webp"
-
+  image: "images/process/Software-Maintenance-and-Proactive-Support.webp"
+  alt: "Software Support and Maintenance Services"
   bulletpoints:
     - "**Task/Bug Tracking Systems** <br>We value reporting and identifying defects into account"
     - "**Software Maintenance and Proactive Support** <br>Our proactive approach lets us warn the customer if a backup is needed"

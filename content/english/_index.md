@@ -12,7 +12,8 @@ banner:
     - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
     - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
   content: "Advanced custom made Softwares. <br>  Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
-  image: "images/home/22218203_1666207476752368_472588413189307584_o.jpg"
+  image: "images/home/Software-Maintenance-and-Proactive-Support.jpg"
+  alt: "Custom Software Development Services"
   video:
     enable: true
     video_embed_link: "https://www.youtube.com/embed/nHGx7b4woks"
@@ -80,7 +81,8 @@ case_study:
   title: "Nestle Health Science"
   subtitle: "The New Standard For Functional Medicine"
   button_label: "Read More.."
-  image: "images/casestudies/lmax_monitor.png"
+  image: "images/casestudies/Functional-Medicine.png"
+  alt: "Web Application for Functional Medicine Practitioners"
   content: "LivingMatrix is the only technology-based, **clinician-designed functional medicine platform** for practitioners to effectively evaluate patients, create personalized actionable care plans, and track superior health outcomes over time."
   bulletpoints:
     - "The LivingMatrix Practitioner Research Network is the first of its kind."
@@ -137,7 +139,8 @@ homepage_tab:
     # tab item
     - name: "Onboarding & Discovery"
       title: "**Task Management**"
-      image: "images/Company-Our process1/Onboarding & Discovery.png"
+      image: "images/Company-Our-process1/Onboarding-Vendor-and-Software-Requirement-Analysis.png"
+      alt: "Vendor Onboarding and Requirement Analysis"
       content: "Collaborate with our analysts to help us understand your pain points and derive at the most optimal solution."
       button:
         enable: true
@@ -147,7 +150,8 @@ homepage_tab:
     # tab item
     - name: "Wireframes & UX Design"
       title: "**User Experience**"
-      image: "images/Company-Our process1/Wireframe & UX Design.png"
+      image: "images/Company-Our-process1/Custom-Wireframes-and-UX-Design.png"
+      alt: "Custom UI Design Services"
       content: "We understand the experience you wish to share with your users. We provide our expertise to bring an easy user experience to your hands."
       button:
         enable: true
@@ -157,7 +161,8 @@ homepage_tab:
     # tab item
     - name: "Development"
       title: "**Task Collaboration**"
-      image: "images/Company-Our process1/Development.png"
+      image: "images/Company-Our-process1/Custom-and-Legacy-Application-Development.png"
+      alt: "Custom Web and Mobile Development Services"
       content: "We take small stories at a time and iteratively complete them to obtain exceptional business results"
       button:
         enable: true
@@ -167,7 +172,8 @@ homepage_tab:
     #tab item
     - name: "Testing"
       title: "**Testing**"
-      image: "images/Company-Our process1/Testing.png"
+      image: "images/Company-Our-process1/Quality-Analysis-and-User-Acceptance-Testing.png"
+      alt: "Manual and Automation Software Testing Services"
       content: "We build quality into your product and application delivery lifecycle at any stage of your project by constantly testing"
       button:
         enable: true
@@ -177,7 +183,8 @@ homepage_tab:
     #tab item
     - name: "Launch and Maintenance"
       title: "**Launch and Maintenance**"
-      image: "images/Company-Our process1/Launch & Maintanence.png"
+      image: "images/Company-Our-process1/Software-Maintenance-and-Proactive-Support.png"
+      alt: "Software Support and Maintenance Services"
       content: "We don’t walk away until your business is set. We stay till the system solves your purpose"
       button:
         enable: true
@@ -227,7 +234,8 @@ why_choose_us:
 about_us:
   enable: true
   title: "Who Are We And **What Is Our Identity?**"
-  image: "images/home/ISO-Certified-Logo.png"
+  image: "images/home/ISO-Certified-Company.png"
+  alt: "ISO certified software development companies"
   content: "We were awarded the ISO 9001: 2015 Quality Management System Certification to prove our competence & consistency among all."
   bulletpoints:
     - "Habit building in essential steps choose habit Good Things"

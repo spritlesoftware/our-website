@@ -11,7 +11,8 @@ draft: false
 mission:
   enable: true
   title: "Small Teams, Big Results!"
-  image: "images/careers/anniversarypic01.png"
+  image: "images/careers/Spritle-Anniversary.png"
+  alt: "Spritle Eleventh Anniversary Celebration"
   content: "Spritle is a team of talented people ready to care about your product. We love coding. We love beautiful design. We love doing our job better than possible. Every product we craft is a challenge we are excited about."
   funfacts:
     - name: "Years Of <br> Experience"
@@ -49,7 +50,8 @@ funfacts:
 vision:
   enable: true
   title: "What is The Main **Vision Of the Company?**"
-  image: "images/careers/anniversarypic02.jpg"
+  image: "images/careers/Spritle-Anniversary-Celebration.jpg"
+  alt: "Spritle Anniversary Celebration Time"
   content: "Software is created for people, and so our mission is to provide an ambiance by which every person involved in creating such software be valued. Be it stakeholders, product owners, the end-users, or the development team, need a professional and friendly collaboration to build great software. We at Spritle provide you with that ambiance."
 
 testimonial:
@@ -74,7 +76,8 @@ testimonial:
 
 visiontwo:
   enable: true
-  image: "images/careers/spritle_team.jpeg"
+  image: "images/careers/Spritle-Software-Development-Team.jpeg"
+  alt: "Development Team of Spritle Software "
   title: "Our **Goal is...**"
   content: "Providing a team that you can always trust is our goal. We surround ourselves with positive technologists, business partners, and entrepreneurs. We welcome people to come work with us or just come along and observe us working. You can observe a team practicing what we preach."
 ---

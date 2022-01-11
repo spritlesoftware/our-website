@@ -17,6 +17,7 @@ mission:
   enable: true
   subtitle: "Key Implementations"
   image: "images/zoho/zoho-key-imp.png"
+  alt: ""
 
   bulletpoint:
     - "**TAILOR-MADE APPS** - We are Specialized in customizing Zoho product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
@@ -79,7 +80,8 @@ apps:
 cookingsection:
   enable: true
   title: "Cooking more apps for your business"
-  image: "images/zoho/cooking.png"
+  image: "/images/products/zoho/Cooking-More-Apps-For-Your-Business.png"
+  alt: "Custom Application and Services Creation for Business "
 
 blogsection:
   enable: true
@@ -92,6 +94,7 @@ partnership:
   enable: true
   title: "About our Partnership"
   image: "images/products/freshworks/freshworks-solution-partner.png"
+  alt: ""
   content: "As premium Freshworks partners who also happen to be pioneers in their partners program.<br> We enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Freshworks based custom development or marketplace plug-ins. Catch a glimpse of our portfolio."
 
 missiontwo:
@@ -99,7 +102,8 @@ missiontwo:
   title: "About our Partnership"
   subtitle: "Key Implementations"
   sub-content: "About our Partnership"
-  image: "images/products/freshworks/fw-ki.svg"
+  image: "images/products/freshworks/Freshworks-Key-Implementations.svg"
+  alt: "Freshworks Key Implementations as Solution Providers"
   bulletpoint:
     - "**TAILOR-MADE APPS** - We are Specialized in customizing Freshworks product THE WAY YOU SEE FIT. We deliver tailored features to your specific business needs."
 

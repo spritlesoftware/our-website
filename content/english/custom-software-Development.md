@@ -11,14 +11,16 @@ draft: false
 start:
   enable: true
   title: "Your Digital Guide for Transformation"
-  image: "images/custom_software_development/custom.png"
+  image: "images/custom_software_development/Digital-Application-Development-Company.png"
+  alt: "Application Development Services Web & Mobile"
   content: "We at Spritle are always in the hunt for new techniques where we can merge the technology revolution to bring you flawless applications four times faster into the market.
 We craft & deliver custom software solutions using present-day technologies like AI & ML, React, Cloud, etc. to your hands fast & quick."
 
 section1:
   enable: true
   title: "Web"
-  image: "images/custom_software_development/web-app.png"
+  image: "images/custom_software_development/Custom-Web-Application-Services.png"
+  alt: "Web Engineering Services "
   content: "Highly secure, reliable web applications to add more value to your business"
   button:
     enable : true
@@ -30,7 +32,8 @@ section1:
 section2:
   enable: true
   title: "mobile"
-  image: "images/custom_software_development/mobile.png"
+  image: "images/custom_software_development/crossplat-form-mobile-app-development.png"
+  alt: "Cross Platform Mobile Application Development Services"
   content: "Native and Cross-platform mobile applications with flexible features and design"
   button:
     enable : true
