@@ -31,13 +31,7 @@
         <div class="row justify-content-center">
           <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-sm-10 col-md-12">
-              <form
-                method="POST"
-                class="rounded shadow p-30"
-                id="request_form"
-                action="{{site.Params.contact_form_action}}"
-                
-              >
+              <form class="rounded shadow p-30" id="request_form">
                 <div class="form-row">
                   <div class="form-group mb-30 col-md-6">
                     <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="fname">{{ i18n "name"}}*</label>-->
@@ -46,7 +40,7 @@
                       type="text"
                       name="fname"
                       placeholder="Name*"
-                      id="fname"
+                      id="fnames"
                       required
                     />
                   </div>
@@ -57,6 +51,7 @@
                       type="text"
                       name="company_name"
                       placeholder="Company name*"
+                      id="company"
                       required
                     />
                   </div>
@@ -80,6 +75,7 @@
                       type="tel"
                       name="phone_number"
                       placeholder="Phone number*"
+                      id="phone"
                       required
                     />
                   </div>
@@ -102,14 +98,14 @@
                     data-callback="enableSubmit"
                   ></div>
                 </div>
-            
-                <a
-          href="{{ .link | absLangURL }}"
-          type="submit"
-          class="btn btn-primary btn-submit w-100" style="width:100">
-          {{ i18n "submit"}}
-        </a>
-                      
+
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-submit w-100"
+                  style="width: 100"
+                >
+                  {{ i18n "submit"}}
+                </button>
               </form>
             </div>
             <div
@@ -187,9 +183,28 @@
   }
 </style>
 
-<script>
-  function myFunction() {
-    location.replace("thankyouenquiry")
-  }
-  </script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("show");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>

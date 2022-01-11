@@ -19,11 +19,7 @@
           <a href="mailto:jobs@spritle.com"><b>jobs@spritle.com</b></a>
         </h3>
 
-        <form
-          method="POST"
-          class="rounded shadow p-10"
-          action="{{site.Params.contact_form_action}}"
-        >
+        <form class="rounded shadow p-10" id="form_contact">
           <div class="form-group mb-2">
             <label class="text-black-200 h5 font-weight-600 mb-2" for="fname"
               >{{ i18n "name"}}</label
@@ -32,8 +28,8 @@
               class="form-control shadow-none"
               type="text"
               placeholder="Your name"
-              id="fname"
-              name="Name"
+              id="fnames"
+              name="fname"
               required
             />
           </div>
@@ -45,7 +41,8 @@
               class="form-control shadow-none"
               type="text"
               placeholder="Company name"
-              name="Comapny_Name"
+              name="company_name"
+              id="company"
               required
             />
           </div>
@@ -57,7 +54,7 @@
               class="form-control shadow-none"
               type="email"
               placeholder="your-id@email.com"
-              name="Email"
+              name="email_address"
               id="email"
               required
             />
@@ -70,7 +67,8 @@
               class="form-control shadow-none"
               type="tel"
               placeholder="Phone number"
-              name="Phone_Number"
+              name="phone_number"
+              id="phone"
               required
             />
           </div>
@@ -83,22 +81,18 @@
               name="comment"
               rows="3"
               id="message"
-              name="Message"
+              name="comment"
               required
             ></textarea>
           </div>
-          
-            <a
-            onclick="redirect()"
+
+          <button
             class="btn btn-primary w-100 btn-submit landingform"
             type="submit"
             id="thankyou"
-            
           >
             {{ i18n "submit"}}
-        </a>
-         
-        
+          </button>
         </form>
       </div>
       <div class="col-xl-4 col-lg-5 mt-110">
@@ -167,13 +161,28 @@
   <div class="shape-4 shape-sm-2 bg-tertiary rounded-circle"></div>
 </section>
 
-<script>
-  function redirect ()
-  {
-    window.location.href = '/thankyoucontact';
-  }
-  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#form_contact");
 
+  frm.submit(function (e) {
+    e.preventDefault();
 
-
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#form_contact")[0].reset();
+        window.location.href = "/thankyoucontact/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+      },
+    });
+  });
+</script>
 {{ partial "fresdesk.html" . }} {{ end }}

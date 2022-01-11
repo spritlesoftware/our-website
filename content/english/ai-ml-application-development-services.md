@@ -19,7 +19,8 @@ featured_testimonial:
   name: "Locations"
   designation: "India-Singapore-USA"
   quote: "AI & ML Services"
-  image: "images/testimonials/01.jpg"
+  image: "images/testimonials/AI-&-ML-Application-Development-Company.jpg"
+  alt: "AI ML Application Development Services"
   subtitle: "We believe in innovation, adaptation, and transformation. With our AI and ML-based expertise, we help you take your business to the next level. <br/> <br/> Not only that, we have a decade of experience in working with Enterprise, Startup, and Life Science Research companies helping them to bridge the gap between smart solutions and AI Implementations."
   video:
     enable: true
@@ -38,13 +39,15 @@ collect_info:
 genomic:
   enable: true
   title: "Wellness from Core"
-  image: "images/AI_ML_Page/Genomics.png"
+  image: "images/AI_ML_Page/Gene-Analysis-Dashboard.png"
+  alt: "Custom Gene Data Analysis Software Development"
   content: "Unveiling the gap of Nutrigenomics between **Nestle Health Science** and patients to deliver future healthcare by using our **Smart   AI-based Supplement Suggestion** System."
 
 geosnapshot:
   enable: true
   title: "Capturing memories - AI"
-  image: "images/AI_ML_Page/Geosnapshot.png"
+  image: "images/AI_ML_Page/AI-based-Picture-Search-Application.png"
+  alt: "AI powered Photo Searching Application"
   content: "We have built a platform for **Geosnapshot** to find photos quickly and easily using Powerful AI technology enabling participants to find all of their photos real quick and  download."
   facts:
     - name: "Users"
@@ -62,13 +65,15 @@ geosnapshot:
 phraze:
   enable: true
   title: "Smart Patientcare - NLP"
-  image: "images/AI_ML_Page/Voice Transcribe Automation.jpg"
+  image: "images/AI_ML_Page/Voice-Transcribe-Software-Development.jpg"
+  alt: "Medical Transcription Software Development Company using NLP"
   content: "Giving Phraze a functional **Transcribe Software** & seamless experience partnered with **Natural Language Processing & Speech Recognition** that help Practitioners connect better with Patients "
 
 aivoicebot:
   enable: true
   title: "AI voicebot"
-  image: "images/AI_ML_Page/AIVoiceBots.gif"
+  image: "images/AI_ML_Page/AI-powered-Voicebots.gif"
+  alt: "Voice Automation Services for Hospitals using AI Voice Bots"
   content: "Our AI Voice Bots enhancing patient experience for an **Eye Hospital in Singapore** by initiating Human-like conversation via calls to"
   bulletpoints:
     - "Schedule appointments with the doctors"
@@ -83,6 +88,7 @@ computervision:
   enable: true
   title: "Computer Vision"
   image: "https://www.surveillens.ai/assets/images/banner-2.png"
+  alt: "Computer Vision in Manufacturing and Industry 4.0"
   content: "Enable your factory CCTV camera into Smart cameras and tap the fullest potential of your floor! <br> We are transforming the way Factories operate through AI"
   bulletpoints:
     - "Identify the anamolies at your place"
@@ -114,4 +120,9 @@ verticals1:
       colour: "#2e8b57"
       image: "images/home/serviceimages/alml.svg"
       content: ""
+floating:
+  button:
+    enable: true
+    button_label: "Enquire Now"
+    link: "contact"
 ---
