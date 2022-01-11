@@ -13,5 +13,5 @@ start:
   section1: "Meanwhile why don't you go through"
   section2: "that might intrigue you!"
   target: "services"
-  target1: "products/voicebot"
+  target1: "/products/voicebot/"
 ---

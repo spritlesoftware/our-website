@@ -1,58 +1,55 @@
-{{ define "main" }} {{ $data := index site.Data site.Language.Lang }}
-{{if .Params.start.enable }} {{with .Params.start}}
+{{ define "main" }} {{ $data := index site.Data site.Language.Lang }} {{if
+.Params.start.enable }} {{with .Params.start}}
 <section class="section-padding has-shapes has-bg-brash bg-brash-top">
-    <div class="container-1 shadow-sm col-md-6 col-lg-6">
-        <div class="move">
-            <img
-            loading="lazy"
-            class="img-fluid rounded-sm"
-            src="{{ .image | absURL}}"
-          />
-            <h1>{{ .subtitle | markdownify }}</h1>
+  <div class="container-1 shadow-sm col-md-6 col-lg-6">
+    <div class="move">
+      <img
+        loading="lazy"
+        class="img-fluid rounded-sm"
+        src="{{ .image | absURL}}"
+      />
+      <h1>{{ .subtitle | markdownify }}</h1>
 
-            <h3>{{ .content | markdownify }}</h3>
+      <h3>{{ .content | markdownify }}</h3>
 
-            <p class="mt-2">{{ .section | markdownify }}</p>
+      <p class="mt-2">{{ .section | markdownify }}</p>
 
-            <p class="mt-2">{{ .section1 | markdownify }}
-                <span><a href="{{ .target | markdownify }}"> our Services</a> / <a href="{{ .target1 | markdownify }}">Products</a></span>
-                {{ .section2 | markdownify }}</p>   
-                
-        </div>       
+      <p class="mt-2">
+        {{ .section1 | markdownify }}
+        <span
+          ><a href="{{ .target | markdownify }}"> Our Services</a> /
+          <a href="{{ .target1 | markdownify }}">Products</a></span
+        >
+        {{ .section2 | markdownify }}
+      </p>
     </div>
+  </div>
 </section>
-{{end}}
-{{end}}
+{{end}} {{end}}
 
 <style>
-    
-.container-1
-{
+  .container-1 {
     margin-left: auto;
     margin-right: auto;
     box-shadow: black;
     background-color: #eee;
     border-radius: 10px;
-   
-}
+  }
 
-.move {
-    
+  .move {
     border-radius: 10px;
     padding: 30px;
     text-align: center;
     align-items: center;
-}
+  }
 
-.move a {
-    color:#14AED5;
-}
+  .move a {
+    color: #14aed5;
+  }
 
-
-.move p {
+  .move p {
     font-size: 18px;
-    color:black;
-}
+    color: black;
+  }
 </style>
 {{end}}
-	
