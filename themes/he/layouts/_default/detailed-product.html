@@ -121,7 +121,85 @@
 </section>
 {{ end }} {{ end }}
 <!-- start section -->
+<!-- start of team-section -->
+<section class="section-padding pb-40" data-aos="fade-in" data-aos-delay="150">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-9 text-center mb-40">
+        <div class="content">{{.Content}}</div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-12 mb-25">
+        <div
+          class="team-filters text-uppercase text-center w-100"
+          data-toggle="buttons"
+        >
+          {{ $group := slice }} {{ range .Params.apps }} {{ $group = $group |
+          append .group }} {{ end }} {{ range ( $group | uniq ) }}
+          <label class="btn active mb-3">
+            <input
+              class="d-none"
+              type="radio"
+              name="shuffle-filter"
+              value="{{ . |urlize}}"
+              checked="checked"
+            />
+            {{ . | humanize }}
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div id="masonry" class="row team-members has-colored-text">
+      {{ range .Params.apps}}
+      <div
+        class="masonry-item team-item col-lg-3 col-sm-6 mt-4"
+        data-groups='["{{.group | urlize}}"]'
+      >
+        <div class="text-center mb-30 shadow">
+          <div class="team-image has-shapes d-inline-block mb-25"></div>
 
+          <div class="col-lg-12 col-md-12">
+            <div class="text-center p-0 p-md-2 mb-30" data-aos="fade-up">
+              <div class="has-text-color h2">
+                <img
+                  width="50px"
+                  height="50px"
+                  loading="lazy"
+                  src="{{ .image | absURL }}"
+                  alt="{{.name}}"
+                />
+              </div>
+              {{ if eq .event true }}
+              <a href="{{ .link }}" target="new">
+                <h5 class="font-weight-600 mt-20 mb-15 text-capitalize">
+                  {{ .name | markdownify }}
+                </h5>
+              </a>
+              {{ else }}
+              <h5 class="font-weight-600 mt-20 mb-15 text-capitalize">
+                {{ .name | markdownify }}
+              </h5>
+              {{ end }}
+
+              <p>{{ .content | markdownify }}</p>
+              <span>
+                <p>{{ .builttitle | markdownify }}</p>
+                <p>{{ .Builtby | markdownify }}</p>
+              </span>
+
+              <span> </span>
+            </div>
+          </div>
+        </div>
+        <!-- team item -->
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- end of team-section -->
 <!-- end section -->
 
 <!-- start of Apps list section -->
