@@ -20,17 +20,17 @@ verticals:
   description : ""
   services:
   - name : ""
-    image : "/images/lm_services/dna.svg"  
+    image : "images/lm_services/dna-copy1.svg"  
     alt : "Data Analyzation for Physicians"
     content : "**Genetics**."
 
   - name : ""
-    image : "/images/lm_services/chemical-analysis_1.svg"  
+    image : "images/lm_services/chemical-analysis_1copy1.svg"  
     alt : "Secured System for EHR data storage"
     content : "**Biochemical Factor**."
     
   - name : ""
-    image : "images/lm_services/healthy-lifestyle-logo_1.svg"  
+    image : "images/lm_services/healthy-lifestyle-logo_1copy1.svg"  
     alt : "Smart Notifications"
     content : "**Lifestyle**."
 
@@ -66,16 +66,16 @@ why_choose_us:
   image : "/images/screenshots/03.png" 
   list:
   - name : "Important suggestions to Patients using Data Science."
-    image : "/images/lm_services/technology.svg"  
+    image : "images/lm_services/technology-copy1.svg"  
 
   - name : "Increase the availability of Medicare even in times of crisis."
-    image : "/images/lm_services/data-science.svg"  
+    image : "images/lm_services/data-sciencecopy1.svg"  
       
   - name : "Informative Patient Reports with visuals for better outcome."
-    image : "/images/lm_services/reports.svg"  
+    image : "images/lm_services/reports copy1.svg"
 
   - name : "In-built Telemedicine feature for patients to opt from"
-    image : "/images/lm_services/tele medicine.svg"  
+    image : "images/lm_services/tele-medicine-copy1.svg"  
 
 
 ---
