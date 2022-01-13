@@ -46,7 +46,7 @@ testimonial_item:
   - name: "Beerboard"
     image: "images/apps/beerboard@2x.png"
     designation: "Built Full-class Apps"
-    content: "A consolidated multidimensional app that is built to serve as a beer management solution integrating Bars, brewers and Beer lovers."
+    content: "A consolidated & complex app that is built to serve as a beer management solution integrating Bars, brewers and Beer lovers."
 
   - name: "Stengg"
     image: "images/apps/stengg@2x.png"
@@ -76,7 +76,7 @@ testimonial_item:
   - name: "GeoSnapShot"
     image: "images/apps/gss@2x.png"
     designation: "Premium Development Partner"
-    content: "An interactive platform for ardent photographers who go to events, take photos and display them on the site which can be purchased by users later."
+    content: "An interactive platform for ardent photographers who go to events, take photos and display them on the site which can be purchased by users."
 
   - name: "Kutir Tech"
     image: "images/apps/kutir@2x.png"
