@@ -20,7 +20,7 @@
         </div>
         <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
-          <p class="pb-20">{{ .content | markdownify }}</p>
+          <p class="pb-20" style="font-size: 16px;">{{ .content | markdownify }}</p>
           {{if .button.enable }} {{with .button }} {{ partial "button.html" .}}
           {{ end }} {{ end }}
           <ul class="check-list list-unstyled">

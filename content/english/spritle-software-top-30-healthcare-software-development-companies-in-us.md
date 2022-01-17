@@ -1,5 +1,5 @@
 ---
-title: "DesignRush"
+title: "Design Rush"
 description: "this is meta description"
 layout: "Designrush"
 draft: false
