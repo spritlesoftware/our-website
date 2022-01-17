@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url><url>
     <loc>/ai-ml-application-development-services/</loc>
   </url><url>
     <loc>/career/ba-cum-dm/</loc>
@@ -44,17 +32,31 @@
   </url><url>
     <loc>/contact/</loc>
   </url><url>
-    <loc>/products/voicebot/</loc>
-  </url><url>
     <loc>/mobile-service/</loc>
-  </url><url>
-    <loc>/services/</loc>
   </url><url>
     <loc>/custom-software-development/</loc>
   </url><url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
+    <loc>/work/</loc>
+  </url><url>
     <loc>/web-application-development-services/</loc>
   </url><url>
+    <loc>/services/</loc>
+  </url><url>
     <loc>/design-service/</loc>
+  </url><url>
+    <loc>/designrush/</loc>
   </url><url>
     <loc>/digital-healthcare-innovations/</loc>
   </url><url>
@@ -62,7 +64,7 @@
   </url><url>
     <loc>/products/freshworks/</loc>
   </url><url>
-    <loc>/work/</loc>
+    <loc>/products/voicebot/</loc>
   </url><url>
     <loc>/iot-service/</loc>
   </url><url>

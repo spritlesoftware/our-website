@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spritle Software |  Advanced Web &amp; Mobile Solutions</title>
+    <title>Custom Software Solutions &amp; AI Development Company on Spritle Software |  Advanced Web &amp; Mobile Solutions</title>
     <link>/</link>
-    <description>Recent content on Spritle Software |  Advanced Web &amp; Mobile Solutions</description>
+    <description>Recent content in Custom Software Solutions &amp; AI Development Company on Spritle Software |  Advanced Web &amp; Mobile Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> © {year} Spritle Software. All Rights Reserved.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -71,29 +71,11 @@
     </item>
     
     <item>
-      <title>Conversational Voicebot</title>
-      <link>/products/voicebot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/products/voicebot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cross Platform Mobile App Development</title>
       <link>/mobile-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/mobile-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom built software solutions</title>
-      <link>/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/services/</guid>
       <description></description>
     </item>
     
@@ -107,11 +89,29 @@
     </item>
     
     <item>
+      <title>Custom Web and mobile app development|Softwares for healthcare</title>
+      <link>/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/work/</guid>
+      <description>Accelerating innovations for better Technology Solutions &amp;ldquo;A Team with a Plan never gives up.</description>
+    </item>
+    
+    <item>
       <title>Custom Web Application Development</title>
       <link>/web-application-development-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/web-application-development-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom-Built Software Solutions</title>
+      <link>/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/services/</guid>
       <description></description>
     </item>
     
@@ -122,6 +122,15 @@
       
       <guid>/design-service/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>DesignRush</title>
+      <link>/designrush/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/designrush/</guid>
+      <description>We are really honored to say that Spritle Software is ranked in the top 30-Healthcare Software Development Companies by DesignRush in the US market.</description>
     </item>
     
     <item>
@@ -152,12 +161,12 @@
     </item>
     
     <item>
-      <title>Innovative Technology Solutions</title>
-      <link>/work/</link>
+      <title>Healthcare Conversational Voicebot for Hospitals</title>
+      <link>/products/voicebot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/work/</guid>
-      <description>Accelerating innovations for better Technology Solutions &amp;ldquo;A Team with a Plan never gives up.</description>
+      <guid>/products/voicebot/</guid>
+      <description></description>
     </item>
     
     <item>
