@@ -9,6 +9,23 @@ keywords:
     "HIPAA certified,Digital healthcare solutions",
     "Custom built software solutions",
   ]
+        ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Digital Healthcare Solutions"
+ogdescription: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
+link: "https://www.spritle.com/digital-healthcare-innovations/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/digital_healthcare/Business-Target-Audience.webp.pagespeed.ce.WkfbS_QTE-.webp"
+alt: "Digital Healthcare Software Solutions" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Digital Healthcare Solutions" 
+twitter_description: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/digital_healthcare/Business-Target-Audience.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 layout: "specific-service"
 draft: false
 

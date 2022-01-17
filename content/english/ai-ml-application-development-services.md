@@ -11,6 +11,23 @@ keywords:
     "Natural Language Processing companies",
     "computer vision, image processing",
   ]
+         ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "AI & ML Application Development Services"
+ogdescription: "Spritle offers artificial intelligence and machine learning services such as NLP, voice bot, computer vision, image processing & more advanced services." 
+link: "https://www.spritle.com/ai-ml-application-development-services/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/AI_ML_Page/Gene-Analysis-Dashboard.png.pagespeed.ce.n1n8Y7RGdR.png" 
+alt: "Custom-Built AI techonology solutions for healthcare" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "AI & ML Application Development Services"
+twitter_description: "Spritle offers artificial intelligence and machine learning services such as NLP, voice bot, computer vision, image processing & more advanced services." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/AI_ML_Page/Gene-Analysis-Dashboard.png.pagespeed.ce.n1n8Y7RGdR.png" 
 layout: "specific-service"
 draft: false
 

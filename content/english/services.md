@@ -9,6 +9,23 @@ keywords:
     "Custom built software solutions",
     " AI development company",
   ]
+      ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Custom-Built Software Solutions" 
+ogdescription: "Spritle is an established machine learning and AI development company that focuses on custom-built software applications that help in reshaping the future of your business."
+link: "https://www.spritle.com/services" 
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/home/serviceimages/custom_software.svg"
+alt: "Custom--Built Software Solutions"
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Custom-Built Software Solutions" 
+twitter_description: "Spritle is an established machine learning and AI development company that focuses on custom-built software applications that help in reshaping the future of your business." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: ="https://www.spritle.com/images/home/serviceimages/custom_software.svg" 
 layout: "services"
 draft: false
 

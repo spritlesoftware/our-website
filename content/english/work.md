@@ -9,6 +9,23 @@ keywords:
     "Custom mobile application development",
     "Digital Healthcare Solutions",
   ]
+    ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Custom Web and mobile app development|Softwares for healthcare"
+ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
+link: "https://www.spritle.com/work"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp" 
+alt: "Custom--Built Software Solutions"
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Custom Web and mobile app development|Softwares for healthcare" 
+twitter_description: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: ="https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp" 
 layout: "our-work"
 draft: false
 

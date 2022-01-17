@@ -9,6 +9,23 @@ keywords:
     "Custom mobile application development",
     "Cross platform mobile app development Digital Healthcare Solutions",
   ]
+       ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Cross Platform Mobile App Development"
+ogdescription: "Spritle is one of the leading companies in cross-platform mobile app development that allows your product to run on multiple mobile operating systems."
+link: "https://www.spritle.com/mobile-service/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/services/mobile_app/xMobile-Application-Development.png.pagespeed.ic.aww2jAFWQe.webp"
+alt: "Cross platform"
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Cross Platform Mobile App Development" 
+twitter_description: "Spritle is one of the leading companies in cross-platform mobile app development that allows your product to run on multiple mobile operating systems." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/services/mobile_app/xMobile-Application-Development.png.pagespeed.ic.aww2jAFWQe.webp" 
 layout: "specific-service"
 draft: false
 

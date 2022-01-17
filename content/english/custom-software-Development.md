@@ -5,6 +5,23 @@ custom_title_value: "Custom web & Cross platform mobile application development 
 title: "Custom Software Development Services"
 description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
 keywords : ["Custom web application development services","Cross platform mobile app development services"]
+   ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Custom Software Development Services" 
+ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
+link: "https://www.spritle.com/custom-software-development/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
+alt: "Custom--Built Software Solutions" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Custom Software Development Services" 
+twitter_description: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: ="https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
 layout: "specific-service"
 draft: false
 

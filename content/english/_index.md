@@ -3,6 +3,25 @@ custom_title_enabled: true
 custom_title_value: "Custom Software Solutions & AI development Company"
 description: "One of the best companies for Custom-built software solution with advanced AI technology development and healthcare digital solutions specifically designed for your business."
 keywords: ["Custom built softwares", "Digital healthcare solutions", "AI technology development company"]
+############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Custom Software Solutions & AI Development Company"
+ogdescription: "Spritle helps in developing Digital Healthcare solutions,tailored-made web & cross platform mobile applications."
+link: "https://www.spritle.com/"
+site_name: "Spritle Software"
+Og+     image: "https://www.spritle.com/images/casestudies/800xNxFunctional-Medicine.png.pagespeed.ic.sJSY1uI-Ht.webp" 
+width: "1200"
+height: "630"
+alt: "Custom--Built Software Solutions"
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Custom Software Solutions & AI Development Company"
+twitter_description: "Spritle helps in developing Digital Healthcare solutions,tailored-made web & cross platform mobile applications."
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: ="https://www.spritle.com/images/casestudies/800xNxFunctional-Medicine.png.pagespeed.ic.sJSY1uI-Ht.webp"
 ############################ Banner ##################################
 banner:
   enable: true

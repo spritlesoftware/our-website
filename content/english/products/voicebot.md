@@ -6,6 +6,23 @@ layout : "voice_bot"
 title: "Conversational Voicebot"
 description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
 keywords : ["voicebots","conversational voicebots","custom built software for healthcare","voice assistance","healthcare conversational voicebots for hospitals"]
+       ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Healthcare Conversational Voicebot for Hospitals" 
+ogdescription: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."   
+link: "https://www.spritle.com/products/voicebot/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
+alt: "Conversational Voicebot" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Healthcare Conversational Voicebot for Hospitals"  
+twitter_description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
