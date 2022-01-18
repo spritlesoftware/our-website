@@ -10,13 +10,13 @@ name: "latest-new"
 section1:
   enable: true
   image: "images/designrush/DesignRush.jpg"
-  content: "We are happy to share the news that we have been ranked among the Top 30 Digital Healthcare Software Development Companies in the US by DesignRush.
+  content: "We are happy to share the news that we have been ranked among the Top 30 Digital Healthcare Software Development Companies by DesignRush.
   <br>
   Spritle Software | January 17th, 2022"
   button:
     enable : true
     button_label : "View more.."
-    link : "spritle-software-top-30-healthcare-software-development-companies-in-us/"
+    link : "spritle-software-top-30-healthcare-software-development-companies/"
   
 ---
 
