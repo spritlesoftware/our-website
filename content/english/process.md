@@ -10,6 +10,10 @@ keywords:
     "Machine learning development",
     "custom built software solutions",
   ]
+
+   ############################## canonical tags #########################
+c: "https://www.spritle.com/process/" 
+
 layout: "our-process"
 draft: false
 
