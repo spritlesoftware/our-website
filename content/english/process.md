@@ -11,8 +11,6 @@ keywords:
     "custom built software solutions",
   ]
 
-   ############################## canonical tags #########################
-c: "https://www.spritle.com/process/" 
 
 layout: "our-process"
 draft: false
