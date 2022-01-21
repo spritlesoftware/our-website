@@ -10,7 +10,12 @@ site.BaseURL "http://examplesite.org/") (eq site.BaseURL
 "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq
 site.BaseURL "https://examplesite.com/")}}{{else}}
 <base href="{{ site.BaseURL }}" />
+
 {{ end }}
+
+<!--Canonical tags-->
+
+<link rel="canonical" href="{{ .Permalink }}">
 
 <!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }} {{ range .AllTranslations }}
