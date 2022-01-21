@@ -75,6 +75,24 @@
           <p>
             <i class="fas fa-envelope-open-text text-primary mr-2"></i>
             <a href="{{ .link | absURL }}">info@spritle.com</a>
+
+            <p class="font-weight-bold">
+              <a href="{{ .usgeolocation | absLangURL }}" target="_blank" style="text-decoration:none; color: black;" >
+              <p class="font-weight-bold"> <i class="fas fa-map-marker-alt text-primary mr-2"></i> Ohio, USA</p>
+              </a>
+              <i class="fas fa-phone text-primary mr-2"></i>
+              <a href="tel:{{ .numberlinksingapore | markdownify }}">{{ .numberus | markdownify }}</a>
+  
+            </p>
+
+            <p class="font-weight-bold">
+              <a href="{{ .singaporegeolocation | absLangURL }}" target="_blank" style="text-decoration:none; color: black;" >
+              <p class="font-weight-bold"> <i class="fas fa-map-marker-alt text-primary mr-2"></i>{{ .placesingapore | markdownify}}</p>
+              </a>
+              <i class="fas fa-phone text-primary mr-2"></i>
+              <a href="tel:{{ .numberlinksingapore | markdownify }}">{{ .numbersingapore | markdownify }}</a>
+  
+            </p>
             
             <a href="{{ .indiageolocation | absLangURL }}" target="_blank" style="text-decoration:none; color: black;" >
              
@@ -85,14 +103,7 @@
               <a href="tel:{{ .numberlinkindia | markdownify }}">{{ .numberindia | markdownify }}</a>
             </p>
           </p>
-          <p class="font-weight-bold">
-            <a href="{{ .singaporegeolocation | absLangURL }}" target="_blank" style="text-decoration:none; color: black;" >
-            <p class="font-weight-bold"> <i class="fas fa-map-marker-alt text-primary mr-2"></i>{{ .placesingapore | markdownify}}</p>
-            </a>
-            <i class="fas fa-phone text-primary mr-2"></i>
-            <a href="tel:{{ .numberlinksingapore | markdownify }}">{{ .numbersingapore | markdownify }}</a>
-
-          </p>
+          
         </div>
       </div>
       {{ end }} {{ end }}
