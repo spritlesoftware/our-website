@@ -3,6 +3,7 @@ custom_title_enabled: true
 custom_title_value: "Custom Software Solutions & AI development Company"
 description: "One of the best companies for Custom-built software solution with advanced AI technology development and healthcare digital solutions specifically designed for your business."
 keywords: ["Custom built softwares", "Digital healthcare solutions", "AI technology development company"]
+
 ############################ OG tags #################################
 locale: "en_US"
 type: "website"
@@ -10,9 +11,7 @@ title: "Custom Software Solutions & AI Development Company"
 ogdescription: "Spritle helps in developing Digital Healthcare solutions,tailored-made web & cross platform mobile applications."
 link: "https://www.spritle.com/"
 site_name: "Spritle Software"
-Og+     image: "https://www.spritle.com/images/casestudies/800xNxFunctional-Medicine.png.pagespeed.ic.sJSY1uI-Ht.webp" 
-width: "1200"
-height: "630"
+Ogimage: "https://www.spritle.com/images/casestudies/800xNxFunctional-Medicine.png.pagespeed.ic.sJSY1uI-Ht.webp" 
 alt: "Custom--Built Software Solutions"
 
 ########################### Twitter #################################
@@ -31,7 +30,7 @@ banner:
     - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
     - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
   content: "Advanced custom made Softwares. <br>  Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
-  image: "images/home/Software-Maintenance-and-Proactive-Support.jpg"
+  image: "images/home/Software-Maintenance-and-Proactive-Support.webp"
   alt: "Custom Software Development Services"
   video:
     enable: true
@@ -54,14 +53,14 @@ products that bring your ideas to life,delight your users and help you achieve y
       event: true
       target: "/digital-healthcare-innovations/"
       imageevent: true
-      image: "images/home/serviceimages/Digital_healthcare.svg"
+      image: "images/home/serviceimages/Digital-healthcare.svg.webp"
       content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
     - name: "Custom Software Development"
       event: true
       target: "/custom-software-development/"
       imageevent: true
-      image: "images/home/serviceimages/custom_software.svg"
+      image: "images/home/serviceimages/custom-software-dev.webp"
       content: "We bring your vision of ideal software to life with our potential Development team in place..."
 
     - name: "AI and ML Services"
@@ -69,14 +68,14 @@ products that bring your ideas to life,delight your users and help you achieve y
       target: "ai-ml-application-development-services"
       icon: "fab fa-connectdevelop "
       colour: "#2e8b57"
-      image: "images/home/serviceimages/alml.svg"
+      image: "images/home/serviceimages/ai-ml.webp"
       content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
     - name: "Internet of things"
       event: false
       icon: "fa fa-microchip "
       colour: "#b0c4de"
-      image: "images/home/serviceimages/iot.svg"
+      image: "images/home/serviceimages/iot.webp"
       content: "The new way of communication, between one device to another over internet. Travelling towards a better experience..."
 
     - name: "Design UI/UX"
@@ -100,7 +99,7 @@ case_study:
   title: "Nestle Health Science"
   subtitle: "The New Standard For Functional Medicine"
   button_label: "Read More.."
-  image: "images/casestudies/Functional-Medicine.png"
+  image: "images/casestudies/Functional-Medicine-size.webp"
   alt: "Web Application for Functional Medicine Practitioners"
   content: "LivingMatrix is the only technology-based, **clinician-designed functional medicine platform** for practitioners to effectively evaluate patients, create personalized actionable care plans, and track superior health outcomes over time."
   bulletpoints:
@@ -235,25 +234,25 @@ why_choose_us:
   list:
     - name: "We have the perfect combination of cutting-edge technologies & development expertise to provide you with the best software."
       icon: "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
-      image: "images/home/why-choose-us-1st-icon.svg"
+      image: "images/home/Why-choose-us-1st-icon.webp"
 
     - name: "We assure transparency at all stages of the project and provide you with maximum support you need."
       icon: "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
-      image: "images/home/why-choose-us-2nd-icon.svg"
+      image: "images/home/Why-choose-us-2nd-icon.webp"
 
     - name: "Our experts are always in the process of learning new technologies & methods to improve the quality of the solutions that we provide."
       icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
-      image: "images/home/why-choose-us-3rd-icon.svg"
+      image: "images/home/why-choose-us-3rd-icon.webp"
 
     - name: "Finally, our best Business Analyst Team understands your requirement deep down to cover all blind spots & gives you the most flexible solution."
       icon: "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
-      image: "images/home/why-choose-us-4th-icon.svg"
+      image: "images/home/Why-choose-us-4th-icon.webp"
       
 ############################## about us ################################
 about_us:
   enable: true
   title: "Who Are We And **What Is Our Identity?**"
-  image: "images/home/ISO-Certified-Company.png"
+  image: "images/home/iso.webp"
   alt: "ISO certified software development companies"
   content: "We were awarded the ISO 9001: 2015 Quality Management System Certification to prove our competence & consistency among all."
   bulletpoints:
