@@ -102,3 +102,10 @@ RewriteRule ^(.+)$ $1.html [L,QSA]
 # 301 html from URL to non html
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+
+# 301 Redirects the pages that exisit in year 2015 but missing in 2018
+Redirect 301 /blog /blogs
+Redirect 301 /works /work
+Redirect 301 /we /about_us
+Redirect 301 /index /
