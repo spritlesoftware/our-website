@@ -30,7 +30,7 @@ banner:
     - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
     - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
   content: "Advanced custom made Softwares. <br>  Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
-  image: "images/home/Software-Maintenance-and-Proactive-Support.webp"
+  image: "images/home/Software-Maintenance-and-Proactive-Support(1).webp"
   alt: "Custom Software Development Services"
   video:
     enable: true
@@ -53,7 +53,7 @@ products that bring your ideas to life,delight your users and help you achieve y
       event: true
       target: "/digital-healthcare-innovations/"
       imageevent: true
-      image: "images/home/serviceimages/Digital-healthcare.svg.webp"
+      image: "images/home/serviceimages/Digital-healthcare.webp"
       content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
     - name: "Custom Software Development"
