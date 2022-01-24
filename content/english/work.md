@@ -12,7 +12,7 @@ keywords:
     ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Custom Web and mobile app development|Softwares for healthcare"
+ogtitle: "Custom Web and mobile app development|Softwares for healthcare"
 ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
 link: "https://www.spritle.com/work"
 site_name: "Spritle Software"
