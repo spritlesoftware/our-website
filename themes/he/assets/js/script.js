@@ -24,7 +24,7 @@ $(window).bind("load", function () {
   }
   setTimeout(function () {
     preLoader();
-  }, 600);
+  }, 100);
 });
 
 // on ready state
@@ -131,7 +131,7 @@ $(window).bind("load", function () {
 
   // aos scroll-animation Init
   AOS.init({
-    duration: 600,
+    duration: 100,
     once: true,
   });
 
