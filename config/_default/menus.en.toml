@@ -19,19 +19,19 @@ weight = 2
   [[main]]
   parent = "Services"
   name = "Custom Software Development"
-  url =  "custom-software-development/"
+  url =  "services/custom-software-development/"
   weight = 2
 
   [[main]]
   parent = "Services"
   name = "Digital Healthcare Services"
-  url =  "digital-healthcare-innovations/"
+  url =  "services/digital-healthcare-innovations/"
   weight = 3
 
   [[main]]
   parent = "Services"
   name = "AI & ML Application Development Services"
-  url =  "ai-ml-application-development-services/"
+  url =  "services/ai-ml-application-development-services/"
   weight= 4 
 
 [[main]]
