@@ -48,8 +48,6 @@
                 href="/"
                 />
   </url><url>
-    <loc>/work/</loc>
-  </url><url>
     <loc>/web-application-development-services/</loc>
   </url><url>
     <loc>/services/</loc>
@@ -65,6 +63,8 @@
     <loc>/products/freshworks/</loc>
   </url><url>
     <loc>/products/voicebot/</loc>
+  </url><url>
+    <loc>/work/</loc>
   </url><url>
     <loc>/iot-service/</loc>
   </url><url>
