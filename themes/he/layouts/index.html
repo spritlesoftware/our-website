@@ -35,6 +35,8 @@
           {{ end }} {{ end }}
           <img
             loading="lazy"
+            height="400px"
+            width="711px"
             class="img-fluid"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
@@ -122,7 +124,8 @@
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
-            width="800px"
+            height="400px"
+            width="711px"
           />
         </div>
       </div>
@@ -198,7 +201,7 @@
         </ul>
 
         <div class="col-md-12">
-          <div class="mt-50 text-right">
+          <div class="mt-100 text-right">
             <a
               href="{{ .link | absLangURL }}"
               type="submit"
