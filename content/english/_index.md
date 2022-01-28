@@ -51,21 +51,21 @@ products that bring your ideas to life,delight your users and help you achieve y
   services:
     - name: "Digital Healthcare Services"
       event: true
-      target: "/digital-healthcare-innovations/"
+      target: "services/digital-healthcare-innovations/"
       imageevent: true
       image: "images/home/serviceimages/Digital-healthcare.webp"
       content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
     - name: "Custom Software Development"
       event: true
-      target: "/custom-software-development/"
+      target: "services/custom-software-development/"
       imageevent: true
       image: "images/home/serviceimages/custom-software-dev.webp"
       content: "We bring your vision of ideal software to life with our potential Development team in place..."
 
     - name: "AI and ML Services"
       event: true
-      target: "ai-ml-application-development-services"
+      target: "services/ai-ml-application-development-services"
       icon: "fab fa-connectdevelop "
       colour: "#2e8b57"
       image: "images/home/serviceimages/ai-ml.webp"
