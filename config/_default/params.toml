@@ -7,7 +7,6 @@ apple_touch_icon = "images/favicons/apple-icon.png"
 # logo
 logo_text = "Spritle Software"
 logo = "https://www.spritle.com/images/spritle-logo.png"
-logo_width = "120px;"
 # OpenGraph / Twitter Card metadata
 description = "An interdisciplinary team of coders, analysts and user experience specialists dedicated to building state-of-the-art web & mobile application.Talk to us today!"
 author = "Spritle Team"
