@@ -103,17 +103,17 @@ weight = 7
 # Footer menu
 [[footer]]
 name = "Web Apps Development"
-url = "web-application-development-services/"
+url = "services/web-application-development-services/"
 weight = 1
 
 [[footer]]
 name = "Mobile Apps Development"
-url = "mobile-service/"
+url = "services/mobile-service/"
 weight = 2
 
 [[footer]]
 name = "AI & ML Application Development Services"
-url = "ai-ml-application-development-services/"
+url = "services/ai-ml-application-development-services/"
 weight = 3
 
 [[footer]]
