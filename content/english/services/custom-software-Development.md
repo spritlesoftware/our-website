@@ -44,13 +44,11 @@ section1:
     button_label : "Read more.."
     link : "services/web-application-development-services/"
   
-
-
 section2:
   enable: true
   title: "mobile"
   image: "images/custom_software_development/crossplat-form-mobile-app-development.png"
- alt: "Cross Platform Mobile Application Development Services"
+  alt: "Cross Platform Mobile Application Development Services"
   content: "Native and Cross-platform mobile applications with flexible features and design"
   button:
     enable : true
