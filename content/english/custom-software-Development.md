@@ -55,5 +55,5 @@ section2:
   button:
     enable : true
     button_label : "Read more.."
-    link : "services/mobile-service/"
+    link : "services/cross-platform-mobile-app-development/"
 ---
