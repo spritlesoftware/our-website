@@ -95,7 +95,7 @@ case_study:
   title: "Nestle Health Science"
   subtitle: "The New Standard For Functional Medicine"
   button_label: "Read More.."
-  image: "images/casestudies/Functional-Medicine-size.webp"
+  image: "images/casestudies/Functional-Medicinein.webp"
   alt: "Web Application for Functional Medicine Practitioners"
   content: "LivingMatrix is the only technology-based, **clinician-designed functional medicine platform** for practitioners to effectively evaluate patients, create personalized actionable care plans, and track superior health outcomes over time."
   bulletpoints:
