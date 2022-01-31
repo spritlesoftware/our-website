@@ -16,7 +16,7 @@ jQuery.event.special.touchmove = {
 
 // preloader
 $(window).bind("load", function () {
-  function preLoader() {
+ async function preLoader() {
     $("body").addClass("loaded");
     if ($(".preloader").length !== 0) {
       $(".preloader").addClass("loaded");
@@ -32,7 +32,7 @@ $(window).bind("load", function () {
   "use strict";
 
   // counterUp
-  function counter() {
+ async function counter() {
     var oTop;
     if ($(".jsCounter").length !== 0) {
       oTop = $(".jsCounter").offset().top - window.innerHeight;
@@ -153,7 +153,7 @@ $(window).bind("load", function () {
     });
 
     // popupFix init
-    function popupFix() {
+  async function popupFix() {
       var vScrollWidth = window.innerWidth - $(document).width();
       function noBodyScroll() {
         $("body").css({
@@ -182,7 +182,7 @@ $(window).bind("load", function () {
     popupFix();
 
     // horizontalAccordion init
-    function horizontalAccordion() {
+   async function horizontalAccordion() {
       $(".horizontal-accordion-item").on("click", function () {
         $(this).addClass("active").siblings().removeClass("active");
       });
@@ -190,7 +190,7 @@ $(window).bind("load", function () {
     horizontalAccordion();
 
     // smoothScroll init
-    function smoothScroll() {
+  async function smoothScroll() {
       $(".smooth-scroll").click(function (event) {
         if (
           location.pathname.replace(/^\//, "") ===
@@ -279,7 +279,7 @@ $(window).bind("load", function () {
 
     // brandCarousel fix
     if ($(".brand-carousel").length !== 0) {
-      function brandCarousel() {
+    async function brandCarousel() {
         $(".brand-carousel").slick({
           dots: false,
           arrows: false,
@@ -330,7 +330,7 @@ $(window).bind("load", function () {
 
     // bannerHeadingSlider fix
     if ($(".banner-heading-slider").length !== 0) {
-      function bannerHeadingCarousel() {
+     async function bannerHeadingCarousel() {
         $(".banner-heading-slider").slick({
           dots: false,
           arrows: false,
@@ -347,7 +347,7 @@ $(window).bind("load", function () {
 
     // bannerGenomicsSlider fix
     if ($(".home-genomics-inner").length !== 0) {
-      function bannerHeadingCarousel() {
+     async function bannerHeadingCarousel() {
         $(".home-genomics-inner>div").slick({
           dots: false,
           arrows: false,
@@ -362,7 +362,7 @@ $(window).bind("load", function () {
 
     // testimonialsCarousel fix
     if ($(".testimonials-carousel").length !== 0) {
-      function testimonialsCarousel() {
+    async function testimonialsCarousel() {
         $(".testimonials-carousel").slick({
           dots: true,
           arrows: false,
@@ -393,7 +393,7 @@ $(window).bind("load", function () {
 
     // videoPopupInit
     if ($(".video-play-btn").length !== 0) {
-      function videoPopupInit() {
+     async function videoPopupInit() {
         var $videoSrc;
         $(".video-play-btn").click(function () {
           $videoSrc = $(this).data("src");
@@ -413,7 +413,7 @@ $(window).bind("load", function () {
 
     // videoPopupInit
     if ($(".video-play-btn.video-play-btn1").length !== 0) {
-      function videoPopupInit() {
+     async function videoPopupInit() {
         var $videoSrc;
         $(".video-play-btn1").click(function () {
           $videoSrc = $(this).data("src");
@@ -452,7 +452,7 @@ $(window).bind("load", function () {
 
   // Form validation Init
   if ($(".needs-validation").length !== 0) {
-    (function () {
+    (async function () {
       window.addEventListener(
         "load",
         function () {
@@ -460,7 +460,7 @@ $(window).bind("load", function () {
           var validation = Array.prototype.filter.call(forms, function (form) {
             form.addEventListener(
               "submit",
-              function (event) {
+             async function (event) {
                 if (form.checkValidity() === false) {
                   event.preventDefault();
                   event.stopPropagation();
@@ -478,7 +478,7 @@ $(window).bind("load", function () {
 })(jQuery);
 
 // integrated tools
-(function ($) {
+(async function ($) {
   "use strict";
   $.fn.incircle = function (options) {
     var settings = $.extend(
