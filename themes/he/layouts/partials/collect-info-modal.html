@@ -189,6 +189,7 @@
 
   frm.submit(function (e) {
     e.preventDefault();
+    $("#waitingPreloader").removeClass("loaded");
 
     $.ajax({
       type: "post",
@@ -197,13 +198,15 @@
       success: function (data) {
         console.log("Submission was successful.");
         $("#request_form")[0].reset();
-        $("#myModal").modal("show");
+        $("#myModal").modal("hide");
+        $("#waitingPreloader").addClass("loaded");
         window.location.href = "/thankyouenquiry/";
         console.log(data);
       },
       error: function (data) {
         console.log("An error occurred.");
         console.log(data);
+        $("#waitingPreloader").addClass("loaded");
       },
     });
   });

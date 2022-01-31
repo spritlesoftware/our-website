@@ -18,8 +18,8 @@ jQuery.event.special.touchmove = {
 $(window).bind("load", function () {
  async function preLoader() {
     $("body").addClass("loaded");
-    if ($(".preloader").length !== 0) {
-      $(".preloader").addClass("loaded");
+    if ($("#initPreloader").length !== 0) {
+      $("#initPreloader").addClass("loaded");
     }
   }
   setTimeout(function () {

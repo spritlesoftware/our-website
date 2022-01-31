@@ -23,6 +23,12 @@ preloader = "images/spritle_logo.png" # use jpg, png, svg or gif format.
 greetings = "Welcome to"
 greetings_to = "Spritle"
 
+# Waiting Preloader
+[waiting_preloader]
+enable = true
+preloader_img = "images/spritle_logo.png" # use jpg, png, svg or gif format.
+message = "Please wait ..."
+
 # navigation button
 [navigation_button_bordered]
 enable = true
