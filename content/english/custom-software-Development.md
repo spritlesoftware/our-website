@@ -42,7 +42,7 @@ section1:
   button:
     enable : true
     button_label : "Read more.."
-    link : "/services/web-application-development-services/"
+    link : "/web-application-development-services/"
   
 
 
@@ -55,5 +55,5 @@ section2:
   button:
     enable : true
     button_label : "Read more.."
-    link : "/services/cross-platform-mobile-app-development/"
+    link : "/cross-platform-mobile-app-development/"
 ---
