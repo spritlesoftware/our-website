@@ -62,7 +62,7 @@ $(window).bind("load", function () {
     }
   }
 
-  function counterTwo() {
+  async function counterTwo() {
     var oTop;
     if ($(".jsCounter-2").length !== 0) {
       oTop = $(".jsCounter-2").offset().top - window.innerHeight;
@@ -80,7 +80,7 @@ $(window).bind("load", function () {
           {
             duration: 500,
             easing: "swing",
-            step: function () {
+            step:  function () {
               $this.text(Math.floor(this.countNum));
             },
             complete: function () {
@@ -93,7 +93,7 @@ $(window).bind("load", function () {
   }
 
   // inCircle element
-  function inCircleInit() {
+ async function inCircleInit() {
     if ($(window).width() > 575) {
       var oTop;
       if ($("#inCircle-element").length !== 0) {
