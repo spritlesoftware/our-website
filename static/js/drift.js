@@ -1,6 +1,6 @@
 "use strict";
 
-!function() {
+!async function() {
   var t = window.driftt = window.drift = window.driftt || [];
   if (!t.init) {
     if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
