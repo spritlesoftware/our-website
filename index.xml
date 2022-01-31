@@ -9,10 +9,10 @@
     <copyright> © {year} Spritle Software. All Rights Reserved.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI &amp; ML Application Development Services</title>
-      <link>/ai-ml-application-development-services/</link>
+      <link>/services/ai-ml-application-development-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ai-ml-application-development-services/</guid>
+      <guid>/services/ai-ml-application-development-services/</guid>
       <description></description>
     </item>
     
@@ -72,28 +72,28 @@
     
     <item>
       <title>Cross Platform Mobile App Development</title>
-      <link>/cross-platform-mobile-app-development/</link>
+      <link>/services/cross-platform-mobile-app-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cross-platform-mobile-app-development/</guid>
+      <guid>/services/cross-platform-mobile-app-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Custom Software Development Services</title>
-      <link>/custom-software-development/</link>
+      <link>/services/custom-software-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/custom-software-development/</guid>
+      <guid>/services/custom-software-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Custom Web Application Development</title>
-      <link>/web-application-development-services/</link>
+      <link>/services/web-application-development-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/web-application-development-services/</guid>
+      <guid>/services/web-application-development-services/</guid>
       <description></description>
     </item>
     
@@ -126,10 +126,10 @@
     
     <item>
       <title>Digital Healthcare Solutions</title>
-      <link>/digital-healthcare-innovations/</link>
+      <link>/services/digital-healthcare-innovations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/digital-healthcare-innovations/</guid>
+      <guid>/services/digital-healthcare-innovations/</guid>
       <description></description>
     </item>
     
