@@ -182,7 +182,7 @@
 
   frm.submit(function (e) {
     e.preventDefault();
-
+    $("#waitingPreloader").removeClass("loaded");
     $.ajax({
       type: "post",
       url: "https://nodemailernew.herokuapp.com/contact",
@@ -190,12 +190,14 @@
       success: function (data) {
         console.log("Submission was successful.");
         $("#form_contact")[0].reset();
+        $("#waitingPreloader").addClass("loaded");
         window.location.href = "/thankyoucontact/";
         console.log(data);
       },
       error: function (data) {
         console.log("An error occurred.");
         console.log(data);
+        $("#waitingPreloader").addClass("loaded");
       },
     });
   });
