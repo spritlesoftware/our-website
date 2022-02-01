@@ -153,7 +153,7 @@ homepage_tab:
     # tab item
     - name: "Onboarding & Discovery"
       title: "**Task Management**"
-      image: "images/Company-Our-process1/Onboarding-Vendor-and-Software-Requirement-Analysis.png"
+      image: "images/Company-Our-process1/Onboarding-Vendor-and-Software-Requirement-Analysis.webp"
       alt: "Vendor Onboarding and Requirement Analysis"
       content: "Collaborate with our analysts to help us understand your pain points and derive at the most optimal solution."
       button:
@@ -164,7 +164,7 @@ homepage_tab:
     # tab item
     - name: "Wireframes & UX Design"
       title: "**User Experience**"
-      image: "images/Company-Our-process1/Custom-Wireframes-and-UX-Design.png"
+      image: "images/Company-Our-process1/Custom-Wireframes-and-UX-Design.webp"
       alt: "Custom UI Design Services"
       content: "We understand the experience you wish to share with your users. We provide our expertise to bring an easy user experience to your hands."
       button:
@@ -175,7 +175,7 @@ homepage_tab:
     # tab item
     - name: "Development"
       title: "**Task Collaboration**"
-      image: "images/Company-Our-process1/Custom-and-Legacy-Application-Development.png"
+      image: "images/Company-Our-process1/Custom-and-Legacy-Application-Development.webp"
       alt: "Custom Web and Mobile Development Services"
       content: "We take small stories at a time and iteratively complete them to obtain exceptional business results"
       button:
@@ -186,7 +186,7 @@ homepage_tab:
     #tab item
     - name: "Testing"
       title: "**Testing**"
-      image: "images/Company-Our-process1/Quality-Analysis-and-User-Acceptance-Testing.png"
+      image: "images/Company-Our-process1/Quality-Analysis-and-User-Acceptance-Testing.webp"
       alt: "Manual and Automation Software Testing Services"
       content: "We build quality into your product and application delivery lifecycle at any stage of your project by constantly testing"
       button:
@@ -197,7 +197,7 @@ homepage_tab:
     #tab item
     - name: "Launch and Maintenance"
       title: "**Launch and Maintenance**"
-      image: "images/Company-Our-process1/Software-Maintenance-and-Proactive-Support.png"
+      image: "images/Company-Our-process1/Software-Maintenance-and-Proactive-Support.webp"
       alt: "Software Support and Maintenance Services"
       content: "We don’t walk away until your business is set. We stay till the system solves your purpose"
       button:
