@@ -1,4 +1,4 @@
-  (function() {
+  (async function() {
     /* Add this class to any elements you want to use to open Drift.
      *
      * Examples:
@@ -10,7 +10,7 @@
      */
     var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
     /* http://youmightnotneedjquery.com/#ready */
-    function ready(fn) {
+    async function ready(fn) {
       if (document.readyState != 'loading') {
         fn();
       } else if (document.addEventListener) {
@@ -23,12 +23,12 @@
       }
     }
     /* http://youmightnotneedjquery.com/#each */
-    function forEachElement(selector, fn) {
+    async function forEachElement(selector, fn) {
       var elements = document.querySelectorAll(selector);
       for (var i = 0; i < elements.length; i++)
         fn(elements[i], i);
     }
-    function openSidebar(driftApi, event) {
+    async function openSidebar(driftApi, event) {
       event.preventDefault();
       driftApi.sidebar.open();
       return false;
