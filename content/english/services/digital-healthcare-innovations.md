@@ -48,7 +48,7 @@ section1:
 
 section2:
   enable: true
-  title: "Our Areas of Expertise section"
+  title: "Our Areas of Expertise"
   image: "images/digital_healthcare/Healthcare-Solutions.webp"
   alt: "Innovative Digital Healthcare Solutions Development "
   content: "We specialise in healthcare oriented solutions such as Conversational AI Voice Bot, Genomic solutions for analysis and research, and much more but that not all if there's a particular solution that you are looking for we can get that done for you as well."
