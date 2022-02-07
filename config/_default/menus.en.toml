@@ -41,7 +41,7 @@ weight = 4
   [[main]]
   parent = "Products"
   name = "Our Products"
-  url =  "products/product"
+  url =  "products/our-product"
 
   [[main]]
   parent = "Products"
