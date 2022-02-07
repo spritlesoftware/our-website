@@ -4,7 +4,7 @@
       <div class="col-lg-5 col-md-8 col-sm-10 mb-5 mb-lg-0">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p class="mb-30">{{ .content | markdownify }}</p>
-        {{ if .button.enable }} {{ with .button }} {{ partial "button.html" .}}
+        {{ if .button.enable }} {{ with .button }} {{ partial "button1.html" .}}
         {{ end }} {{ end }}
       </div>
       <div class="col-lg-5 col-md-8 col-sm-10">
