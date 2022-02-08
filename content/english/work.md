@@ -1,13 +1,11 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Custom Web and mobile app development|Softwares for healthcare"
-title: "Innovative Technology Solutions"
-description: "We develop custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
+custom_title_value: "Custom Built Softwares for Healthcare,Web & Cross-platform App Development"
+title: "Custom Built Software for Healthcare, Web & Cross-platform"
+description: "We develop custom software applications for healthcare, web & mobile platforms that fit your brand & deliver cost-effective, high-quality patient care with cutting-edge solutions."
 keywords:
   [
-    "Custom web application development services",
-    "Custom mobile application development",
-    "Digital Healthcare Solutions",
+    "Custom web application development services", "Cross platform mobile application development"," Digital Healthcare Solutions", "Software for healthcare"
   ]
     ############################ OG tags #################################
 locale: "en_US"

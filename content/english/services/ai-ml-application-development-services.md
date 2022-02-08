@@ -1,8 +1,8 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Artificial intelligence development & Natural Language Processing Companies"
+custom_title_value: "Artificial Intelligence Development Company|AI & ML Services - Spritle.com"
 title: "AI & ML Application Development Services"
-description: "Spritle offers artificial intelligience and machine learning services such as NLP, voicebot services,computer vision,image processing & more advanced services."
+description: "Spritle offers artificial intelligence and machine learning development services such as NLP, voice bot, computer vision, image processing & more advanced services."
 keywords:
   [
     "Artificial Intelligence development company",
@@ -56,14 +56,14 @@ collect_info:
 genomic:
   enable: true
   title: "Wellness from Core"
-  image: "images/AI_ML_Page/Gene-Analysis-Dashboard.png"
+  image: "images/AI_ML_Page/gene-analysis-dashboard.webp"
   alt: "Custom Gene Data Analysis Software Development"
   content: "Unveiling the gap of Nutrigenomics between **Nestle Health Science** and patients to deliver future healthcare by using our **Smart   AI-based Supplement Suggestion** System."
 
 geosnapshot:
   enable: true
   title: "Capturing memories - AI"
-  image: "images/AI_ML_Page/AI-based-Picture-Search-Application.png"
+  image: "images/AI_ML_Page/AIpicture-search-application.webp"
   alt: "AI powered Photo Searching Application"
   content: "We have built a platform for **Geosnapshot** to find photos quickly and easily using Powerful AI technology enabling participants to find all of their photos real quick and  download."
   facts:
@@ -82,7 +82,7 @@ geosnapshot:
 phraze:
   enable: true
   title: "Smart Patientcare - NLP"
-  image: "images/AI_ML_Page/Voice-Transcribe-Software-Development.jpg"
+  image: "images/AI_ML_Page/voice-transcribe-software-development.webp"
   alt: "Medical Transcription Software Development Company using NLP"
   content: "Giving Phraze a functional **Transcribe Software** & seamless experience partnered with **Natural Language Processing & Speech Recognition** that help Practitioners connect better with Patients "
 
@@ -104,7 +104,7 @@ aivoicebot:
 computervision:
   enable: true
   title: "Computer Vision"
-  image: "https://www.surveillens.ai/assets/images/banner-2.png"
+  image: "images/AI_ML_Page/banner2.webp"
   alt: "Computer Vision in Manufacturing and Industry 4.0"
   content: "Enable your factory CCTV camera into Smart cameras and tap the fullest potential of your floor! <br> We are transforming the way Factories operate through AI"
   bulletpoints:
