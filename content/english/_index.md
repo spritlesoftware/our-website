@@ -1,8 +1,8 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Custom Software Solutions & AI development Company"
-description: "One of the best companies for Custom-built software solution with advanced AI technology development and healthcare digital solutions specifically designed for your business."
-keywords: ["Custom built softwares", "Digital healthcare solutions", "AI technology development company"]
+custom_title_value: "AI Development Company & Custom Software Solutions-spritle.com"
+description: "One of the best AI development company that offers Custom-built software & digital healthcare solutions specifically designed for your business."
+keywords: ["ai Development company",Custom built softwares", "Digital healthcare solutions","AI technology development company"]
 
 ############################ OG tags #################################
 locale: "en_US"
