@@ -27,6 +27,9 @@
 
 - id: company_name
   translation: Company Name
+
+- id: forms
+  translation: Choose what type of enquires
   
 - id: message
   translation: Have something to say to us?
