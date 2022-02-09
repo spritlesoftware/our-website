@@ -9,7 +9,7 @@ draft: false
 intro:
   enable: true
   title: " **Lets Grow Together**"
-  image: "images/careers/spritle_team.jpeg"
+  image: "images/careers/Spritle-Software-Development-Team.jpeg"
   content: "Spritle's goal is to build a company where its employees can discover and unveil to their fullest potential. We always encourage our people to learn new technologies and always be on top. Pave your way to your dream career with Us."
   button:
     enable: true
@@ -31,7 +31,7 @@ flexibility:
       content: "We are a group of friendly professionals looking forward to contributing to personal & professional improvement. We believe friendliness makes wonders."
 
     - name: "A Healthy Competition"
-      icon: "fas fa-thumbs-up"
+      icon: "bi bi-hand-thumbs-up"
       content: "Employees of Spritle are very generous and we share even the tiniest bit of new information we learn. Our knowledge well is very deep!"
 
     - name: "Fun Get-Togethers "
