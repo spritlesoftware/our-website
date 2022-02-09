@@ -1,20 +1,19 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Artificial intelligence development & Natural Language Processing Companies"
-title: "AI & ML Application Development Services"
-description: "Spritle offers artificial intelligience and machine learning services such as NLP, voicebot services,computer vision,image processing & more advanced services."
+custom_title_value: "Artificial Intelligence Development Company|AI & ML Services in USA"
+title: "AI/ML Development Services"
+description: "As an Artificial Intelligence & Machine Learning Company, we offer advanced AI/ML services such as NLP, Voice Bots, Computer Vision, Image Processing in Industries & more."
 keywords:
   [
-    "Artificial Intelligence development company",
-    "Machine Learning Services",
-    "NLP",
-    "Natural Language Processing companies",
-    "computer vision, image processing",
+    "ai development companies,artificial intelligence development company",
+    "ai ml development services",
+    "natural language processing companies",
+    "Machine Learning Development Company",
   ]
          ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "AI & ML Application Development Services"
+ogtitle: "AI & ML Application Development Services"
 ogdescription: "Spritle offers artificial intelligence and machine learning services such as NLP, voice bot, computer vision, image processing & more advanced services." 
 link: "https://www.spritle.com/ai-ml-application-development-services/"
 site_name: "Spritle Software"

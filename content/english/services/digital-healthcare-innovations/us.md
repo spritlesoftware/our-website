@@ -1,18 +1,20 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Supplement solutions through gene analysis|HIPAA Certified Software development companies"
-title: "Digital Healthcare Solutions"
-description: "Gene-based supplements solutions that uses AI technology in Healthcare industries.We are HIPAA certified and offer custom built digital healthcare solutions."
+custom_title_value: "Custom Built Software for Digital Healthcare in US|HIPAA certified company"
+title: "Custom Built Digital Healthcare Solutions "
+description: "Spritle offers Custom Built Software Solutions for Digital Healthcare Industries, Supplement Solutions through Gene Analysis. A HIPAA-certified company in the USA."
 keywords:
   [
-    "Supplement solutions through gene analysis",
-    "HIPAA certified,Digital healthcare solutions",
-    "Custom built software solutions",
+    "Healthcare Conversational Voice bot for Hospitals",
+    "custom built software for healthcare",
+    "Supplement Solutions through gene analysis",
+    "HIPAA Certified Software development companies",
+    "Digital Healthcare Solutions",
   ]
         ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Digital Healthcare Solutions"
+ogtitle: "Digital Healthcare Solutions"
 ogdescription: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
 link: "https://www.spritle.com/digital-healthcare-innovations/"
 site_name: "Spritle Software"

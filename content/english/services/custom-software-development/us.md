@@ -1,13 +1,13 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Custom web & Cross platform mobile application development services"
-title: "Custom Software Development Services"
-description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
-keywords : ["Custom web application development services","Cross platform mobile app development services"]
+custom_title_value: "Custom Web & Cross Platform Mobile Application Development Services in US"
+title: "Custom Web/Cross Platform Development"
+description: "Get custom-tailored web applications & cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services globally."
+keywords : ["custom web application development services","custom web application development","cross platform app development","cross platform mobile app development"]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Custom Software Development Services" 
+ogtitle: "Custom Software Development Services" 
 ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
 link: "https://www.spritle.com/custom-software-development/"
 site_name: "Spritle Software"
@@ -40,7 +40,7 @@ section1:
   button:
     enable : true
     button_label : "Read more.."
-    link : "services/web-application-development-services-us/"
+    link : "services/web-application-development-services/us/"
   
 section2:
   enable: true
@@ -51,5 +51,5 @@ section2:
   button:
     enable : true
     button_label : "Read more.."
-    link : "services/cross-platform-mobile-app-development-us/"
+    link : "services/cross-platform-mobile-app-development/us/"
 ---

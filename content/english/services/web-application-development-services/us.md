@@ -1,18 +1,18 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Custom web application development services-spritle.com"
-title: "Custom Web Application Development"
-description: "Spritle offers to develop custom built web application services, SaaS apps development services, Healthcare applications and much more. Get in touch with experts."
+custom_title_value: "Custom Web Application Development Services Company in USA- spritle.com"
+title: "Custom Web Application Development Services"
+description: "As a Custom Web Application Development Company, we offer services such as SaaS App Development, Healthcare Applications, and much more."
 keywords:
   [
-    "Custom web application development",
-    "Custom mobile application development",
-    "Digital Healthcare Solutions",
+    "Custom Web Application Development Services",
+     "Custom Web Application Development Company", 
+     "Web App Development Company in USA",
   ]
       ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Custom Web Application Development"  
+ogtitle: "Custom Web Application Development"  
 ogdescription: "Spritle offers to develop custom-built web application services, SaaS apps development services, Healthcare applications, and much more. Get in touch with experts."
 link: "https://www.spritle.com/services/web-application-development-services/"
 site_name: "Spritle Software"

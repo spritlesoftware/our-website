@@ -1,18 +1,19 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Cross platform mobile app development-Spritle.com"
-title: "Cross Platform Mobile App Development"
-description: "Spritle is one of the leading companies in cross platform mobile app development that allows your product to run on multiple mobile operating systems."
+custom_title_value: "One of the Best Cross Platform Mobile App Development company in USA"
+title: "Cross Platform Mobile Application Development"
+description: "One of the leading companies in cross-platform mobile app development established in major parts of the United States, India, Singapore, UK."
 keywords:
   [
-    "Custom web application development",
-    "Custom mobile application development",
-    "Cross platform mobile app development Digital Healthcare Solutions",
+    "Cross platform mobile app development",
+    "cross platform mobile application development",
+    "Mobile Application Development company", 
+    "Cross platform mobile application development companies US",
   ]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Cross Platform Mobile App Development"
+ogtitle: "Cross Platform Mobile App Development"
 ogdescription: "Spritle is one of the leading companies in cross-platform mobile app development that allows your product to run on multiple mobile operating systems."
 link: "https://www.spritle.com/services/cross-platform-mobile-app-development/"
 site_name: "Spritle Software"
