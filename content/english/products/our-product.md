@@ -10,6 +10,7 @@ draft: false
 section1:
   enable: true
   title: "Computer Vision, the next step for your Factories."
+  contet: "Surveillens.AI"
   image: "images/products/iorn-steel.webp"
   alt: "Web Engineering Services "
   content: "Why install expensive surveillance cameras when you can convert your CCTV into one?
@@ -106,6 +107,7 @@ blogsection:
 partnership:
   enable: true
   title: "About our Partnership"
+  contet: "Freshworks Apps Integration"
   image: "images/products/freshworks/freshworks-solution-partner.png"
   alt: ""
   content: "As premium Freshworks partners who also happen to be pioneers in their partners program.<br> We enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Freshworks based custom development or marketplace plug-ins. Catch a glimpse of our portfolio."

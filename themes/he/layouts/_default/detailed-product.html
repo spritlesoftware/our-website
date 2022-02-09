@@ -1,11 +1,15 @@
 {{ define "main" }} {{ $data := index site.Data site.Language.Lang }}
 
+{{if .Params.section1.enable }} {{with .Params.section1 }}
 <section class="section-padding  bg-light-white has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="150">
   <h1 class="text-center font-weight-bold" >
-    Surveillens.AI
+    {{ .contet | markdownify }}
   </h1>
+  {{ end }}  {{ end }}
 {{if .Params.section1.enable }} {{with .Params.section1 }} {{ partial
   "our-process-right-image.html" .}} {{ end }} {{ end }}
+
+  {{if .Params.section1.enable }} {{with .Params.section1 }}
 <div>
   <h2 class="text-center ">
     Visit<b> <a style="text-decoration: none; color:  #14AED5;" href="https://www.surveillens.ai/" target="new">surveillens.ai </a></b>for more
@@ -13,6 +17,7 @@
   </h2>
 </div>
   </section>
+  {{ end }}  {{ end }}
 
 <!-- start section -->
 <section class="section-padding  bg-light-white has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="150">
@@ -113,10 +118,12 @@
 <!-- start section -->
 
 <!-- start section -->
+{{if .Params.partnership.enable }} {{with .Params.partnership }}
 <section class="section-padding  bg-light-white has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="150">
   <h1 class="text-center font-weight-bold" style="margin-bottom: 20px">
-    Freshworks Apps Integration
+    {{ .contet | markdownify }}
   </h1>
+  {{ end }} {{ end }}
 {{if .Params.partnership }} {{with .Params.partnership }} {{ partial "our-process-right-image.html" .}}
 
 
