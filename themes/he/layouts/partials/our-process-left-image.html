@@ -6,12 +6,15 @@
 >
   <div>
     <div class="container" style="padding-top: 100px; padding-bottom: 50px">
+      <h1 style="text-align: center; margin-bottom: 80px;"><b>{{ .cont | markdownify }}</b></h1>
       <div class="row align-items-center justify-content-around">
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
           <div class="d-inline-block">
             <img
               loading="lazy"
               class="img-fluid"
+              height="500px"
+              width="250px"
               src="{{
             .image | absURL}}"
               alt="{{ .alt }}"
@@ -21,6 +24,7 @@
         <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
           <h3 class="section-title">{{ .title | markdownify }}</h3>
           <p class="pb-20">{{ .content | markdownify }}</p>
+          <h3>{{ .he | markdownify }}</h3>
           <ul class="check-list list-unstyled">
             {{ range .bulletpoints }}
             <li class="mb-15">

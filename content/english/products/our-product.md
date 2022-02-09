@@ -21,6 +21,7 @@ Transform your factory’s CCTV into Smart cameras powered by AI."
 
 intro:
   enable: true
+  cont: "Zoho Apps Integration"
   title: "About our Partnership"
   image: "images/zoho/58482879cef1014c0b5e49e8.png"
   content: "As solution Zoho partners who also happen to be resellers of their prodcuts we enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Zoho based custom development or marketplace extensions. Catch a glimpse of our portfolio."
@@ -128,10 +129,11 @@ missiontwo:
 
 minootsection:
   enable: true
-  title: "**Minoot : Contributed**"
-  title2: "**by**"
-  title3: "**us...**"
-  content: "We built an app called **Minoot**, is a smart way to stay in touch with our beloved ones by sending alert notification when our battery is about to drain out.It was happily built by **Sathyapriya S** and **Dhinakaran🙏.**.We no longer maintaining it."
+  cont: "Minoot"
+  title: " **A mobile productivity app, contributed by Us**"
+  image: "images/minoot/Minoot(1).jpg"
+  he: "We no longer maintaining it."
+  content: "We built an app called **Minoot**, is a smart way to stay in touch with our beloved ones by sending alert notification when our battery is about to drain out.It was happily built by **Sathyapriya S** and **Dhinakaran🙏**."
 ---
 
 ## Apps developed **by us for Zoho Marketplace**
