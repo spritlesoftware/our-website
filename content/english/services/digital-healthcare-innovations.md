@@ -41,7 +41,7 @@ featured_testimonial:
 
 section1:
   enable: true
-  title: "Target Audience Section"
+  title: "Target Audience"
   image: "images/digital_healthcare/business-target-audience1.webp"
   alt: "Target Audience and Solution Partners "
   content: "We wish to reach out to those hospitals that struggle with making or taking appointments, pre, and post-surgery checkups, regular follow-ups for Health Analysis, and other genomic-based needs as well. In short, we wish to approach hospitals and pharmaceutical companies to implement a solution that raises efficiency for them."
