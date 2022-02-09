@@ -9,19 +9,19 @@
     <copyright> © {year} Spritle Software. All Rights Reserved.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI &amp; ML Application Development Services</title>
-      <link>/services/ai-ml-application-development-services-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/services/ai-ml-application-development-services-us/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI &amp; ML Application Development Services</title>
       <link>/services/ai-ml-application-development-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/services/ai-ml-application-development-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI/ML Development Services</title>
+      <link>/services/ai-ml-application-development-services/us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/services/ai-ml-application-development-services/us/</guid>
       <description></description>
     </item>
     
@@ -81,19 +81,28 @@
     
     <item>
       <title>Cross Platform Mobile App Development</title>
-      <link>/services/cross-platform-mobile-app-development-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/services/cross-platform-mobile-app-development-us/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cross Platform Mobile App Development</title>
       <link>/services/cross-platform-mobile-app-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/services/cross-platform-mobile-app-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross Platform Mobile Application Development</title>
+      <link>/services/cross-platform-mobile-app-development/us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/services/cross-platform-mobile-app-development/us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Built Digital Healthcare Solutions </title>
+      <link>/services/digital-healthcare-innovations/us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/services/digital-healthcare-innovations/us/</guid>
       <description></description>
     </item>
     
@@ -108,15 +117,6 @@
     
     <item>
       <title>Custom Software Development Services</title>
-      <link>/services/custom-software-development-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/services/custom-software-development-us/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom Software Development Services</title>
       <link>/services/custom-software-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -126,19 +126,28 @@
     
     <item>
       <title>Custom Web Application Development</title>
-      <link>/services/web-application-development-services-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/services/web-application-development-services-us/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom Web Application Development</title>
       <link>/services/web-application-development-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/services/web-application-development-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Web Application Development Services</title>
+      <link>/services/web-application-development-services/us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/services/web-application-development-services/us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Web/Cross Platform Development</title>
+      <link>/services/custom-software-development/us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/services/custom-software-development/us/</guid>
       <description></description>
     </item>
     
@@ -166,15 +175,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/design-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital Healthcare Solutions</title>
-      <link>/services/digital-healthcare-innovations-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/services/digital-healthcare-innovations-us/</guid>
       <description></description>
     </item>
     

@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/services/ai-ml-application-development-services-us/</loc>
-  </url><url>
     <loc>/services/ai-ml-application-development-services/</loc>
+  </url><url>
+    <loc>/services/ai-ml-application-development-services/us/</loc>
   </url><url>
     <loc>/career/ba-cum-dm/</loc>
   </url><url>
@@ -34,13 +34,13 @@
   </url><url>
     <loc>/contact/</loc>
   </url><url>
-    <loc>/services/cross-platform-mobile-app-development-us/</loc>
-  </url><url>
     <loc>/services/cross-platform-mobile-app-development/</loc>
   </url><url>
-    <loc>/work/</loc>
+    <loc>/services/cross-platform-mobile-app-development/us/</loc>
   </url><url>
-    <loc>/services/custom-software-development-us/</loc>
+    <loc>/services/digital-healthcare-innovations/us/</loc>
+  </url><url>
+    <loc>/work/</loc>
   </url><url>
     <loc>/services/custom-software-development/</loc>
   </url><url>
@@ -56,17 +56,17 @@
                 href="/"
                 />
   </url><url>
-    <loc>/services/web-application-development-services-us/</loc>
-  </url><url>
     <loc>/services/web-application-development-services/</loc>
+  </url><url>
+    <loc>/services/web-application-development-services/us/</loc>
+  </url><url>
+    <loc>/services/custom-software-development/us/</loc>
   </url><url>
     <loc>/services/</loc>
   </url><url>
     <loc>/spritle-software-top-30-healthcare-software-development-companies/</loc>
   </url><url>
     <loc>/design-service/</loc>
-  </url><url>
-    <loc>/services/digital-healthcare-innovations-us/</loc>
   </url><url>
     <loc>/services/digital-healthcare-innovations/</loc>
   </url><url>
