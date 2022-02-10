@@ -134,8 +134,8 @@ minootsection:
   cont: "Minoot"
   title: " **A mobile productivity app, contributed by Us**"
   image: "images/minoot/Minoot(1).jpg"
-  he: "We no longer maintaining it."
-  content: "We built an app called **Minoot**, is a smart way to stay in touch with our beloved ones by sending alert notification when our battery is about to drain out.It was happily built by **Sathyapriya S** and **Dhinakaran🙏**."
+  he: "**We no longer maintaining it.**"
+  content: "We built an app called Minoot, is a smart way to stay in touch with our beloved ones by sending an alert notification when our battery is about to drain out. It was happily built by our Developers **Sathyapriya S** and **Dhinakaran🙏**."
 ---
 
 ## Apps developed **by us for Zoho Marketplace**
