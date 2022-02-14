@@ -7,8 +7,8 @@
   data-aos-delay="150"
 >
   <div class="container h-100">
-    <div class="d-block d-lg-flex no-gutters align-items-center h-100">
-      <div class="col-12 col-xl-8 col-lg-8 order-lg-1">
+    <div class="d-block d-lg-flex no-gutters align-items-center h-50">
+      <div class="col-12 col-xl-8 col-lg-6 order-lg-1">
         <div
           class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
         >
@@ -34,8 +34,8 @@
           </button>
           {{ end }} {{ end }}
           <img
-            height="400px"
-            width="711px"
+            height="600px"
+            width="600px"
             class="img-fluid"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
@@ -476,4 +476,10 @@
     class="shape-6 shape-md bg-yellow rounded-circle d-none d-md-block"
   ></div>
 </section>
+
+<style>
+  .video-play-btn{
+    margin-left: -60px;
+  }
+</style>
 {{ end }} {{ end }} {{partial "testimonial.html" . }} {{ end }}
