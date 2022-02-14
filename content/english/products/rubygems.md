@@ -4,7 +4,7 @@ custom_title_value: "AI development company|Custom built software applications -
 title: "Products-Ruby Gems"
 description: "AI development company with deep expertise in machine learning, deep learning, NLP, conversational AI, computer vision, Image processing."
 keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
-layout: "detailed-product"
+layout: "ruby-gems"
 draft: false
 
 apps:

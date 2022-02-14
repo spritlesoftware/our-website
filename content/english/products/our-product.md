@@ -15,10 +15,7 @@ section1:
   alt: "Web Engineering Services "
   content: "Why install expensive surveillance cameras when you can convert your CCTV into one?
 Transform your factory’s CCTV into Smart cameras powered by AI."
-  button:
-    enable : true
-    button_label : "Know more.."
-    link : "https://www.surveillens.ai/"
+
 
 intro:
   enable: true
