@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/services/ai-ml-application-development-services/</loc>
+    <loc>/ai-ml-application-development-services/</loc>
   </url><url>
-    <loc>/services/ai-ml-application-development-services/us/</loc>
+    <loc>/ai-ml-application-development-services-us/</loc>
   </url><url>
     <loc>/career/ba-cum-dm/</loc>
   </url><url>
@@ -34,15 +34,15 @@
   </url><url>
     <loc>/contact/</loc>
   </url><url>
-    <loc>/services/cross-platform-mobile-app-development/</loc>
+    <loc>/cross-platform-mobile-app-development/</loc>
   </url><url>
-    <loc>/services/cross-platform-mobile-app-development/us/</loc>
+    <loc>/cross-platform-mobile-app-development-us/</loc>
   </url><url>
-    <loc>/services/digital-healthcare-innovations/us/</loc>
+    <loc>/digital-healthcare-innovations-us/</loc>
   </url><url>
     <loc>/work/</loc>
   </url><url>
-    <loc>/services/custom-software-development/</loc>
+    <loc>/custom-software-development/</loc>
   </url><url>
     <loc>/</loc>
     <xhtml:link
@@ -56,11 +56,11 @@
                 href="/"
                 />
   </url><url>
-    <loc>/services/web-application-development-services/</loc>
+    <loc>/web-application-development-services/</loc>
   </url><url>
-    <loc>/services/web-application-development-services/us/</loc>
+    <loc>/web-application-development-services-us/</loc>
   </url><url>
-    <loc>/services/custom-software-development/us/</loc>
+    <loc>/custom-software-development-us/</loc>
   </url><url>
     <loc>/services/</loc>
   </url><url>
@@ -68,7 +68,7 @@
   </url><url>
     <loc>/design-service/</loc>
   </url><url>
-    <loc>/services/digital-healthcare-innovations/</loc>
+    <loc>/digital-healthcare-innovations/</loc>
   </url><url>
     <loc>/career/django-fullstack/</loc>
   </url><url>
@@ -109,8 +109,6 @@
     <loc>/resources/</loc>
   </url><url>
     <loc>/career/ruby-on-rails/</loc>
-  </url><url>
-    <loc>/services/</loc>
   </url><url>
     <loc>/showdown/</loc>
   </url><url>
