@@ -7,7 +7,7 @@
   </h1>
   {{ end }}  {{ end }}
 {{if .Params.section1.enable }} {{with .Params.section1 }} {{ partial
-  "our-process-right-image.html" .}} {{ end }} {{ end }}
+  "right-image-left-text.html" .}} {{ end }} {{ end }}
 
   {{if .Params.section1.enable }} {{with .Params.section1 }}
 <div>
@@ -23,7 +23,7 @@
 <section class="section-padding  bg-light-white has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="150">
   
 {{if .Params.intro.enable }} {{with .Params.intro }} {{ partial
-"our-process-left-image.html" .}} {{ end }} {{ end }}
+"left-image-right-text.html" .}} {{ end }} {{ end }}
 </section>
 
 <!-- end section -->
@@ -124,7 +124,7 @@
     {{ .contet | markdownify }}
   </h1>
   {{ end }} {{ end }}
-{{if .Params.partnership }} {{with .Params.partnership }} {{ partial "our-process-right-image.html" .}}
+{{if .Params.partnership }} {{with .Params.partnership }} {{ partial "right-image-left-text.html" .}}
 
 
 {{ end }} {{ end }}
