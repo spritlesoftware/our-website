@@ -38,7 +38,7 @@ services:
 
     - name: "Custom Software Development"
       event: true
-      target: "services/custom-software-development/"
+      target: "service/custom-software-development/"
       imageevent: true
       image: "images/home/serviceimages/custom-software-dev.webp"
       content: "We bring your vision of ideal software to life with our potential Development team in place..."
