@@ -31,21 +31,21 @@ draft: false
 services:
     - name: "Digital Healthcare Services"
       event: true
-      target: "services/digital-healthcare-innovations/"
+      target: "/digital-healthcare-innovations/"
       imageevent: true
       image: "images/home/serviceimages/Digital-healthcare.webp"
       content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
     - name: "Custom Software Development"
       event: true
-      target: "service/custom-software-development/"
+      target: "/custom-software-development/"
       imageevent: true
       image: "images/home/serviceimages/custom-software-dev.webp"
       content: "We bring your vision of ideal software to life with our potential Development team in place..."
 
     - name: "AI and ML Services"
       event: true
-      target: "services/ai-ml-application-development-services"
+      target: "/ai-ml-application-development-services"
       imageevent: true
       image: "images/home/serviceimages/al-ml.webp"
       content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
