@@ -42,7 +42,7 @@
   </url><url>
     <loc>/work/</loc>
   </url><url>
-    <loc>/custom-software-development/</loc>
+    <loc>/service/custom-software-development/</loc>
   </url><url>
     <loc>/</loc>
     <xhtml:link
@@ -109,6 +109,8 @@
     <loc>/resources/</loc>
   </url><url>
     <loc>/career/ruby-on-rails/</loc>
+  </url><url>
+    <loc>/service/</loc>
   </url><url>
     <loc>/showdown/</loc>
   </url><url>
