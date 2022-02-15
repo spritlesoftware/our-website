@@ -58,7 +58,7 @@
   </url><url>
     <loc>/web-application-development-services/</loc>
   </url><url>
-    <loc>/web-application-development-services-us/</loc>
+    <loc>/services/web-application-development-services/us/</loc>
   </url><url>
     <loc>/custom-software-development-us/</loc>
   </url><url>
@@ -109,6 +109,8 @@
     <loc>/resources/</loc>
   </url><url>
     <loc>/career/ruby-on-rails/</loc>
+  </url><url>
+    <loc>/services/</loc>
   </url><url>
     <loc>/showdown/</loc>
   </url><url>
