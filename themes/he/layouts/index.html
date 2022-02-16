@@ -478,8 +478,15 @@
 </section>
 
 <style>
-  .video-play-btn{
+  .video-play-btn { 
+    align-items: center;
     margin-left: -60px;
   }
+
+  @media screen and (max-width: 486px) {
+  .video-play-btn { 
+    margin-left: 0px;
+  }
+}
 </style>
 {{ end }} {{ end }} {{partial "testimonial.html" . }} {{ end }}
