@@ -22,7 +22,7 @@ intro:
   cont: "Zoho Apps Integration"
   title: "About our Partnership"
   image: "images/zoho/58482879cef1014c0b5e49e8.png"
-  content: "As solution Zoho partners who also happen to be resellers of their prodcuts we enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Zoho based custom development or marketplace extensions. Catch a glimpse of our portfolio."
+  content: "As solution Zoho partners who also happen to be resellers of their products we enjoy the challenge of delivering solutions to an assortment of requirement domains. We are now beaming to be your best choice for Zoho based custom development or marketplace extensions. Catch a glimpse of our portfolio."
 
 mission:
   enable: true

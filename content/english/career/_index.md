@@ -9,7 +9,7 @@ draft: false
 intro:
   enable: true
   title: " **Lets Grow Together**"
-  image: "images/careers/Spritle-Software-Development-Team.jpeg"
+  image: "images/careers/xSpritle-Software-Development-Team.jpeg.pagespeed.ic.IbfqifVzMC.webp"
   content: "Spritle's goal is to build a company where its employees can discover and unveil to their fullest potential. We always encourage our people to learn new technologies and always be on top. Pave your way to your dream career with Us."
   button:
     enable: true

@@ -72,7 +72,7 @@ audio_section:
 about_us:
   enable : true
   title : "Why AI **voicebots** ?" 
-  image : "images/voicebot/AI-powered-Voicebots.png"
+  image : "images/voicebot/AI-powered-Voicebots.webp"
   alt: "Automated Appointment Booking using Conversational AI Bot"
   contents : ""
   bulletpoints:
@@ -94,7 +94,7 @@ section2:
 section3:
   enable : true
   title : "Time for **change**"
-  image : "images/voicebot/AI-Query-Voicebot-for-Patients.png"
+  image : "images/voicebot/AI-Query-Voicebot-for-Patients.webp"
   alt: "Query Management using Conversational AI Bots "
   contents : ""
   bulletpoints:

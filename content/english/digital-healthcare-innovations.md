@@ -32,7 +32,7 @@ draft: false
 featured_testimonial:
   enable: true
   quote: "What we do/ offer"
-  image: "images/digital_healthcare/digital-healthcare-app1.webp"
+  image: "images/digital_healthcare/title-image.webp"
   alt: "HIPAA Certified Software Development Company"
   subtitle: "We deal with solutions that are essential for the Healthcare Industry to keep up with the continuous change in the way technology is used. It is also safe to say that our solutions will play a crucial role in establishing the statement that Hospital Automation 4.0 is in full throttle."
   video:
@@ -42,14 +42,14 @@ featured_testimonial:
 section1:
   enable: true
   title: "Target Audience"
-  image: "images/digital_healthcare/business-target-audience1.webp"
+  image: "images/digital_healthcare/target-audience-section.webp"
   alt: "Target Audience and Solution Partners "
   content: "We wish to reach out to those hospitals that struggle with making or taking appointments, pre, and post-surgery checkups, regular follow-ups for Health Analysis, and other genomic-based needs as well. In short, we wish to approach hospitals and pharmaceutical companies to implement a solution that raises efficiency for them."
 
 section2:
   enable: true
   title: "Our Areas of Expertise"
-  image: "images/digital_healthcare/healthcare-solution.webp"
+  image: "images/digital_healthcare/areas-of-expertise.webp"
   alt: "Innovative Digital Healthcare Solutions Development "
   content: "We specialise in healthcare oriented solutions such as Conversational AI Voice Bot, Genomic solutions for analysis and research, and much more but that not all if there's a particular solution that you are looking for we can get that done for you as well."
 ---
