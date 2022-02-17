@@ -21,7 +21,7 @@ apps:
   - name: "Lorempixel_helper"
     event: true
     image: "images/products/rubygems/ruby_gems1.png"
-    content: "A Rails view helper for lorempixel images via http://lorempixel.com."
+    content: "A Rails view helper for lorempixel images"
     link: "https://github.com/spritlesoftware/lorempixel_helper"
     builttitle: "Bulit by:"
     Builtby: " **Prabu D**"
