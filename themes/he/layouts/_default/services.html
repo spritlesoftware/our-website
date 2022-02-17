@@ -16,14 +16,12 @@
             {{ if eq .imageevent true}}
             <img
               loading="lazy"
+              width="50px"
+              height="50px"
               class="img-fluid"
               src="{{ .image | absURL }}"
               alt=""
             />{{ else }}
-            <i
-              class="{{ .icon }} fa-w-18"
-              style="width: 70%; height: 80%; color: {{ .colour }}; padding-top: 10px"
-            ></i>
             {{ end }}
           </div>
           {{ if eq .event true }}
