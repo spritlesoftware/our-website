@@ -8,10 +8,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-12 mb-25">
-          <div
-            class="team-filters text-uppercase text-center w-100"
-            data-toggle="buttons"
-          >
+        
             {{ $group := slice }} {{ range .Params.apps }} {{ $group = $group |
             append .group }} {{ end }} {{ range ( $group | uniq ) }}
             <label class="btn active mb-3">
