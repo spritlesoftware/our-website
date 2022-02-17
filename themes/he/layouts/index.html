@@ -346,9 +346,8 @@
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-block text-center">
           <img
+            class="img-iso"
             loading="lazy"
-            width="300px"
-            height="170px"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
@@ -486,6 +485,18 @@
   @media screen and (max-width: 486px) {
   .video-play-btn { 
     margin-left: 0px;
+  }
+}
+
+.img-iso { 
+    width:280px ;
+    height:280px ;
+  }
+
+@media screen and (max-width: 600px) {
+  .img-iso { 
+    width:250px;
+    height:250px;
   }
 }
 </style>
