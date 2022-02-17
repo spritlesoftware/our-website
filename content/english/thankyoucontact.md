@@ -8,7 +8,7 @@ start:
   enable: true
   image: "images/thankyou/checked (1).png"
   subtitle: "Thanks!"
-  content: "Your submission was successfully."
+  content: "Your submission was successfull."
   section: "We would get in touch with you shortly."
   section1: "Meanwhile why don't you go through"
   section2: "that might intrigue you!"
