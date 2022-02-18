@@ -37,10 +37,17 @@ banner:
   contents : "Say goodbye to waiting for your turn, with voicebots why bother! Be it the nurses or immediate healthcare assistance, this voicebot will be at your service."
   image: "images/voicebot/AI-powered-Conversational-Bot.gif"
   alt : "Conversational AI Voice Bots for Hospital Automation"
+   
   button:
-    enable : true
-    button_label : "Automation? We are the ones"
-    link : "contact/"
+    enable: true
+    button_label: "Automation? We are the ones"
+    link: "contact"
+collect_info:
+  title: "Have a project in mind?"
+  button_name: "Submit"
+  link: "thankyouenquiry"
+  details_textarea_title: "Have Somthing to say to us?*"
+  form_name: "Project requirment"
 
 verticals:
   title : "Why go for Spritle Voice Bot Solution?"

@@ -7,6 +7,7 @@
         <div
           class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
         >
+        
           {{ if .video.enable }} {{ with .video }}
           <button
             type="button"
@@ -56,8 +57,17 @@
         </div>
         <p>{{ .contents | markdownify }}</p>
 
-        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
-        end }} {{ end }}
+        {{if .button.enable }} {{with .button }}
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a
+      >
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>
@@ -280,4 +290,17 @@
 </section>
 {{ end }} {{ end }}
 <!-- end section -->
-{{ end }}
+
+
+{{ partial "verticals-home.html" . }} {{partial
+  "collect-info-modal.html" .}}
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+      var Choose = setTimeout(() => {
+        $("#myModal").modal("show");
+        clearTimeout(Choose);
+      }, 6000);
+    });
+  </script>
+  {{ end }} 
