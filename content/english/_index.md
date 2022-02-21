@@ -11,7 +11,7 @@ title: "Custom Software Solutions & AI Development Company"
 ogdescription: "Spritle helps in developing Digital Healthcare solutions,tailored-made web & cross platform mobile applications."
 link: "https://www.spritle.com/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/casestudies/800xNxFunctional-Medicine.png.pagespeed.ic.sJSY1uI-Ht.webp" 
+Ogimage: "https://www.spritle.com/images/casestudies/Functional-Medicine.webp" 
 alt: "Custom--Built Software Solutions"
 
 ########################### Twitter #################################
