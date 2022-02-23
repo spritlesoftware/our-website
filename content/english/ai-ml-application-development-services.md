@@ -102,7 +102,7 @@ aivoicebot:
     - "Collect health status post surgery"
   button:
     enable: true
-    button_label: "View more..."
+    button_label: "View more.."
     link: "products/voicebot"
 
 computervision:
