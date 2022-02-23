@@ -23,6 +23,10 @@
         <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
           <p class="pb-20" style="font-size: 16px;">{{ .content | markdownify }}</p>
+          <p class="pb-20">{{ .heading1 | markdownify }}</p>
+          <p class="pb-20">{{ .heading2 | markdownify }}</p>
+          <p class="pb-20">{{ .heading3 | markdownify }}</p>
+          <p class="pb-20">{{ .heading4 | markdownify }}</p>
           {{if .button.enable }} {{with .button }} {{ partial "button.html" .}}
           {{ end }} {{ end }}
           <ul class="check-list list-unstyled">

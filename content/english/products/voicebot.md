@@ -58,7 +58,7 @@ verticals:
   - name : "Hospital's experience"
     color : "#F3FCFD"
     contents : "Automate Patient health monitoring
-& more<br>Automate Pre & Post-surgery Calls<br>Automate Appointment Booking"
+    & more<br>Automate Pre & Post-surgery Calls<br>Automate Appointment Booking"
     
 
   - name : "Implementation"
