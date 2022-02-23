@@ -54,7 +54,7 @@ Assess if a sequence (for example, a remark) is good, unpleasant, or neutral to 
   **Improve the quality of your query results**
   <br>
 Execute complicated searches that take into account the context of words and provide more accurate answers by detecting substantial sequence similarities.
-++++++++++++  <br>"
+ <br>"
 
 misson:
   enable : true
