@@ -37,22 +37,32 @@ weight = 2
 [[main]]
 name = "Products"
 weight = 4
+hasChildren = true
 
   [[main]]
   parent = "Products"
   name = "Our Products"
   url =  "products/our-product"
+   weight= 1
 
   [[main]]
   parent = "Products"
   name = "Ruby Gems"
   url =  "products/rubygems"  
+   weight= 2
 
 
   [[main]]
   parent = "Products"
   name = "Voicebot"
   url =  "products/voicebot" 
+  weight= 3 
+
+  [[main]]
+  parent = "Products"
+  name = "NLP Services"
+  url =  "products/natural-language-processing" 
+   weight= 4 
 
 [[main]]
 name = "Company"

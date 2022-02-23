@@ -84,6 +84,10 @@ phraze:
   image: "images/AI_ML_Page/Voice-Transcribe-Software-Development.jpg"
   alt: "Medical Transcription Software Development Company using NLP"
   content: "Phraze now has a working Transcribe Software and a smooth experience, as well as Natural Language Processing and Speech Recognition, to assist Practitioners communicate with patients more effectively. "
+  button:
+    enable: true
+    button_label: "View more..."
+    link: "/products/natural-language-processing/"
 
 aivoicebot:
   enable: true
