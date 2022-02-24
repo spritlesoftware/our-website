@@ -37,7 +37,7 @@ btngroup:
 ################## vision ###############
 vision:
   enable : true
-  title : "**Improve your company's overall performance.**"
+  title : "Improve your company's overall performance."
   image : "images/casestudies/Improve-your-companies-overall-Performance-section-image-us.webp"  
   content : "
   **Customer Service Simplified**
