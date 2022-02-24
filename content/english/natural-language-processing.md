@@ -10,7 +10,7 @@ mission:
   Title : ""
   image : "/images/casestudies/title-image.webp" 
   content : ""
-  subtitle: "Make unique and clever apps with your unstructured data."
+  subtitle: "**Make unique and clever apps with your unstructured data.**"
   subcontent: " Give your company a competitive advantage. Spritle is one of the best Natural Language Processing Companies that allows you to reinvent what's feasible, from virtual personal assistants and chatbots to sentiment analysis and search engines."
   button:
         enable: true
@@ -58,7 +58,7 @@ misson:
   Title : "**Our Use Case**"
   image : "images/casestudies/Casesthatwereimplementedsection.webp" 
   content : ""
-  subtitle: "Convert speech into text efficiently."
+  subtitle: "**Convert speech into text efficiently.**"
   subcontent: "A system that can instantly capture the key points of a Practitioner-Patient dialogue and update them in the EHR even while giving you a suitable Clinical Record. All that is needed is for the Practitioner and the Patient to have regular interactions.
   <br>
   <br>

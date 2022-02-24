@@ -43,13 +43,13 @@ hasChildren = true
   parent = "Products"
   name = "Our Products"
   url =  "products/our-product"
-   weight= 1
+  weight= 1
 
   [[main]]
   parent = "Products"
   name = "Ruby Gems"
   url =  "products/rubygems"  
-   weight= 2
+  weight= 2
 
 
   [[main]]
@@ -62,7 +62,7 @@ hasChildren = true
   parent = "Products"
   name = "NLP Services"
   url =  "products/natural-language-processing" 
-   weight= 4 
+  weight= 4 
 
 [[main]]
 name = "Company"

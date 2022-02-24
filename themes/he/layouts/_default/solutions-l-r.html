@@ -15,7 +15,7 @@
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-5 col-md-8 col-sm-10 mb-5">
         <h2 class="section-title">{{ .subtitle | markdownify }}</h2>
-        <p class="pb-20 border-bottom mb-20">{{ .subcontent | safeHTML }}</p>
+        <p class="pb-10 border-bottom mb-0">{{ .subcontent | safeHTML }}</p>
         {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
           end }} {{ end }}
 
