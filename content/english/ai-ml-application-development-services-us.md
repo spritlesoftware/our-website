@@ -87,7 +87,7 @@ phraze:
   button:
     enable: true
     button_label: "View more..."
-    link: "/products/natural-language-processing/"
+    link: "/products/natural-language-processing-us/"
 
 aivoicebot:
   enable: true

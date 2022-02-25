@@ -11,8 +11,8 @@
           <div class="d-inline-block">
             <img
               loading="lazy"
-              height="300px"
-              width="450px"
+              height="400px"
+              width="400px"
               class="img-fluid rounded-lg"
               src="{{ 
             .image | absURL}}"
@@ -27,6 +27,7 @@
           <p class="pb-20">{{ .heading2 | markdownify }}</p>
           <p class="pb-20">{{ .heading3 | markdownify }}</p>
           <p class="pb-20">{{ .heading4 | markdownify }}</p>
+
           {{if .button.enable }} {{with .button }} {{ partial "button.html" .}}
           {{ end }} {{ end }}
           <ul class="check-list list-unstyled">
