@@ -85,10 +85,10 @@ phraze:
   image: "images/AI_ML_Page/voice-transcribe-software-development.webp"
   alt: "Medical Transcription Software Development Company using NLP"
   content: "Giving Phraze a functional **Transcribe Software** & seamless experience partnered with **Natural Language Processing & Speech Recognition** that help Practitioners connect better with Patients "
-  button:
+  button: 
     enable: true
-    button_label: "View more..."
-    link: "/products/natural-language-processing/"
+    button_label: "View more.."
+    link: "products/natural-language-processing"
 
 aivoicebot:
   enable: true
