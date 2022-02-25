@@ -19,19 +19,19 @@ weight = 2
   [[main]]
   parent = "Services"
   name = "Custom Software Development"
-  url =  "services/custom-software-development/"
+  url =  "/services/custom-software-development/"
   weight = 2
 
   [[main]]
   parent = "Services"
   name = "Digital Healthcare Services"
-  url =  "services/digital-healthcare-innovations/"
+  url =  "/services/digital-healthcare-innovations/"
   weight = 3
 
   [[main]]
   parent = "Services"
   name = "AI & ML Application Development Services"
-  url =  "services/ai-ml-application-development-services/"
+  url =  "/services/ai-ml-application-development-services/"
   weight= 4 
 
 [[main]]
@@ -42,26 +42,26 @@ hasChildren = true
   [[main]]
   parent = "Products"
   name = "Our Products"
-  url =  "products/our-product"
+  url =  "/products/our-product"
   weight= 1
 
   [[main]]
   parent = "Products"
   name = "Ruby Gems"
-  url =  "products/rubygems"  
+  url =  "/products/rubygems"  
   weight= 2
 
 
   [[main]]
   parent = "Products"
   name = "Voicebot"
-  url =  "products/voicebot" 
+  url =  "/products/voicebot" 
   weight= 3 
 
   [[main]]
   parent = "Products"
   name = "NLP Services"
-  url =  "products/natural-language-processing" 
+  url =  "/products/natural-language-processing" 
   weight= 4 
 
 [[main]]
@@ -113,17 +113,17 @@ weight = 7
 # Footer menu
 [[footer]]
 name = " Custom Web Application Development"
-url = "services/web-application-development-services/"
+url = "/services/web-application-development-services/"
 weight = 1
 
 [[footer]]
 name = "Cross Platform Mobile App Development"
-url = "services/cross-platform-mobile-app-development/"
+url = "/services/cross-platform-mobile-app-development/"
 weight = 2
 
 [[footer]]
 name = " AI ML Development Services"
-url = "services/ai-ml-application-development-services/"
+url = "/services/ai-ml-application-development-services/"
 weight = 3
 
 [[footer]]
