@@ -244,7 +244,7 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
 {{ end }} {{ end }} {{ partial "verticals-home.html" . }} {{partial
 "collect-info-modal.html" .}}
 
-<script>
+<script defer>
   document.addEventListener("DOMContentLoaded", (event) => {
     var Choose = setTimeout(() => {
       $("#myModal").modal("show");

@@ -39,6 +39,9 @@
           </li>
           {{ end }}
         </ul>
+
+        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
+        end }} {{ end }}
       </div>
 
       <div class="col-lg-5 col-md-8 col-sm-10">
