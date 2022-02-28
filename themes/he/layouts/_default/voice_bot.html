@@ -290,17 +290,4 @@
 </section>
 {{ end }} {{ end }}
 <!-- end section -->
-
-
-{{ partial "verticals-home.html" . }} {{partial
-  "collect-info-modal.html" .}}
-  
-  <script>
-    document.addEventListener("DOMContentLoaded", (event) => {
-      var Choose = setTimeout(() => {
-        $("#myModal").modal("show");
-        clearTimeout(Choose);
-      }, 6000);
-    });
-  </script>
   {{ end }} 
