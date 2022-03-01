@@ -34,6 +34,8 @@
           </button>
           {{ end }} {{ end }}
           <img
+          height="600px"
+          width="600px"
             loading="lazy"
             class="img-fluid"
             src="{{ .image | absURL }}"
@@ -49,7 +51,7 @@
         <div class="banner-heading-slider mb-20">
           {{ range .banner_heading }}
           <div>
-            <h2 class="h1">{{ . | markdownify }}</h2>
+            <h2 style="font-size:40px" class="h1">{{ . | markdownify }}</h2>
           </div>
           {{ end }}
         </div>
@@ -460,4 +462,28 @@
     class="shape-6 shape-md bg-yellow rounded-circle d-none d-md-block"
   ></div>
 </section>
+<style>
+  .video-play-btn { 
+    align-items: center;
+    margin-left: -60px;
+  }
+
+  @media screen and (max-width: 486px) {
+  .video-play-btn { 
+    margin-left: 0px;
+  }
+}
+
+.img-iso { 
+    width:280px ;
+    height:280px ;
+  }
+
+@media screen and (max-width: 600px) {
+  .img-iso { 
+    width:250px;
+    height:250px;
+  }
+}
+</style>
 {{ end }} {{ end }} {{partial "testimonial.html" . }} {{ end }}
