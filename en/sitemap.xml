@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/ai-ml-application-development-services/</loc>
+    <loc>/services/ai-ml-application-development-services/</loc>
   </url><url>
-    <loc>/ai-ml-application-development-services-us/</loc>
+    <loc>/services/ai-ml-application-development-services-us/</loc>
   </url><url>
     <loc>/career/ba-cum-dm/</loc>
   </url><url>
@@ -34,15 +34,15 @@
   </url><url>
     <loc>/contact/</loc>
   </url><url>
-    <loc>/cross-platform-mobile-app-development/</loc>
+    <loc>/services/cross-platform-mobile-app-development/</loc>
   </url><url>
-    <loc>/cross-platform-mobile-app-development-us/</loc>
+    <loc>/services/cross-platform-mobile-app-development-us/</loc>
   </url><url>
-    <loc>/digital-healthcare-innovations-us/</loc>
+    <loc>/services/digital-healthcare-innovations-us/</loc>
   </url><url>
     <loc>/work/</loc>
   </url><url>
-    <loc>/custom-software-development/</loc>
+    <loc>/services/custom-software-development/</loc>
   </url><url>
     <loc>/</loc>
     <xhtml:link
@@ -56,11 +56,11 @@
                 href="/"
                 />
   </url><url>
-    <loc>/web-application-development-services/</loc>
+    <loc>/services/web-application-development-services/</loc>
   </url><url>
-    <loc>/web-application-development-services-us/</loc>
+    <loc>/services/web-application-development-services-us/</loc>
   </url><url>
-    <loc>/custom-software-development-us/</loc>
+    <loc>/services/custom-software-development-us/</loc>
   </url><url>
     <loc>/services/</loc>
   </url><url>
@@ -68,7 +68,7 @@
   </url><url>
     <loc>/design-service/</loc>
   </url><url>
-    <loc>/digital-healthcare-innovations/</loc>
+    <loc>/services/digital-healthcare-innovations/</loc>
   </url><url>
     <loc>/career/django-fullstack/</loc>
   </url><url>
@@ -88,9 +88,9 @@
   </url><url>
     <loc>/machinelearn-service/</loc>
   </url><url>
-    <loc>/natural-language-processing-us/</loc>
+    <loc>/products/natural-language-processing-us/</loc>
   </url><url>
-    <loc>/natural-language-processing/</loc>
+    <loc>/products/natural-language-processing/</loc>
   </url><url>
     <loc>/career/node-js-developer/</loc>
   </url><url>
