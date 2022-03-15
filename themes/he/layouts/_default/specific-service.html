@@ -176,6 +176,7 @@
 {{if .Params.aivoicebot.enable }} {{with .Params.aivoicebot }} {{ partial
 "right-image-left-text.html" . }} {{ end }} {{ end }}
 
+
 <!--end-->
 {{if .Params.computervision.enable }} {{with .Params.computervision }} {{
 partial "left-image-right-text.html" . }} {{ end }} {{ end }}
@@ -204,8 +205,10 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
 {{if .Params.section5 }} {{with .Params.section5 }} {{ partial
 "left-image-right-text.html" . }} {{ end }} {{ end }}
 <!-- end section -->
+
 {{if .Params.floating }} {{with .Params.floating }} {{if .button.enable }}
 {{with .button }}
+
 
 <div id="mybutton">
   <a
@@ -241,8 +244,12 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
     right: -40px;
   }
 </style>
-{{ end }} {{ end }} {{ partial "verticals-home.html" . }} {{partial
+{{ end }} {{ end }} {{ partial "verticals-home.html" . }} 
+
+
+{{partial
 "collect-info-modal.html" .}}
+
 
 <script defer>
   document.addEventListener("DOMContentLoaded", (event) => {
@@ -252,4 +259,5 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
     }, 6000);
   });
 </script>
+{{ partial "faq.html" .}}
 {{ end }}

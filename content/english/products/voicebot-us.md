@@ -88,6 +88,12 @@ section3:
     - " This would not only expedite processing at your facility, but it would also improve productivity by allowing you to manage all of those jobs only with one click from the ease of your smartphone or tablet."
     - "A Healthcare Conversational Voice bot for Hospitals can also be used to alleviate the burden of record keeping and call making that the nurses have to deal with."
 
-
+faq:
+  question1: "Why is the Healthcare Conversational Voice bot for Hospitals needed?"
+  answer1: "The reason why your hospital requires the Healthcare Conversational Voice bot is due to the simple task of reducing the burden of the nurses by dealing with calls & appointments by making the handling of patients even smoother. "
+  question2: "How does the Healthcare Conversational Voice Bot for Hospitals handle the patients? "
+  answer2: "The Healthcare conversational voice bots play a crucial role in patient management by making follow-up calls, pre, and post-surgery calls, check-up calls, and appointment calls. This greatly helps to reduce the stress on the medical staffs and improves remote monitoring."
+  question3: "Why go for Spritle's Healthcare Conversational Voicebots for Hospitals?"
+  answer3: "The Healthcare Conversational Voice Bot helps improve your hospital experience by automating the manual calling process, with seamless implementation of the bot into your existing system. You can reduce a significant percentage in your overall expense spent over manual support. Also, the patient's queries can be handled smoothly without causing any trouble for both the parties."
 
 ---

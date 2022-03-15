@@ -286,4 +286,15 @@ testimonial:
       image: "images/clients/sundar.png"
       designation: "CTO @BeerBoard"
       content: "Spritle is an extension of our infrastructure and has done well blending themselves into our work culture and understanding the scope. They go above and beyond to deliver the best outcomes..."
+
+faq:
+  enable: true
+  title: "Who Are We And **What Is Our Identity?**"
+  image: "images/home/iso.webp"
+  alt: "ISO certified software development companies"
+  content: "We were awarded the ISO 9001: 2015 Quality Management System Certification to prove our competence & consistency among all."
+  bulletpoints:
+    - "Habit building in essential steps choose habit Good Things"
+    - "Get an overview of Habit Calendars admiral general."
+    - "Start building habit with Habitify on platform to new"
 ---

@@ -1,0 +1,70 @@
+{{if .Params.faq }} {{with .Params.faq}}
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-9 mb-40">
+        <div class="content text-center">
+          <h3>Frequently Asked Questions</h3>
+        </div>
+        <div class="card border-0 border-bottom accordionFAQ mb-0">
+          <div class="card-header border-0 bg-transparent py-0">
+            <h4
+              class="py-4 mb-0"
+              data-toggle="collapse"
+              data-target="#{{ .question1 | urlize }}"
+              aria-expanded="false"
+            >
+              <i class="accordion-arrow fas fa-angle-down"></i>{{ .question1 |
+              markdownify }}
+            </h4>
+          </div>
+
+          <div id="{{ .question1 | urlize }}" class="collapse">
+            <div class="card-body pt-2">
+              <div class="content">{{ .answer1 | markdownify }}</div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 border-bottom accordionFAQ mb-0">
+          <div class="card-header border-0 bg-transparent py-0">
+            <h4
+              class="py-4 mb-0"
+              data-toggle="collapse"
+              data-target="#{{ .question2 | urlize }}"
+              aria-expanded="false"
+            >
+              <i class="accordion-arrow fas fa-angle-down"></i>{{ .question2 |
+              markdownify }}
+            </h4>
+          </div>
+
+          <div id="{{ .question2 | urlize }}" class="collapse">
+            <div class="card-body pt-2">
+              <div class="content">{{ .answer2 | markdownify }}</div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 border-bottom accordionFAQ mb-0">
+          <div class="card-header border-0 bg-transparent py-0">
+            <h4
+              class="py-4 mb-0"
+              data-toggle="collapse"
+              data-target="#{{ .question3 | urlize }}"
+              aria-expanded="false"
+            >
+              <i class="accordion-arrow fas fa-angle-down"></i>{{ .question3 |
+              markdownify }}
+            </h4>
+          </div>
+
+          <div id="{{ .question3 | urlize }}" class="collapse">
+            <div class="card-body pt-2">
+              <div class="content">{{ .answer3 | markdownify }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}{{end}}

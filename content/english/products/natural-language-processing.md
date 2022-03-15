@@ -91,5 +91,11 @@ why_choose_us:
   - name : "**Misdiagnosis is no longer a possibility.**"
     image : "/images/casestudies/Misdiagnosis-is-no-longer-a-possibilit.png"  
 
-
+faq:
+  question1: "Why choose Spritle Software over other Natural Language Processing companies?"
+  answer1: "The reason why it would be suitable to choose Spritle over other Natural Language Processing companies is because of the immaculate detail to attention and at the same time, the functional aspect of it is not reduced."
+  question2: "How is Spritle Software different from other Natural Language Processing companies?"
+  answer2: "When compared to other Natural Language Processing companies Spritle's development team spare no room for any possible error and does not cut any corners when it comes to the quality of the solution delivered."
+  question3: "Do Natural Language Processing companies play an important role in the future?"
+  answer3: "Natural Language Processing companies do indeed have a pretty bright future given the features that they provide. We can proudly say that Spritle has already started its journey towards the technology-based future with NLP services like Voice-Transcribe Software, PPI Data De-identification, and Clinical Assertions for perfect diagnosis."
 ---

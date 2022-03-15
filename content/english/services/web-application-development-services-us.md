@@ -92,6 +92,12 @@ section5:
     - "Reports"
     - "Analytics"
 
-  
+faq:
+  question1: "Are Custom Web Application Development necessary for a company?"
+  answer1: "The custom web application development services Sprtile offers, help you create a presence of your company on the internet. Given the world is now quickly adapting to the use of online platforms, it is ideal that you have your own custom web application development to increase your customer base."
+  question2: "What makes Spritles's custom web application development services better than the others?"
+  answer2: "The Spritle team put in 100% of its effort into developing a web application that would not only satisfy all your needs but also tick all the boxes that are necessary in order to make an effective yet practical and functional custom web application."
+  question3: "Why does Spritle provide Custom Web Application Development Services?"
+  answer3: "Spritle Software was initially started with the idea of providing not only custom web application development services but also various other software solutions that vary based on needs. The reason for then to deal with this sector as well is solely because of the demand."
 ---
 

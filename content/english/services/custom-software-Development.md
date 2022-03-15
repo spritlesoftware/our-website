@@ -54,4 +54,12 @@ section2:
     enable : true
     button_label : "Read more.."
     link : "services/cross-platform-mobile-app-development/"
+
+faq:
+  question1: "Why choose Spritle Software for your Custom Software Development Solutions?"
+  answer1: "We at Spritle have over 10 years of experince in this particular field and have managed to satisfy many of our fellow clients when it comes to custom software development solutions. Our development team completely devotes themselves to the perfect completion of the required solution."
+  question2: "Why do Custom Software Development Solutions matters?"
+  answer2: "It is best to get a solution that is based on custom software development than using an existing one as no two businesses are the same."
+  question3: "Why do Custom Software Development Solutions take time?"
+  answer3: "Spritle Software spends more time on the initial phases like Analyzing, Designing, and finally Developing your idea into the custom software solution you require. The primary reason is the meticulous planning and developing of the software."
 ---

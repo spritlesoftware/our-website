@@ -141,9 +141,21 @@ verticals1:
       colour: "#2e8b57"
       image: "images/home/serviceimages/alml.svg"
       content: ""
+
+faq:
+  question1: "Are AI-ML development services a necessity?"
+  answer1: "Yes, AI-ML services play quite an important role when it comes to the implementation of a custom solution due to the constant evolution of technology and the frequent changes in the industry, and the fact that industry 4.0 revolves around this makes it even more important."
+  question2: "What makes Spritles's AI-ML development services better than other services out in the market?"
+  answer2: "Spritle AI-ML services are developed with the sole purpose of achieving absolute ease of access and with no presence of any flaws. Apart from that, the development team is pretty easy to get in touch with to resolve whatever issue one may be facing."
+  question3: "Why do companies need AI-ML development services?"
+  answer3: "The need for AI-ML services is quite essential given that the world is gradually moving towards a stage where everything is automated or requires automation. <br> Spritle provides you with systems that can take decisions for you based on the analytics of the past data. Starting from providing insights to increase your sales to suggesting the marketing strategy, Spritle's AI-ML development services surely make a mark."
+
+  
 floating:
   button:
     enable: true
     button_label: "Enquire Now"
     link: "contact"
+
+
 ---
