@@ -7,7 +7,7 @@ layout: "specific-service"
 draft: false
 
 name: "latest-new"
-section1:
+section2:
   enable: true
   image: "images/designrush/DesignRush.jpg"
   content: "We are happy to share the news that we have been ranked among the Top 30 Digital Healthcare Software Development Companies by DesignRush.

@@ -84,4 +84,12 @@ section7:
   image: "images/services/mobile_app/trivia_gaming_apps_development.png"
   alt: ""
   content: "We have brought ourselves a niche building Trivia gaming apps that are compelling to use. With excellent user experience, superior designs and our newest tech we have built some very successful gaming apps played by several hundreds of thousands of user everyday globally. Video streaming could get tricky if you do not have experts building it for you. Talk to us to bring your next game idea into life."
+
+faq:
+  question1: "Why approach Spritle Software for your next cross platform mobile app development?"
+  answer1: "Spritle offers you top-of-line services when it comes to cross platform mobile app development by satisfying all of your customized needs and the level of comfort you wish to have for your hands."
+  question2: "What makes Spritle's cross platform app development better than the others?"
+  answer2: "The attention to detail that we give for the cross platform mobile app development is suitable for your different requirements. User experience always comes first in our cross platform app development."
+  question3: "What cross platform mobile app development technologies Spritle is expertise in?"
+  answer3: "Spritle Software has over 90+ developers team who are well established in the most recent cross platform app development technology, React Native. We have developed over 25+ mobile applications for customers to the client's needs."
 ---
