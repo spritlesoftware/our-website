@@ -719,36 +719,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <section
-  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
-  style="background-image: url('/images/brushes/section-top.svg'), url('/images/brushes/section-bottom.svg');"
-  data-aos="fade-up"
-  data-aos-delay="150"
->
-  <div>
-    <div class="container" style="padding-top: 100px; padding-bottom: 50px">
-      <div class="row align-items-center justify-content-around">
-        <div class="col-lg-5 col-md-8 col-sm-10">
-          <div class="d-inline-block">
-            <img
-              loading="lazy"
-              height="400px"
-              width="400px"
-              class="img-fluid rounded-lg"
-              src="/images/designrush/DesignRush.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
-          <h2 class="section-title"></h2>
-          <p class="pb-20" style="font-size: 16px;">We are happy to share the news that we have been ranked among the Top 30 Digital Healthcare Software Development Companies by DesignRush. <br> Spritle Software | January 17th, 2022</p>
-          <p class="pb-20"></p>
-          <p class="pb-20"></p>
-          <p class="pb-20"></p>
-          <p class="pb-20"></p>
 
-            <a
+
+
+  <section class="section-padding" data-aos="fade-up" data-aos-delay="150">
+  <div class="container">
+    <div class="row align-items-center justify-content-around">
+      <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
+        <h2 class="section-title"></h2>
+        <p class="pb-20">We are happy to share the news that we have been ranked among the Top 30 Digital Healthcare Software Development Companies by DesignRush. <br> Spritle Software | January 17th, 2022</p>
+        
+        <div class="has-colored-text growth-rate-counter">
+          
+        </div>
+        <ul class="check-list list-unstyled">
+          
+        </ul>
+
+          <a
   href="/spritle-software-top-30-healthcare-software-development-companies/"
   type="submit"
   class="btn btn-primary has-icon mt-15"
@@ -769,25 +757,121 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </svg>
   </span>
 </a>
+  
+      </div>
 
-           
-          <ul class="check-list list-unstyled">
-            
-          </ul>
+      <div class="col-lg-5 col-md-8 col-sm-10">
+        <div class="d-inline-block">
+          <img
+            loading="lazy"
+            height="300px"
+              width="300px"
+            class="img-fluid rounded-sm"
+            src="/images/designrush/DesignRush.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
   </div>
-  <div class="shape-3 shape-xs-2 bg-secondary rounded-circle"></div>
-  <div class="shape-4 shape-sm-2 bg-tertiary rounded-circle"></div>
-  <div class="shape-5 shape-sm bg-primary rounded-circle"></div>
-  <div class="shape-6 shape-xs bg-secondary rounded-circle"></div>
-  <div class="shape-7 shape-xs-2 bg-tertiary rounded-circle"></div>
 </section>
+
+<style>
+   
+  .modal {
+    display: none;  
+    position: fixed;  
+     
+    left: 0;
+    top: 0;
+    width: 100%;  
+    height: 100%;  
+    overflow: auto;  
+    background-color: rgb(0, 0, 0);  
+    background-color: rgba(0, 0, 0, 0.4);  
+  }
+
+   
+  .modal-content {
+    display: block;
+    background-color: #fefefe;
+    margin: 1% auto;  
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;  
+    height: auto;
+  }
+  @media (min-width: 320px) {
+     
+    .modal-content {
+      width: 100%;
+      margin-bottom: 40px;
+      padding-left: 30px;
+    }
+  }
+  @media (min-width: 480px) {
+     
+    .modal-content {
+      width: 90%;
+    }
+  }
+  @media (min-width: 600px) {
+     
+    .modal-content {
+      width: 60%;
+    }
+  }
+  @media (min-width: 801px) {
+     
+    .modal-content {
+      width: 60%;
+    }
+  }
+  @media (min-width: 1025px) {
+     
+    .modal-content {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1281px) {
+     
+    .modal-content {
+      width: 40%;
+    }
+  }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#request_form");
+
+  frm.submit(function (e) {
+    e.preventDefault();
+    $("#waitingPreloader").removeClass("loaded");
+
+    $.ajax({
+      type: "post",
+      url: "https://nodemailernew.herokuapp.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#request_form")[0].reset();
+        $("#myModal").modal("hide");
+        $("#waitingPreloader").addClass("loaded");
+        window.location.href = "/thankyouenquiry/";
+        console.log(data);
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+        $("#waitingPreloader").addClass("loaded");
+      },
+    });
+  });
+</script>
+
+
   
-
-
-
 
 
 
