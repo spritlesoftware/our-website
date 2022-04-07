@@ -56,7 +56,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 "@type": "ListItem",
 "position": 1,
 "item": {
-"@id": "https://www.spritle.com/custom-software-development/",
+"@id": "https://www.spritle.com/services/services/custom-software-development//",
 "name": "Custom Software Development",
 "image": "https://www.spritle.com/images/custom_software_development/xDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
 }
@@ -65,7 +65,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 "@type": "ListItem",
 "position": 2,
 "item": {
-"@id": "https://www.spritle.com/web-application-development-services/",
+"@id": "https://www.spritle.com/services/web-application-development-services/",
 "name": "Web Application Development",
 "image": "https://www.spritle.com/images/services/web/Web-Application-Development.png.pagespeed.ce.klwBPCz1ud.png"
 }
@@ -74,7 +74,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 "@type": "ListItem",
 "position": 3,
 "item": {
-"@id": "https://www.spritle.com/cross-platform-mobile-app-development/",
+"@id": "https://www.spritle.com/services/cross-platform-mobile-app-development/",
 "name": "Mobile Application Development",
 "image": "https://www.spritle.com/images/services/mobile_app/xMobile-Application-Development.png.pagespeed.ic.aww2jAFWQe.webp"
 }
@@ -83,7 +83,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 "@type": "ListItem",
 "position": 4,
 "item": {
-"@id": "https://www.spritle.com/digital-healthcare-innovations/",
+"@id": "https://www.spritle.com/services/digital-healthcare-innovations/",
 "name": "Digital Healthcare Services",
 "image": "https://www.spritle.com/images/digital_healthcare/Business-Target-Audience.webp.pagespeed.ce.WkfbS_QTE-.webp"
 }
@@ -92,7 +92,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 "@type": "ListItem",
 "position": 5,
 "item": {
-"@id": "https://www.spritle.com/ai-ml-application-development-services/",
+"@id": "https://www.spritle.com/services/ai-ml-application-development-services/",
 "name": "AI & ML Application Development",
 "image": "https://www.spritle.com/images/AI_ML_Page/Gene-Analysis-Dashboard.png.pagespeed.ce.n1n8Y7RGdR.png"
 }
@@ -124,8 +124,74 @@ AUTHOR WEBSITE: https://gethugothemes.com
   }
   </script>
   {{ end }}
-  </head>
 
+  {{ if eq .RelPermalink "/products/natural-language-processing/" }}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/", 
+      "@type": "Product", 
+      "name": "Natural Language Processing",
+      "description": "Our Natural Language Processing experts develop applications, NLP-Driven solutions, and applications suited for your requirement & company. See our projects.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Spritle Software"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "503"
+      }
+    }
+    </script>
+    {{end}}
+
+   {{ if eq .RelPermalink "/products/natural-language-processing-us/" }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/", 
+      "@type": "Product", 
+      "name": "Natural Language Processing",
+      "description": "Our Natural Language Processing experts develop applications, NLP-Driven solutions, and applications suited for your requirement & company. See our projects.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Spritle Software"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "503"
+      }
+    }
+    </script>
+    {{end}}
+
+    {{ if eq .RelPermalink "/products/voicebot-us/" }}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Conversational Voicebot",
+        "image": "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp",
+        "description": "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Spritle Software"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "503"
+        }
+      }
+      </script>
+      {{end}}
+  </head>
   <body
     data-spy="scroll"
     data-target="#navbar-spy"
