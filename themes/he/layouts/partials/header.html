@@ -1,13 +1,14 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="header-nav {{.Scratch.Get `bg`}} fixed-top ">
+<header class="header-nav {{.Scratch.Get `bg`}} fixed-top">
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
+      {{ if eq .Params.custom_header true}}
       <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}">
         {{ if site.Params.logo }}
         <img
           class="img-fluid"
-          height="65px"
-          width="115px"
+          width=""
+          height=""
           src="{{ site.Params.logo | relURL}}"
           alt="{{ site.Title }}"
         />
@@ -41,11 +42,56 @@
         </svg>
       </button>
 
+      {{ else }}
+
+      <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}">
+        {{ if site.Params.logo }}
+        <img
+          class="img-fluid"
+          width="210px"
+          height="61px"
+          src="{{ site.Params.logo | relURL}}"
+          alt="{{ site.Title }}"
+        />
+        {{ else }} {{site.Params.logo_text | markdownify}} {{ end }}
+      </a>
+
+      <button
+        class="navbar-toggler bg-white rounded-0 p-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navlinks"
+        aria-controls="navlinks"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <svg
+          class="nav-toggle-icon"
+          viewBox="0 0 100 100"
+          width="40"
+          onclick="this.classList.toggle('active')"
+        >
+          <path
+            class="line top"
+            d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20"
+          />
+          <path class="line middle" d="m 70,50 h -40" />
+          <path
+            class="line bottom"
+            d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20"
+          />
+        </svg>
+      </button>
+
+
+      
+      
       <!-- mobile-nav control button -->
 
       <div class="collapse navbar-collapse" id="navlinks">
         <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }} {{ if .HasChildren }}
+
           <li class="nav-item dropdown">
             <a
               class="
@@ -106,7 +152,7 @@
                   {{ range .Children }}
                   <li>
                     <a
-                      class="nav-link"
+                      class="dropdown-item"
                       h{{if
                       findRE
                       `^http`
@@ -122,7 +168,7 @@
               {{ else }}
               <li>
                 <a
-                  class="nav-link"
+                  class="dropdown-item"
                   h{{if
                   findRE
                   `^http`
@@ -172,6 +218,7 @@
         </div>-->
       </div>
       <!-- nav links -->
+      {{ end }}
     </nav>
   </div>
 </header>

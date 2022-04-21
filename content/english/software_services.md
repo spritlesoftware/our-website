@@ -1,0 +1,150 @@
+---
+############################ Banner ##################################
+custom_title_enabled: true
+custom_title_value: "Healthcare Conversational Voicebot for Hospitals"
+layout : "software_services"
+title: "Conversational Voicebot"
+description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
+keywords : ["voicebots","conversational voicebots","custom built software for healthcare","voice assistance","healthcare conversational voicebots for hospitals"]
+       ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Healthcare Conversational Voicebot for Hospital1ss" 
+Islanding: true
+custom_header: true
+ogdescription: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."   
+link: "https://www.spritle.com/products/voicebot/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
+alt: "Conversational Voicebot" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Healthcare Conversational Voicebot for Hospitals"  
+twitter_description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
+Islanding: true
+custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
+custom_button: true
+custom_header : true
+formlink : "voicebot"
+labels : "hi"
+banner:
+  enable : true
+  title : "Our voicebot can understand your patient"
+  banner_heading:
+  - "Developing priceless solutions"
+  contents : "Spritle being an AI/ML development company, aims to develop custom, efficient, simplified, and elegant solutions that suit your standards."
+  image: "images/voicebot/AI-powered-Conversational-Bot.gif"
+  alt : "Conversational AI Voice Bots for Hospital Automation"
+   
+  button:
+    enable: true
+    button_label: "Automation? We are the ones"
+    link: "contact"
+collect_info:
+  title: "Have a project in mind?"
+  button_name: "Submit"
+  link: "thankyouenquiry"
+  details_textarea_title: "Have Somthing to say to us?*"
+  form_name: "Project requirment"
+
+verticals:
+  title : "Why go for Spritle Voice Bot Solution?"
+  description : "Witness the Next-Gen Patient Experience with our AI Voice Bot."
+  layout : "services"
+  draft : false
+  services:
+  - name : "Hospital's experience"
+    color : "#F3FCFD"
+    contents : "Automate Patient health monitoring
+    & more<br>Automate Pre & Post-surgery Calls<br>Automate Appointment Booking"
+    
+
+  - name : "Implementation"
+    color : "#FFFCF4"
+    contents : "Seamlessly sinks within your system<br>Automatic updates at the backend<br> Real-time humanlike support<br>Easy API Integration"
+    
+  - name : "Benefits"
+    color : "#FFF4F4"
+    contents : "Smoothly resolve Patient queries<br>Reduce burnouts of your staffs<br>24/7 healthcare assistance </br>Saves your cost up to 80%"
+ 
+
+
+audio_section:
+  enable : true
+  title : "VoiceBot Audio"
+  contents : "Voice Bot Patient post-surgery pain handling call for Singapore Eye Hospital"
+############################## about us ################################
+about_us:
+  enable : true
+  title : "Why AI **voicebots** ?" 
+  image : "images/voicebot/AI-powered-Voicebots.webp"
+  alt: "Automated Appointment Booking using Conversational AI Bot"
+  contents : ""
+  bulletpoints:
+    - "Well, given that the worlds moving towards another technological world it’s only natural that the medical field needs to be following in suite."
+    - "The process of implementing the voice-bot will tremendously improve the accessibility of the patients and also make the process smoother and streamlined." 
+    - "It is estimated that **over 47.1% of people find it comfortable** to make use of a voice-bot than the usual way."
+    - "The artificial market for healthcare has **grown to 6,662 million dollars** making it a hugely viable need in today’s lifestyle."
+
+  images:
+
+section2:
+  description: "asd ad asDA dASD"
+  enable : true
+  title : "Custom web applications"
+  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  alt: "Workflow Diagram for Conversational AI Bots"
+  contents : "Our custom web applications are carefully developed after receiving a clear understanding of what our clients need. We put in the necessary time and effort to present to you an application that displays both quality and efficiency."
+
+custom_mobile:
+  description: "asd ad asDA dASD"
+  enable : true
+  title : "Custom mobile applications"
+  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  alt: "Workflow Diagram for Conversational AI Bots"
+  contents : "Be it simple gaming applications or complex tracking-based ones, We will give you what you ask for. That aside we also specialize in hybrid cross-platform mobile development  and the applications created  can be accessed on both platforms that are IOS and Android. While at the same time frequent updates will be provided based on requirements."
+
+
+ror:
+  description: "Ruby on Rails solutions"
+  enable : true
+  title : "Ruby on Rails solutions"
+  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  alt: "Workflow Diagram for Conversational AI Bots"
+  contents : "Our team at spritle has a team filled with tons of gems and skilled personnel, so no matter what the solution you need when it comes to Ruby on Rails, we are your go-to choice. Don’t worry though this track will take you straight to your destination!"
+
+ui_ux:
+  description: "UI/UX"
+  enable : true
+  title : "UI/UX"
+  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  alt: "Workflow Diagram for Conversational AI Bots"
+  contents : "When it comes to looks we know that mediocre designs never cut it so we don't give you that promise of doing good UI/UX rather we guarantee you the best of what can be given. So it goes without saying that we are your go-to company when it comes to UI/UX designs."
+
+
+section3:
+  enable : true
+  title : "Time for **change**"
+  image : "images/voicebot/AI-Query-Voicebot-for-Patients.webp"
+  alt: "Query Management using Conversational AI Bots "
+  contents : ""
+  bulletpoints:
+    - "Voice-bots have started to take over the industry by storm and we Spritle are going to help you make this process even smoother."
+    - "Customize the Voice Bot according to your Hospital needs. Do not worry about the flow, we take care of them for you."
+    - "We aim to ensure that you get the best service and we hope that we could play a small yet vital role in Hospital automation."
+
+
+faq:
+  question1: "Why is the Healthcare Conversational Voice bot for Hospitals needed?"
+  answer1: "The reason why your hospital requires the Healthcare Conversational Voice bot is due to the simple task of reducing the burden of the nurses by dealing with calls & appointments by making the handling of patients even smoother. "
+  question2: "How does the Healthcare Conversational Voice Bot for Hospitals handle the patients? "
+  answer2: "The Healthcare conversational voice bots play a crucial role in patient management by making follow-up calls, pre, and post-surgery calls, check-up calls, and appointment calls. This greatly helps to reduce the stress on the medical staffs and improves remote monitoring."
+  question3: "Why go for Spritle's Healthcare Conversational Voicebots for Hospitals?"
+  answer3: "The Healthcare Conversational Voice Bot helps improve your hospital experience by automating the manual calling process, with seamless implementation of the bot into your existing system. You can reduce a significant percentage in your overall expense spent over manual support. Also, the patient's queries can be handled smoothly without causing any trouble for both the parties."
+
+
+---

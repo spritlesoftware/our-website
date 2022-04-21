@@ -201,8 +201,9 @@ AUTHOR WEBSITE: https://gethugothemes.com
     {{ partialCached "preloader.html" . }} {{ .Scratch.Set "bg" "bg-light-gray"
     }} {{ partial "header.html" . }}
     <main>
-      {{ if not .IsHome }} {{ partial "page-header.html" . }} {{ end }} {{ block
-      "main" . }}{{ end }}
+      {{ if and (not .Params.Islanding) (not .IsHome) }} {{ partial
+      "page-header.html" . }} {{ end }} {{ block "main" . }}{{ end }}
+
     </main>
     {{ partial "footer.html" . }} {{ partialCached "script.html" . }}
     
