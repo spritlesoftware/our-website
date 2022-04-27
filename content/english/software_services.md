@@ -37,7 +37,7 @@ banner:
   banner_heading:
   - "Developing priceless solutions"
   contents : "Spritle being an AI/ML development company, aims to develop custom, efficient, simplified, and elegant solutions that suit your standards."
-  image: "images/voicebot/AI-powered-Conversational-Bot.gif"
+  image: "images/service_landing/header.jpg"
   alt : "Conversational AI Voice Bots for Hospital Automation"
    
   button:
@@ -50,6 +50,29 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
+
+
+why_choose_us:
+    - name: "Digital Healthcare Services"
+      event: true
+      target: "/services/digital-healthcare-innovations/"
+      imageevent: true
+      image: "images/home/serviceimages/Digital-healthcare.webp"
+      content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
+
+    - name: "Custom Software Development"
+      event: true
+      target: "/services/custom-software-development/"
+      imageevent: true
+      image: "images/home/serviceimages/custom-software-dev.webp"
+      content: "We bring your vision of ideal software to life with our potential Development team in place..."
+
+    - name: "AI and ML Services"
+      event: true
+      target: "/services/ai-ml-application-development-services"
+      imageevent: true
+      image: "images/home/serviceimages/al-ml.webp"
+      content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
 verticals:
   title : "Why go for Spritle Voice Bot Solution?"
@@ -96,7 +119,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "Custom web applications"
-  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  image : "images/service_landing/web.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Our custom web applications are carefully developed after receiving a clear understanding of what our clients need. We put in the necessary time and effort to present to you an application that displays both quality and efficiency."
 
@@ -104,7 +127,7 @@ custom_mobile:
   description: "asd ad asDA dASD"
   enable : true
   title : "Custom mobile applications"
-  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  image : "images/service_landing/mobile.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Be it simple gaming applications or complex tracking-based ones, We will give you what you ask for. That aside we also specialize in hybrid cross-platform mobile development  and the applications created  can be accessed on both platforms that are IOS and Android. While at the same time frequent updates will be provided based on requirements."
 
@@ -113,7 +136,7 @@ ror:
   description: "Ruby on Rails solutions"
   enable : true
   title : "Ruby on Rails solutions"
-  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  image : "images/service_landing/mobile.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Our team at spritle has a team filled with tons of gems and skilled personnel, so no matter what the solution you need when it comes to Ruby on Rails, we are your go-to choice. Don’t worry though this track will take you straight to your destination!"
 
@@ -121,7 +144,7 @@ ui_ux:
   description: "UI/UX"
   enable : true
   title : "UI/UX"
-  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  image : "images/service_landing/ui-ux.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "When it comes to looks we know that mediocre designs never cut it so we don't give you that promise of doing good UI/UX rather we guarantee you the best of what can be given. So it goes without saying that we are your go-to company when it comes to UI/UX designs."
 
