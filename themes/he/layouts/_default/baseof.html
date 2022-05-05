@@ -196,10 +196,16 @@ AUTHOR WEBSITE: https://gethugothemes.com
     data-spy="scroll"
     data-target="#navbar-spy"
     class="position-relative"
+    {{ if ne .Params.custom_header true}}
     style="margin-top: 100px"
+
+    {{end}}
   >
     {{ partialCached "preloader.html" . }} {{ .Scratch.Set "bg" "bg-light-gray"
-    }} {{ partial "header.html" . }}
+    }} 
+    {{ if ne .Params.custom_header true}}
+    {{ partial "header.html" . }}
+    {{end}}
     <main>
       {{ if and (not .Params.Islanding) (not .IsHome) }} {{ partial
       "page-header.html" . }} {{ end }} {{ block "main" . }}{{ end }}

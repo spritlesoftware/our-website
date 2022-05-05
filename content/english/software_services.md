@@ -37,7 +37,7 @@ banner:
   banner_heading:
   - "Developing priceless solutions"
   contents : "Spritle being an AI/ML development company, aims to develop custom, efficient, simplified, and elegant solutions that suit your standards."
-  image: "images/service_landing/header.jpg"
+  image: "images/service_landing/header.png"
   alt : "Conversational AI Voice Bots for Hospital Automation"
    
   button:
@@ -53,47 +53,88 @@ collect_info:
 
 
 why_choose_us:
-    - name: "Digital Healthcare Services"
-      event: true
-      target: "/services/digital-healthcare-innovations/"
-      imageevent: true
-      image: "images/home/serviceimages/Digital-healthcare.webp"
-      content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
+  title : "Why Choose Us?"
+  description : "Starting from scratch or pulling the sledge from the middle, we assist you Top to Bottom"
+  items:
+  - name: "Digital Healthcare Services"
+    event: true
+    target: "/services/digital-healthcare-innovations/"
+    imageevent: true
+    image: "images/home/serviceimages/Digital-healthcare.webp"
+    content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
 
-    - name: "Custom Software Development"
-      event: true
-      target: "/services/custom-software-development/"
-      imageevent: true
-      image: "images/home/serviceimages/custom-software-dev.webp"
-      content: "We bring your vision of ideal software to life with our potential Development team in place..."
+  - name: "Custom Software Development"
+    event: true
+    target: "/services/custom-software-development/"
+    imageevent: true
+    image: "images/home/serviceimages/custom-software-dev.webp"
+    content: "We bring your vision of ideal software to life with our potential Development team in place..."
 
-    - name: "AI and ML Services"
-      event: true
-      target: "/services/ai-ml-application-development-services"
-      imageevent: true
-      image: "images/home/serviceimages/al-ml.webp"
-      content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
+  - name: "AI and ML Services"
+    event: true
+    target: "/services/ai-ml-application-development-services"
+    imageevent: true
+    image: "images/home/serviceimages/al-ml.webp"
+    content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
 
 verticals:
-  title : "Why go for Spritle Voice Bot Solution?"
-  description : "Witness the Next-Gen Patient Experience with our AI Voice Bot."
+  title : "Just follow the 3 step rule to get started"
   layout : "services"
   draft : false
   services:
-  - name : "Hospital's experience"
+  - name : "1"
     color : "#F3FCFD"
-    contents : "Automate Patient health monitoring
-    & more<br>Automate Pre & Post-surgery Calls<br>Automate Appointment Booking"
+    contents : "Send your ideas to us as a request for proposal (RFP)"
     
-
-  - name : "Implementation"
+  - name : "2"
     color : "#FFFCF4"
-    contents : "Seamlessly sinks within your system<br>Automatic updates at the backend<br> Real-time humanlike support<br>Easy API Integration"
+    contents : "Send your ideas to us as a request for proposal (RFP)"
     
-  - name : "Benefits"
+  - name : "3"
     color : "#FFF4F4"
-    contents : "Smoothly resolve Patient queries<br>Reduce burnouts of your staffs<br>24/7 healthcare assistance </br>Saves your cost up to 80%"
- 
+    contents : "Send your ideas to us as a request for proposal (RFP)"
+
+benefits:
+  title : "The benefits of choosing spritle as your tech partner"
+  description : "Witness the Next-Gen Patient Experience with our AI Voice Bot."
+  layout : "services"
+  draft : false
+  items:
+  - name: "Digital Healthcare Services"
+    event: true
+    target: "/services/digital-healthcare-innovations/"
+    imageevent: true
+    image: "images/home/serviceimages/Digital-healthcare.webp"
+
+  - name: "Digital Healthcare Services"
+    event: true
+    target: "/services/digital-healthcare-innovations/"
+    imageevent: true
+    image: "images/home/serviceimages/Digital-healthcare.webp"
+    
+  - name: "Digital Healthcare Services"
+    event: true
+    target: "/services/digital-healthcare-innovations/"
+    imageevent: true
+    image: "images/home/serviceimages/Digital-healthcare.webp"
+   
+testimonial:
+  title : "Out client love us, We love them too"
+  items:
+  - name: "Livingmatrix"
+    image: "images/apps/lm.png"
+    designation: "Functional Medicine"
+    content: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions  ."
+
+  - name: "Freshworks"
+    image: "images/apps/fw.png"
+    designation: "Freshworks Integrations"
+    content: "As an official solution partner, we helped over hundreds of Freshworks customers, each with a unique and innovative solutions. Know more.."
+
+  - name: "Modoo"
+    image: "images/apps/moddo.png"
+    designation: "Retail E-Commerce Platform"
+    content: "A technology service that acts as a strategic partner, enabling the clients' brands and stores have all the necessary tools to sell more better."
 
 
 audio_section:
@@ -119,7 +160,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "Custom web applications"
-  image : "images/service_landing/web.jpg"
+  image : "images/service_landing/web.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Our custom web applications are carefully developed after receiving a clear understanding of what our clients need. We put in the necessary time and effort to present to you an application that displays both quality and efficiency."
 
@@ -136,7 +177,7 @@ ror:
   description: "Ruby on Rails solutions"
   enable : true
   title : "Ruby on Rails solutions"
-  image : "images/service_landing/mobile.jpg"
+  image : "images/service_landing/ror.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Our team at spritle has a team filled with tons of gems and skilled personnel, so no matter what the solution you need when it comes to Ruby on Rails, we are your go-to choice. Don’t worry though this track will take you straight to your destination!"
 
