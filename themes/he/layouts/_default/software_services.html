@@ -89,15 +89,9 @@
             />{{ else }}
             {{ end }}
           </div>
-          {{ if eq .event true }}
-          <a href="{{ .target | markdownify }}">
-            <h3 class="font-weight-600 mt-20 mb-20">
-              {{ .name | markdownify }}
-            </h3>
-          </a>
-          {{ else }}
+          
           <h3 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h3>
-          {{ end }}
+        
 
           <p>{{ .content | markdownify }}</p>
         </div>
@@ -116,7 +110,7 @@
 <!-- start section -->
 
 <section
-  class="section-padding image-info-section has-shapes has-bg-brash bg-brash-y"
+  class="image-info-section has-shapes has-bg-brash bg-brash-y"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -221,16 +215,10 @@
             />{{ else }}
             {{ end }}
           </div>
-          {{ if eq .event true }}
-          <a href="{{ .target | markdownify }}">
-            <h3 class="font-weight-600 mt-20 mb-20">
-              {{ .name | markdownify }}
-            </h3>
-          </a>
-          {{ else }}
+          
+          
           <h3 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h3>
-          {{ end }}
-
+          
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>

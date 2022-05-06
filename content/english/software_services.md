@@ -56,43 +56,43 @@ why_choose_us:
   title : "Why Choose Us?"
   description : "Starting from scratch or pulling the sledge from the middle, we assist you Top to Bottom"
   items:
-  - name: "Digital Healthcare Services"
+  - name: "Transparency is Key"
     event: true
-    target: "/services/digital-healthcare-innovations/"
+    target: "#"
     imageevent: true
     image: "images/home/serviceimages/Digital-healthcare.webp"
-    content: "Leveraging a wide range of Custom Digital Healthcare Software Development for better tomorrow..."
+    content: "We do not hide anything. You get what you see!"
 
-  - name: "Custom Software Development"
+  - name: "Software that is reliable"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
     image: "images/home/serviceimages/custom-software-dev.webp"
-    content: "We bring your vision of ideal software to life with our potential Development team in place..."
+    content: "Best code quality with our app developer services at stipulated budget."
 
-  - name: "AI and ML Services"
+  - name: "Test & Evaluation"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
     image: "images/home/serviceimages/al-ml.webp"
-    content: "Tomorrow is already here. In awe of the possibilities the future has to offer excited us to contribute more..."
+    content: "We test, and test, and test until there are no breakpoints"
 
 verticals:
-  title : "Just follow the 3 step rule to get started"
+  title : "Just follow the 3-Step Rule to get started"
   layout : "services"
   draft : false
   services:
   - name : "1"
     color : "#F3FCFD"
-    contents : "Send your ideas to us as a request for proposal (RFP)"
+    contents : "Send your ideas to us as a Request For Proposal (RFP)"
     
   - name : "2"
     color : "#FFFCF4"
-    contents : "Send your ideas to us as a request for proposal (RFP)"
+    contents : "Get the Proposal with estimates for your idea"
     
   - name : "3"
     color : "#FFF4F4"
-    contents : "Send your ideas to us as a request for proposal (RFP)"
+    contents : "Talk with our Team & Kick start the development."
 
 benefits:
   title : "The benefits of choosing spritle as your tech partner"
@@ -162,7 +162,7 @@ section2:
   title : "Custom web applications"
   image : "images/service_landing/web.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "Our custom web applications are carefully developed after receiving a clear understanding of what our clients need. We put in the necessary time and effort to present to you an application that displays both quality and efficiency."
+  contents : "Carefully designed custom web applications based on the needs of our clients. Taking time and effort to create a quality application that is both efficient and effective is something we pride ourselves on."
 
 custom_mobile:
   description: "asd ad asDA dASD"
@@ -170,7 +170,7 @@ custom_mobile:
   title : "Custom mobile applications"
   image : "images/service_landing/mobile.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "Be it simple gaming applications or complex tracking-based ones, We will give you what you ask for. That aside we also specialize in hybrid cross-platform mobile development  and the applications created  can be accessed on both platforms that are IOS and Android. While at the same time frequent updates will be provided based on requirements."
+  contents : "You can choose a simple gaming application or a complex management system, we will offer you the best cross-platform app development services. That said aside, we also specialize in Hybrid cross-platform mobile development, to satisfy two mobile OS worlds!"
 
 
 ror:
@@ -179,7 +179,7 @@ ror:
   title : "Ruby on Rails solutions"
   image : "images/service_landing/ror.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "Our team at spritle has a team filled with tons of gems and skilled personnel, so no matter what the solution you need when it comes to Ruby on Rails, we are your go-to choice. Don’t worry though this track will take you straight to your destination!"
+  contents : "Choose RoR to make your apps really fast, efficient, and reliable. Choose Spritle to develop & deliver you RoR apps real fast & quick. Our 50+ member team with gems and skilled personnel at your service. So, we are always your first choice when it comes to Ruby on Rails."
 
 ui_ux:
   description: "UI/UX"
@@ -187,7 +187,7 @@ ui_ux:
   title : "UI/UX"
   image : "images/service_landing/ui-ux.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "When it comes to looks we know that mediocre designs never cut it so we don't give you that promise of doing good UI/UX rather we guarantee you the best of what can be given. So it goes without saying that we are your go-to company when it comes to UI/UX designs."
+  contents : "When it comes to looks, we know that mediocre designs never cut it. Our Designers guarantee you the best outlook (UI) and smooth user experience (UX) for your apps. We are undoubtedly the company you are looking for when it comes to UI/UX design."
 
 
 section3:
