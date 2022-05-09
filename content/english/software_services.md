@@ -1,7 +1,7 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "Healthcare Conversational Voicebot for Hospitals"
+custom_title_value: "Custom Web & Mobile Application Development Services"
 layout : "software_services"
 title: "Conversational Voicebot"
 description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
@@ -37,7 +37,7 @@ banner:
   banner_heading:
   - "Developing priceless solutions"
   contents : "Spritle being an AI/ML development company, aims to develop custom, efficient, simplified, and elegant solutions that suit your standards."
-  image: "images/service_landing/header.png"
+  image: "images/service_landing/custom_software_development_services.png"
   alt : "Conversational AI Voice Bots for Hospital Automation"
    
   button:
@@ -51,7 +51,6 @@ collect_info:
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
 
-
 why_choose_us:
   title : "Why Choose Us?"
   description : "Starting from scratch or pulling the sledge from the middle, we assist you Top to Bottom"
@@ -60,21 +59,21 @@ why_choose_us:
     event: true
     target: "#"
     imageevent: true
-    image: "images/home/serviceimages/Digital-healthcare.webp"
+    image: "images/home/serviceimages/icon11.png"
     content: "We do not hide anything. You get what you see!"
 
   - name: "Software that is reliable"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
-    image: "images/home/serviceimages/custom-software-dev.webp"
+    image: "images/home/serviceimages/icon22.png"
     content: "Best code quality with our app developer services at stipulated budget."
 
   - name: "Test & Evaluation"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
-    image: "images/home/serviceimages/al-ml.webp"
+    image: "images/home/serviceimages/icon33.png"
     content: "We test, and test, and test until there are no breakpoints"
 
 verticals:
@@ -95,28 +94,28 @@ verticals:
     contents : "Talk with our Team & Kick start the development."
 
 benefits:
-  title : "The benefits of choosing spritle as your tech partner"
-  description : "Witness the Next-Gen Patient Experience with our AI Voice Bot."
+  title : "The benefits of choosing Spritle as your Technology Partner"
+  description : "You will get an,"
   layout : "services"
   draft : false
   items:
-  - name: "Digital Healthcare Services"
+  - name: "Easy & Comfortable to work with "
     event: true
     target: "/services/digital-healthcare-innovations/"
     imageevent: true
-    image: "images/home/serviceimages/Digital-healthcare.webp"
+    image: "images/home/serviceimages/icon1.png"
 
-  - name: "Digital Healthcare Services"
+  - name: "Providing all Round Support "
     event: true
     target: "/services/digital-healthcare-innovations/"
     imageevent: true
-    image: "images/home/serviceimages/Digital-healthcare.webp"
+    image: "images/home/serviceimages/icon2.png"
     
-  - name: "Digital Healthcare Services"
+  - name: "Passionate Dev Team & A Pod Team"
     event: true
     target: "/services/digital-healthcare-innovations/"
     imageevent: true
-    image: "images/home/serviceimages/Digital-healthcare.webp"
+    image: "images/home/serviceimages/icon3.png"
    
 testimonial:
   title : "Out client love us, We love them too"
@@ -179,7 +178,7 @@ ror:
   title : "Ruby on Rails solutions"
   image : "images/service_landing/ror.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "Choose RoR to make your apps really fast, efficient, and reliable. Choose Spritle to develop & deliver you RoR apps real fast & quick. Our 50+ member team with gems and skilled personnel at your service. So, we are always your first choice when it comes to Ruby on Rails."
+  contents : "Choose RoR to make your apps really fast, efficient, and reliable. Choose Spritle to develop & deliver your RoR apps real fast & quick. Our 50+ Gems team with skilled app developer services is always there for your assistance. So, we are always your first choice when it comes to Ruby on Rails."
 
 ui_ux:
   description: "UI/UX"
