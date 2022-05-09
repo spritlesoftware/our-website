@@ -23,6 +23,7 @@
       </div>
     </div>
     {{ end }} {{ end }}
+    {{ if and (not .Params.Islanding)}}
     <div class="row pt-60 pb-60">
       <div class="col-lg-4 col-md-6">
         <div class="pr-0 pr-lg-3">
@@ -151,6 +152,7 @@
       </div>
       {{ end }} {{ end }}
     </div>
+    {{end}}
   </div>
   <div class="footer-bottom">
     <div class="container">

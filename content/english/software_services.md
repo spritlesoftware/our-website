@@ -34,9 +34,14 @@ labels : "hi"
 banner:
   enable : true
   title : "Our voicebot can understand your patient"
+  content: "Custom, efficient, simplified, and innovative Software that suits your standards & addresses your needs
+See how Spritle makes a difference!"
   banner_heading:
-  - "Developing priceless solutions"
-  contents : "Spritle being an AI/ML development company, aims to develop custom, efficient, simplified, and elegant solutions that suit your standards."
+    - "Taking you into **Digital Transformation**"
+    - "With **Custom Software Development**"
+    - "Using **latest tech** powering with **AI ML**"
+  button_label: "Lets Grow Together"
+    
   image: "images/service_landing/header.png"
   alt : "Conversational AI Voice Bots for Hospital Automation"
    
@@ -163,6 +168,9 @@ section2:
   image : "images/service_landing/web.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Carefully designed custom web applications based on the needs of our clients. Taking time and effort to create a quality application that is both efficient and effective is something we pride ourselves on."
+  button_label_1: Build your own app now
+  button_label_2: Surg through our Github
+  button_label_2_url: "https://github.com/spritlesoftware"
 
 custom_mobile:
   description: "asd ad asDA dASD"
@@ -171,6 +179,9 @@ custom_mobile:
   image : "images/service_landing/mobile.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "You can choose a simple gaming application or a complex management system, we will offer you the best cross-platform app development services. That said aside, we also specialize in Hybrid cross-platform mobile development, to satisfy two mobile OS worlds!"
+  button_label_1: Your one step solution
+  button_label_2: Surg through our Github
+  button_label_2_url: "https://github.com/spritlesoftware"
 
 
 ror:
@@ -180,6 +191,10 @@ ror:
   image : "images/service_landing/ror.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Choose RoR to make your apps really fast, efficient, and reliable. Choose Spritle to develop & deliver you RoR apps real fast & quick. Our 50+ member team with gems and skilled personnel at your service. So, we are always your first choice when it comes to Ruby on Rails."
+  button_label_1: "Build your app now"
+  button_label_2: "Surf through Github"
+  button_label_2_url: "https://github.com/spritlesoftware"
+
 
 ui_ux:
   description: "UI/UX"
@@ -188,6 +203,9 @@ ui_ux:
   image : "images/service_landing/ui-ux.jpg"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "When it comes to looks, we know that mediocre designs never cut it. Our Designers guarantee you the best outlook (UI) and smooth user experience (UX) for your apps. We are undoubtedly the company you are looking for when it comes to UI/UX design."
+  button_label_1: "Your Idea Your Design"
+  button_label_2: "View our designs"
+  button_label_2_url: "https://www.behance.net/infodc32a23f/"
 
 
 section3:
