@@ -3,20 +3,20 @@
 custom_title_enabled: true
 custom_title_value: "Custom Web & Mobile Application Development Services"
 layout : "software_services"
-title: "Conversational Voicebot"
-description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
-keywords : ["voicebots","conversational voicebots","custom built software for healthcare","voice assistance","healthcare conversational voicebots for hospitals"]
+title: "Custom Software Development Services"
+description: "One of the best AI ML development companies that offer Custom-built software solutions and services specifically designed for your business."
+keywords : ["custom web application development services", "custom mobile application development services", "cross platform app development", "cross platform mobile app development", "web and mobile app development", "software development services"]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Healthcare Conversational Voicebot for Hospital1ss" 
+title: "Custom Software Solutions & AI ML Development Company" 
 Islanding: true
 custom_header: true
-ogdescription: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."   
+ogdescription: "One of the best AI ML development companies that offer Custom-built software solutions and services specifically designed for your business."   
 link: "https://www.spritle.com/products/voicebot/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
-alt: "Conversational Voicebot" 
+alt: "Web and Cross Platform App Development Company" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
@@ -33,23 +33,17 @@ formlink : "voicebot"
 labels : "hi"
 banner:
   enable : true
-  title : "Our voicebot can understand your patient"
+  content: "Custom, efficient, simplified, and innovative Software that suits your standards & addresses your needs
+See how Spritle makes a difference!"
   banner_heading:
-  - "Developing priceless solutions"
-  contents : "Spritle being an AI/ML development company, aims to develop custom, efficient, simplified, and elegant solutions that suit your standards."
+    - "Taking you into **Digital Transformation**"
+    - "With **Custom Software Development**"
+    - "Using **latest tech** powering with **AI ML**"
+  button_label: "Lets Grow Together"
+    
   image: "images/service_landing/custom_software_development_services.png"
-  alt : "Conversational AI Voice Bots for Hospital Automation"
-   
-  button:
-    enable: true
-    button_label: "Automation? We are the ones"
-    link: "contact"
-collect_info:
-  title: "Have a project in mind?"
-  button_name: "Submit"
-  link: "thankyouenquiry"
-  details_textarea_title: "Have Somthing to say to us?*"
-  form_name: "Project requirment"
+  alt : "Custom Software Development Company in USA"
+  alt : "AI ML Development Company in USA"
 
 why_choose_us:
   title : "Why Choose Us?"
@@ -81,15 +75,15 @@ verticals:
   layout : "services"
   draft : false
   services:
-  - name : "1"
+  - name : "**1**"
     color : "#F3FCFD"
     contents : "Send your ideas to us as a Request For Proposal (RFP)"
     
-  - name : "2"
+  - name : "**2**"
     color : "#FFFCF4"
     contents : "Get the Proposal with estimates for your idea"
     
-  - name : "3"
+  - name : "**3**"
     color : "#FFF4F4"
     contents : "Talk with our Team & Kick start the development."
 
@@ -118,88 +112,71 @@ benefits:
     image: "images/home/serviceimages/icon3.png"
    
 testimonial:
-  title : "Out client love us, We love them too"
+  title : "Listen to what our Clients have to say!"
   items:
-  - name: "Livingmatrix"
-    image: "images/apps/lm.png"
-    designation: "Functional Medicine"
-    content: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions  ."
+  - name: "Diego Vicente"
+    image: "images/clients/diego.png"
+    designation: "CEO @ Moddo"
+    content: "The relationship that we have with spritle is by far one of the biggest assets our firm is glad to have. Their devotion and dedication to their clients is something truly admirable…"
 
-  - name: "Freshworks"
-    image: "images/apps/fw.png"
-    designation: "Freshworks Integrations"
-    content: "As an official solution partner, we helped over hundreds of Freshworks customers, each with a unique and innovative solutions. Know more.."
+  - name: "Ash Gaur"
+    image: "images/clients/ashutosh.png"
+    designation: "CTO @ ReSubLime"
+    content: "Spritle provided invaluable support to our Kickstarter and they prioritized every detail, ensuring that we were given the best possible management and treatment…"
 
-  - name: "Modoo"
-    image: "images/apps/moddo.png"
-    designation: "Retail E-Commerce Platform"
-    content: "A technology service that acts as a strategic partner, enabling the clients' brands and stores have all the necessary tools to sell more better."
+  - name: "Paul Burgoyne"
+    image: "images/clients/paul.png"
+    designation: "Principal @ Reach"
+    content: "We have been working with Spritle now for over three years and what a run it has been. I wish to thank you for all your talent, creativity and energy. I am grateful to be a partner…"
 
-
-audio_section:
-  enable : true
-  title : "VoiceBot Audio"
-  contents : "Voice Bot Patient post-surgery pain handling call for Singapore Eye Hospital"
 ############################## about us ################################
 about_us:
-  enable : true
-  title : "Why AI **voicebots** ?" 
-  image : "images/voicebot/AI-powered-Voicebots.webp"
-  alt: "Automated Appointment Booking using Conversational AI Bot"
-  contents : ""
-  bulletpoints:
-    - "Well, given that the worlds moving towards another technological world it’s only natural that the medical field needs to be following in suite."
-    - "The process of implementing the voice-bot will tremendously improve the accessibility of the patients and also make the process smoother and streamlined." 
-    - "It is estimated that **over 47.1% of people find it comfortable** to make use of a voice-bot than the usual way."
-    - "The artificial market for healthcare has **grown to 6,662 million dollars** making it a hugely viable need in today’s lifestyle."
-
-  images:
 
 section2:
-  description: "asd ad asDA dASD"
+  description: "Custom Web Applications"
   enable : true
-  title : "Custom web applications"
-  image : "images/service_landing/web.webp"
-  alt: "Workflow Diagram for Conversational AI Bots"
+  title : "**Custom Web Applications**"
+  image : "images/service_landing/Web_application_development_company.webp"
+  alt: "custom web application development company in USA"
   contents : "Carefully designed custom web applications based on the needs of our clients. Taking time and effort to create a quality application that is both efficient and effective is something we pride ourselves on."
+  button_label_1: Build your own app now
+  button_label_2: Surf through our Github
+  button_label_2_url: "https://github.com/spritlesoftware"
 
 custom_mobile:
-  description: "asd ad asDA dASD"
+  description: "Custom Mobile Applications"
   enable : true
-  title : "Custom mobile applications"
-  image : "images/service_landing/mobile.jpg"
-  alt: "Workflow Diagram for Conversational AI Bots"
+  title : "**Custom Mobile Applications**"
+  image : "images/service_landing/cross_platform_mobile_app_development_company.jpg"
+  alt: "cross platform mobile application company in USA"
   contents : "You can choose a simple gaming application or a complex management system, we will offer you the best cross-platform app development services. That said aside, we also specialize in Hybrid cross-platform mobile development, to satisfy two mobile OS worlds!"
+  button_label_1: Your One Stop Solution
+  button_label_2: Surf through our Github
+  button_label_2_url: "https://github.com/spritlesoftware"
 
 
 ror:
   description: "Ruby on Rails solutions"
   enable : true
   title : "Ruby on Rails solutions"
-  image : "images/service_landing/ror.webp"
-  alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "Choose RoR to make your apps really fast, efficient, and reliable. Choose Spritle to develop & deliver your RoR apps real fast & quick. Our 50+ Gems team with skilled app developer services is always there for your assistance. So, we are always your first choice when it comes to Ruby on Rails."
+  image : "images/service_landing/RoR_application_development_company.webp"
+  alt: "Ruby on Rails application development company in USA"
+  contents : "Choose RoR to make your apps really fast, efficient, and reliable. Choose Spritle to develop & deliver you RoR apps real fast & quick. Our 50+ member team with gems and skilled personnel at your service. So, we are always your first choice when it comes to Ruby on Rails."
+  button_label_1: "Build your app now"
+  button_label_2: "Explore our GitHub"
+  button_label_2_url: "https://github.com/spritlesoftware"
+
 
 ui_ux:
   description: "UI/UX"
   enable : true
   title : "UI/UX"
-  image : "images/service_landing/ui-ux.jpg"
-  alt: "Workflow Diagram for Conversational AI Bots"
+  image : "images/service_landing/UI_UX_Design_Company.jpg"
+  alt: "Top UI UX design agency in USA"
   contents : "When it comes to looks, we know that mediocre designs never cut it. Our Designers guarantee you the best outlook (UI) and smooth user experience (UX) for your apps. We are undoubtedly the company you are looking for when it comes to UI/UX design."
-
-
-section3:
-  enable : true
-  title : "Time for **change**"
-  image : "images/voicebot/AI-Query-Voicebot-for-Patients.webp"
-  alt: "Query Management using Conversational AI Bots "
-  contents : ""
-  bulletpoints:
-    - "Voice-bots have started to take over the industry by storm and we Spritle are going to help you make this process even smoother."
-    - "Customize the Voice Bot according to your Hospital needs. Do not worry about the flow, we take care of them for you."
-    - "We aim to ensure that you get the best service and we hope that we could play a small yet vital role in Hospital automation."
-
+  button_label_1: "Your Idea Your Design"
+  button_label_2: "View our designs"
+  button_label_2_url: "https://www.behance.net/infodc32a23f/"
 
 faq:
   question1: "Why is the Healthcare Conversational Voice bot for Hospitals needed?"
