@@ -76,15 +76,18 @@ verticals:
   draft : false
   services:
   - name : "**1**"
+    large: true
     color : "#F3FCFD"
     contents : "Send your ideas to us as a Request For Proposal (RFP)"
     
   - name : "**2**"
     color : "#FFFCF4"
+    large: true
     contents : "Get the Proposal with estimates for your idea"
     
   - name : "**3**"
     color : "#FFF4F4"
+    large: true
     contents : "Talk with our Team & Kick start the development."
 
 benefits:
