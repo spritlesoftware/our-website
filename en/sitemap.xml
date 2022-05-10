@@ -56,6 +56,8 @@
                 href="/"
                 />
   </url><url>
+    <loc>/software_services/</loc>
+  </url><url>
     <loc>/services/web-application-development-services/</loc>
   </url><url>
     <loc>/services/web-application-development-services-us/</loc>
@@ -73,8 +75,6 @@
     <loc>/career/django-fullstack/</loc>
   </url><url>
     <loc>/products/freshworks/</loc>
-  </url><url>
-    <loc>/software_services/</loc>
   </url><url>
     <loc>/products/voicebot-us/</loc>
   </url><url>
