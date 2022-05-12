@@ -18,6 +18,14 @@ site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
 alt: "Web and Cross Platform App Development Company" 
 
+collect_info:
+  title: "Have a project in mind?"
+  button_name: "Submit"
+  link: "thankyouenquiry"
+  details_textarea_title: "Have Somthing to say to us?*"
+  form_name: "Project requirment"
+
+
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
 twitter_title: "Healthcare Conversational Voicebot for Hospitals"  
