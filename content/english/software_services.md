@@ -50,6 +50,7 @@ See how Spritle makes a difference!"
   button_label: "Lets Grow Together"
     
   image: "images/service_landing/custom_software_development_services.png"
+  mimage: "images/service_landing/mcustom_software_development_services.png"
   alt : "Custom Software Development Company in USA"
   alt : "AI ML Development Company in USA"
 

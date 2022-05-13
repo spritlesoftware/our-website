@@ -34,9 +34,17 @@
           <img
           style=""
             loading="lazy"
-            class="img-fluid"
+            class="img-fluid dbanner"
             alt="{{ .alt }}"
             src="{{ .image | absURL }}"
+            alt="{{ .alt }}"
+          />
+          <img
+          style=""
+            loading="lazy"
+            class="img-fluid mbanner"
+            alt="{{ .alt }}"
+            src="{{ .mimage | absURL }}"
             alt="{{ .alt }}"
           />
 
@@ -414,7 +422,62 @@
     }, 6000);     
   })
 </script>
+<style>
 
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .dbanner{
+  display: none;
+  }
+
+  .mbanner{
+  display: block;
+  }
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .dbanner{
+  display: none;
+  }
+  .mbanner{
+  display: block;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .dbanner{
+  display: block;
+  }
+
+  .mbanner{
+  display:none;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  .dbanner{
+  display: block;
+  }
+
+  .mbanner{
+  display:none;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .dbanner{
+  display: block;
+  }
+
+  .mbanner{
+  display:none;
+  }
+}
+
+</style>
   {{ end }} 
 
     
