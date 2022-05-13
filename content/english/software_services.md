@@ -41,12 +41,12 @@ formlink : "voicebot"
 labels : "hi"
 banner:
   enable : true
-  content: "Custom, efficient, simplified, and innovative Software that suits your standards & addresses your needs
+  content: "Custom, efficient, simplified, and innovative Software that suits your standards & addresses your needs.
 See how Spritle makes a difference!"
   banner_heading:
     - "Taking you into **Digital Transformation**"
     - "With **Custom Software Development**"
-    - "Using **latest tech** powering with **AI ML**"
+    - "Using **latest tech** powered with **AI ML**"
   button_label: "Lets Grow Together"
     
   image: "images/service_landing/custom_software_development_services.png"
