@@ -20,7 +20,7 @@
             {{if .large}}
             <h1 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h1>
             {{else }}
-            <h1 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h1>
+            <h3 class="font-weight-600 mt-20 mb-20">{{ .name | markdownify }}</h3>
             {{end}}
             
             <p>{{ .contents | markdownify }}</p>
