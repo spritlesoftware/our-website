@@ -30,11 +30,11 @@ formlink : "voicebot"
 labels : "hi"
 banner:
   enable : true
-  title : "20 Years of Manage Engine "
-  description: "Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum "
+  title : "Happy 20 ManageEngine🥳"
+  description: ""
   banner_heading:
-  - "Lipsum loreum Lipsum loreum Lipsum loreum Lipsum "
-  contents : "Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum "
+  - "As esteemed partners, **Spritle** takes pride in wishing **ManageEngine a Happy 20 years** and many more to come!"
+  contents : "We are very honored to be a part of ManageEngine's grand event **UserConf'22 Bengaluru...**"
   image: "https://events.manageengine.com/backstage/public/portals/650342351/siteResources/4000034007254"
   alt : "Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum "
    
@@ -72,84 +72,90 @@ verticals:
 section2:
   description: "asd ad asDA dASD"
   enable : true
-  title : "The **future** is now - 2"
+  title : "**Flawlessly Integrating & Enhancing Applications With ManageEngine**"
   image : "https://img.freepik.com/free-vector/dashboard-user-panel_52683-29589.jpg?t=st=1652719547~exp=1652720147~hmac=ffc3eef1f7e1f4124833c906508606f2be4253770821c5cfcdacaf9bb7dcc054&w=1380"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "It has always been a complex task to **make appointments, deal with nurses and do regular check-ups** at a hospital, but not anymore.<br/><br/>We at Spritle are there to rush to your rescue by introducing AI Voice Bots.<br/><br/>This would not only speed up the processing in your hospital but also increase efficiency by making all those tasks only one click away from the comfort of your smart devices."
+  contents : "Integration can be stressful when it comes to legacy systems. We take the burden, You have your data organized."
   button:
     enable: true
-    button_label: "Automation? We are the ones"
+    button_label: "Let's have a talk!"
     link: "contact"
 
 capablities:
-  title : "Our Integration Capabilities using ManageEngine Services"
-  description : "Our roadmap towards"
+  title : "**Our Integration Capabilities using ManageEngine Services**"
+  description : "Our roadmap towards,"
   items:
   - name: "IT service Management"
     event: true
     target: "#"
     imageevent: true
     image: "images/home/serviceimages/icon11.png"
-    content: "We do not hide anything. You get what you see!"
+    content: "ServiceDesk Plus | SupportCenter Plus | Asset Explorer"
 
-  - name: "Software that is reliable"
+  - name: "End-to-end Integration"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
     image: "images/home/serviceimages/icon22.png"
-    content: "Best code quality with our app developer services at stipulated budget."
+    content: "Desktop Central | Mobile Device Manager Plus"
 
-  - name: "Test & Evaluation"
+  - name: "IT Operations Management"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
     image: "images/home/serviceimages/icon33.png"
-    content: "We test, and test, and test until there are no breakpoints"
-  - name: "IT service Management"
+    content: "OpManager Plus"
+
+  - name: "Application Performance Monitoring"
     event: true
     target: "#"
     imageevent: true
     image: "images/home/serviceimages/icon11.png"
-    content: "We do not hide anything. You get what you see!"
+    content: "Applications Manager"
 
-  - name: "Software that is reliable"
+  - name: "Active Directory (AD) Management"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
     image: "images/home/serviceimages/icon22.png"
-    content: "Best code quality with our app developer services at stipulated budget."
+    content: "ADManager Plus"
 
-  - name: "Test & Evaluation"
+  - name: "Advanced IT Data Analytics"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
     image: "images/home/serviceimages/icon33.png"
-    content: "We test, and test, and test until there are no breakpoints"
+    content: "Analytics Plus"
+
 section3:
   enable : true
-  title : "Time for **change** - 3"
+  title : "**Airport Management, simplified**"
   image : "https://img.freepik.com/free-vector/dashboard-user-panel_52683-29589.jpg?t=st=1652719547~exp=1652720147~hmac=ffc3eef1f7e1f4124833c906508606f2be4253770821c5cfcdacaf9bb7dcc054&w=1380"
   alt: "Query Management using Conversational AI Bots "
-  contents : "It has always been a complex task to **make appointments, deal with nurses and do regular check-ups** at a hospital, but not anymore.<br/><br/>We at Spritle are there to rush to your rescue by introducing AI Voice Bots.<br/><br/>This would not only speed up the processing in your hospital but also increase efficiency by making all those tasks only one click away from the comfort of your smart devices."
+  contents : "A complete one-stop Fault Management System built using ManageEngine to handle all faults raised as tickets starting from the Terminals to the Runway, for one of the world's major airports."
+  button:
+    enable: true
+    button_label: "Let your service take off!"
+    link: "contact"
 
 section3_sub:
-  description : "Our Integration Capabilities using ManageEngine Services Our roadmap towards"
+  description : "We have also seamlessly integrated, delivered, and enhanced the custom-built Fault Management System for the below verticals"
   items:
-  - name: "IT service Management"
+  - name: "**TRANSPORTATION**"
     event: true
     target: "#"
     imageevent: true
     image: "images/home/serviceimages/icon11.png"
    
 
-  - name: "Software that is reliable"
+  - name: "**MANUFACTURING**"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
     image: "images/home/serviceimages/icon22.png"
  
 
-  - name: "Test & Evaluation"
+  - name: "**SMART CITIES**"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
@@ -158,14 +164,24 @@ section3_sub:
 
 section4:
   enable : true
-  title : "Time for **change** - 4"
+  title : "**Integration services with great transparency**"
   image : "https://img.freepik.com/free-vector/dashboard-user-panel_52683-29589.jpg?t=st=1652719547~exp=1652720147~hmac=ffc3eef1f7e1f4124833c906508606f2be4253770821c5cfcdacaf9bb7dcc054&w=1380"
   alt: "Query Management using Conversational AI Bots "
-  contents : "It has always been a complex task to **make appointments, deal with nurses and do regular check-ups** at a hospital, but not anymore"
+  contents : "With **ManageEngine's CMDB & KB features**, our solution roadmap calls for the **On-ground Technicians** to have access to all information to help in troubleshooting & fixing the problem, and also give a hand to achieve their SLAs."
+
+  button:
+    enable: true
+    button_label: "Let your service take off!"
+    link: "contact"
+    
   bulletpoints:
-    - "Voice-bots have started to take over the industry by storm and we Spritle are going to help you make this process even smoother."
-    - "Customize the Voice Bot according to your Hospital needs. Do not worry about the flow, we take care of them for you."
-    - "We aim to ensure that you get the best service and we hope that we could play a small yet vital role in Hospital automation."
+    - "Seamless Integration to BIM solution"
+    - "Obtain CCTV snapshots to faults"
+    - "Equipment Location Map (Pathfinding)"
+    - "Historical information using Analytics"
+    - "Knowledge Base Directory (Instruction Manual, Troubleshooting Guides, etc"
+
+  
 
 section5:
   description: "Custom Mobile Applications"
