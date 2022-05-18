@@ -1,16 +1,18 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "Manage Engine Service Desk Plus"
+custom_title_value: "Enterprise Integration Services using ManageEngine"
 layout : "manageengine"
-title: "Zoho Manage Engine"
-description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
-keywords : ["voicebots","conversational voicebots","custom built software for healthcare","voice assistance","healthcare conversational voicebots for hospitals"]
+title: "Enterprise Integration Services using ManageEngine"
+description: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"
+keywords : ["enterprise IT management","network management software
+","custom built software for healthcare","custom mobile application","advanced IT data analytics", "service management software", "enterprise service management", "IT operations management"]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Healthcare Conversational Voicebot for Hospitals" 
-ogdescription: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."   
+title: "Enterprise Integration Services using ManageEngine" 
+ogdescription: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"   
+
 link: "https://www.spritle.com/products/voicebot/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
@@ -18,8 +20,8 @@ alt: "Conversational Voicebot"
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Healthcare Conversational Voicebot for Hospitals"  
-twitter_description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
+twitter_title: "Enterprise Integration Services using ManageEngine"  
+twitter_description: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
@@ -33,10 +35,10 @@ banner:
   title : "Happy 20 ManageEngine🥳"
   description: ""
   banner_heading:
-  - "As esteemed partners, **Spritle** takes pride in wishing **ManageEngine a Happy 20 years** and many more to come!"
-  contents : "We are very honored to be a part of ManageEngine's grand event **UserConf'22 Bengaluru...**"
-  image: "https://events.manageengine.com/backstage/public/portals/650342351/siteResources/4000034007254"
-  alt : "Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum "
+  - ""
+  contents : ""
+  image: "images/home/serviceimages/ManageEngine_Integration_Services.png"
+  alt : ""
    
   button:
     enable: true
@@ -50,8 +52,8 @@ collect_info:
   form_name: "Project requirment"
 
 verticals:
-  title : "Lipsum loreum Lipsum loreum Lipsum loreum "
-  description : "Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum Lipsum loreum "
+  title : ""
+  description : ""
   layout : "services"
   draft : false
   services:
@@ -73,7 +75,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Flawlessly Integrating & Enhancing Applications With ManageEngine**"
-  image : "https://img.freepik.com/free-vector/dashboard-user-panel_52683-29589.jpg?t=st=1652719547~exp=1652720147~hmac=ffc3eef1f7e1f4124833c906508606f2be4253770821c5cfcdacaf9bb7dcc054&w=1380"
+  image : "images/home/serviceimages/ManageEngine_Integration_and_Enhancement_Services.png"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : "Integration can be stressful when it comes to legacy systems. We take the burden, You have your data organized."
   button:
@@ -89,48 +91,48 @@ capablities:
     event: true
     target: "#"
     imageevent: true
-    image: "images/home/serviceimages/icon11.png"
+    image: "images/home/serviceimages/icon001.png"
     content: "ServiceDesk Plus | SupportCenter Plus | Asset Explorer"
 
   - name: "End-to-end Integration"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
-    image: "images/home/serviceimages/icon22.png"
+    image: "images/home/serviceimages/icon002.png"
     content: "Desktop Central | Mobile Device Manager Plus"
 
   - name: "IT Operations Management"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
-    image: "images/home/serviceimages/icon33.png"
+    image: "images/home/serviceimages/icon003.png"
     content: "OpManager Plus"
 
   - name: "Application Performance Monitoring"
     event: true
     target: "#"
     imageevent: true
-    image: "images/home/serviceimages/icon11.png"
+    image: "images/home/serviceimages/icon004.png"
     content: "Applications Manager"
 
   - name: "Active Directory (AD) Management"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
-    image: "images/home/serviceimages/icon22.png"
+    image: "images/home/serviceimages/icon005.png"
     content: "ADManager Plus"
 
   - name: "Advanced IT Data Analytics"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
-    image: "images/home/serviceimages/icon33.png"
+    image: "images/home/serviceimages/icon006.png"
     content: "Analytics Plus"
 
 section3:
   enable : true
   title : "**Airport Management, simplified**"
-  image : "https://img.freepik.com/free-vector/dashboard-user-panel_52683-29589.jpg?t=st=1652719547~exp=1652720147~hmac=ffc3eef1f7e1f4124833c906508606f2be4253770821c5cfcdacaf9bb7dcc054&w=1380"
+  image : "images/home/serviceimages/Manage_Engine_Airport_Fault_Management_System.png"
   alt: "Query Management using Conversational AI Bots "
   contents : "A complete one-stop Fault Management System built using ManageEngine to handle all faults raised as tickets starting from the Terminals to the Runway, for one of the world's major airports."
   button:
@@ -145,27 +147,27 @@ section3_sub:
     event: true
     target: "#"
     imageevent: true
-    image: "images/home/serviceimages/icon11.png"
+    image: "images/home/serviceimages/icon011.png"
    
 
   - name: "**MANUFACTURING**"
     event: true
     target: "/services/custom-software-development/"
     imageevent: true
-    image: "images/home/serviceimages/icon22.png"
+    image: "images/home/serviceimages/icon022.png"
  
 
   - name: "**SMART CITIES**"
     event: true
     target: "/services/ai-ml-application-development-services"
     imageevent: true
-    image: "images/home/serviceimages/icon33.png"
+    image: "images/home/serviceimages/icon033.png"
 
 
 section4:
   enable : true
   title : "**Integration services with great transparency**"
-  image : "https://img.freepik.com/free-vector/dashboard-user-panel_52683-29589.jpg?t=st=1652719547~exp=1652720147~hmac=ffc3eef1f7e1f4124833c906508606f2be4253770821c5cfcdacaf9bb7dcc054&w=1380"
+  image : "images/home/serviceimages/ManageEngine_ServiceDesk_Plus_Web_App_Development.png"
   alt: "Query Management using Conversational AI Bots "
   contents : "With **ManageEngine's CMDB & KB features**, our solution roadmap calls for the **On-ground Technicians** to have access to all information to help in troubleshooting & fixing the problem, and also give a hand to achieve their SLAs."
 
@@ -173,7 +175,7 @@ section4:
     enable: true
     button_label: "Let your service take off!"
     link: "contact"
-    
+
   bulletpoints:
     - "Seamless Integration to BIM solution"
     - "Obtain CCTV snapshots to faults"
@@ -181,21 +183,17 @@ section4:
     - "Historical information using Analytics"
     - "Knowledge Base Directory (Instruction Manual, Troubleshooting Guides, etc"
 
-  
-
 section5:
-  description: "Custom Mobile Applications"
+  description: ""
   enable : true
-  title : "**Custom Mobile Applications**"
-  image : "https://img.freepik.com/free-psd/user-interface-mockup_336574-12.jpg?w=1380"
+  title : "**Custom Mobile App Development for ManageEngine**"
+  image : "images/home/serviceimages/ManageEngine_Custom_Mobile_App_Development_Services.png"
   alt: "cross platform mobile application company in USA"
-  contents : "You can choose a simple gaming application or a complex management system, we will offer you the best cross-platform app development services. That said aside, we also specialize in Hybrid cross-platform mobile development, to satisfy two mobile OS worlds!"
-  button_label_1: Your One Stop Solution
-  button_label_2: Surf through our Github
-  button_label_2_url: "https://github.com/spritlesoftware"
+  contents : "Spritle, the **first customer of ManageEngine to build custom mobile application**, specifically designed for on-the-ground Technicians to have access to data, monitor & perform actions from where they are!"
+ 
 
 testimonial:
-  title : "Listen to what our Clients have to say!"
+  title: "Listen to what our Clients have to say!"
   items:
   - name: "Diego Vicente"
     image: "images/clients/diego.png"
