@@ -1,32 +1,37 @@
 {{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
 <!-- start of banner  -->
-<section class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom aos-init aos-animate">
-  <div class="container h-100">
-
-    <div class="row justify-content-center">
-        <div class="col-lg-10 col-md-10 text-center mb-40">
+<section class="banner1 bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom aos-init aos-animate">
+  <div class="">
+    <div class="">
+      <div class="col-12 ">
+        <div class="text-center mb-40 pt-50">
           <b>
             <h2 class="section-title">{{.title}}</h2>
           </b>
             <p>{{.description}}</p>
         </div>
-      </div>
-
-    <div class="d-block d-lg-flex no-gutters align-items-center h-100">
-      <div class="col-12 col-xl-8 col-lg-6 order-lg-1">
         <div
-          class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
+          class= "has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
         >
-         <img
-          style="margin-left: 100px;
-          width:550px ;
-          height:350px ;"
+        <div class="row">
+
+          <img
+          style=""
             loading="lazy"
-            class="img-fluid"
+            class="img-fluid dbanner"
             alt="{{ .alt }}"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
           />
+          <img
+          style=""
+            loading="lazy"
+            class="img-fluid mbanner"
+            alt="{{ .alt }}"
+            src="{{ .mimage | absURL }}"
+            alt="{{ .alt }}"
+          />
+        </div>
 
           <div class="shape-lg bg-cyan rounded-circle"></div>
           <div class="shape-md bg-orange rounded-circle"></div>
@@ -57,7 +62,7 @@
 <!-- end of banner -->
 {{ end }} {{ end }} 
 
-
+{{partial "collect-info-modal.html" .}}
 {{ if .Params.section2.enable }} {{ with .Params.section2 }}
 <section
   class="section-padding image-info-section has-shapes has-bg-brash bg-brash-y"
@@ -316,17 +321,6 @@
       <div class="col-lg-12 col-md-12 text-center mb-40">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p>{{ .contents | markdownify }}</p>
-        <a
-        href="#"
-        id="open-demo-modal"
-        data-toggle="modal"
-        data-target="#myModal"
-        class="btn btn-primary m-15"
-        >{{.button_label_1}}</a>
-        <a
-        href="{{.button_label_2_url}}"
-        class="btn btn-primary m-15"
-        >{{.button_label_2}}</a>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-10">
         <div class="d-block text-center">
@@ -384,4 +378,62 @@
     <div class="shape-5 shape-xs bg-primary rounded-circle d-none d-sm-block"></div>
   </section>
 
+
+
+  <style>
+
+    /* Media Query for Mobile Devices */
+    @media (max-width: 480px) {
+      .dbanner{
+      display: none;
+      }
+    
+      .mbanner{
+      display: block;
+      }
+    }
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+      .dbanner{
+      display: none;
+      }
+      .mbanner{
+      display: block;
+      }
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+      .dbanner{
+      display: block;
+      }
+    
+      .mbanner{
+      display:none;
+      }
+    }
+    
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px){
+      .dbanner{
+      display: block;
+      }
+    
+      .mbanner{
+      display:none;
+      }
+    }
+    
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+      .dbanner{
+      display: block;
+      }
+    
+      .mbanner{
+      display:none;
+      }
+    }
+    
+    </style>
 {{ end }} 

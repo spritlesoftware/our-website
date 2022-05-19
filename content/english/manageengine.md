@@ -32,12 +32,13 @@ formlink : "voicebot"
 labels : "hi"
 banner:
   enable : true
-  title : "Happy 20 ManageEngine🥳"
+  title : "Happy 20 years of ManageEngine🥳"
   description: ""
   banner_heading:
   - ""
   contents : ""
   image: "images/home/serviceimages/ManageEngine_Integration_Services.png"
+  mimage: "images/home/serviceimages/mimage.png"
   alt : ""
    
   button:
