@@ -86,12 +86,11 @@
 
       
       
-      <!-- mobile-nav control button -->
+       <!-- mobile-nav control button -->
 
-      <div class="collapse navbar-collapse" id="navlinks">
+       <div class="collapse navbar-collapse" id="navlinks">
         <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }} {{ if .HasChildren }}
-
           <li class="nav-item dropdown">
             <a
               class="
@@ -152,7 +151,7 @@
                   {{ range .Children }}
                   <li>
                     <a
-                      class="dropdown-item"
+                      class="nav-link"
                       h{{if
                       findRE
                       `^http`
@@ -168,7 +167,7 @@
               {{ else }}
               <li>
                 <a
-                  class="dropdown-item"
+                  class="nav-link"
                   h{{if
                   findRE
                   `^http`
