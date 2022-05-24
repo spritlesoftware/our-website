@@ -393,6 +393,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       class="form-control shadow-none"
                       type="email"
                       name="email_address"
+                      pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}"
                       placeholder="Email address*"
                       id="email"
                       required
@@ -402,7 +403,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     <input
                     class="form-control shadow-none"
-                    pattern="[1-9]{1}[0-9]{9}"
+                    pattern="(\+\d{1,3}\s?)?((\(\d{3}\)\s?)|(\d{3})(\s|-?))(\d{3}(\s|-?))(\d{4})(\s?(([E|e]xt[:|.|]?)|x|X)(\s?\d+))?"
                       type="tel"
                       name="phone_number"
                       placeholder="Phone number*"
