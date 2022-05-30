@@ -15,7 +15,7 @@ custom_header: true
 ogdescription: "One of the best AI ML development companies that offer Custom-built software solutions and services specifically designed for your business."   
 link: "https://www.spritle.com/products/voicebot/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
+Ogimage: "images/service_landing/custom_software_development_services.png" 
 alt: "Web and Cross Platform App Development Company" 
 
 collect_info:
@@ -32,7 +32,7 @@ twitter_title: "Healthcare Conversational Voicebot for Hospitals"
 twitter_description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
+twitter_image: "images/service_landing/custom_software_development_services.png" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
