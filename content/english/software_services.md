@@ -28,8 +28,8 @@ collect_info:
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Healthcare Conversational Voicebot for Hospitals"  
-twitter_description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
+twitter_title: "Custom Web & Mobile Application Development Services"  
+twitter_description: "One of the best AI ML development companies that offer Custom-built software solutions and services specifically designed for your business."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: "images/service_landing/custom_software_development_services.png" 
