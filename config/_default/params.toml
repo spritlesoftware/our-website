@@ -42,7 +42,7 @@ link = ""
 # Footer call to action
 [footer_call_to_action]
 enable = true
-title = "**Perfect** from **Beginning to End...**  kickstarted now"
+title = "**Perfect** From **Beginning To End...**  kickstart Your Journey Now!"
 [footer_cta_button]
 enable = true
 button_label = "Get in touch"
