@@ -182,7 +182,7 @@ section4:
     - "Obtain CCTV snapshots to faults"
     - "Equipment Location Map (Pathfinding)"
     - "Historical information using Analytics"
-    - "Knowledge Base Directory (Instruction Manual, Troubleshooting Guides, etc"
+    - "Knowledge Base Directory (Instruction Manual, Troubleshooting Guides, etc)"
 
 section5:
   description: ""
