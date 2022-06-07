@@ -1,7 +1,7 @@
 ---
-title: "Thank You"
+title: "Thank You!"
 description: "At the helm of driving global business & changing times is web apps. Considered as premium consultants & industry experts to build on Ruby-on-Rails and Node.js."
-layout: "Thank You!"
+layout: "thankyou"
 draft: false
 
 start:
