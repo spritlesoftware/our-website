@@ -23,7 +23,7 @@ services:
   title: "Want to get on a quick call?, ring us at"
   service_list:
     - place: "**Ohio, USA:**"
-      phone: "+1 (614) 918-0411"
+      phone: "+1(380)888-8089"
 
     - place: "**Singapore:**"
       phone: "+65 6652 5475"
