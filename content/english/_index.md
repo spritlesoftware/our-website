@@ -30,7 +30,7 @@ banner:
     - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
     - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
   content: "Advanced custom made Softwares. <br>  Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
-  image: "images/home/Software-Maintanance-and-proactive-Support.webp"
+  image: "images/home/web_banner.webp"
   alt: "Custom Software Development Services"
   video:
     enable: true
