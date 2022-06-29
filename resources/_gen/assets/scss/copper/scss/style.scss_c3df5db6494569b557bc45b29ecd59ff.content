@@ -177,7 +177,7 @@ body.loaded .section-padding {
   padding: 80px 0; }
 
 .section-title {
-  font-weight: 500;
+  font-weight: 900;
   text-transform: capitalize;
   margin-bottom: 20px; }
 
@@ -1855,7 +1855,7 @@ a.text-black-400:hover {
 
 .banner {
   padding-top: 75px;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
   overflow-x: hidden; }
   @media (max-width: 767px) {
     .banner {

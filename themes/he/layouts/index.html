@@ -201,7 +201,7 @@
         </ul>
 
         <div class="col-md-12">
-          <div class="mt-100 text-right">
+          <div class=" text-right">
             <a
               href="{{ .link | absLangURL }}"
               type="submit"
@@ -450,13 +450,13 @@
           <li
             class="has-centered lg d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle"
           >
-            <img loading="lazy" height="180px" width="180px" src="{{ . |absURL}}" />
+            <img loading="lazy" height="180px" width="180px" src="{{ . |absURL}}" alt="coding" />
           </li>
           {{else}}
           <li
             class="has-centered md d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle"
           >
-            <img loading="lazy" height="70px" width="142px" src="{{ . |absURL}}" />
+            <img loading="lazy" height="70px" width="142px" src="{{ . |absURL}}" alt="technology" />
           </li>
           {{ end }} {{ end }}
         </ul>
@@ -498,6 +498,21 @@
     width:250px;
     height:250px;
   }
+}
+
+.banner
+{
+ padding: 60px 0px; 
+}
+
+.section-padding
+{
+  padding: 60px 0;;
+}
+
+.section-title
+{
+  font-weight: 900 !important;
 }
 </style>
 {{ end }} {{ end }} {{partial "testimonial.html" . }} {{ end }}
