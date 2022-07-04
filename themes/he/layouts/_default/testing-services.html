@@ -1,0 +1,158 @@
+{{ define "main" }}
+<style>
+  /* ts - test services */
+
+  .btn.btn-primary.scroll-to-top-btn{
+    background-color: rgb(36 47 155/95%) !important;
+  }
+  .ts-primary-color{
+    color: #242f9b;
+  }
+  .page-header {
+    display: none;
+  }
+
+  .btn.btn-secondary {
+    font-weight: 900 !important;
+    background: rgb(36 47 155/95%) !important;
+    box-shadow: 0px 2px 4px 2px rgb(36 47 155 / 20%);
+  }
+  .btn.btn-secondary:hover {
+    background: #242f9b !important;
+    box-shadow: 4px 8px 10px 2px rgb(36 47 155 / 20%) !important;
+  }
+</style>
+
+<div class="section-padding" data-aos="fade-in" data-aos-delay="150">
+  <div class="container">
+    <!-- section 1 -->
+    <div class="row justify-content-between my-5">
+      <div class="col-12 col-md-5 order-md-last text-center">
+        <img
+          loading="lazy"
+          class="w-100"
+          src="{{ .Params.section1.image | absURL }}"
+          alt=""
+        />
+      </div>
+      <div class="col-12 col-md-5 my-md-auto my-4">
+        <h2 class="section-title">{{ .Params.section1.heading }}</h2>
+        <p class="my-2">{{ .Params.section1.content }}</p>
+        <button class="btn btn-secondary my-3">Join Our Team</button>
+      </div>
+      
+    </div>
+    <!-- section 1 end -->
+
+    <!-- section 2 -->
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-5">
+        <img
+          loading="lazy"
+          class="w-100"
+          src="{{ .Params.section2.image | absURL }}"
+          alt=""
+        />
+      </div>
+      <div class="col-12 col-md-4 my-md-auto my-4">
+        <h2 class="section-title">{{ .Params.section2.heading }}</h2>
+        <p class="my-2">{{ .Params.section2.content }}</p>
+        <button class="btn btn-secondary my-3">Let's Talk Scenarios</button>
+      </div>
+    </div>
+    <!-- section 2 end -->
+  </div>
+
+
+    <!-- section 3 -->
+    <div class="bg-light-gray my-5">
+      <div class="d-block d-md-none">
+        <div class="w-100">
+          <img src="{{ .Params.section3.mobile_image }}" alt="" class="w-100">
+        </div>
+      </div>
+      <div class="container">
+        <div class="d-md-block d-none">
+          <div class="row g-0">
+            {{ range .Params.section3.images }}
+            <div class="col-6 p-0">
+              <img src="{{ . }}" alt="" class="img-fluid" />
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-secondary my-3">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <!-- section 3 end -->
+
+    <!-- section 4 -->
+    <div class="container">  
+      <h2 class="font-weight-bold text-center">
+      {{ .Params.section4.heading }}
+      </h2>
+      <div class="row justify-content-center gx-3 my-5 py-5">
+
+        {{ range .Params.section4.content }}
+        <div class="col-6 col-md-3 text-center my-4">
+          <h2 class="ts-primary-color font-weight-bolder">
+            <span class="jsCounter" data-count="{{.count}}">0</span
+              >{{.extension}}
+          </h2>
+          <p>{{ .name }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <!-- section 4 end -->
+
+    <!-- section 5 -->
+    <div class="bg-light-gray py-4">
+      <div class="container text-center">
+        <h2 class="my-4">
+          QA AND TESTING SERVICES
+        </h2>
+        <h2 class="font-weight-bold my-5">
+          For each chalenge, We have a unique solution.
+        </h2>
+        <div class="row justify-content-center">
+          {{ range .Params.section5.content }}
+          <div class="my-5 col-12 col-md-4 text-center">
+            <div class="px-5">
+              <img src="{{.icon}}" alt="" class="img-fluid">
+            </div>
+            <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
+            <p class="text-center my-2">{{ .desc }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <!-- section 5 end -->
+
+    <div class="container">
+      <!-- talk to expert card -->
+        <div class="shadow-lg card bg-light-gray p-4 my-3">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-6">
+              <h2 class="font-weight-bold">Talk to the Experts!</h2>
+              <div class="my-3">
+                To assure quality, a growing product requires a passionate, dedicated QA crew.
+              </div>
+            </div>
+            <div class="col-12 col-md-6 my-auto text-center text-md-right">
+              <button class="btn btn-secondary"> Contact US</button>
+            </div>
+          </div>
+        </div>
+      <!-- talk to expert card end-->
+
+      <!-- blog section -->
+
+      <!-- blog section end -->
+    </div>
+</section>
+
+{{ end }}
