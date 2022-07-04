@@ -7,6 +7,24 @@ keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
 layout: "ruby-gems"
 draft: false
 
+############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "AI development company | Custom built software applications"
+ogdescription: "AI development company with deep expertise in machine learning, deep learning, NLP, conversational AI, computer vision, Image processing."
+link: "https://www.spritle.com/products/rubygems/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/products/rubygems/50x50xruby_gems1.png.pagespeed.ic.s68T4Tc3oJ.webp" 
+alt: "Custom--Built Software Solutions"
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Ruby gems"
+twitter_description: "AI development company with deep expertise in machine learning, deep learning, NLP, conversational AI, computer vision, Image processing."
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: ="https://www.spritle.com/images/products/rubygems/50x50xruby_gems1.png.pagespeed.ic.s68T4Tc3oJ.webp"
+
 apps:
   - name: "Chargebee"
     event: true

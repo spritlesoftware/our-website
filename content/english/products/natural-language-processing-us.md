@@ -4,6 +4,25 @@ description : "The modern patient expects to be able to contact their doctor 24/
 layout : "solutions-l-r"
 draft : false
 
+############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Best Natural Language Processing Companies in US|spritle.com"
+ogdescription: "One of the best Natural Language Processing companies in the US with NLP-Driven Solutions. Whatever your goals are with Spritle your project is in good hands. Have a look at our projects."
+keywords: ["AI ML development Services, NLP services, NLP companies, Natural Language Processing, Natural Language Processing Companies"]
+link: "https://www.spritle.com/products/natural-language-processing-us/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/casestudies/xTitle-image-us.webp.pagespeed.ic.hDRCUKMulX.webp" 
+alt: "Natural Language processing service"
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Best Natural Language Processing Companies in US|spritle.com"
+twitter_description: "One of the best Natural Language Processing companies in the US with NLP-Driven Solutions. Whatever your goals are with Spritle your project is in good hands. Have a look at our projects."
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: ="https://www.spritle.com/images/casestudies/xTitle-image-us.webp.pagespeed.ic.hDRCUKMulX.webp"
+
 ################## Mission ###############
 mission:
   enable : true

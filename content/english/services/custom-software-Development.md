@@ -1,5 +1,4 @@
 ---
-
 custom_title_enabled: true
 custom_title_value: "Custom web & Cross platform mobile application development services"
 title: "Custom Software Development Services"
@@ -11,7 +10,7 @@ type: "website"
 title: "Custom Software Development Services" 
 ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
 link: "https://www.spritle.com/custom-software-development/"
-site_name: "Spritle Software"
+site_name: "Spritle Software" 
 Ogimage: "https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
 alt: "Custom--Built Software Solutions" 
 

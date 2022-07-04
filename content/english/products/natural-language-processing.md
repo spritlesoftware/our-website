@@ -4,12 +4,30 @@ description : "The modern patient expects to be able to contact their doctor 24/
 layout : "solutions-l-r"
 draft : false
 
+############################ OG tags #################################
+locale: "en_US"
+type: "website"
+title: "Natural Language Processing Services Companies|spritle.com"
+ogdescription: "Our Natural Language Processing experts develop applications, NLP-Driven solutions, and applications suited for your requirement & company. See our projects."
+keywords: ["AI ML development Services, NLP services, NLP companies, Natural Language Processing, Natural Language Processing"]
+link: "https://www.spritle.copm/products/natural-language-processing/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/casestudies/Improve-your-company,P27s-overall-performance-image.webp.pagespeed.ce.qu6eN31aWK.webp" 
+alt: "Natural Language processing service"
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Natural Language Processing Services Companies|spritle.com"
+twitter_description: "Our Natural Language Processing experts develop applications, NLP-Driven solutions, and applications suited for your requirement & company. See our projects."
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: ="https://www.spritle.com/images/casestudies/Improve-your-company,P27s-overall-performance-image.webp.pagespeed.ce.qu6eN31aWK.webp"
+
 ################## Mission ###############
 mission:
   enable : true
   Title : ""
   image : "/images/casestudies/title-image.webp" 
-  content : ""
   subtitle: "Make unique and clever apps with your unstructured data."
   subcontent: " Give your company a competitive advantage. Spritle is one of the best Natural Language Processing Companies that allows you to reinvent what's feasible, from virtual personal assistants and chatbots to sentiment analysis and search engines."
   button:

@@ -35,7 +35,7 @@ featured_testimonial:
   enable: true
   name: "Locations"
   designation: "India-Singapore-USA"
-  quote: "AI & ML Services"
+  title: "AI & ML Services"
   image: "images/testimonials/AI-&-ML-Application-Development-Company.jpg"
   alt: "AI ML Application Development Services"
   subtitle: "We believe in innovation, adaptation, and transformation. With our AI and ML-based expertise, we help you take your business to the next level. <br/> <br/> Not only that, we have a decade of experience in working with Enterprise, Startup, and Life Science Research companies helping them to bridge the gap between smart solutions and AI Implementations."

@@ -1,6 +1,6 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Best custom web and mobile application development companies - spritle.com"
+custom_title_value: "Best custom web and mobile application development companies"
 title: "Contact Us"
 description: "Call us to know more about what Spritle can do to help improvize your business in any industry with our AI digital solutions and services."
 layout: "contact"

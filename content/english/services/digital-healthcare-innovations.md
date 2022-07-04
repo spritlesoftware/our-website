@@ -31,7 +31,7 @@ draft: false
 
 featured_testimonial:
   enable: true
-  quote: "What we do/ offer"
+  title: "What we do/ offer"
   image: "images/digital_healthcare/title-image.webp"
   alt: "HIPAA Certified Software Development Company"
   subtitle: "We deal with solutions that are essential for the Healthcare Industry to keep up with the continuous change in the way technology is used. It is also safe to say that our solutions will play a crucial role in establishing the statement that Hospital Automation 4.0 is in full throttle."
