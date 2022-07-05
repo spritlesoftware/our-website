@@ -1,58 +1,24 @@
 {{ define "main" }}
-<style>
-  /* ts - test services */
-
-  .btn.btn-primary.scroll-to-top-btn{
-    background-color: rgb(36 47 155/95%) !important;
-  }
-  .ts-primary-color{
-    color: #242f9b;
-  }
-  .page-header {
-    display: none;
-  }
-
-  .btn.btn-secondary {
-    font-weight: 900 !important;
-    background: rgb(36 47 155/95%) !important;
-    box-shadow: 0px 2px 4px 2px rgb(36 47 155 / 20%);
-  }
-  .btn.btn-secondary:hover {
-    background: #242f9b !important;
-    box-shadow: 4px 8px 10px 2px rgb(36 47 155 / 20%) !important;
-  }
-</style>
-
 <div class="section-padding" data-aos="fade-in" data-aos-delay="150">
   <div class="container">
     <!-- section 1 -->
     <div class="row justify-content-between my-5">
       <div class="col-12 col-md-5 order-md-last text-center">
-        <img
-          loading="lazy"
-          class="w-100"
-          src="{{ .Params.section1.image | absURL }}"
-          alt=""
-        />
+        <img loading="lazy" class="w-100" src="{{ .Params.section1.image | absURL }}" alt="" />
       </div>
       <div class="col-12 col-md-5 my-md-auto my-4">
         <h2 class="section-title">{{ .Params.section1.heading }}</h2>
         <p class="my-2">{{ .Params.section1.content }}</p>
         <button class="btn btn-secondary my-3">Join Our Team</button>
       </div>
-      
+
     </div>
     <!-- section 1 end -->
 
     <!-- section 2 -->
     <div class="row justify-content-between">
       <div class="col-12 col-md-5">
-        <img
-          loading="lazy"
-          class="w-100"
-          src="{{ .Params.section2.image | absURL }}"
-          alt=""
-        />
+        <img loading="lazy" class="w-100" src="{{ .Params.section2.image | absURL }}" alt="" />
       </div>
       <div class="col-12 col-md-4 my-md-auto my-4">
         <h2 class="section-title">{{ .Params.section2.heading }}</h2>
@@ -64,95 +30,257 @@
   </div>
 
 
-    <!-- section 3 -->
-    <div class="bg-light-gray my-5">
-      <div class="d-block d-md-none">
-        <div class="w-100">
-          <img src="{{ .Params.section3.mobile_image }}" alt="" class="w-100">
-        </div>
-      </div>
-      <div class="container">
-        <div class="d-md-block d-none">
-          <div class="row g-0">
-            {{ range .Params.section3.images }}
-            <div class="col-6 p-0">
-              <img src="{{ . }}" alt="" class="img-fluid" />
-            </div>
-            {{ end }}
-          </div>
-        </div>
-        <div class="text-center">
-          <button class="btn btn-secondary my-3">Get Started</button>
-        </div>
+  <!-- section 3 -->
+  <div class="bg-light-gray my-5">
+    <div class="d-block d-md-none">
+      <div class="w-100">
+        <img src="{{ .Params.section3.mobile_image }}" alt="" class="w-100">
       </div>
     </div>
-    <!-- section 3 end -->
-
-    <!-- section 4 -->
-    <div class="container">  
-      <h2 class="font-weight-bold text-center">
-      {{ .Params.section4.heading }}
-      </h2>
-      <div class="row justify-content-center gx-3 my-5 py-5">
-
-        {{ range .Params.section4.content }}
-        <div class="col-6 col-md-3 text-center my-4">
-          <h2 class="ts-primary-color font-weight-bolder">
-            <span class="jsCounter" data-count="{{.count}}">0</span
-              >{{.extension}}
-          </h2>
-          <p>{{ .name }}</p>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-    <!-- section 4 end -->
-
-    <!-- section 5 -->
-    <div class="bg-light-gray py-4">
-      <div class="container text-center">
-        <h2 class="my-4">
-          QA AND TESTING SERVICES
-        </h2>
-        <h2 class="font-weight-bold my-5">
-          For each chalenge, We have a unique solution.
-        </h2>
-        <div class="row justify-content-center">
-          {{ range .Params.section5.content }}
-          <div class="my-5 col-12 col-md-4 text-center">
-            <div class="px-5">
-              <img src="{{.icon}}" alt="" class="img-fluid">
-            </div>
-            <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
-            <p class="text-center my-2">{{ .desc }}</p>
+    <div class="container">
+      <div class="d-md-block d-none">
+        <div class="row g-0">
+          {{ range .Params.section3.images }}
+          <div class="col-6 p-0">
+            <img src="{{ . }}" alt="" class="img-fluid" />
           </div>
           {{ end }}
         </div>
       </div>
+      <div class="text-center">
+        <button class="btn btn-secondary my-3">Get Started</button>
+      </div>
     </div>
-    <!-- section 5 end -->
+  </div>
+  <!-- section 3 end -->
 
-    <div class="container">
-      <!-- talk to expert card -->
-        <div class="shadow-lg card bg-light-gray p-4 my-3">
-          <div class="row justify-content-between">
-            <div class="col-12 col-md-6">
-              <h2 class="font-weight-bold">Talk to the Experts!</h2>
-              <div class="my-3">
-                To assure quality, a growing product requires a passionate, dedicated QA crew.
+  <!-- section 4 -->
+  <div class="container">
+    <h2 class="font-weight-bold text-center">
+      {{ .Params.section4.heading }}
+    </h2>
+    <div class="row justify-content-center gx-3 my-5 py-5">
+
+      {{ range .Params.section4.content }}
+      <div class="col-6 col-md-3 text-center my-4">
+        <h2 class="ts-primary-color font-weight-bolder">
+          <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}
+        </h2>
+        <p>{{ .name }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <!-- section 4 end -->
+
+  <!-- section 5 -->
+  <div class="bg-light-gray py-4">
+    <div class="container text-center">
+      <h2 class="my-4">
+        QA AND TESTING SERVICES
+      </h2>
+      <h2 class="font-weight-bold my-5">
+        For each chalenge, We have a unique solution.
+      </h2>
+      <div class="row justify-content-center">
+        {{ range .Params.section5.content }}
+        <div class="my-5 col-12 col-md-4 text-center">
+          <div class="px-5">
+            <img src="{{.icon}}" alt="" class="img-fluid">
+          </div>
+          <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
+          <p class="text-center my-2">{{ .desc }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <!-- section 5 end -->
+
+  <div class="container py-5">
+    <!-- talk to expert card -->
+    <div class="shadow-lg card bg-light-gray p-4 my-5">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-6">
+          <h2 class="font-weight-bold">{{.Params.section6.text1}}</h2>
+          <div class="my-3">{{.Params.section6.text2}}</div>
+        </div>
+        <div class="col-12 col-md-6 my-auto text-center text-md-right">
+          <button class="btn btn-secondary"> Contact US</button>
+        </div>
+      </div>
+    </div>
+    <!-- talk to expert card end-->
+
+    <!-- blog section -->
+    <div class="text-center pt-5">
+      <h2 class="font-weight-bold my-5">{{.Params.section6.heading}}</h2>
+    </div>
+    <div class="row position-relative">
+      {{ range .Params.section6.blogs }}
+      <div class="col-12 col-md-6 col-lg-4 my-4">
+        <div class="card post highlighted">
+          <a class="thumbimage"
+            href="{{ .link }}"
+            style=background-image:url({{.image}}>
+          </a>
+          <div class="card-block">
+            <h2 class="card-title"><a href="{{ .link }}">{{.title }}</a></h2>
+            <span class="card-text d-block">{{ .desc }}</span>
+            <div class="metafooter">
+              <div class="wrapfooter">
+                <span class="meta-footer-thumb">
+                  <a href="{{ .author_link }}">
+                    <img alt=""
+                      src="{{ .author_avatar }}"
+                      class="avatar avatar-40 photo author-thumb jetpack-lazy-image jetpack-lazy-image--handled"
+                      height="40" width="40" loading="eager"
+                      srcset="https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=80&amp;d=mm&amp;r=g 2x"
+                      data-lazy-loaded="1">
+                    <noscript>
+                      <img 
+                        alt=''
+                        src="{{ .author_avatar }}"
+                        srcset='https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=80&#038;d=mm&#038;r=g 2x'
+                        class='avatar avatar-40 photo author-thumb' height='40' width='40' loading='lazy' />
+                    </noscript>
+                  </a>
+                </span>
+                <a href="{{.author_link }}"></a>
+                <span class="author-meta">
+                  <span class="post-name"><a href="{{ .author_link }}">{{.author_name }}</a></span><br>
+                  <span class="post-date">
+                    {{ .posted_on }}
+                  </span>
+                  <span class="dot"></span>
+                  <span class="readingtime"> {{ .readingtime }}</span>
+                </span>
               </div>
-            </div>
-            <div class="col-12 col-md-6 my-auto text-center text-md-right">
-              <button class="btn btn-secondary"> Contact US</button>
             </div>
           </div>
         </div>
-      <!-- talk to expert card end-->
-
-      <!-- blog section -->
-
-      <!-- blog section end -->
+      </div>
+      {{ end }}
     </div>
-</section>
+    <!-- blog section end -->
+  </div>
+  </section>
+  <style>
+    /* ts - test services */
 
-{{ end }}
+    .btn.btn-primary.scroll-to-top-btn {
+      background-color: rgb(36 47 155/95%) !important;
+    }
+
+    .ts-primary-color {
+      color: #242f9b;
+    }
+
+    .page-header {
+      display: none;
+    }
+
+    .btn.btn-secondary {
+      font-weight: 900 !important;
+      background: rgb(36 47 155/95%) !important;
+      box-shadow: 0px 2px 4px 2px rgb(36 47 155 / 20%);
+    }
+
+    .btn.btn-secondary:hover {
+      background: #242f9b !important;
+      box-shadow: 4px 8px 10px 2px rgb(36 47 155 / 20%) !important;
+    }
+
+
+
+    .card.post.highlighted {
+      height: 520px;
+    }
+
+    .highlighted .metafooter,
+    .height262 .metafooter {
+      position: absolute;
+      width: 90%;
+      bottom: 20px;
+      height: 70px;
+    }
+
+    .card.post.highlighted .thumbimage {
+      background-position: 50% 50%;
+      background-size: cover;
+      height: 240px;
+    }
+
+    .card-block {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding: 18px;
+    }
+
+    h2.card-title a {
+      color: rgba(0, 0, 0, .8) !important;
+    }
+
+    h2.card-title {
+      font-size: 18px !important;
+      line-height: 1.25;
+    }
+
+    .highlighted .metafooter,
+    .height262 .metafooter {
+      position: absolute;
+      width: 90%;
+      bottom: 20px;
+      height: 70px;
+    }
+
+    .author-thumb,
+    .meta-footer-thumb img {
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: 13px;
+      border-radius: 100%;
+    }
+
+    .listfeaturedtag span.card-text,
+    .listrecent span.card-text {
+      color: #888;
+      font-size: 10px;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    .recent-posts .highlighted,
+    .listrelated .highlighted {
+      height: 520px;
+    }
+
+    .wrapfooter {
+      font-size: 13px;
+      margin-top: 30px;
+    }
+
+    span.post-name,
+    span.post-date,
+    span.author-meta {
+      display: inline-block;
+    }
+
+    .author-meta {
+      flex: 1 1 auto;
+      white-space: nowrap !important;
+      text-overflow: ellipsis !important;
+      overflow: hidden !important;
+    }
+
+    .dot:after {
+      content: "\00B7";
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  </style>
+
+  {{ end }}

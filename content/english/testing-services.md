@@ -94,6 +94,41 @@ a complete testing solution."
       desc: "Our test automation experts provide excellent quality and improved performance of your web solution by applying standards and guidelines in testing automation."
       icon: "images/testing-services/automation_testing.png"
 
+section6:
+  text1: 'Talk to the Experts!'
+  text2: 'To assure quality, a growing product requires a passionate, dedicated QA crew.'
+  heading: 'Our Blogs Speaks for Us too!'
+  blogs:
+    - link: 'https://www.spritle.com/blogs/2022/05/06/vulnerabilities-in-your-daily-life-mobile-applications/'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/05/vulnerability-mobile-app-feature.png'
+      title: 'Vulnerabilities in your daily life mobile applications'
+      desc: 'Well, let’s get these straight, mobile applications are now something we use in our day-to-day lives. For example, for booking cabs, we use applications...'
+      author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'
+      author_name: 'Vaashini'
+      author_avatar: 'https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=40&d=mm&r=g'
+      posted_on: 'May 6, 2022'
+      readingtime: '2 min read'
+
+    - link: 'https://www.spritle.com/blogs/2022/03/14/top-3-no-code-automation-testing-tools/'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/top-3-coding-tools-title.png'
+      title: 'Top 3 No Code Automation Testing Tools'
+      desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for...'
+      author_link: 'https://www.spritle.com/blogs/author/sweadha-d/'
+      author_name: 'Sweadha D'
+      author_avatar: 'https://secure.gravatar.com/avatar/39b8e8277c8bfd373d7b4daa9b8ac00d?s=80&d=mm&r=g'
+      posted_on: 'Mar 14, 2022'
+      readingtime: '2 min read'
+
+    - link: 'https://www.spritle.com/blogs/2021/01/04/penetration-test-in-healthcare-web-application-using-zap-tool/'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2021/01/Penetration-Test-Featured-image-8.png'
+      title: 'Penetration Test in Healthcare Web Application using ZAP Tool'
+      desc: 'Healthcare organizations may have technology and procedures in place to prevent data theft, but it’s difficult for organizations to find every security weakness. To...'
+      author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
+      author_name: 'Gopinath'
+      author_avatar: 'https://secure.gravatar.com/avatar/baaeaf9869fab8bef202150ac9048543?s=40&d=mm&r=g'
+      posted_on: 'Jan 4, 2021'
+      readingtime: '5 min read'
+
 ---
 
 ## Accelerating innovations for better **Technology Solutions**
