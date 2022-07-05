@@ -5,6 +5,26 @@ custom_title_value: "Careers-spritle.com"
 description: "Experienced professionals Want to make a difference? So do we. Step in to explore the wealth of career opportunities in spritle and take your career to the next level."
 draft: false
 
+
+       ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+ogtitle: "Careers"
+ogdescription: "Experienced professionals Want to make a difference? So do we. Step in to explore the wealth of career opportunities in spritle and take your career to the next level." 
+link: "https://www.spritle.com/latest-news/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/careers/xxSpritle-Software-Development-Team.jpeg,Mic.IbfqifVzMC.webp.pagespeed.ic.wdpYwISlVe.webp" 
+alt: "careers" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Careers"
+twitter_description: "Experienced professionals Want to make a difference? So do we. Step in to explore the wealth of career opportunities in spritle and take your career to the next level." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/careers/xxSpritle-Software-Development-Team.jpeg,Mic.IbfqifVzMC.webp.pagespeed.ic.wdpYwISlVe.webp" 
+
+
 ################ Intro #########################
 intro:
   enable: true

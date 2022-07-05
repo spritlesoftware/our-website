@@ -13,6 +13,25 @@ keywords:
 layout: "knowledge"
 draft: false
 
+         ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+ogtitle: "Knowledge Sharing"
+ogdescription: "Top custom-built software vendors for healthcare industries and hospitals that use AI technology to build personalized applications as per your requirements." 
+link: "https://www.spritle.com/knowledge-sharing/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/latest/xxDigital-Healthcare-Webinar-Intensivist.jpg,Mic.WrDUTB0G4u.webp.pagespeed.ic.48TTTgovK0.webp" 
+alt: "Custom-Built AI techonology solutions for healthcare" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Our Process"
+twitter_description: "Top custom-built software vendors for healthcare industries and hospitals that use AI technology to build personalized applications as per your requirements." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/latest/xxDigital-Healthcare-Webinar-Intensivist.jpg,Mic.WrDUTB0G4u.webp.pagespeed.ic.48TTTgovK0.webp" 
+
+
 testimonial:
   enable: true
   title: "SpriteXchange - **Knowledge Sharing**"

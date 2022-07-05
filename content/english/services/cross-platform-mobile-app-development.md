@@ -31,6 +31,7 @@ draft: false
 
 start:
   enable: true
+  title: "Going beyond what we know"
   image: "images/services/mobile_app/Mobile-Application-Development.png"
   alt: "Cross Platform & Native Mobile Application Development"
   content: "Running in the race to contribute to the greatest innovation of the 21st century, yet. Smart phones. Now a part of everyone’s body and lives,mobile development needs the utmost precision to deliver apps that work and that are loved to be used. We ace it!"

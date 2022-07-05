@@ -6,6 +6,24 @@ description: "Call us to know more about what Spritle can do to help improvize y
 layout: "contact"
 draft: false
 
+         ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+ogtitle: "Contact Us"
+ogdescription: "Call us to know more about what Spritle can do to help improvize your business in any industry with our AI digital solutions and services." 
+link: "https://www.spritle.com/knowledge-sharing/"
+site_name: "Spritle Software"
+Ogimage: "" 
+alt: "" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Contact Us"
+twitter_description: "Call us to know more about what Spritle can do to help improvize your business in any industry with our AI digital solutions and services." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "" 
+
 ########## Emails ###############
 job_email:
   enable: true

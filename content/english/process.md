@@ -15,6 +15,25 @@ keywords:
 layout: "our-process"
 draft: false
 
+         ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+ogtitle: "Our Process"
+ogdescription: "Our Analysts understand your needs and custom build the mobile or web application from scratch according to your requirements efficiently and cost-effective." 
+link: "https://www.spritle.com/process/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/process/xOnboarding-Vendor-and-Software-Requirement-Analysis.webp.pagespeed.ic.L9hEjp2Zh-.webp" 
+alt: "Custom-Built AI techonology solutions for healthcare" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Our Process"
+twitter_description: "Our Analysts understand your needs and custom build the mobile or web application from scratch according to your requirements efficiently and cost-effective." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/process/xOnboarding-Vendor-and-Software-Requirement-Analysis.webp.pagespeed.ic.L9hEjp2Zh-.webp" 
+
+
 start:
   enable: true
   title: "Collaborate with our analysts to help us understand your pain points<br> and derive at the most optimal solution."

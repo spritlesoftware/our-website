@@ -7,6 +7,24 @@ keywords: ["Custom built web and mobile apps", "Chatbots", "CRM integration"]
 layout: "detailed-product"
 draft: false
 
+         ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+ogtitle: "Our Products"
+ogdescription: "Spritle develops tailored-made web and mobile apps, chatbots, CRM-integration, Marketplace apps that reshapes the future of your business." 
+link: "https://www.spritle.com/products/our-product/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/products/iorn-steel.webp.pagespeed.ce.sewORT0HTB.webp" 
+alt: "Custom-Built AI techonology solutions for healthcare" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Our Products"
+twitter_description: "Spritle develops tailored-made web and mobile apps, chatbots, CRM-integration, Marketplace apps that reshapes the future of your business." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/products/iorn-steel.webp.pagespeed.ce.sewORT0HTB.webp" 
+
 section1:
   enable: true
   title: "Computer Vision, the next step for your Factories."
@@ -14,7 +32,7 @@ section1:
   image: "images/products/iorn-steel.webp"
   alt: "Web Engineering Services "
   content: "Why install expensive surveillance cameras when you can convert your CCTV into one?
-Transform your factory’s CCTV into Smart cameras powered by AI."
+  Transform your factory’s CCTV into Smart cameras powered by AI."
 
 
 intro:

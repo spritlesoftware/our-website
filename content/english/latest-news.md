@@ -6,6 +6,24 @@ description: "Check us out for all the latest development in technologies and ho
 layout: "specific-service"
 draft: false
 
+       ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+ogtitle: "Latest Updates"
+ogdescription: "Check us out for all the latest development in technologies and how spritle contributes to be the best in latest inventions." 
+link: "https://www.spritle.com/latest-news/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/designrush/300x300xDesignRush.jpg.pagespeed.ic.YmIJ3lO0tx.webp" 
+alt: "latest news" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Latest Updates"
+twitter_description: "Check us out for all the latest development in technologies and how spritle contributes to be the best in latest inventions." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/designrush/300x300xDesignRush.jpg.pagespeed.ic.YmIJ3lO0tx.webp" 
+
 name: "latest-new"
 section2:
   enable: true

@@ -7,6 +7,26 @@ keywords: ["Clinical Assertions", "NLP healthcare diagnosis"]
 layout: "about"
 draft: false
 
+
+         ############################ OG tags #################################
+locale: "en_US"
+type: "website"
+ogtitle: "Company Overview"
+ogdescription: "Spritle are a team of coders, analysts & user experience specialists dedicated to building custom enterprise applications and premium digital products that bring your ideas to life." 
+link: "https://www.spritle.com/process/"
+site_name: "Spritle Software"
+Ogimage: "https://www.spritle.com/images/careers/Spritle-Anniversary.webp.pagespeed.ce.W1DubiX845.webp" 
+alt: "spritle celebration" 
+
+########################### Twitter #################################
+twitter_card: "summary_large_image"
+twitter_title: "Company Overview"
+twitter_description: "Spritle are a team of coders, analysts & user experience specialists dedicated to building custom enterprise applications and premium digital products that bring your ideas to life." 
+twitter_site: "@spritlesoftware"
+twitter_creater: "@spritlesoftware"
+twitter_image: "https://www.spritle.com/images/careers/Spritle-Anniversary.webp.pagespeed.ce.W1DubiX845.webp" 
+
+
 ################## Mission ###############
 mission:
   enable: true
