@@ -12,7 +12,7 @@ keywords:
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Cross Platform Mobile App Development"
+ogtitle: "Cross Platform Mobile App Development"
 ogdescription: "Spritle is one of the leading companies in cross-platform mobile app development that allows your product to run on multiple mobile operating systems."
 link: "https://www.spritle.com/services/cross-platform-mobile-app-development/"
 site_name: "Spritle Software"

@@ -7,7 +7,7 @@ draft : false
 ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Natural Language Processing Services Companies|spritle.com"
+ogtitle: "Natural Language Processing Services Companies|spritle.com"
 ogdescription: "Our Natural Language Processing experts develop applications, NLP-Driven solutions, and applications suited for your requirement & company. See our projects."
 keywords: ["AI ML development Services, NLP services, NLP companies, Natural Language Processing, Natural Language Processing"]
 link: "https://www.spritle.copm/products/natural-language-processing/"

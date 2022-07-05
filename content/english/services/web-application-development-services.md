@@ -12,7 +12,7 @@ keywords:
       ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Custom Web Application Development"  
+ogtitle: "Custom Web Application Development"  
 ogdescription: "Spritle offers to develop custom-built web application services, SaaS apps development services, Healthcare applications, and much more. Get in touch with experts."
 link: "https://www.spritle.com/services/web-application-development-services/"
 site_name: "Spritle Software"

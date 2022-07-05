@@ -10,7 +10,7 @@ draft: false
 ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "AI development company | Custom built software applications"
+ogtitle: "AI development company | Custom built software applications"
 ogdescription: "AI development company with deep expertise in machine learning, deep learning, NLP, conversational AI, computer vision, Image processing."
 link: "https://www.spritle.com/products/rubygems/"
 site_name: "Spritle Software"

@@ -7,7 +7,7 @@ keywords : ["Custom web application development services","Cross platform mobile
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Custom Software Development Services" 
+ogtitle: "Custom Software Development Services" 
 ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
 link: "https://www.spritle.com/custom-software-development/"
 site_name: "Spritle Software" 
