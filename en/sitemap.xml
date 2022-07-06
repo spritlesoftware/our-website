@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
     <loc>/services/ai-ml-application-development-services/</loc>
   </url><url>
     <loc>/services/ai-ml-application-development-services-us/</loc>
@@ -44,18 +56,6 @@
   </url><url>
     <loc>/services/custom-software-development/</loc>
   </url><url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url><url>
     <loc>/software_services/</loc>
   </url><url>
     <loc>/services/web-application-development-services/</loc>
@@ -75,8 +75,6 @@
     <loc>/career/django-fullstack/</loc>
   </url><url>
     <loc>/manageengine/</loc>
-  </url><url>
-    <loc>/products/freshworks/</loc>
   </url><url>
     <loc>/products/voicebot-us/</loc>
   </url><url>
@@ -105,6 +103,8 @@
     <loc>/products/</loc>
   </url><url>
     <loc>/products/our-product/</loc>
+  </url><url>
+    <loc>/products/freshworks/</loc>
   </url><url>
     <loc>/products/rubygems/</loc>
   </url><url>

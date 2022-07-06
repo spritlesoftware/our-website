@@ -8,15 +8,6 @@
     <language>en-us</language>
     <copyright> © {year} Spritle Software. All Rights Reserved.</copyright><atom:link href="/products/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Freshwork Apps</title>
-      <link>/products/freshworks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/products/freshworks/</guid>
-      <description>“We got a good news✨ . We now have a dedicated team and website for SAAS Integrations.</description>
-    </item>
-    
-    <item>
       <title>Healthcare Conversational Voicebot for Hospitals</title>
       <link>/products/voicebot-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -59,6 +50,15 @@
       
       <guid>/products/our-product/</guid>
       <description>Apps developed by us for Zoho Marketplace </description>
+    </item>
+    
+    <item>
+      <title>Products- Freshwork Apps</title>
+      <link>/products/freshworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/products/freshworks/</guid>
+      <description>“We got a good news✨ . We now have a dedicated team and website for SAAS Integrations.</description>
     </item>
     
     <item>

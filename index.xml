@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Custom Software Solutions &amp; AI Development Company on Spritle Software |  Advanced Web &amp; Mobile Solutions</title>
+    <title>Spritle Software |  Advanced Web &amp; Mobile Solutions</title>
     <link>/</link>
-    <description>Recent content in Custom Software Solutions &amp; AI Development Company on Spritle Software |  Advanced Web &amp; Mobile Solutions</description>
+    <description>Recent content on Spritle Software |  Advanced Web &amp; Mobile Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> © {year} Spritle Software. All Rights Reserved.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -206,15 +206,6 @@
     </item>
     
     <item>
-      <title>Freshwork Apps</title>
-      <link>/products/freshworks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/products/freshworks/</guid>
-      <description>“We got a good news✨ . We now have a dedicated team and website for SAAS Integrations.</description>
-    </item>
-    
-    <item>
       <title>Healthcare Conversational Voicebot for Hospitals</title>
       <link>/products/voicebot-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -329,6 +320,15 @@
       
       <guid>/products/our-product/</guid>
       <description>Apps developed by us for Zoho Marketplace </description>
+    </item>
+    
+    <item>
+      <title>Products- Freshwork Apps</title>
+      <link>/products/freshworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/products/freshworks/</guid>
+      <description>“We got a good news✨ . We now have a dedicated team and website for SAAS Integrations.</description>
     </item>
     
     <item>
