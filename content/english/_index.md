@@ -7,7 +7,7 @@ keywords: ["ai Development company",Custom built softwares", "Digital healthcare
 ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Custom Software Solutions & AI Development Company"
+ogtitle: "Custom Software Solutions & AI Development Company"
 ogdescription: "Spritle helps in developing Digital Healthcare solutions,tailored-made web & cross platform mobile applications."
 link: "https://www.spritle.com/"
 site_name: "Spritle Software"
