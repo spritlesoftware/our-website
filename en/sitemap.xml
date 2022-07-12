@@ -46,6 +46,8 @@
   </url><url>
     <loc>/contact/</loc>
   </url><url>
+    <loc>/products/voicebot-us/</loc>
+  </url><url>
     <loc>/products/voicebot/</loc>
   </url><url>
     <loc>/services/cross-platform-mobile-app-development/</loc>
@@ -77,8 +79,6 @@
     <loc>/career/django-fullstack/</loc>
   </url><url>
     <loc>/manageengine/</loc>
-  </url><url>
-    <loc>/products/voicebot-us/</loc>
   </url><url>
     <loc>/iot-service/</loc>
   </url><url>
