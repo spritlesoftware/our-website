@@ -9,7 +9,7 @@ keywords : ["voicebots","conversational voicebots","custom built software for he
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Healthcare Conversational Voicebot for Hospitals" 
+ogtitle: "Healthcare Conversational Voicebot for Hospitals" 
 ogdescription: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."   
 link: "https://www.spritle.com/products/voicebot/"
 site_name: "Spritle Software"

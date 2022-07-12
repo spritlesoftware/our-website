@@ -1,6 +1,6 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Custom Web Application Development Services Company in USA- spritle.com"
+custom_title_value: "Custom Web Application Development Services Company in USA"
 title: "Custom Web Application Development Services"
 description: "As a Custom Web Application Development Company, we offer services such as SaaS App Development, Healthcare Applications, and much more."
 keywords:
@@ -16,7 +16,7 @@ ogtitle: "Custom Web Application Development"
 ogdescription: "Spritle offers to develop custom-built web application services, SaaS apps development services, Healthcare applications, and much more. Get in touch with experts."
 link: "https://www.spritle.com/services/web-application-development-services/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/services/web/Web-Application-Development.png.pagespeed.ce.klwBPCz1ud.png"
+Ogimage: "https://www.spritle.com/images/web-application-development-services-us.md/300x300ximg2.png.pagespeed.ic.Uc7B52mKMU.webp"
 alt: "Custom--Built Software Solutions" 
 
 ########################### Twitter #################################
@@ -25,7 +25,7 @@ twitter_title: "Custom Web Application Development"
 twitter_description: "Spritle offers to develop custom-built web application services, SaaS apps development services, Healthcare applications, and much more. Get in touch with experts."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "https://www.spritle.com/images/services/web/Web-Application-Development.png.pagespeed.ce.klwBPCz1ud.png" 
+twitter_image: "https://www.spritle.com/images/web-application-development-services-us.md/300x300ximg2.png.pagespeed.ic.Uc7B52mKMU.webp" 
 layout: "specific-service"
 draft: false
 

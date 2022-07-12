@@ -11,7 +11,7 @@ ogtitle: "Custom Software Development Services"
 ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
 link: "https://www.spritle.com/custom-software-development/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
+Ogimage: "https://www.spritle.com/images/custom-software-development-us/300x300x2011.i039.018..web-hosting-isometric-,P5BConverted,P5D.png.pagespeed.ic.DOcK7KwB0J.webp"
 alt: "Custom--Built Software Solutions" 
 
 ########################### Twitter #################################
@@ -20,7 +20,7 @@ twitter_title: "Custom Software Development Services"
 twitter_description: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
+twitter_image: ="https://www.spritle.com/images/custom-software-development-us/300x300x2011.i039.018..web-hosting-isometric-,P5BConverted,P5D.png.pagespeed.ic.DOcK7KwB0J.webp"
 layout: "specific-service"
 draft: false
 
