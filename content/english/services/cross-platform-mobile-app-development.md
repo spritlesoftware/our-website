@@ -1,6 +1,6 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Cross platform mobile app development-Spritle.com"
+custom_title_value: "Cross platform mobile app development"
 title: "Cross Platform Mobile App Development"
 description: "Spritle is one of the leading companies in cross platform mobile app development that allows your product to run on multiple mobile operating systems."
 keywords:

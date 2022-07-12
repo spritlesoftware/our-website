@@ -12,7 +12,7 @@ keywords:
         ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Digital Healthcare Solutions"
+ogtitle: "Digital Healthcare Solutions"
 ogdescription: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
 link: "https://www.spritle.com/digital-healthcare-innovations/"
 site_name: "Spritle Software"

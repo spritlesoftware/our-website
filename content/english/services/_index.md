@@ -12,7 +12,7 @@ keywords:
       ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Custom-Built Software Solutions" 
+ogtitle: "Custom-Built Software Solutions" 
 ogdescription: "Spritle is an established machine learning and AI development company that focuses on custom-built software applications that help in reshaping the future of your business."
 link: "https://www.spritle.com/services" 
 site_name: "Spritle Software"

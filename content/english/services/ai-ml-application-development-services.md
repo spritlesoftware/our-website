@@ -1,6 +1,6 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Artificial Intelligence Development Company|AI & ML Services - Spritle.com"
+custom_title_value: "Artificial Intelligence Development Company|AI & ML Services"
 title: "AI & ML Application Development Services"
 description: "Spritle offers artificial intelligence and machine learning development services such as NLP, voice bot, computer vision, image processing & more advanced services."
 keywords:
@@ -14,7 +14,7 @@ keywords:
          ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "AI & ML Application Development Services"
+ogtitle: "AI & ML Application Development Services"
 ogdescription: "Spritle offers artificial intelligence and machine learning services such as NLP, voice bot, computer vision, image processing & more advanced services." 
 link: "https://www.spritle.com/ai-ml-application-development-services/"
 site_name: "Spritle Software"
