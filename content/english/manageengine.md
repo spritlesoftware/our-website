@@ -5,8 +5,8 @@ custom_title_value: "Enterprise Integration Services using ManageEngine"
 layout : "manageengine"
 title: "Enterprise Integration Services using ManageEngine"
 description: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"
-keywords : ["enterprise IT management","network management software
-","custom built software for healthcare","custom mobile application","advanced IT data analytics", "service management software", "enterprise service management", "IT operations management"]
+keywords : [enterprise IT management,network management software
+,custom built software for healthcare,custom mobile application,advanced IT data analytics, service management software, enterprise service management, IT operations management]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"

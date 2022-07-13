@@ -5,11 +5,11 @@ title: "Custom Built Digital Healthcare Solutions "
 description: "Spritle offers Custom Built Software Solutions for Digital Healthcare Industries, Supplement Solutions through Gene Analysis. A HIPAA-certified company in the USA."
 keywords:
   [
-    "Healthcare Conversational Voice bot for Hospitals",
-    "custom built software for healthcare",
-    "Supplement Solutions through gene analysis",
-    "HIPAA Certified Software development companies",
-    "Digital Healthcare Solutions",
+    Healthcare Conversational Voice bot for Hospitals,
+    custom built software for healthcare,
+    Supplement Solutions through gene analysis,
+    HIPAA Certified Software development companies,
+    Digital Healthcare Solutions,
   ]
         ############################ OG tags #################################
 locale: "en_US"

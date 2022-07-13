@@ -5,7 +5,7 @@ custom_title_value: "Custom Web & Mobile Application Development Services"
 layout : "software_services"
 title: "Custom Software Development Services"
 description: "One of the best AI ML development companies that offer Custom-built software solutions and services specifically designed for your business."
-keywords : ["custom web application development services", "custom mobile application development services", "cross platform app development", "cross platform mobile app development", "web and mobile app development", "software development services"]
+keywords : [custom web application development services, custom mobile application development services, cross platform app development, cross platform mobile app development, web and mobile app development, software development services]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"

@@ -9,7 +9,7 @@ locale: "en_US"
 type: "website"
 ogtitle: "Custom built apps, Chatbots, CRM integration - Spritle.com"
 ogdescription: "Spritle develops custom-tailored web and mobile applications with CRM integration, Chatbots for healthcare industries,SaaS apps and much more.Get in touch to know more."
-keywords: ["Custom built web and mobile apps, Chatbots, CRM integration"]
+keywords: [Custom built web and mobile apps, Chatbots, CRM integration]
 link: "https://www.spritle.com/products/natural-language-processing-us/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/products/freshworks/300x300xfreshworks-solution-partner.png.pagespeed.ic._NtWecrxPQ.webp" 

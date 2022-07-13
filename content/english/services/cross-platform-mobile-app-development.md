@@ -5,9 +5,9 @@ title: "Cross Platform Mobile App Development"
 description: "Spritle is one of the leading companies in cross platform mobile app development that allows your product to run on multiple mobile operating systems."
 keywords:
   [
-    "Custom web application development",
-    "Custom mobile application development",
-    "Cross platform mobile app development Digital Healthcare Solutions",
+    Custom web application development,
+    Custom mobile application development,
+    Cross platform mobile app development Digital Healthcare Solutions,
   ]
        ############################ OG tags #################################
 locale: "en_US"

@@ -2,7 +2,7 @@
 custom_title_enabled: true
 custom_title_value: "AI Development Company & Custom Software Solutions"
 description: "One of the best AI development company that offers Custom-built software & digital healthcare solutions specifically designed for your business."
-keywords: ["ai Development company",Custom built softwares", "Digital healthcare solutions","AI technology development company"]
+keywords: [ai Development company,Custom built softwares,Digital healthcare solutions,AI technology development company]
 
 ############################ OG tags #################################
 locale: "en_US"

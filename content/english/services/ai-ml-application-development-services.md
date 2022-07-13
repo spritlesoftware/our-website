@@ -5,11 +5,11 @@ title: "AI & ML Application Development Services"
 description: "Spritle offers artificial intelligence and machine learning development services such as NLP, voice bot, computer vision, image processing & more advanced services."
 keywords:
   [
-    "Artificial Intelligence development company",
-    "Machine Learning Services",
-    "NLP",
-    "Natural Language Processing companies",
-    "computer vision, image processing",
+    Artificial Intelligence development company,
+    Machine Learning Services,
+    NLP,
+    Natural Language Processing companies,
+    computer vision, image processing,
   ]
          ############################ OG tags #################################
 locale: "en_US"

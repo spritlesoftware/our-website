@@ -5,10 +5,10 @@ title: "Our Process"
 description: "Our Analysts understand your needs and custom build the mobile or web application from scratch according to your requirements efficiently and cost-effective."
 keywords:
   [
-    "AI technology",
-    "NLP",
-    "Machine learning development",
-    "custom built software solutions",
+    AI technology,
+    NLP,
+    Machine learning development,
+    custom built software solutions,
   ]
 
 

@@ -5,7 +5,7 @@ title: "Custom Built Software for Healthcare, Web & Cross-platform"
 description: "We develop custom software applications for healthcare, web & mobile platforms that fit your brand & deliver cost-effective, high-quality patient care with cutting-edge solutions."
 keywords:
   [
-    "Custom web application development services", "Cross platform mobile application development"," Digital Healthcare Solutions", "Software for healthcare"
+    Custom web application development services, Cross platform mobile application development,Digital Healthcare Solutions, Software for healthcare
   ]
     ############################ OG tags #################################
 locale: "en_US"

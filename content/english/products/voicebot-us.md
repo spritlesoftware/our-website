@@ -5,7 +5,7 @@ custom_title_value: "Healthcare Conversational Voicebot for Hospitals"
 layout : "voice_bot"
 title: "Conversational Voicebot"
 description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
-keywords : ["voicebots","conversational voicebots","custom built software for healthcare","voice assistance","healthcare conversational voicebots for hospitals"]
+keywords : [voicebots,conversational voicebots,custom built software for healthcare,voice assistance,healthcare conversational voicebots for hospitals]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"

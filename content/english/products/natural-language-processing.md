@@ -9,7 +9,7 @@ locale: "en_US"
 type: "website"
 ogtitle: "Natural Language Processing Services Companies|spritle.com"
 ogdescription: "Our Natural Language Processing experts develop applications, NLP-Driven solutions, and applications suited for your requirement & company. See our projects."
-keywords: ["AI ML development Services, NLP services, NLP companies, Natural Language Processing, Natural Language Processing"]
+keywords: [AI ML development Services, NLP services, NLP companies, Natural Language Processing, Natural Language Processing]
 link: "https://www.spritle.copm/products/natural-language-processing/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/casestudies/Improve-your-company,P27s-overall-performance-image.webp.pagespeed.ce.qu6eN31aWK.webp" 

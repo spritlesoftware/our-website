@@ -5,10 +5,10 @@ title: "Cross Platform Mobile Application Development"
 description: "One of the leading companies in cross-platform mobile app development established in major parts of the United States, India, Singapore, UK." 
 keywords:
   [
-    "Cross platform mobile app development",
-    "cross platform mobile application development",
-    "Mobile Application Development company", 
-    "Cross platform mobile application development companies US",
+    Cross platform mobile app development,
+    cross platform mobile application development,
+    Mobile Application Development company, 
+    Cross platform mobile application development companies US,
   ]
        ############################ OG tags #################################
 locale: "en_US"

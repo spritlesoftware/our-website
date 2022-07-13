@@ -5,9 +5,9 @@ title: "Digital Healthcare Solutions"
 description: "Gene-based supplements solutions that uses AI technology in Healthcare industries.We are HIPAA certified and offer custom built digital healthcare solutions."
 keywords:
   [
-    "Supplement solutions through gene analysis",
-    "HIPAA certified,Digital healthcare solutions",
-    "Custom built software solutions",
+    Supplement solutions through gene analysis,
+    HIPAA certified,Digital healthcare solutions,
+    Custom built software solutions,
   ]
         ############################ OG tags #################################
 locale: "en_US"

@@ -5,9 +5,9 @@ title: "Custom built software solutions"
 description: "Spritle are reowned machine learning and AI development company that focus on custom built software applications which helps in reshaping the future of your business."
 keywords:
   [
-    "Machine learning development company",
-    "Custom built software solutions",
-    " AI development company",
+    Machine learning development company,
+    Custom built software solutions,
+    AI development company,
   ]
       ############################ OG tags #################################
 locale: "en_US"

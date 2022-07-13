@@ -7,9 +7,9 @@ draft : false
 ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Best Natural Language Processing Companies in US|spritle.com"
+ogtitle: "Best Natural Language Processing Companies in US"
 ogdescription: "One of the best Natural Language Processing companies in the US with NLP-Driven Solutions. Whatever your goals are with Spritle your project is in good hands. Have a look at our projects."
-keywords: ["AI ML development Services, NLP services, NLP companies, Natural Language Processing, Natural Language Processing Companies"]
+keywords: [AI ML development Services, NLP services, NLP companies, Natural Language Processing, Natural Language Processing Companies]
 link: "https://www.spritle.com/products/natural-language-processing-us/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/casestudies/xTitle-image-us.webp.pagespeed.ic.hDRCUKMulX.webp" 
