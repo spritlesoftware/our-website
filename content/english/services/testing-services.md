@@ -24,10 +24,8 @@ collect_info:
   title: "Have a project in mind?"
 # main content
 section1:
-  heading: "We solve quality problems We solve quality problems"
-  content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc
-    maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar
-    lorem felis ner erat"
+  heading: "Spritle Software Testing Service"
+  content: "We ensure that software completely satisfies user expectations and requirement specifications. To help our customers provide high-quality software quickly, we provide a wide range of QA services within real-time time limitations. We use the best software testing methodologies and applications, and top-tier software testing labs to deliver on our promise of Quality Engineering, Quality Assurance, and Digital Assurance."
   image: "images/testing-services/testing-services-image1.jpg"
 
 section2:
@@ -103,7 +101,7 @@ a complete testing solution."
       icon: "images/testing-services/automation_testing.png"
 
 section6:
-  text1: 'Talk to the Experts!'
+  text1: 'Talk to our Experts!'
   text2: 'To assure quality, a growing product requires a passionate, dedicated QA crew.'
   heading: 'Our Blogs Speaks for Us too!'
   blogs:
