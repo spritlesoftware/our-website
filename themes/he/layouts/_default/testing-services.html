@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+{{partial "collect-info-modal.html" .}}
 <div class="section-padding">
   <div class="container">
     <!-- section 1 -->
@@ -11,7 +13,7 @@
       <div class="col-12 col-md-5 my-md-auto my-4" data-aos="fade-in" data-aos-delay="300" data-aos-duration="1000">
         <h2 class="section-title">{{ .Params.section1.heading }}</h2>
         <p class="my-2">{{ .Params.section1.content }}</p>
-        <button class="btn btn-secondary my-3">Join Our Team</button>
+        <!-- <button class="btn btn-secondary my-3">Join Our Team</button> -->
       </div>
 
     </div>
@@ -41,7 +43,7 @@
       <div class="col-12 col-md-4 my-4 my-md-auto" data-aos="fade-in" data-aos-delay="300" data-aos-duration="2000">
         <h2 class="section-title">{{ .Params.section2.heading }}</h2>
         <p class="my-2">{{ .Params.section2.content }}</p>
-        <button class="btn btn-secondary my-3">Let's Talk Scenarios</button>
+        <button class="btn btn-primary my-3" onclick="showModel()">Let's Talk Scenarios</button>
       </div>
     </div>
     <!-- section 2 end -->
@@ -55,7 +57,7 @@
         <img src="{{ .Params.section3.mobile_image }}" alt="" class="w-100">
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="d-md-block d-none">
         <div class="row g-0">
           {{ range .Params.section3.images }}
@@ -66,7 +68,7 @@
         </div>
       </div>
       <div class="text-center">
-        <button class="btn btn-secondary my-3">Get Started</button>
+        <a href="/contact" class="btn btn-primary my-3">Get Started</a>
       </div>
     </div>
   </div>
@@ -117,14 +119,14 @@
 
   <div class="container py-5">
     <!-- talk to expert card -->
-    <div class="shadow-lg card bg-light-gray p-4 my-5" data-aos="fade-up" data-aos-delay="200">
+    <div class="shadow card bg-light-gray p-4 my-5" data-aos="fade-up" data-aos-delay="200">
       <div class="row justify-content-between">
         <div class="col-12 col-md-6">
           <h2 class="font-weight-bold">{{.Params.section6.text1}}</h2>
           <div class="my-3">{{.Params.section6.text2}}</div>
         </div>
         <div class="col-12 col-md-6 my-auto text-center text-md-right">
-          <button class="btn btn-secondary"> Contact US</button>
+          <a href="/contact" class="btn btn-primary" > Contact US</a>
         </div>
       </div>
     </div>
@@ -184,6 +186,12 @@
   </div>
   </section>
 
+<script>
+  const showModel=()=>{
+    console.log('show model');
+      $("#myModal").modal('show');
+  }
+</script>
   <style>
     /* ts - test services */
     #footer-top-section{
