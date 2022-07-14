@@ -14,7 +14,7 @@
   translation: All Together
   
 - id: name
-  translation: Name
+  translation: Name *
   
 - id: mail
   translation: Email Address

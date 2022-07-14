@@ -12,10 +12,8 @@
           <h2 class="section-title">{{ .title | markdownify }}</h2>
           {{ with .content}}
           <p>{{. | markdownify}}</p>
-          {{end}} {{if site.Params.footer_cta_button.enable }} {{with
-          site.Params.footer_cta_button }}
-          {{ partial "button.html" . }}
-          {{ end }} {{ end }}
+          {{end}} 
+          
         </div>
       </div>
       <div class="col-12">
@@ -31,9 +29,7 @@
             {{ with site.Params.logo }}
             <img
               loading="lazy"
-              width="142px"
-              height="80px"
-              class="img-fluid"
+              class="img-logo"
               src="{{ . | absURL }}"
               alt="{{ site.Title }}"
             />

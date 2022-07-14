@@ -432,7 +432,7 @@
   class="section-padding tools-use-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="
     background-image: url('images/brushes/section-top.svg'),
-      url('images/brushes/section-bottom.svg');
+      url('images/brushes/brush-bottom.svg');
   "
 >
   <div class="container">
@@ -450,13 +450,13 @@
           <li
             class="has-centered lg d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle"
           >
-            <img loading="lazy" height="180px" width="180px" src="{{ . |absURL}}" alt="coding" />
+            <img loading="lazy" height="120px" width="140px" src="{{ . |absURL}}" alt="coding" />
           </li>
           {{else}}
           <li
             class="has-centered md d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle"
           >
-            <img loading="lazy" height="70px" width="142px" src="{{ . |absURL}}" alt="technology" />
+            <img loading="lazy" height="50px" width="142px" src="{{ . |absURL}}" alt="technology" />
           </li>
           {{ end }} {{ end }}
         </ul>
@@ -513,6 +513,22 @@
 .section-title
 {
   font-weight: 900 !important;
+}
+
+.how-it-works-tab .nav-link::before {
+    width: 245px;
+    height: 2px;
+    background-color: #f7f7f7;
+    margin-left: 0px;
+    top: 16px;
+    border-radius: 50px;
+    transition: .3s;
+    z-index: -1;
+}
+
+.how-it-works-tab .nav-link .circle-shape
+{
+  z-index:-2 !important;
 }
 </style>
 {{ end }} {{ end }} {{partial "testimonial.html" . }} {{ end }}

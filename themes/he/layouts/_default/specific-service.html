@@ -9,7 +9,7 @@
       <div class="col-lg-6 mt-5 mt-lg-0">
         <div class="pl-0 pl-lg-4">
           <h2 class="pb-20 mb-20">{{ .Title | markdownify }}</h2>
-          <p class="border-bottom pb-20">{{ .subtitle | markdownify }}</p>
+          <p class="pb-20">{{ .subtitle | markdownify }}</p>
           
     {{if .Params.sect.enable }}
     {{with .Params.sect }}
@@ -75,7 +75,7 @@
             </svg>
           </button>
           {{ end }} {{ end }}
-          <img style="margin-left: 60px;"
+          <img 
             loading="lazy"
             width="450px"
             height="300px"
