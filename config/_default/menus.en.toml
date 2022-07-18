@@ -24,7 +24,7 @@ weight = 2
 
   [[main]]
   parent = "Services"
-  name = "testing services"
+  name = "Testing services"
   url =  "/testing-services"
   weight = 2
 

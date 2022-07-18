@@ -10,7 +10,9 @@ AUTHOR WEBSITE: https://gethugothemes.com
     <script defer src="https://kit.fontawesome.com/4a5ca05902.js" crossorigin="anonymous" ></script>
     {{ partial "head.html" . }} {{ partialCached "style.html" . }}
 
-    
+    {{ if eq .RelPermalink "/services/" }}
+    <link rel="canonical" href="www.spritle.com" />
+    {{end}}
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
