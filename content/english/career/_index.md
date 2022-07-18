@@ -4,7 +4,11 @@ custom_title_enabled: true
 custom_title_value: "Careers"
 description: "Experienced professionals Want to make a difference? So do we. Step in to explore the wealth of career opportunities in spritle and take your career to the next level."
 draft: false
-
+keywords:
+  [
+    Find Your Dream Job,
+    Adding value to your career,
+  ]
 
        ############################ OG tags #################################
 locale: "en_US"

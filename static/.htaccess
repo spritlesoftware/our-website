@@ -140,4 +140,4 @@ Redirect 301 /index /
   BrowserMatch ^Mozilla/4\.0[678] no-gzip
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
-</IfModule>loader-image mb-20
+</IfModule>

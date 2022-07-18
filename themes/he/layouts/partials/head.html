@@ -15,7 +15,11 @@ site.BaseURL "https://examplesite.com/")}}{{else}}
 
 <!--Canonical tags-->
 
+{{ if .Params.canonicalUrl }}
+<link rel="canonical" href="{{ .Params.canonicalUrl }}">
+{{ else }}
 <link rel="canonical" href="{{ .Permalink }}">
+{{ end }}
 
 <!-- multilingual SEO optimizations -->
 {{ if .IsTranslated }} {{ range .AllTranslations }}

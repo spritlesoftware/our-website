@@ -5,6 +5,13 @@ title: "Latest Updates"
 description: "Check us out for all the latest development in technologies and how spritle contributes to be the best in latest inventions."
 layout: "specific-service"
 draft: false
+keywords:
+  [
+    Latest news,
+    News feed,
+    Latest updates
+  ]
+
 
        ############################ OG tags #################################
 locale: "en_US"
