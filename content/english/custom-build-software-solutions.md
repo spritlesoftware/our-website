@@ -7,12 +7,14 @@ keywords:
   [
     Custom web application development services, Cross platform mobile application development,Digital Healthcare Solutions, Software for healthcare
   ]
+
+
     ############################ OG tags #################################
 locale: "en_US"
 type: "website"
 ogtitle: "Custom Web and mobile app development|Softwares for healthcare"
 ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
-link: "https://www.spritle.com/work"
+link: "https://www.spritle.com/custom-build-software-solution"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp" 
 alt: "Custom--Built Software Solutions"

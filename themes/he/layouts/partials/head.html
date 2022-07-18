@@ -13,6 +13,11 @@ site.BaseURL "https://examplesite.com/")}}{{else}}
 
 {{ end }}
 
+
+{{ if eq .RelPermalink "/spritle.com/" }}
+<link rel="canonical" href="spritle.com">
+{{end}}
+
 <!--Canonical tags-->
 
 {{ if .Params.canonicalUrl }}

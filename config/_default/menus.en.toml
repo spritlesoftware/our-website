@@ -3,7 +3,7 @@
 
 [[main]]
 name = "Our Works"
-url = "work/"
+url = "custom-build-software-solutions/"
 weight = 1
 
 [[main]]
@@ -24,7 +24,7 @@ weight = 2
 
   [[main]]
   parent = "Services"
-  name = "Testing services"
+  name = "testing services"
   url =  "/testing-services"
   weight = 2
 
