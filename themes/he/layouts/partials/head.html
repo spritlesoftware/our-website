@@ -13,33 +13,14 @@ site.BaseURL "https://examplesite.com/")}}{{else}}
 
 {{ end }}
 
-
-{{ if eq .RelPermalink "/spritle.com/" }}
-<link rel="canonical" href="spritle.com">
-{{end}}
-
 <!--Canonical tags-->
 
 {{ if .Params.canonicalUrl }}
-<link rel="canonical" href="{{ .Params.canonicalUrl }}">
+<link rel="canonical" href="www.spritle.com{{ .canonicalUrl }}">
 {{ else }}
 <link rel="canonical" href="{{ .Permalink }}">
 {{ end }}
 
-<!-- multilingual SEO optimizations -->
-{{ if .IsTranslated }} {{ range .AllTranslations }}
-<link
-  rel="alternate"
-  hreflang="{{.Lang}}"
-  href="{{ .RelPermalink | absLangURL }}"
-/>
-{{ end }}
-<link
-  rel="alternate"
-  hreflang="x-default"
-  href="{{ .RelPermalink | absLangURL }}"
-/>
-{{ end }}
 
 <!-- mobile responsive meta -->
 <meta
