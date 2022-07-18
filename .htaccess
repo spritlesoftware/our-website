@@ -141,3 +141,7 @@ Redirect 301 /index /
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
 </IfModule>
+
+# To redirect non-existing page to 404
+ErrorDocument 404 /404.html 
+
