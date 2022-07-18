@@ -1,22 +1,4 @@
 User-Agent: *
 Allow: /
-Sitemap: https://www.spritle.com/sitemap1.xml
+Sitemap:https://www.spritle.com/
 
-Disallow:/
-mysubdomain: 
-https://zohodesk-googlebusiness.spritle.com
-https://ecommerce.spritle.com
-https://fd-googlebusiness.spritle.com
-https://code.spritle.com
-https://fdtrustpilot.spritle.com
-https://fw-cors.spritle.com
-https://healthcare-tech.spritle.com
-https://beta.spritle.com
-https://ps.spritle.com
-http://unece-wpmt.spritle.com
-http://www.webmail.spritle.com
-http://modalia-hermes.spritle.com/
-https://fw-cors.spritle.com/
-http://w.spritle.com
-http://modalia-hermes.spritle.com
-http://nicoli.moddo.spritle.com/
