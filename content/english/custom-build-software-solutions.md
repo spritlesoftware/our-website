@@ -2,7 +2,7 @@
 custom_title_enabled: true
 custom_title_value: "Custom Built Softwares for Healthcare,Web & Cross-platform App Development"
 title: "Custom Built Software for Healthcare, Web & Cross-platform"
-description: "We develop custom software applications for healthcare, web & mobile platforms that fit your brand & deliver cost-effective, high-quality patient care with cutting-edge solutions."
+description: "Allowing ease of acces with our custom built software solutions for heathcare while allowing web and cross platform application development."
 keywords:
   [
     Custom web application development services, Cross platform mobile application development,Digital Healthcare Solutions, Software for healthcare

@@ -108,7 +108,7 @@ section6:
   blogs:
     - id: 100
       link: 'https://www.spritle.com/blogs/2022/05/06/vulnerabilities-in-your-daily-life-mobile-applications/'
-      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/05/vulnerability-mobile-app-feature.png'
+      image: 'crohttps://www.spritle.com/blogs/wp-content/uploads/2022/05/vulnerability-mobile-app-feature.png'
       title: 'Vulnerabilities in your daily life mobile applications'
       desc: 'Well, let’s get these straight, mobile applications are now something we use in our day-to-day lives. For example, for booking cabs, we use applications...'
       author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'

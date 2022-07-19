@@ -1,6 +1,6 @@
 ---
-title : "Natural Language Processing"
-description : "The modern patient expects to be able to contact their doctor 24/7 a day and clinicians can now use telemedicine to monetize remote assistance."
+title : "Natural Language Processing company in USA"
+description : "Allowing users to increase efficiency with the help of NLP(Natural Language Processing) to make use of voice to text conversions, and reduction in overall errors."
 layout : "solutions-l-r"
 draft : false
 

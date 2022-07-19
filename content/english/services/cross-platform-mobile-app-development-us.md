@@ -1,8 +1,8 @@
 ---
 custom_title_enabled: true
 custom_title_value: "One of the Best Cross Platform Mobile App Development company in USA"
-title: "Cross Platform Mobile Application Development"
-description: "One of the leading companies in cross-platform mobile app development established in major parts of the United States, India, Singapore, UK." 
+title: " Cross Platform Mobile App Development company in USA"
+description: "Providing feasable solutions using React Native to create cross platform development solutions for android and IOS." 
 keywords:
   [
     Cross platform mobile app development,

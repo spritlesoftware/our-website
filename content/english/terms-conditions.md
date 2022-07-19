@@ -1,6 +1,6 @@
 ---
 title: "Terms and conditions"
-description: "this is meta description"
+description: "Terms and conditons regarding the custom software development and the solutions provided."
 layout: "regular"
 draft: false
 ---

@@ -1,8 +1,8 @@
 ---
 custom_title_enabled: true
 custom_title_value: "AI development company|Custom built software applications"
-title: "Products-Ruby Gems"
-description: "AI development company with deep expertise in machine learning, deep learning, NLP, conversational AI, computer vision, Image processing."
+title: "Solutions provided by using Ruby gems in the process of custom software development"
+description: "We use Ruby Gems to solve various problems and implement them in diffrent ways for different solutions."
 keywords: [Custom built web and mobile apps, Chatbots, CRM integration]
 layout: "ruby-gems"
 draft: false

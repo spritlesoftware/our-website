@@ -2,7 +2,7 @@
 title: "Careers"
 custom_title_enabled: true
 custom_title_value: "Careers"
-description: "Experienced professionals Want to make a difference? So do we. Step in to explore the wealth of career opportunities in spritle and take your career to the next level."
+description: "Find your dream job in custom software development, Ruby on Rails, React Native and cross platofrm app development."
 draft: false
 keywords:
   [
