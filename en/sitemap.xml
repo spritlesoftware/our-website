@@ -16,6 +16,8 @@
   </url><url>
     <loc>/testing-services/</loc>
   </url><url>
+    <loc>/services/cross-platform-mobile-app-development-us/</loc>
+  </url><url>
     <loc>/services/ai-ml-application-development-services/</loc>
   </url><url>
     <loc>/services/ai-ml-application-development-services-us/</loc>
@@ -54,8 +56,6 @@
   </url><url>
     <loc>/services/cross-platform-mobile-app-development/</loc>
   </url><url>
-    <loc>/services/cross-platform-mobile-app-development-us/</loc>
-  </url><url>
     <loc>/services/digital-healthcare-innovations-us/</loc>
   </url><url>
     <loc>/custom-build-software-solutions/</loc>
@@ -92,9 +92,9 @@
   </url><url>
     <loc>/machinelearn-service/</loc>
   </url><url>
-    <loc>/products/natural-language-processing-us/</loc>
-  </url><url>
     <loc>/products/natural-language-processing/</loc>
+  </url><url>
+    <loc>/products/natural-language-processing-us/</loc>
   </url><url>
     <loc>/career/node-js-developer/</loc>
   </url><url>
@@ -107,8 +107,6 @@
     <loc>/products/our-product/</loc>
   </url><url>
     <loc>/products/freshworks/</loc>
-  </url><url>
-    <loc>/products/rubygems/</loc>
   </url><url>
     <loc>/career/qa-fresher/</loc>
   </url><url>
@@ -125,6 +123,8 @@
     <loc>/showdown/</loc>
   </url><url>
     <loc>/career/softwaretester/</loc>
+  </url><url>
+    <loc>/products/rubygems/</loc>
   </url><url>
     <loc>/company/culture/spritexchange-sessions/</loc>
   </url><url>
