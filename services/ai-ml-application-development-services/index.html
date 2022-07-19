@@ -877,6 +877,11 @@ if (!doNotTrack) {
 </section>
 
 <style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
    
   .modal {
     display: none;  
@@ -890,11 +895,10 @@ if (!doNotTrack) {
     background-color: rgb(0, 0, 0);  
     background-color: rgba(0, 0, 0, 0.4);  
   }
-
    
   .modal-content {
     display: block;
-    background-color: #fefefe;
+    background-color: #FEFEFE;
     margin: 1% auto;  
     padding: 20px;
     border: 1px solid #888;
@@ -940,15 +944,12 @@ if (!doNotTrack) {
     }
   }
 </style>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
   var frm = $("#request_form");
-
   frm.submit(function (e) {
     e.preventDefault();
     $("#waitingPreloader").removeClass("loaded");
-
     $.ajax({
       type: "post",
       url: "https://nodemailernew.herokuapp.com/contact",
@@ -968,9 +969,29 @@ if (!doNotTrack) {
       },
     });
   });
+  function myfunc()
+  {
+  let mail_val = document.querySelector('#email_id');
+  let spanval = document.querySelector('#myspan');
+  let email_input = mail_val.value;
+  let reg_exp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if(reg_exp.test(email_input)){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "";
+  }
+  else{
+    mail_val.style.borderColor = "red";
+    spanval.innerHTML="Enter valid Email id";
+    spanval.style.color = "red";
+  }
+  if(email_input.length===0){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "none";
+  }
+}
 </script>
-
-
   
 
 
@@ -1155,6 +1176,11 @@ if (!doNotTrack) {
 </section>
 
 <style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
    
   .modal {
     display: none;  
@@ -1168,11 +1194,10 @@ if (!doNotTrack) {
     background-color: rgb(0, 0, 0);  
     background-color: rgba(0, 0, 0, 0.4);  
   }
-
    
   .modal-content {
     display: block;
-    background-color: #fefefe;
+    background-color: #FEFEFE;
     margin: 1% auto;  
     padding: 20px;
     border: 1px solid #888;
@@ -1218,15 +1243,12 @@ if (!doNotTrack) {
     }
   }
 </style>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
   var frm = $("#request_form");
-
   frm.submit(function (e) {
     e.preventDefault();
     $("#waitingPreloader").removeClass("loaded");
-
     $.ajax({
       type: "post",
       url: "https://nodemailernew.herokuapp.com/contact",
@@ -1246,9 +1268,29 @@ if (!doNotTrack) {
       },
     });
   });
+  function myfunc()
+  {
+  let mail_val = document.querySelector('#email_id');
+  let spanval = document.querySelector('#myspan');
+  let email_input = mail_val.value;
+  let reg_exp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if(reg_exp.test(email_input)){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "";
+  }
+  else{
+    mail_val.style.borderColor = "red";
+    spanval.innerHTML="Enter valid Email id";
+    spanval.style.color = "red";
+  }
+  if(email_input.length===0){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "none";
+  }
+}
 </script>
-
-
   
 
 
@@ -1466,6 +1508,7 @@ if (!doNotTrack) {
                       class="form-control shadow-none"
                       autocomplete="off"
                       type="text"
+                      onkeydown="return /[a-z\s]/i.test(event.key)"
                       name="fname"
                       placeholder="Name*"
                       id="fnames"
@@ -1493,11 +1536,12 @@ if (!doNotTrack) {
                       autocomplete="off"
                       type="email"
                       name="email_address"
-                      pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2,3}"
                       placeholder="Email address*"
-                      id="email"
+                      id="email_id"
                       required
+                      onkeyup="myfunc()"
                     />
+                    <span id="myspan"></span>
                   </div>
                   <div class="form-group mb-30 col-md-6">
                     
@@ -1505,7 +1549,7 @@ if (!doNotTrack) {
                     class="form-control shadow-none"
                     autocomplete="off"
                     pattern="(\+\d{1,3}\s?)?((\(\d{3}\)\s?)|(\d{3})(\s|-?))(\d{3}(\s|-?))(\d{4})(\s?(([E|e]xt[:|.|]?)|x|X)(\s?\d+))?"
-                      type="tel"
+                      type="number"
                       name="phone_number"
                       placeholder="Phone number*"
                       id="phone"
@@ -1531,7 +1575,6 @@ if (!doNotTrack) {
                     data-callback="enableSubmit"
                   ></div>
                 </div>
-
                 <button
                   type="submit"
                   class="btn btn-primary btn-submit w-100"
@@ -1552,6 +1595,11 @@ if (!doNotTrack) {
 </div>
 
 <style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
    
   .modal {
     display: none;  
@@ -1565,11 +1613,10 @@ if (!doNotTrack) {
     background-color: rgb(0, 0, 0);  
     background-color: rgba(0, 0, 0, 0.4);  
   }
-
    
   .modal-content {
     display: block;
-    background-color: #fefefe;
+    background-color: #FEFEFE;
     margin: 1% auto;  
     padding: 20px;
     border: 1px solid #888;
@@ -1615,15 +1662,12 @@ if (!doNotTrack) {
     }
   }
 </style>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
   var frm = $("#request_form");
-
   frm.submit(function (e) {
     e.preventDefault();
     $("#waitingPreloader").removeClass("loaded");
-
     $.ajax({
       type: "post",
       url: "https://nodemailernew.herokuapp.com/contact",
@@ -1643,9 +1687,29 @@ if (!doNotTrack) {
       },
     });
   });
+  function myfunc()
+  {
+  let mail_val = document.querySelector('#email_id');
+  let spanval = document.querySelector('#myspan');
+  let email_input = mail_val.value;
+  let reg_exp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if(reg_exp.test(email_input)){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "";
+  }
+  else{
+    mail_val.style.borderColor = "red";
+    spanval.innerHTML="Enter valid Email id";
+    spanval.style.color = "red";
+  }
+  if(email_input.length===0){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "none";
+  }
+}
 </script>
-
-
 
 
 <script defer>
