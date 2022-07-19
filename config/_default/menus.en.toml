@@ -24,12 +24,6 @@ weight = 2
 
   [[main]]
   parent = "Services"
-  name = "Testing services"
-  url =  "/testing-services"
-  weight = 2
-
-  [[main]]
-  parent = "Services"
   name = "Digital Healthcare Services"
   url =  "/services/digital-healthcare-innovations/"
   weight = 3
