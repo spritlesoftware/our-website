@@ -1,5 +1,5 @@
 ---
-title : "Natural Language Processing | spritle.com"
+title : "Natural Language Processing"
 description : "The modern patient expects to be able to contact their doctor 24/7 a day and clinicians can now use telemedicine to monetize remote assistance."
 layout : "solutions-l-r"
 draft : false

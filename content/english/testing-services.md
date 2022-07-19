@@ -4,10 +4,11 @@ locale: "en_US"
 type: "website"
 ogtitle: "Custom Web and mobile app development|Softwares for healthcare"
 ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
-link: "https://www.spritle.com/work"
+link: "https://www.spritle.com/testing-services"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp"
-alt: "Custom--Built Software Solutions"
+Ogimage: "https://www.spritle.com/images/testing-services/testing-service-cover.webp"
+alt: "Testing-Services"
+keywords: [testing-services,test-case,quality-analysis]
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
@@ -15,7 +16,7 @@ twitter_title: "Custom Web and mobile app development|Softwares for healthcare"
 twitter_description: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp"
+twitter_image: ="https://www.spritle.com/images/testing-services/testing-service-cover.webp"
 layout: "testing-services"
 draft: false
 
@@ -25,7 +26,7 @@ section1:
   content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc
     maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar
     lorem felis ner erat"
-  image: "images/testing-services/testing-services-image1.jpg"
+  image: "images/testing-services/testing-service-cover.webp"
 
 section2:
   heading: "We solve quality problems"
@@ -48,6 +49,7 @@ section3:
     - "images/testing-services/8.png"
     - "images/testing-services/9.png"
     - "images/testing-services/10.png"
+
 
 section4:
   heading: "Our Test Expertise comes from working ona variety of projects and business verticals."
