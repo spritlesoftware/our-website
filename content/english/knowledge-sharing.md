@@ -2,7 +2,7 @@
 custom_title_enabled: true
 custom_title_value: "Digital healthcare Solutions|AI applications in healthcare"
 title: "Knowledge Sharing"
-description: "Top custom-built software vendors for healthcare industries and hospitals that use AI technology to build personalized applications as per your requirements."
+description: "Our team may operate more efficiently and spend less time hunting for instructions or answers by using a knowledge-sharing platform to store and exchange key documents and information. This will help your firm foster a culture of knowledge sharing."
 keywords:
   [
     Digital healthcare solutions and services,
