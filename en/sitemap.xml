@@ -14,8 +14,6 @@
                 href="/"
                 />
   </url><url>
-    <loc>/testing-services/</loc>
-  </url><url>
     <loc>/services/cross-platform-mobile-app-development-us/</loc>
   </url><url>
     <loc>/services/ai-ml-application-development-services/</loc>
@@ -63,6 +61,8 @@
     <loc>/services/</loc>
   </url><url>
     <loc>/services/custom-software-development/</loc>
+  </url><url>
+    <loc>/testing-services/</loc>
   </url><url>
     <loc>/software_services/</loc>
   </url><url>

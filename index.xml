@@ -8,15 +8,6 @@
     <language>en-us</language>
     <copyright> © {year} Spritle Software. All Rights Reserved.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/testing-services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/testing-services/</guid>
-      <description>Accelerating innovations for better Technology Solutions &amp;ldquo;A Team with a Plan never gives up.</description>
-    </item>
-    
-    <item>
       <title> Cross Platform Mobile App Development company in USA</title>
       <link>/services/cross-platform-mobile-app-development-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -149,6 +140,15 @@
       
       <guid>/services/custom-software-development/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Software Development Services</title>
+      <link>/testing-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/testing-services/</guid>
+      <description>Accelerating innovations for better Technology Solutions &amp;ldquo;A Team with a Plan never gives up.</description>
     </item>
     
     <item>
