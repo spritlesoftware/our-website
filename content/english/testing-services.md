@@ -1,4 +1,10 @@
 ---
+custom_title_enabled: true
+custom_title_value: "Custom web & Cross platform mobile application development services"
+title: "Custom Software Development Services"
+description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
+keywords : [Custom web application development services,Cross platform mobile app development services]
+
 ############################ OG tags #################################
 locale: "en_US"
 type: "website"
