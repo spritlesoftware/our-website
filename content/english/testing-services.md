@@ -1,7 +1,7 @@
 ---
 custom_title_enabled: true
 custom_title_value: "Custom web & Cross platform mobile application development services"
-title: "Custom Software Development Services"
+title: "Testing Services"
 description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
 keywords : [Custom web application development services,Cross platform mobile app development services]
 
@@ -28,10 +28,8 @@ draft: false
 
 # main content
 section1:
-  heading: "We solve quality problems We solve quality problems"
-  content: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Nunc
-    maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar
-    lorem felis ner erat"
+  heading: "Spritle Software Testing Service"
+  content: "We ensure that software completely satisfies user expectations and requirement specifications. To help our customers provide high-quality software quickly, we provide a wide range of QA services within real-time time limitations. We use the best software testing methodologies and applications, and top-tier software testing labs to deliver on our promise of Quality Engineering, Quality Assurance, and Digital Assurance."
   image: "images/testing-services/testing-service-cover.webp"
 
 section2:
@@ -45,7 +43,7 @@ section2:
 section3:
   mobile_image: "/images/testing-services/main.png"
   images:
-    - "/images/testing-services/1.png"
+    - "/images/testing-services/first.png"
     - "/images/testing-services/2.png"
     - "/images/testing-services/3.png"
     - "/images/testing-services/4.png"
@@ -114,7 +112,7 @@ section6:
   blogs:
     - id: 100
       link: 'https://www.spritle.com/blogs/2022/05/06/vulnerabilities-in-your-daily-life-mobile-applications/'
-      image: 'crohttps://www.spritle.com/blogs/wp-content/uploads/2022/05/vulnerability-mobile-app-feature.png'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/05/vulnerability-mobile-app-feature.png'
       title: 'Vulnerabilities in your daily life mobile applications'
       desc: 'Well, let’s get these straight, mobile applications are now something we use in our day-to-day lives. For example, for booking cabs, we use applications...'
       author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'
