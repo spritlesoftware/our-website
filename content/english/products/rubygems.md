@@ -1,7 +1,7 @@
 ---
 custom_title_enabled: true
 custom_title_value: "AI development company|Custom built software applications"
-title: "Solutions provided by using Ruby gems in the process of custom software development"
+title: "Ruby gems"
 description: "We use Ruby Gems to solve various problems and implement them in diffrent ways for different solutions."
 keywords: [Custom built web and mobile apps, Chatbots, CRM integration]
 layout: "ruby-gems"
@@ -39,7 +39,7 @@ apps:
   - name: "Lorempixel_helper"
     event: true
     image: "images/products/rubygems/ruby_gems1.png"
-    content: "A Rails view helper for lorempixel images"
+    content: "lorempixel_rails is a Ruby Gem for custom images for views in Ruby on Rails"
     link: "https://github.com/spritlesoftware/lorempixel_helper"
     builttitle: "Bulit by:"
     Builtby: " **Prabu D**"

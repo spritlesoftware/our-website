@@ -166,7 +166,7 @@
         </div> -->
         <div class="has-colored-text growth-rate-counter">
           {{ range .facts }}
-          <div class="d-inline-block block-sm mr-20 mt-10">
+          <div class="d-inline-block block-sm mr-20 mt-10 text-center">
             <h2 class="has-text-color font-weight-bold">
               <span class="jsCounter" data-count="{{.count}}">0</span
               >{{.extension}}
@@ -378,7 +378,7 @@
 
           <div class="col-sm-6 mx-auto">
             <div
-              class="icon-box text-center shadow px-3 px-md-5 px-lg-3 py-5 mb-30"
+              class="icon-box text-center shadow px-3 px-md-5 px-lg-5 py-5 mb-30"
             >
               <img
                 loading="lazy"
@@ -530,5 +530,8 @@
 {
   z-index:-2 !important;
 }
+
+.growth-rate-counter .block-sm {
+  width: 80px !important; }
 </style>
 {{ end }} {{ end }} {{partial "testimonial.html" . }} {{ end }}

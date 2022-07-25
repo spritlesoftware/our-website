@@ -23,10 +23,9 @@ twitter_description: "AI conversational voice bots in healthcare for patient eng
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
-Islanding: true
+Islanding: false
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
-custom_header : true
 formlink : "voicebot"
 labels : "hi"
 banner:
