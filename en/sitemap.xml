@@ -62,8 +62,6 @@
   </url><url>
     <loc>/services/custom-software-development/</loc>
   </url><url>
-    <loc>/testing-services/</loc>
-  </url><url>
     <loc>/software_services/</loc>
   </url><url>
     <loc>/services/web-application-development-services/</loc>
@@ -141,6 +139,8 @@
                 />
   </url><url>
     <loc>/terms-conditions/</loc>
+  </url><url>
+    <loc>/testing-services/</loc>
   </url><url>
     <loc>/thankyoucontact/</loc>
   </url><url>
