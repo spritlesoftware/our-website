@@ -4,47 +4,56 @@ custom_title_value: "Custom web & Cross platform mobile application development 
 title: "Testing Services"
 description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
 keywords : [Custom web application development services,Cross platform mobile app development services]
-
-############################ OG tags #################################
+   ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Custom Web and mobile app development|Softwares for healthcare"
-ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
-link: "https://www.spritle.com/testing-services"
-site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/testing-services/testing-service-cover.webp"
-alt: "Testing-Services"
-keywords: [testing-services,test-case,quality-analysis]
+ogtitle: "Custom Software Development Services" 
+ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
+link: "https://www.spritle.com/custom-software-development/"
+site_name: "Spritle Software" 
+Ogimage: "https://www.spritle.com/images/custom_software_development/400x400xCustom-Web-Application-Services.png.pagespeed.ic.i5WzLPtjq7.webp"
+alt: "Custom--Built Software Solutions" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Custom Web and mobile app development|Softwares for healthcare"
-twitter_description: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
+twitter_title: "Custom Software Development Services" 
+twitter_description: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/testing-services/testing-service-cover.webp"
+twitter_image: ="https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
 layout: "testing-services"
 draft: false
 
-# main content
-section1:
-  heading: "Spritle Software Testing Service"
-  content: "We ensure that software completely satisfies user expectations and requirement specifications. To help our customers provide high-quality software quickly, we provide a wide range of QA services within real-time time limitations. We use the best software testing methodologies and applications, and top-tier software testing labs to deliver on our promise of Quality Engineering, Quality Assurance, and Digital Assurance."
-  image: "images/testing-services/testing-service-cover.webp"
-
+  
 section2:
-  heading: "We solve quality problems"
-  content:
-    "From Test Strategy to Test Case Creation, Execution to Test Reporting,
-    and Quality Assurance Process Improvements, our testing services
-    cover it al"
-  image: "images/testing-services/testing-services-image2.png"
+  enable: true
+  title: "Spritle Software Testing Service"
+  image: "images/testing-services/testing-service-cover.webp"
+  alt: "Cross Platform Mobile Application Development Services"
+  content: "We ensure that software completely satisfies user expectations and requirement specifications. To help our customers provide high-quality software quickly, we provide a wide range of QA services within real-time time limitations. We use the best software testing methodologies and applications, and top-tier software testing labs to deliver on our promise of Quality Engineering, Quality Assurance, and Digital Assurance."
+  button:
+    enable : true
+    button_label : "Join Our Team"
+    link : "services/cross-platform-mobile-app-development/"
 
 section3:
+  enable: true
+  title: "We solve quality problems"
+  image: "images/testing-services/testing-services-image2.png"
+  alt: "Cross Platform Mobile Application Development Services"
+  content: "From Test Strategy to Test Case Creation, Execution to Test Reporting,
+    and Quality Assurance Process Improvements, our testing services
+    cover it al"
+  button:
+    enable : true
+    button_label : "Let's Talk Scenarios"
+    link : "services/cross-platform-mobile-app-development/"
+
+    section4:
   mobile_image: "/images/testing-services/main.png"
   images:
-    - "/images/testing-services/first.png"
-    - "/images/testing-services/2.png"
+    - "/images/testing-services/one.png"
+    - "/images/testing-services/second.png"
     - "/images/testing-services/3.png"
     - "/images/testing-services/4.png"
     - "/images/testing-services/5.png"
@@ -54,8 +63,7 @@ section3:
     - "/images/testing-services/9.png"
     - "/images/testing-services/10.png"
 
-
-section4:
+section5:
   heading: "Our Test Expertise comes from working ona variety of projects and business verticals."
   content:
     - count: "10"
@@ -67,14 +75,14 @@ section4:
       extension: "+"
 
     - count: "120"
-      name: "Projects &still Skilled"
+      name: "Projects & still Skilled"
       extension: "+"
 
     - count: "12"
       name: "Test Cases executed"
       extension: "K+"
 
-section5:
+section6:
   heading: ""
   description: ""
   content:
@@ -105,15 +113,16 @@ a complete testing solution."
       desc: "Our test automation experts provide excellent quality and improved performance of your web solution by applying standards and guidelines in testing automation."
       icon: "/images/testing-services/automation_testing.png"
 
-section6:
-  text1: 'Talk to the Experts!'
+
+section7:
+  text1: 'Talk to our Experts!'
   text2: 'To assure quality, a growing product requires a passionate, dedicated QA crew.'
   heading: 'Our Blogs Speaks for Us too!'
   blogs:
     - id: 100
       link: 'https://www.spritle.com/blogs/2022/05/06/vulnerabilities-in-your-daily-life-mobile-applications/'
       image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/05/vulnerability-mobile-app-feature.png'
-      title: 'Vulnerabilities in your daily life mobile applications'
+      title: 'Vulnerabilities in your daily life app ..'
       desc: 'Well, let’s get these straight, mobile applications are now something we use in our day-to-day lives. For example, for booking cabs, we use applications...'
       author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'
       author_name: 'Vaashini'
@@ -125,7 +134,7 @@ section6:
       link: 'https://www.spritle.com/blogs/2022/03/14/top-3-no-code-automation-testing-tools/'
       image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/top-3-coding-tools-title.png'
       title: 'Top 3 No Code Automation Testing Tools'
-      desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for...'
+      desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for you! Before we jump right into the blog, let us first...'
       author_link: 'https://www.spritle.com/blogs/author/sweadha-d/'
       author_name: 'Sweadha D'
       author_avatar: 'https://secure.gravatar.com/avatar/39b8e8277c8bfd373d7b4daa9b8ac00d?s=80&d=mm&r=g'
@@ -135,7 +144,7 @@ section6:
     - id: 600
       link: 'https://www.spritle.com/blogs/2021/01/04/penetration-test-in-healthcare-web-application-using-zap-tool/'
       image: 'https://www.spritle.com/blogs/wp-content/uploads/2021/01/Penetration-Test-Featured-image-8.png'
-      title: 'Penetration Test in Healthcare Web Application using ZAP Tool'
+      title: 'Penetration Test in Healthcare Web App'
       desc: 'Healthcare organizations may have technology and procedures in place to prevent data theft, but it’s difficult for organizations to find every security weakness. To...'
       author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
       author_name: 'Gopinath'

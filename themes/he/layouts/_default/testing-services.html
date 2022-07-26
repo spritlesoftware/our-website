@@ -1,202 +1,177 @@
 {{ define "main" }} {{ $data := index site.Data site.Language.Lang }}
+<!-- start of video-testimonials -->
 
-<div class="section-padding">
+{{if .Params.section2.enable }} {{with .Params.section2 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
+<!-- end section -->
+
+{{if .Params.section3 }} {{with .Params.section3 }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
+<!-- end section -->
+
+ <!-- section 3 -->
+ <div class="my-5">
+  <div class="d-block d-md-none">
+    <div class="w-100">
+      <img src="{{ .Params.section4.mobile_image }}" alt="test-case" class="w-100">
+    </div>
+  </div>
   <div class="container">
-    <!-- section 1 -->
-    <div class="row justify-content-between my-5">
-      <div class="col-12 col-md-5 order-md-last text-center" data-aos="fade-in" data-aos-delay="300" data-aos-duration="1000">
-        <div class="rounded overflow-hidden">
-          <img loading="lazy" class="w-100" src="{{ .Params.section1.image | absURL }}" alt="Testing-services" />
-        </div>
-      </div>
-      <div class="col-12 col-md-6 my-md-auto my-4" data-aos="fade-in" data-aos-delay="300" data-aos-duration="1000">
-                <h2 class="section-title">{{ .Params.section1.heading }}</h2>
-        <p class="my-2">{{ .Params.section1.content }}</p>
-        <button class="btn btn-secondary my-3">Join Our Team</button>
-      </div>
-
-    </div>
-    <!-- section 1 end -->
-
-    <!-- section 2 -->
-    <div class="row justify-content-between">
-
-      <div class="col-12 col-md-5" data-aos="fade-in" data-aos-delay="300" data-aos-duration="2000">
-        <!-- <div class=" text-center" style="height: 400px;">
-            <div class="position-relative" style="margin-top: 180px;">
-              <div class="btn btn-secondary">
-                Testing Services
-              </div>
-
-              <div class="service-content">
-                <div class="service-content__icon">
-                  <img src="/static/images/testing-services/" alt="">
-                </div>
-                <div class="service-content__text"></div>
-              </div>
-            </div>
-        </div> -->
-        
-        <img loading="lazy" class="w-100" src="{{ .Params.section2.image | absURL }}" alt="We solve quality problems" />
-      </div>
-      <div class="col-12 col-md-4 my-4 my-md-auto" data-aos="fade-in" data-aos-delay="300" data-aos-duration="2000">
-        <h2 class="section-title">{{ .Params.section2.heading }}</h2>
-        <p class="my-2">{{ .Params.section2.content }}</p>
-        <button class="btn btn-secondary my-3">Let's Talk Scenarios</button>
-      </div>
-    </div>
-    <!-- section 2 end -->
-  </div>
-
-
-  <!-- section 3 -->
-  <div class="bg-light-gray my-5">
-    <div class="d-block d-md-none">
-      <div class="w-100">
-        <img src="{{ .Params.section3.mobile_image }}" alt="test-case" class="w-100">
-      </div>
-    </div>
-    <div class="container">
-      <div class="d-md-block d-none">
-        <div class="row g-0">
-          {{ range .Params.section3.images }}
-          <div class="col-6 p-0">
-            <img src="{{ . }}" alt="" class="img-fluid" />
-          </div>
-          {{ end }}
-        </div>
-      </div>
-      <div class="text-center">
-        <button class="btn btn-secondary my-3">Get Started</button>
-      </div>
-    </div>
-  </div>
-  <!-- section 3 end -->
-
-  <!-- section 4 -->
-  <div class="container">
-    <h2 class="font-weight-bold text-center">
-      {{ .Params.section4.heading }}
-    </h2>
-    <div class="row justify-content-center gx-3 my-5 py-5">
-
-      {{ range .Params.section4.content }}
-      <div class="col-6 col-md-3 text-center my-4">
-        <h2 class="ts-primary-color font-weight-bolder">
-          <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}
-        </h2>
-        <p>{{ .name }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-  <!-- section 4 end -->
-
-  <!-- section 5 -->
-  <div class="bg-light-gray py-4">
-    <div class="container text-center">
-      <h2 class="my-4">
-        QA AND TESTING SERVICES
-      </h2>
-      <h2 class="font-weight-bold my-5">
-        For each chalenge, We have a unique solution.
-      </h2>
-      <div class="row justify-content-center">
-        {{ range .Params.section5.content }}
-        <div class="my-5 col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="{{ .id }}" data-aos-duration="1000">
-          <div class="px-5">
-            <img src="{{.icon}}" alt="" class="img-fluid">
-          </div>
-          <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
-          <p class="text-center my-2">{{ .desc }}</p>
+    <div class="d-md-block d-none">
+      <div class="row g-0">
+        {{ range .Params.section3.images }}
+        <div class="col-6 p-0">
+          <img src="{{ . }}" alt="" class="img-fluid" />
         </div>
         {{ end }}
       </div>
     </div>
+    <div class="text-center">
+      <button class="btn btn-primary my-3">Get Started</button>
+    </div>
   </div>
-  <!-- section 5 end -->
+</div>
+<!-- section 3 end -->
 
-  <div class="container py-5">
-    <!-- talk to expert card -->
-    <div class="shadow-lg card bg-light-gray p-4 my-5" data-aos="fade-up" data-aos-delay="200">
-      <div class="row justify-content-between">
-        <div class="col-12 col-md-6">
-          <h2 class="font-weight-bold">{{.Params.section6.text1}}</h2>
-          <div class="my-3">{{.Params.section6.text2}}</div>
+ <!-- section 4 -->
+ <div class="container">
+  <h2 class="font-weight-bold text-center">
+    {{ .Params.section5.heading }}
+  </h2>
+  <div class="row justify-content-center gx-3 my-5 py-5">
+
+    {{ range .Params.section5.content }}
+    <div class="col-6 col-md-3 text-center my-4">
+      <h2 style="color: #13add5;" class="ts-primary-color font-weight-bolder">
+        <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}
+      </h2>
+      <p>{{ .name }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+<!-- section 4 end -->
+
+<!-- section 5 -->
+<div class="bg-light-gray py-4">
+  <div class="container text-center">
+    <h2 class="my-4">
+      QA AND TESTING SERVICES
+    </h2>
+    <h2 class="font-weight-bold my-5">
+      For each chalenge, We have a unique solution.
+    </h2>
+    <div class="row justify-content-center">
+      {{ range .Params.section6.content }}
+      <div class="my-5 col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="{{ .id }}" data-aos-duration="1000">
+        <div class="px-5">
+          <img src="{{.icon}}" alt="" class="img-fluid">
         </div>
-        <div class="col-12 col-md-6 my-auto text-center text-md-right">
-          <button class="btn btn-secondary"> Contact US</button>
-        </div>
+        <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
+        <p class="text-center my-2">{{ .desc }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+<!-- section 5 end -->
+
+
+<div class="container py-5">
+  <!-- talk to expert card -->
+  <div class="shadow-lg card bg-light-gray p-4 my-5" data-aos="fade-up" data-aos-delay="200">
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-6">
+        <h2 class="font-weight-bold">{{.Params.section7.text1}}</h2>
+        <div class="my-3">{{.Params.section7.text2}}</div>
+      </div>
+      <div class="col-12 col-md-6 my-auto text-center text-md-right">
+        <button class="btn btn-primary"> Contact US</button>
       </div>
     </div>
-    <!-- talk to expert card end-->
+  </div>
+  <!-- talk to expert card end-->
 
-    <!-- blog section -->
-    <div class="text-center pt-5">
-      <h2 class="font-weight-bold my-5">{{.Params.section6.heading}}</h2>
-    </div>
-    <div class="row position-relative">
-      {{ range .Params.section6.blogs }}
-      <div class="col-12 col-md-6 col-lg-4 my-4"  data-aos="fade-up" data-aos-delay="{{ .id }}" data-aos-duration="1000">
-        <div class="card post highlighted">
-          <a class="thumbimage"
-            href="{{ .link }}"
-            style=background-image:url({{.image}}>
-          </a>
-          <div class="card-block">
-            <h2 class="card-title"><a href="{{ .link }}">{{.title }}</a></h2>
-            <span class="card-text d-block">{{ .desc }}</span>
-            <div class="metafooter">
-              <div class="wrapfooter">
-                <span class="meta-footer-thumb">
-                  <a href="{{ .author_link }}">
-                    <img alt=""
+  <!-- blog section -->
+  <div class="text-center pt-5">
+    <h2 class="font-weight-bold my-5">{{.Params.section7.heading}}</h2>
+  </div>
+  <div class="row position-relative">
+    {{ range .Params.section7.blogs }}
+    <div class="col-12 col-md-6 col-lg-4 my-4"  data-aos="fade-up" data-aos-delay="{{ .id }}" data-aos-duration="1000">
+      <div class="card post highlighted">
+       
+          <img src=" {{ .image }}">
+
+        <div class="card-block">
+          <h2 class="card-title"><a style="font-size: 18px; color: rgba(0, 0, 0, .8);" href="{{ .link }}">{{.title }}</a></h2>
+          <span class="card-text d-block">{{ .desc }}</span>
+          <div class="metafooter mt-3">
+            <div class="wrapfooter d-flex justify-content-center">
+              <span class="meta-footer-thumb">
+                <a href="{{ .author_link }}">
+                  <img alt=""
+                    src="{{ .author_avatar }}"
+                    class="avatar avatar-40 photo author-thumb jetpack-lazy-image jetpack-lazy-image--handled"
+                    height="40" width="40" loading="eager"
+                    srcset="https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=80&amp;d=mm&amp;r=g 2x"
+                    data-lazy-loaded="1">
+                  <noscript>
+                    <img 
+                      alt=''
                       src="{{ .author_avatar }}"
-                      class="avatar avatar-40 photo author-thumb jetpack-lazy-image jetpack-lazy-image--handled"
-                      height="40" width="40" loading="eager"
-                      srcset="https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=80&amp;d=mm&amp;r=g 2x"
-                      data-lazy-loaded="1">
-                    <noscript>
-                      <img 
-                        alt=''
-                        src="{{ .author_avatar }}"
-                        srcset='https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=80&#038;d=mm&#038;r=g 2x'
-                        class='avatar avatar-40 photo author-thumb' height='40' width='40' loading='lazy' />
-                    </noscript>
-                  </a>
+                      srcset='https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=80&#038;d=mm&#038;r=g 2x'
+                      class='avatar avatar-40 photo author-thumb' height='40' width='40' loading='lazy' />
+                  </noscript>
+                </a>
+              </span>
+              <a href="{{.author_link }}"></a>
+              <span style="line-height:22px;" class="author-meta mb-2">
+                <span class="post-name"><a href="{{ .author_link }}">{{.author_name }}</a></span><br>
+                <span class="post-date">
+                  {{ .posted_on }}
                 </span>
-                <a href="{{.author_link }}"></a>
-                <span class="author-meta">
-                  <span class="post-name"><a href="{{ .author_link }}">{{.author_name }}</a></span><br>
-                  <span class="post-date">
-                    {{ .posted_on }}
-                  </span>
-                  <span class="dot"></span>
-                  <span class="readingtime"> {{ .readingtime }}</span>
-                </span>
-              </div>
+                <span class="dot"></span>
+                <span class="readingtime"> {{ .readingtime }}</span>
+              </span>
             </div>
           </div>
         </div>
       </div>
-      {{ end }}
     </div>
-    <!-- blog section end -->
-  </div>
-  </section>
+    {{ end }}
+    </div>
+    </div>
+{{if .Params.floating }} {{with .Params.floating }} {{if .button.enable }}
+{{with .button }}
 
+
+
+{{ end }} {{ end }}
+
+<script>
+  const showModel=()=>{
+    console.log('show model');
+      $("#myModal").modal('show');
+  }
+</script>
   <style>
     /* ts - test services */
-    #footer-top-section {
-      display: none;
-    }
 
     .ts-primary-color {
       color: #242f9b;
     }
-
+    
+    #footer-top-section{
+      display: none;
+    }
     .page-header {
       display: none;
+    }
+
+    .card-title
+    {
+      line-height: 10px !important;
     }
 
     .btn.btn-secondary {
@@ -278,6 +253,7 @@
     }
 
     .wrapfooter {
+      
       font-size: 13px;
       margin-top: 30px;
     }
@@ -301,5 +277,6 @@
       margin-right: 3px;
     }
   </style>
+{{ end }} {{ end }} 
 
-  {{ end }}
+{{ end }}
