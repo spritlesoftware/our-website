@@ -32,10 +32,7 @@ section2:
   image: "images/testing-services/testing-service-cover.webp"
   alt: "Cross Platform Mobile Application Development Services"
   content: "We ensure that software completely satisfies user expectations and requirement specifications. To help our customers provide high-quality software quickly, we provide a wide range of QA services within real-time time limitations. We use the best software testing methodologies and applications, and top-tier software testing labs to deliver on our promise of Quality Engineering, Quality Assurance, and Digital Assurance."
-  button:
-    enable : true
-    button_label : "Join Our Team"
-    link : "services/cross-platform-mobile-app-development/"
+
 
 section3:
   enable: true
@@ -44,17 +41,17 @@ section3:
   alt: "Cross Platform Mobile Application Development Services"
   content: "From Test Strategy to Test Case Creation, Execution to Test Reporting,
     and Quality Assurance Process Improvements, our testing services
-    cover it al"
+    cover it all"
   button:
     enable : true
     button_label : "Let's Talk Scenarios"
-    link : "services/cross-platform-mobile-app-development/"
+    link : "/contact"
 
     section4:
   mobile_image: "/images/testing-services/main.png"
   images:
     - "/images/testing-services/one.png"
-    - "/images/testing-services/second.png"
+    - "/images/testing-services/2.png"
     - "/images/testing-services/3.png"
     - "/images/testing-services/4.png"
     - "/images/testing-services/5.png"
@@ -65,7 +62,7 @@ section3:
     - "/images/testing-services/10.png"
 
 section5:
-  heading: "Our Test Expertise comes from working ona variety of projects and business verticals."
+  heading: "Our Test Expertise comes from working on a variety of projects and business verticals."
   content:
     - count: "10"
       name: "Years of Experience"
@@ -134,8 +131,8 @@ section7:
     - id: 300
       link: 'https://www.spritle.com/blogs/2022/03/14/top-3-no-code-automation-testing-tools/'
       image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/top-3-coding-tools-title.png'
-      title: 'Top 3 No Code Automation Testing Tools'
-      desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for you! Before we jump right into the blog, let us first...'
+      title: 'Top 3 No Code Automation Testing ..'
+      desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for you! Before we jump right into ...'
       author_link: 'https://www.spritle.com/blogs/author/sweadha-d/'
       author_name: 'Sweadha D'
       author_avatar: 'https://secure.gravatar.com/avatar/39b8e8277c8bfd373d7b4daa9b8ac00d?s=80&d=mm&r=g'
@@ -145,8 +142,8 @@ section7:
     - id: 600
       link: 'https://www.spritle.com/blogs/2021/01/04/penetration-test-in-healthcare-web-application-using-zap-tool/'
       image: 'https://www.spritle.com/blogs/wp-content/uploads/2021/01/Penetration-Test-Featured-image-8.png'
-      title: 'Penetration Test in Healthcare Web App'
-      desc: 'Healthcare organizations may have technology and procedures in place to prevent data theft, but it’s difficult for organizations to find every security weakness. To...'
+      title: 'Penetration Test in Healthcare Web..'
+      desc: 'Healthcare organizations may have technology and procedures in place to prevent data theft, but it’s difficult for organizations to find every security...'
       author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
       author_name: 'Gopinath'
       author_avatar: 'https://secure.gravatar.com/avatar/baaeaf9869fab8bef202150ac9048543?s=40&d=mm&r=g'

@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="text-center">
-      <button class="btn btn-primary my-3">Get Started</button>
+      <a href="/contact" class="btn btn-primary my-3">Get Started</a>
     </div>
   </div>
 </div>
@@ -59,7 +59,7 @@
       QA AND TESTING SERVICES
     </h2>
     <h2 class="font-weight-bold my-5">
-      For each chalenge, We have a unique solution.
+      For each challenge, We have a unique solution.
     </h2>
     <div class="row justify-content-center">
       {{ range .Params.section6.content }}
@@ -86,7 +86,7 @@
         <div class="my-3">{{.Params.section7.text2}}</div>
       </div>
       <div class="col-12 col-md-6 my-auto text-center text-md-right">
-        <button class="btn btn-primary"> Contact US</button>
+        <a href="/contact" class="btn btn-primary"> Contact US</a>
       </div>
     </div>
   </div>
@@ -103,7 +103,7 @@
        
           <img src=" {{ .image }}">
 
-        <div class="card-block">
+        <div style="padding:10px" class="card-block">
           <h2 class="card-title"><a style="font-size: 18px; color: rgba(0, 0, 0, .8);" href="{{ .link }}">{{.title }}</a></h2>
           <span class="card-text d-block">{{ .desc }}</span>
           <div class="metafooter mt-3">
@@ -184,8 +184,6 @@
       background: #242f9b !important;
       box-shadow: 4px 8px 10px 2px rgb(36 47 155 / 20%) !important;
     }
-
-
 
     .card.post.highlighted {
       height: 520px;
