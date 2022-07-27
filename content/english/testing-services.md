@@ -51,8 +51,8 @@ section3:
   mobile_image: "/images/testing-services/main.png"
   images:
     - "/images/testing-services/one.png"
-    - "/images/testing-services/2.png"
-    - "/images/testing-services/3.png"
+    - "/images/testing-services/num2.png"
+    - "/images/testing-services/num3.png"
     - "/images/testing-services/4.png"
     - "/images/testing-services/5.png"
     - "/images/testing-services/6.png"
