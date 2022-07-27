@@ -1,23 +1,24 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Custom web & Cross platform mobile application development services"
+custom_title_value: "Testing Services"
 title: "Testing Services"
-description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
-keywords : [Custom web application development services,Cross platform mobile app development services]
+description: "We provide various kinds of testing like; regression testing, integration testing, responsive testing and running other kinds of quality assurance test are handled by our experienced quality analyst. We assure you with absolute conviction that our testing services are the best you can find."
+keywords : [Regression testing,
+Integration testing, Responsive testing, Ad hoc testing, Exploratory testing, Smoke testing, Sanity testing, Visual testing, Penetration testing, Load testing, Selenium Testing, testing services, Quality assurance, Quality analyst, testing, Manual testing,]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Custom Software Development Services" 
-ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
-link: "https://www.spritle.com/custom-software-development/"
+ogtitle: "Testing Services" 
+ogdescription: "We provide various kinds of testing like; regression testing, integration testing, responsive testing and running other kinds of quality assurance test are handled by our experienced quality analyst. We assure you with absolute conviction that our testing services are the best you can find."
+link: "https://www.spritle.com/services/testing-services"
 site_name: "Spritle Software" 
 Ogimage: "https://www.spritle.com/images/custom_software_development/400x400xCustom-Web-Application-Services.png.pagespeed.ic.i5WzLPtjq7.webp"
-alt: "Custom--Built Software Solutions" 
+alt: "QA Testing" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
 twitter_title: "Custom Software Development Services" 
-twitter_description: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
+twitter_description: "We provide various kinds of testing like; regression testing, integration testing, responsive testing and running other kinds of quality assurance test are handled by our experienced quality analyst. We assure you with absolute conviction that our testing services are the best you can find."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: ="https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
