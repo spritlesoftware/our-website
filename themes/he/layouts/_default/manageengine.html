@@ -13,16 +13,16 @@
         <div
           class= "has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
         >
-        <div class="row">
-
+        <div class="row">    
           <img
           style=""
             loading="lazy"
-            class="img-fluid dbanner"
+            class="img-fluid dbanner "
             alt="{{ .alt }}"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
           />
+      
           <img
           style=""
             loading="lazy"
@@ -61,6 +61,11 @@
  --></section>
 <!-- end of banner -->
 {{ end }} {{ end }} 
+
+
+
+
+
 
 {{partial "collect-info-modal.html" .}}
 {{ if .Params.section2.enable }} {{ with .Params.section2 }}
@@ -381,6 +386,22 @@
 
 
   <style>
+
+#image {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: 150% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(http://upload.wikimedia.org/wikipedia/commons/b/bc/Rosegarden_ubc.jpg);
+}
+
+
 
     /* Media Query for Mobile Devices */
     @media (max-width: 480px) {

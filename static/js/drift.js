@@ -21,4 +21,4 @@
   }
 }();
 drift.SNIPPET_VERSION = '0.3.1';
-drift.load('96m2kd6ybb2u');z
+drift.load('96m2kd6ybb2u');

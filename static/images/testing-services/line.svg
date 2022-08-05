@@ -1,0 +1,27 @@
+<svg width="1000" height="2450" viewBox="0 0 749 3950" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax meet">
+<path d="M1 863.5V902.116C1 929.192 15.7119 954.129 39.4105 967.223V967.223C50.4238 973.308 62.8009 976.5 75.3836 976.5H500.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 2735.5V2774.12C1 2801.19 15.7119 2826.13 39.4105 2839.22V2839.22C50.4238 2845.31 62.8009 2848.5 75.3836 2848.5H500.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 1907V1868.44C1 1841.33 15.7343 1816.37 39.4648 1803.27V1803.27C50.4791 1797.19 62.8547 1794 75.4355 1794H501" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 3779V3740.44C1 3713.33 15.7343 3688.37 39.4648 3675.27V3675.27C50.4791 3669.19 62.8547 3666 75.4355 3666H501" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 2754V2566" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 864V676" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 2078V1890" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 188V0" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 2266V2078" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 376V188" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 2454V2266" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 564V376" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 2624V2454" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 734V564" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M1 3950V3762" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<line x1="506" y1="976" x2="698" y2="976" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<line x1="506" y1="2848" x2="698" y2="2848" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<line x1="506" y1="1794.5" x2="698" y2="1794.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<line x1="506" y1="3666.5" x2="698" y2="3666.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M699.5 976.5V976.5C726.01 976.5 747.5 997.99 747.5 1024.5V1143.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M699.5 2848.5V2848.5C726.01 2848.5 747.5 2869.99 747.5 2896.5V3015.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M700 1795V1795C726.51 1795 748 1773.51 748 1747V1628" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M700 3667V3667C726.51 3667 748 3645.51 748 3619V3500" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M747.5 1142.5V1449.28V1566.05V1611.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+<path d="M747.5 3014.5V3321.28V3438.05V3483.5" stroke="white" stroke-width="2" stroke-dasharray="10 10"/>
+</svg>
