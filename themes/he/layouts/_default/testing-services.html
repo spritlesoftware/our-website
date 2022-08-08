@@ -231,10 +231,10 @@
           <h2 class="card-title"><a style="font-size: 18px; color: rgba(0, 0, 0, .8);" href="{{ .link }}">{{.title }}</a></h2>
           <span class="card-text d-block">{{ .desc }}</span>
           <div class="metafooter mt-3">
-            <div class="wrapfooter d-flex justify-content-center">
+            <div class="wrapfooter d-flex justify-content-center align-items-center">
               <span class="meta-footer-thumb">
                 <a href="{{ .author_link }}">
-                  <img alt=""
+                  <img style="border-radius: 50%;" alt=""
                     src="{{ .image1 }}"
                     class="avatar avatar-40 photo author-thumb jetpack-lazy-image jetpack-lazy-image--handled"
                     height="40" width="40" loading="eager"
@@ -250,7 +250,7 @@
                 </a>
               </span>
               <a href="{{.author_link }}"></a>
-              <span style="margin-left:10px" style="line-height:22px;" class="author-meta mb-2">
+              <span style="margin-left:10px" style="line-height:22px;" class="author-meta">
                 <span class="post-name"><a href="{{ .author_link }}">{{.author_name }}</a></span><br>
                 <span class="post-date">
                   {{ .posted_on }}

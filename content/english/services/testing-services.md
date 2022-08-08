@@ -41,13 +41,13 @@ tools:
   logos:
     - "images/testing-services/testbtn.png"
     - "images/testing-services/regressiontesting.svg"
-    - "images/testing-services/test2.png"
-    - "images/testing-services/test3.png"
-    - "images/testing-services/test4.png"
-    - "images/testing-services/test5.png"
-    - "images/testing-services/text6.png"
-    - "images/testing-services/test7.png"
-    - "images/testing-services/test8.png"
+    - "images/testing-services/seleniumtesting.svg"
+    - "images/testing-services/loadtesting.svg"
+    - "images/testing-services/penetrationtesting.svg"
+    - "images/testing-services/smoketesting.svg"
+    - "images/testing-services/exploratorytesting.svg"
+    - "images/testing-services/responsivetesting.svg"
+    - "images/testing-services/integrationtesting.svg"
 
 
 section4:
