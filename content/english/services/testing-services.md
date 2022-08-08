@@ -51,7 +51,7 @@ tools:
 
 
 section4:
-  mobile_image: "/images/testing-services/main.png"
+  mobile_image: "/images/testing-services/Mobile.png"
   
 
 section5:
