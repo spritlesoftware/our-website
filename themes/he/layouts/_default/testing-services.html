@@ -229,7 +229,7 @@
               <span class="meta-footer-thumb">
                 <a href="{{ .author_link }}">
                   <img alt=""
-                    src="{{ .author_avatar }}"
+                    src="{{ .image1 }}"
                     class="avatar avatar-40 photo author-thumb jetpack-lazy-image jetpack-lazy-image--handled"
                     height="40" width="40" loading="eager"
                     srcset=""
@@ -237,8 +237,8 @@
                   <noscript>
                     <img 
                       alt=''
-                      src="{{ .author_avatar }}"
-                      srcset=''
+                      src="{{ . |absURL}}"
+                      srcset='"{{ .author_avatar }}"'
                       class='avatar avatar-40 photo author-thumb' height='40' width='40' loading='lazy' />
                   </noscript>
                 </a>

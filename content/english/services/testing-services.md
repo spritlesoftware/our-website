@@ -110,12 +110,12 @@ section7:
   blogs:
     - id: 100
       link: 'https://www.spritle.com/blogs/2022/05/06/vulnerabilities-in-your-daily-life-mobile-applications/'
-      image: 'images/testing-services/blog.png'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/Katalon-test-tool-title.png'
       title: 'Vulnerabilities in your daily life app ..'
       desc: 'Well, let’s get these straight, mobile applications are now something we use in our day-to-day lives. For example, for booking cabs, we use applications...'
       author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'
       author_name: 'Vaashini'
-      author_avatar: 'images/testing-services/vaash.jpeg'
+      image1: 'images/testing-services/vaash.jpeg'
       posted_on: 'May 6, 2022'
       readingtime: '2 min read'
 
@@ -126,7 +126,7 @@ section7:
       desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for you! Before we jump right into ...'
       author_link: 'https://www.spritle.com/blogs/author/sweadha-d/'
       author_name: 'Sweadha D'
-      author_avatar: 'images/testing-services/swetha.png'
+      image1: 'images/testing-services/swetha.png'
       posted_on: 'Mar 14, 2022'
       readingtime: '2 min read'
 
@@ -137,7 +137,7 @@ section7:
       desc: 'Healthcare organizations may have technology and procedures in place to prevent data theft, but it’s difficult for organizations to find every security...'
       author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
       author_name: 'Gopinath'
-      author_avatar: 'images/testing-services/profile.png'
+      image1: 'images/testing-services/profile.png'
       posted_on: 'Jan 4, 2021'
       readingtime: '5 min read'
 
