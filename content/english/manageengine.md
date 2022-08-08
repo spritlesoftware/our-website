@@ -32,7 +32,7 @@ formlink : "voicebot"
 labels : "hi"
 banner:
   enable : true
-  title : "Happy 20 years of ManageEngine🥳"
+  title : ""
   description: ""
   banner_heading:
   - ""
@@ -64,6 +64,10 @@ verticals:
     & more<br>Lipsum loreum Lipsum loreum Lipsum loreum  Calls<br>Lipsum loreum Lipsum loreum Lipsum loreum"
     
 
+
+
+
+
   - name : "Implementation"
     color : "#FFFCF4"
     contents : "Seamlessly sinks within your system<br>Automatic updates at the backend<br> Real-time humanlike support<br>Easy API Integration"
@@ -71,6 +75,12 @@ verticals:
   - name : "Benefits"
     color : "#FFF4F4"
     contents : "Smoothly resolve Patient queries<br>Reduce burnouts of your staffs<br>24/7 healthcare assistance </br>Saves your cost up to 80%"
+
+section1:
+  enable : true
+  title : "**Integration, Your Way...**"
+  contents : "Spritle software is an award-winning integration partners with Manage Engine rendering active directory monitoring software, software metering tools, hardware inventory management system, NetFlow analyser, firewall reporting tool, and much more."
+  content2: "**You name it, we do it**."
 
 section2:
   description: "asd ad asDA dASD"
@@ -163,6 +173,29 @@ section3_sub:
     target: "/services/ai-ml-application-development-services"
     imageevent: true
     image: "images/home/serviceimages/icon033.png"
+
+clients_logo_slider:
+  enable: true
+  title: "Our Clients"
+  logos:
+    - "images/clients/clientslogonew/Beerboard.webp"
+    - "images/clients/clientslogonew/chargebee.webp"
+    - "images/clients/clientslogonew/doctordb.webp"
+    - "images/clients/clientslogonew/freshworks.webp"
+    - "images/clients/clientslogonew/geosnapshot.webp"
+    - "images/clients/clientslogonew/healthplotter.webp"
+    - "images/clients/clientslogonew/kutir.webp"
+    - "images/clients/clientslogonew/livingmatrix.webp"
+    - "images/clients/clientslogonew/moddo.webp"
+    - "images/clients/clientslogonew/motorola.webp"
+    - "images/clients/clientslogonew/reach.webp"
+    - "images/clients/clientslogonew/rubygems.webp"
+    - "images/clients/clientslogonew/showdownlive.webp"
+    - "images/clients/clientslogonew/sinfiniruby.webp"
+    - "images/clients/clientslogonew/stengineering.webp"
+    - "images/clients/clientslogonew/sitefly.webp"
+    - "images/clients/clientslogonew/sunedison.webp"
+    - "images/clients/clientslogonew/unitednations.webp"
 
 
 section4:

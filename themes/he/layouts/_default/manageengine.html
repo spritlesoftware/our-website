@@ -1,10 +1,16 @@
+
+
+
 {{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
 <!-- start of banner  -->
+
+
+
 <section class="banner1 bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom aos-init aos-animate">
   <div class="">
     <div class="">
       <div class="col-12 ">
-        <div class="text-center mb-40 pt-50">
+        <div class="text-center mb-40 pt-30">
           <b>
             <h2 class="section-title">{{.title}}</h2>
           </b>
@@ -13,6 +19,11 @@
         <div
           class= "has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
         >
+        <div class="demo-section my-5">
+          <a href="">hello</a>
+          <a href="">hello</a>
+        </div>
+
         <div class="row">    
           <img
           style=""
@@ -62,6 +73,15 @@
 <!-- end of banner -->
 {{ end }} {{ end }} 
 
+
+{{ if .Params.section1.enable }} {{ with .Params.section1 }}
+
+<div class="my-5 text-center container">
+  <h2 class="section-title">{{ .title | markdownify }}</h2>
+  <h4 class="pb-20 mb-20">{{ .contents | markdownify }}</h4>
+  <h4 class="pb-20 mb-20">{{ .content2 | markdownify }}</h4>
+</div>
+{{ end }}  {{ end }}
 
 
 
@@ -117,6 +137,29 @@
 </section>
 {{ end }} {{ end }}
 <!-- end section -->
+
+{{ if .Params.clients_logo_slider.enable }} {{ with .Params.clients_logo_slider
+}}
+<section class="section-padding" data-aos="fade-in">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-title text-center mb-30">{{.title}}</h2>
+        <div class="brand-carousel">
+          {{ range .logos }}
+          <div
+            class="brand-item d-flex align-items-center justify-content-center"
+          >
+            <img loading="lazy" height="90px" width="160px" class="img-fluid" src="{{ . |absURL}}" alt="" />
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+<!-- end of brand-carousel -->
 
 
 <!-- start of Capablities -->
