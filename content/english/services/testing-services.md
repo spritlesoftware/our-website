@@ -115,7 +115,7 @@ section7:
       desc: 'Well, let’s get these straight, mobile applications are now something we use in our day-to-day lives. For example, for booking cabs, we use applications...'
       author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'
       author_name: 'Vaashini'
-      image1: 'images/testing-services/vaash.jpeg'
+      image1: 'https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=90&d=mm&r=g'
       posted_on: 'May 6, 2022'
       readingtime: '2 min read'
 
@@ -126,7 +126,7 @@ section7:
       desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for you! Before we jump right into ...'
       author_link: 'https://www.spritle.com/blogs/author/sweadha-d/'
       author_name: 'Sweadha D'
-      image1: 'images/testing-services/swetha.png'
+      image1: 'https://secure.gravatar.com/avatar/39b8e8277c8bfd373d7b4daa9b8ac00d?s=90&d=mm&r=g'
       posted_on: 'Mar 14, 2022'
       readingtime: '2 min read'
 
@@ -137,7 +137,7 @@ section7:
       desc: 'Healthcare organizations may have technology and procedures in place to prevent data theft, but it’s difficult for organizations to find every security...'
       author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
       author_name: 'Gopinath'
-      image1: 'images/testing-services/profile.png'
+      image1: 'https://secure.gravatar.com/avatar/baaeaf9869fab8bef202150ac9048543?s=90&d=mm&r=g'
       posted_on: 'Jan 4, 2021'
       readingtime: '5 min read'
 
