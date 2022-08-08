@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row align-items-center justify-content-center">
       
-      <div class="col-lg-6">
+      <div class="col-lg-6 d-none d-md-block">
         <ul
           class="inCircle-tools d-block d-sm-flex align-items-center justify-content-center"
           id="inCircle-element"
@@ -38,6 +38,11 @@
           {{ end }} {{ end }}
         </ul>
       </div>
+
+      <div class=" d-sm-block d-md-none">
+        <img style="width: 300px;" src="/images/testing-services/small.png">
+      </div>
+
       <div class="col-lg-6 mt-4 mt-lg-0">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
