@@ -109,6 +109,17 @@ section7:
   heading: 'Our Blogs Speaks for Us too!'
   blogs:
     - id: 100
+      link: 'https://www.spritle.com/blogs/2022/07/11/introduction-to-zap-zed-attack-proxy/'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/07/Introduction-To-ZAP-Zed-Attack-Proxy-feature-1.jpg '
+      title: 'Introduction To ZAP'
+      desc: 'Hello everyone, happy to see you again. In this blog, we will be discussing the ZAP tool which is used as a security testing tool for web applications. So before digging...'
+      author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
+      author_name: 'Abusheik'
+      image1: 'https://secure.gravatar.com/avatar/964e13b25794ca07d16aabf599939b60?s=90&d=mm&r=g'
+      posted_on: 'jul 11, 2022'
+      readingtime: '3 min read'
+
+    - id: 300
       link: 'https://www.spritle.com/blogs/2022/05/06/vulnerabilities-in-your-daily-life-mobile-applications/'
       image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/Katalon-test-tool-title.png'
       title: 'Vulnerabilities in your daily life app ..'
@@ -119,7 +130,7 @@ section7:
       posted_on: 'May 6, 2022'
       readingtime: '2 min read'
 
-    - id: 300
+    - id: 600
       link: 'https://www.spritle.com/blogs/2022/03/14/top-3-no-code-automation-testing-tools/'
       image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/top-3-coding-tools-title.png'
       title: 'Top 3 No Code Automation Testing ..'
@@ -130,16 +141,7 @@ section7:
       posted_on: 'Mar 14, 2022'
       readingtime: '2 min read'
 
-    - id: 600
-      link: 'https://www.spritle.com/blogs/2021/01/04/penetration-test-in-healthcare-web-application-using-zap-tool/'
-      image: 'https://www.spritle.com/blogs/wp-content/uploads/2021/01/Penetration-Test-Featured-image-8.png'
-      title: 'Penetration Test in Healthcare Web..'
-      desc: 'Healthcare organizations may have technology and procedures in place to prevent data theft, but it’s difficult for organizations to find every security...'
-      author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
-      author_name: 'Gopinath'
-      image1: 'https://secure.gravatar.com/avatar/baaeaf9869fab8bef202150ac9048543?s=90&d=mm&r=g'
-      posted_on: 'Jan 4, 2021'
-      readingtime: '5 min read'
+   
 
 ---
 
