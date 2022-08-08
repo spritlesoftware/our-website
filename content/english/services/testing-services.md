@@ -40,7 +40,7 @@ tools:
   content: "From Test Strategy to Test Case Creation, Execution to Test Reporting, and Quality Assurance Process Improvements, our testing services cover it all."
   logos:
     - "images/testing-services/testbtn.png"
-    - "images/testing-services/test1.png"
+    - "images/testing-services/regressiontesting.svg"
     - "images/testing-services/test2.png"
     - "images/testing-services/test3.png"
     - "images/testing-services/test4.png"
