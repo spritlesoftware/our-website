@@ -133,17 +133,22 @@ url = "/services/ai-ml-application-development-services/"
 weight = 3
 
 [[footer]]
+name = "Testing Services"
+url = "/services/Testing Services/"
+weight = 4
+
+[[footer]]
 name = "Saasly.in"
 url = "https://saasly.in/"
-weight = 4
+weight = 5
 
 [[footer]]
 name = "healthengr.io"
 url = "https://healthengr.io/"
-weight = 5
+weight = 6
 
 [[footer]]
 name = "surveillens.ai"
 url = "https://www.surveillens.ai/"
-weight = 6
+weight = 7
 

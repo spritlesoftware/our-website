@@ -110,7 +110,7 @@ section7:
   blogs:
     - id: 100
       link: 'https://www.spritle.com/blogs/2022/07/11/introduction-to-zap-zed-attack-proxy/'
-      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/07/Introduction-To-ZAP-Zed-Attack-Proxy-feature-1.jpg '
+      image: 'https://i0.wp.com/www.spritle.com/blogs/wp-content/uploads/2022/07/Introduction-To-ZAP-Zed-Attack-Proxy-title.jpg?resize=4800%2C2520&ssl=1'
       title: 'Introduction To ZAP'
       desc: 'Hello everyone, happy to see you again. In this blog, we will be discussing the ZAP tool which is used as a security testing tool for web applications. So before digging...'
       author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
@@ -120,19 +120,19 @@ section7:
       readingtime: '3 min read'
 
     - id: 300
-      link: 'https://www.spritle.com/blogs/2022/05/06/vulnerabilities-in-your-daily-life-mobile-applications/'
-      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/Katalon-test-tool-title.png'
-      title: 'Vulnerabilities in your daily life app ..'
-      desc: 'Well, let’s get these straight, mobile applications are now something we use in our day-to-day lives. For example, for booking cabs, we use applications...'
+      link: 'https://www.spritle.com/blogs/2022/03/14/mobile-automation-using-katalon-studio/'
+      image: 'https://i2.wp.com/www.spritle.com/blogs/wp-content/uploads/2022/03/Katalon-test-tool-feature-1.png?resize=1200%2C630&ssl=1'
+      title: 'Mobile Automation using Katalon...'
+      desc: 'Previously in a blog that listed out the top 3 No code Automation testing Tools, I have taken the highest-ranked one and have decided...'
       author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'
-      author_name: 'Vaashini'
-      image1: 'https://secure.gravatar.com/avatar/03be32a4fd3e231856301aca8999d27e?s=90&d=mm&r=g'
-      posted_on: 'May 6, 2022'
+      author_name: 'Kishore R'
+      image1: 'https://secure.gravatar.com/avatar/1017d5a19f728c2f22dd5d8e97ea9810?s=72&d=mm&r=g'
+      posted_on: 'Mar 14, 2022'
       readingtime: '2 min read'
 
     - id: 600
       link: 'https://www.spritle.com/blogs/2022/03/14/top-3-no-code-automation-testing-tools/'
-      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/top-3-coding-tools-title.png'
+      image: 'https://i2.wp.com/www.spritle.com/blogs/wp-content/uploads/2022/03/top-3-coding-tools-feature.png?resize=1200%2C630&ssl=1'
       title: 'Top 3 No Code Automation Testing ..'
       desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for you! Before we jump right into ...'
       author_link: 'https://www.spritle.com/blogs/author/sweadha-d/'
