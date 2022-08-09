@@ -110,7 +110,7 @@ section7:
   blogs:
     - id: 100
       link: 'https://www.spritle.com/blogs/2022/07/11/introduction-to-zap-zed-attack-proxy/'
-      image: 'https://i0.wp.com/www.spritle.com/blogs/wp-content/uploads/2022/07/Introduction-To-ZAP-Zed-Attack-Proxy-title.jpg?resize=4800%2C2520&ssl=1'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/07/Introduction-To-ZAP-Zed-Attack-Proxy.jpg'
       title: 'Introduction To ZAP'
       desc: 'Hello everyone, happy to see you again. In this blog, we will be discussing the ZAP tool which is used as a security testing tool for web applications. So before digging...'
       author_link: 'https://www.spritle.com/blogs/author/gopinath-e/'
@@ -121,7 +121,8 @@ section7:
 
     - id: 300
       link: 'https://www.spritle.com/blogs/2022/03/14/mobile-automation-using-katalon-studio/'
-      image: 'https://i2.wp.com/www.spritle.com/blogs/wp-content/uploads/2022/03/Katalon-test-tool-feature-1.png?resize=1200%2C630&ssl=1'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/katalon-testing-tool.jpg'
+      
       title: 'Mobile Automation using Katalon...'
       desc: 'Previously in a blog that listed out the top 3 No code Automation testing Tools, I have taken the highest-ranked one and have decided...'
       author_link: 'https://www.spritle.com/blogs/author/vaashinisakthivel/'
@@ -132,7 +133,7 @@ section7:
 
     - id: 600
       link: 'https://www.spritle.com/blogs/2022/03/14/top-3-no-code-automation-testing-tools/'
-      image: 'https://i2.wp.com/www.spritle.com/blogs/wp-content/uploads/2022/03/top-3-coding-tools-feature.png?resize=1200%2C630&ssl=1'
+      image: 'https://www.spritle.com/blogs/wp-content/uploads/2022/03/Top-3-No-Code-Automation-Testing.jpg'
       title: 'Top 3 No Code Automation Testing ..'
       desc: 'Are you an aspiring Tester who wants to learn Automation testing, but you are not familiar with the coding pre-requisites? This blog is for you! Before we jump right into ...'
       author_link: 'https://www.spritle.com/blogs/author/sweadha-d/'
