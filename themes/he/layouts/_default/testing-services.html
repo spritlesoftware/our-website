@@ -32,7 +32,7 @@
           <li style="height:150px; width:200px";
             class="has-centered md d-inline-flex align-items-center justify-content-center rounded-circle"
           >
-            <img style="width:100px" loading="lazy" height="100" width="140px" src="{{ . |absURL}}" alt="technology" />
+            <img style="width:100px" loading="lazy" height="100" width="140px" src="{{ . |absURL}}" alt="testing-process" />
           </li>
         </div>
           {{ end }} {{ end }}
@@ -102,19 +102,19 @@
     <div style="margin-top:-3800px" class="d-md-block d-none plane-track">
       <div style="height:700px" class="row g-0">
         <div class="col-6  content">
-          <img src="/images/testing-services/part1.png" alt="" class="img-fluid" />
+          <img src="/images/testing-services/part1.png" alt="proposal enquiry call" class="img-fluid" />
         </div>
         <div class="col-6 p-5 content my-5">
-          <img style="margin-top:155px" src="/images/testing-services/cont1.png">
+          <img style="margin-top:155px" alt="content" src="/images/testing-services/cont1.png">
         </div>
       </div>
 
       <div  style="height:600px" class="row g-0 my-5">
         <div class="col-6  p-5 content my-5">
-          <img style="margin-top:60px" src="/images/testing-services/cont2.png">
+          <img style="margin-top:60px" alt="content" src="/images/testing-services/cont2.png">
         </div>
         <div class="col-6 content my-5">
-          <img  src="/images/testing-services/secondpart.png" alt="" class="img-fluid" />
+          <img  src="/images/testing-services/secondpart.png" alt="presenting poc test" class="img-fluid" />
 
         </div>
       </div>
@@ -122,28 +122,28 @@
 
       <div  style="height:600px" class="row g-0 my-5">
         <div class="col-6 content">
-          <img src="/images/testing-services/thirdpart.png" alt="" class="img-fluid" />
+          <img src="/images/testing-services/thirdpart.png" alt="demonstrate with poc report" class="img-fluid" />
         </div>
         <div class="col-6 p-5 content my-5">
-          <img style="margin-top:155px"  class="my-5" src="/images/testing-services/cont3.png">
+          <img style="margin-top:155px" alt="content" class="my-5" src="/images/testing-services/cont3.png">
         </div>
       </div>
 
       <div  style="height:600px" class="row g-0 my-5">
         <div class="col-6 p-5 content my-5">
-          <img style="margin-top:155px"  class="my-5" src="/images/testing-services/cont4.png">
+          <img style="margin-top:155px" alt="content" class="my-5" src="/images/testing-services/cont4.png">
         </div>
         <div class="col-6 p-5 content">
-          <img src="/images/testing-services/fourthpart.png" alt="" class="img-fluid" />
+          <img src="/images/testing-services/fourthpart.png" alt="timeline for proposal" class="img-fluid" />
         </div>
       </div>
 
       <div  style="height:600px" class="row g-0 my-5">
         <div class="col-6 p-5 content">
-          <img src="/images/testing-services/fifthpart.png" alt="" class="img-fluid" />
+          <img src="/images/testing-services/fifthpart.png" alt="launch" class="img-fluid" />
         </div>
         <div class="col-6 p-5 content my-5">
-          <img style="margin-top:155px"  class="my-5" src="/images/testing-services/cont5.png">
+          <img style="margin-top:155px" alt="content"   class="my-5" src="/images/testing-services/cont5.png">
         </div>
       </div>
 
@@ -189,7 +189,7 @@
       {{ range .Params.section6.content }}
       <div class="my-5 col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="{{ .id }}" data-aos-duration="1000">
         <div class="px-5">
-          <img src="{{.icon}}" alt="" class="img-fluid">
+          <img src="{{.icon}}" alt="testing process" class="img-fluid">
         </div>
         <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
         <p class="text-center my-2">{{ .desc }}</p>
@@ -216,8 +216,8 @@
   </div>
   <!-- talk to expert card end-->
 
-  <!-- blog section -->
-  <div class="text-center pt-5">
+   <!-- blog section -->
+   <div class="text-center pt-5">
     <h2 class="font-weight-bold my-5">{{.Params.section7.heading}}</h2>
   </div>
   <div class="row position-relative">
@@ -241,7 +241,7 @@
                     data-lazy-loaded="1">
                   <noscript>
                     <img 
-                      alt=''
+                      alt='testing-blog'
                       src="{{ . |absURL}}"
                       srcset='"{{ .author_avatar }}"'
                       class='avatar avatar-40 photo author-thumb' height='40' width='40' loading='lazy' />
@@ -435,9 +435,6 @@
 }
 
 
-@media only screen and (min-width: 1200px) {
-  .
-}
 
   </style>
 {{ end }} {{ end }} 

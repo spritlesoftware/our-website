@@ -30,7 +30,7 @@ section2:
   enable: true
   title: "Spritle Software Testing Service"
   image: "images/testing-services/testing-service-cover.webp"
-  alt: "Cross Platform Mobile Application Development Services"
+  alt: "spritle software testing-services"
   content: "We ensure that software completely satisfies user expectations and requirement specifications. To help our customers provide high-quality software quickly, we provide a wide range of QA services within real-time time limitations. We use the best software testing methodologies and applications, and top-tier software testing labs to deliver on our promise of Quality Engineering, Quality Assurance, and Digital Assurance."
 
 
