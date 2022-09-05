@@ -55,7 +55,7 @@ location:
   title: "Want to visit us? Here are the Google maps directions "
   service_list:
     - place: "**Ohio, USA:**"
-      geolocation: "https://goo.gl/maps/Q6pvbhR3KcYsKobu9"
+      geolocation: "https://www.google.com/maps/place/Spritle+software+LLC/@40.0044937,-83.1532564,17z/data=!3m1!4b1!4m5!3m4!1s0x8838978530ed0737:0xaa95bab488bbf005!8m2!3d40.0044937!4d-83.1532564"
 
     - place: "**Singapore:**"
       geolocation: "https://goo.gl/maps/E5jypQYo5qzqC6ow8"
