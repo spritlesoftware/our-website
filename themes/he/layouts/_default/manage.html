@@ -285,7 +285,7 @@
 {{ end }} {{ end }}
 <!-- end section -->
 
-<!-- <section
+<section
   class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
   style="background-image: url('{{`images/brushes/svgviewer-png-output.png` | absURL }}')"
   data-aos="fade-in"
@@ -295,32 +295,34 @@
 <div class="container text-center">
   <h2 class="section-title">Spritle Software, an award-winning Integration Partner with ManageEngine</h2>
 </div>
-
-<div class="slider-container">
-
-  <div class="slider-content">
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/images/manageengine/slie.jpg" alt="1" />           
-      </div>
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/images/manageengine/slie3.jpg" alt="2" />
-      </div>
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/images/manageengine/Spritle.webp" alt="3" />
-      </div>
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/https://picsum.photos/id/978/200/300" alt="6" />
-      </div>
+<div style="height: 400px; width: 600px;" id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img style="height: 400px; width: 600px;" class="d-block"  src="/images/manageengine/slider3.webp" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 400px; width: 600px;" class="d-block" src="/images/manageengine/slider2.webp" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 400px; width: 600px;" class="d-block" src="/images/manageengine/slider1.webp"  alt="Third slide">
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
-
-
-</section> -->
+</section>
 
 
 
@@ -343,7 +345,6 @@
             <div class="service-image text-center">
               {{ if eq .imageevent true}}
               <img
-                loading="lazy"
                 width="50px"
                 height="50px"
                 class="img-fluid"
@@ -368,40 +369,6 @@
   </section>
   <!-- end ofCapablities -->
 
-  <section
-  class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
-  style="background-image: url('{{`images/brushes/svgviewer-png-output.png` | absURL }}')"
-  data-aos="fade-in"
-  data-aos-delay="150"
->
-
-<div class="container text-center">
-  <h2 class="section-title">Spritle Software, an award-winning Integration Partner with ManageEngine</h2>
-</div>
-
-<div class="slider-container">
-
-  <div class="slider-content">
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/images/manageengine/slie.jpg" alt="1" />           
-      </div>
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/images/manageengine/slie3.jpg" alt="2" />
-      </div>
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/images/manageengine/Spritle.webp" alt="3" />
-      </div>
-
-      <div class="slider-single">
-          <img class="slider-single-image" src="/https://picsum.photos/id/978/200/300" alt="6" />
-      </div>
-  </div>
-</div>
-
-</section>
 
   
 <!-- start of brand-carousel -->
@@ -719,255 +686,7 @@
     }
     
 
-    @keyframes heartbeat {
-  0% {
-    transform: scale(0);
-  }
-  25% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(1);
-  }
-  75% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-   
-
-}
-.slider-container {
-  position: relative;
-  margin: 0 auto;
-  width: 800px;
-  height: 600px;
-}
-
-@media (max-width: 575.98px) { 
-  .slider-container {
-    position: relative;
-    margin: 0 auto;
-    width: 330px !important;
-    height: 330px !important;
-  }
-}
-
-@media (max-width: 800px) {
-  .slider-container {
-    position: relative;
-    margin: 0 auto;
-    width: 330px !important;
-    height: 330px !important;
-  }
-}
   
-
-.slider-container .bullet-container {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.slider-container .bullet-container .bullet {
-  margin-right: 14px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: white;
-  opacity: 0.5;
-}
-.slider-container .bullet-container .bullet:last-child {
-  margin-right: 0px;
-}
-.slider-container .bullet-container .bullet.active {
-  opacity: 1;
-}
-.slider-container .slider-content {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  width: 70%;
-  height: 60%;
-  transform: translate(-50%, -50%);
-}
-.slider-container .slider-content .slider-single {
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  transition: z-index 0ms 250ms;
-}
-.slider-container .slider-content .slider-single .slider-single-image {
-  position: relative;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
-  transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
-  transform: scale(0);
-  opacity: 0;
-}
-.slider-container .slider-content .slider-single .slider-single-download {
-  position: absolute;
-  display: block;
-  right: -22px;
-  bottom: 12px;
-  padding: 15px;
-  color: #333333;
-  background-color: #fdc84b;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: "karla";
-  border-radius: 5px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
-  opacity: 0;
-}
-.slider-container .slider-content .slider-single .slider-single-download:hover, .slider-container .slider-content .slider-single .slider-single-download:focus {
-  outline: none;
-  text-decoration: none;
-}
-.slider-container .slider-content .slider-single .slider-single-title {
-  display: block;
-  float: left;
-  margin: 16px 0 0 20px;
-  font-size: 20px;
-  font-family: "karla";
-  font-weight: 400;
-  color: #ffffff;
-  transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
-  opacity: 0;
-}
-.slider-container .slider-content .slider-single .slider-single-likes {
-  display: block;
-  float: right;
-  margin: 16px 20px 0 0;
-  transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
-  opacity: 0;
-}
-.slider-container .slider-content .slider-single .slider-single-likes i {
-  font-size: 20px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px;
-  color: #ff6060;
-  transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
-  transform: scale(0);
-}
-.slider-container .slider-content .slider-single .slider-single-likes p {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-  color: #ffffff;
-}
-.slider-container .slider-content .slider-single .slider-single-likes:hover, .slider-container .slider-content .slider-single .slider-single-likes:focus {
-  outline: none;
-  text-decoration: none;
-}
-.slider-container .slider-content .slider-single.preactivede .slider-single-image {
-  transform: translateX(-50%) scale(0);
-}
-.slider-container .slider-content .slider-single.preactive {
-  z-index: 1;
-}
-.slider-container .slider-content .slider-single.preactive .slider-single-image {
-  opacity: 0.3;
-  transform: translateX(-50%) scale(0.8);
-}
-.slider-container .slider-content .slider-single.preactive .slider-single-download {
-  transform: translateX(-150px);
-}
-.slider-container .slider-content .slider-single.preactive .slider-single-title {
-  transform: translateX(-150px);
-}
-.slider-container .slider-content .slider-single.preactive .slider-single-likes {
-  transform: translateX(-150px);
-}
-.slider-container .slider-content .slider-single.proactive {
-  z-index: 1;
-}
-.slider-container .slider-content .slider-single.proactive .slider-single-image {
-  opacity: 0.3;
-  transform: translateX(50%) scale(0.8);
-}
-.slider-container .slider-content .slider-single.proactive .slider-single-download {
-  transform: translateX(150px);
-}
-.slider-container .slider-content .slider-single.proactive .slider-single-title {
-  transform: translateX(150px);
-}
-.slider-container .slider-content .slider-single.proactive .slider-single-likes {
-  transform: translateX(150px);
-}
-.slider-container .slider-content .slider-single.proactivede .slider-single-image {
-  transform: translateX(50%) scale(0);
-}
-.slider-container .slider-content .slider-single.active {
-  z-index: 2;
-}
-.slider-container .slider-content .slider-single.active .slider-single-image {
-  opacity: 1;
-  transform: translateX(0%) scale(1);
-}
-.slider-container .slider-content .slider-single.active .slider-single-download {
-  opacity: 1;
-  transition-delay: 100ms;
-  transform: translateX(0px);
-}
-.slider-container .slider-content .slider-single.active .slider-single-title {
-  opacity: 1;
-  transition-delay: 200ms;
-  transform: translateX(0px);
-}
-.slider-container .slider-content .slider-single.active .slider-single-likes {
-  opacity: 1;
-  transition-delay: 300ms;
-  transform: translateX(0px);
-}
-.slider-container .slider-content .slider-single.active .slider-single-likes i {
-  animation-name: heartbeat;
-  animation-duration: 500ms;
-  animation-delay: 900ms;
-  animation-interation: 1;
-  animation-fill-mode: forwards;
-}
-.slider-container .slider-left {
-  position: absolute;
-  z-index: 3;
-  display: block;
-  right: 85%;
-  top: 50%;
-  color: #ffffff;
-  transform: translateY(-50%);
-  padding: 20px 15px;
-  background-color: #13add5!important;
-  border: 2px solid #13add5!important;
-  margin-right: -2px;
-}
-.slider-container .slider-right {
-  position: absolute;
-  z-index: 3;
-  display: block;
-  left: 85%;
-  top: 50%;
-  color: #ffffff;
-  transform: translateY(-50%);
-  padding: 20px 15px;
-  background-color: #13add5!important;
-  border: 2px solid #13add5!important;
-  margin-left: -2px;
-}
-.slider-container .not-visible {
-  display: none !important;
-}
-
 .primary
 {
     background-color:#13add5!important ;
@@ -1017,6 +736,5 @@
       }
      }
 
-    
     </style>
 {{ end }} 
