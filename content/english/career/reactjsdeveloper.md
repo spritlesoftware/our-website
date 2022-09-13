@@ -7,7 +7,7 @@ draft: false
 
 ### **Job Description**
 
-- We are looking for a 3 - 4 years experienced JavaScript developer who is proficient with React.js. Your primary focus will be on developing user interface components and implementing them following well-known React.js workflows (with Context API or Redux.You will ensure that these components and the overall application are robust and easy to maintain. You will coordinate with the rest of the team working on different layers of the infrastructure.Therefore, a commitment to collaborative problem solving, sophisticated design, and quality product is important.
+- We are looking for a 2 - 5 years experienced JavaScript developer who is proficient with React.js. Your primary focus will be on developing user interface components and implementing them following well-known React.js workflows (with Context API or Redux.You will ensure that these components and the overall application are robust and easy to maintain. You will coordinate with the rest of the team working on different layers of the infrastructure.Therefore, a commitment to collaborative problem solving, sophisticated design, and quality product is important.
 
 ### **Responsibilities**
 

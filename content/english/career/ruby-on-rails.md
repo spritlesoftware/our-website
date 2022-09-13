@@ -7,11 +7,10 @@ draft: false
 
 ​
 
-## **Experience : 3 - 6 years**
 
 ### **Job Description**
 
-- We are looking for 3+ years of experience candidates in Ruby on Rails.
+- We are looking for 3 - 6 years of experience candidates in Ruby on Rails.
   ​
 
 ### **Roles and Responsibilities**
