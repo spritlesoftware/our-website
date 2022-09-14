@@ -11,8 +11,6 @@ logo =  "images/logo.svg"
 description = "An interdisciplinary team of coders, analysts and user experience specialists dedicated to building state-of-the-art web & mobile application.Talk to us today!"
 author = "Spritle Team"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
-# contact form action
-contact_form_action = "https://formspree.io/f/xknynkgl" # contact form works with https://formspree.io
 # custom script on header
 custom_script= ""
 
