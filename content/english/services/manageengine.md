@@ -1,7 +1,7 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "Enterprise Integration Services using ManageEngine"
+custom_title_value: "ManageEngine"
 layout : "manage"
 title: "Enterprise Integration Services using ManageEngine"
 description: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"
@@ -9,9 +9,8 @@ keywords : [enterprise application integration,enterprise IT management,network 
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-title: "Enterprise Integration Services using ManageEngine" 
+title: "ManageEngine" 
 ogdescription: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"   
-
 link: "https://www.spritle.com/products/voicebot/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
@@ -24,7 +23,6 @@ twitter_description: "Spritle and ManageEngine are always on the path of Bringin
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
-Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
 formlink : "voicebot"
@@ -183,7 +181,7 @@ clients_logo_slider:
 section3:
   enable : true
   title : "**Fault Management, simplified**"
-  image : "images/manageengine/manageenginedashboard.webp"
+  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/manageenginedashboard.webp"
   alt: "Query Management using Conversational AI Bots "
   contents : "A complete one-stop Fault Management System built using ManageEngine to handle all faults raised as tickets starting from the Terminals to the Runway, for one of the world's major airports."
   button:
@@ -217,7 +215,7 @@ section3_sub:
 sectionnew:
   enable: true
   title: "Automation with ManageEngine"
-  image: "/images/manageengine/automation-with-manage-engine-min.webp"
+  image: "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/automation-with-manage-engine-min.webp"
   alt: "Cross Platform Mobile Application Development Services"
   content: "Integration, Automation & Syncing to your SAP system with ManageEngine ServiceDesk Plus is available up for grabs"
   button:
@@ -228,7 +226,7 @@ sectionnew:
 section4:
   enable : true
   title : "**Integration services with great transparency**"
-  image : "/images/manageengine/metickets.webp"
+  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/metickets.webp"
   alt: "Query Management using Conversational AI Bots "
   contents : "With **ManageEngine's CMDB & KB features**, our solution roadmap calls for the **On-ground Technicians** to have access to all information to help in troubleshooting & fixing the problem, and also give a hand to achieve their SLAs."
 
@@ -248,7 +246,7 @@ section5:
   description: ""
   enable : true
   title : "**Custom Mobile App Development for ManageEngine**"
-  image : "/images/manageengine/fms-mob-img-min.webp"
+  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/fms-mob-img-min.webp"
   alt: "cross platform mobile application company in USA"
   contents : "Spritle, the **first customer of ManageEngine to build custom mobile application**, specifically designed for on-the-ground Technicians to have access to data, monitor & perform actions from where they are!"
  
