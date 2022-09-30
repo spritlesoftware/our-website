@@ -59,7 +59,7 @@ banner:
   alt: "Custom Software Development Services"
   video:
     enable: true
-    video_embed_link: "https://www.youtube.com/watch?v=Gw3B1HzL-CY"
+    video_embed_link: "https://www.youtube.com/embed/Gw3B1HzL-CY"
   button:
     enable: true
     button_label: "Get in touch"
