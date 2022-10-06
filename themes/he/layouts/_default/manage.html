@@ -34,7 +34,7 @@
   
 
    <div class="containerso"> 
-    <button data-toggle="modal" data-target="#myModal" class="cta my-1">
+    <button style="height: 56px; width: 56px;" data-toggle="modal" data-target="#myModal" class="cta my-1">
             <span class="button-text">Demo</span>
             <i class="fa fa-desktop" aria-hidden="true"></i>
     </button>
@@ -68,7 +68,7 @@
 
  {{ if .Params.banner.enable }} {{ with .Params.banner }}
 <!-- start of banner  -->
-<section
+<section style="z-index:-1;"
   class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
   style="background-image: url('{{`images/brushes/svgviewer-png-output.png` | absURL }}')"
   data-aos="fade-in"
@@ -189,7 +189,7 @@
 
 {{partial "collect-info-modal.html" .}}
 {{ if .Params.section2.enable }} {{ with .Params.section2 }}
-<section
+<section 
   class="section-padding image-info-section has-shapes has-bg-brash bg-brash-y"
   data-aos="fade-up"
   data-aos-delay="150"
@@ -238,7 +238,7 @@
 {{ end }} {{ end }}
 <!-- end section -->
 
-<section
+<section style="z-index:-1;"
   class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
   style="background-image: url('{{`images/brushes/svgviewer-png-output.png` | absURL }}')"
   data-aos="fade-in"
@@ -492,7 +492,7 @@
 
 
 {{ if .Params.section4.enable }} {{ with .Params.section4 }}
-<section
+<section style="z-index:-1;"
   class="image-info-section has-shapes bg-brash-y"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
   data-aos="fade-up"
@@ -556,7 +556,7 @@
 <!-- end section -->
 
 {{ if .Params.section5.enable }} {{ with .Params.section5 }}
-<section
+<section style="z-index:-1;"
   class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y aos-init aos-animate"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
   data-aos="fade-up"
@@ -778,13 +778,21 @@
   }
  }
 
-
+ #mybutton {
+    position: fixed;
+    bottom: -4px;
+    z-index: 9;
+    margin-bottom: 300px;
+    transform: rotate(270deg);
+    right: -40px;
+}
 
 .containerso {
-  position: absolute;
+  position: fixed;
   float: none;
-  top: 10%;
-  left: 95%;
+  top: 50%;
+  left: 94%;
+  z-index: 999 !important;
   text-align: center;
 }
 
@@ -825,23 +833,7 @@
   transition: opacity 0.5s
 }
 
-a:hover {
-    text-decoration: none;
-  }
-  .Enquire {
-    background-color: #31b0d5;
-    color: white;
-    padding: 6px;
-    text-align: center;
-    border-radius: 4px;
-    width: 135px;
-    border-color: #46b8da;
-  }
 
-  #mybutton {
-    bottom: -4px;
-    z-index: 9;
-  }
 
   @media (max-width: 575.98px) {
     .carsol
@@ -910,7 +902,7 @@ a:hover {
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
     .modal-content {
-      width: 100%;
+      width: 50%;
     }
   }
     </style>
