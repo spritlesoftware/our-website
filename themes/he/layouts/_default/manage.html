@@ -24,7 +24,7 @@
     <div class="">
       <div style="background-color: #fff;" class="col-12 ">
        
-        <div class="text-center mb-40">
+        <div class="text-center">
           <b>
             <h2 class="section-title">{{.title}}</h2>
           </b>
@@ -73,10 +73,10 @@
   class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
   style="background-image: url('{{`images/brushes/svgviewer-png-output.png` | absURL }}')"
   data-aos="fade-in"
-  data-aos-delay="150"
+  data-aos-delay=""
 >
 
-<div class="container my-5">
+<div class="container">
   <h2 class="section-title text-center">Integration, Your way...</h2>
   <h3 class="pb-20 mb-20 text-center">Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, Netflow analyser, firewall reporting tool, and much more.</h3>
   <h3 class="pb-20 mb-20 text-center">You name it, we do it</h3>   
@@ -193,7 +193,7 @@
 <section 
   class="section-padding image-info-section has-shapes has-bg-brash bg-brash-y"
   data-aos="fade-up"
-  data-aos-delay="150"
+  data-aos-delay="0"
 >
   <div class="container">
     <div class="row align-items-center justify-content-around">
@@ -240,14 +240,14 @@
 <!-- end section -->
 
 <section style="z-index:-1;"
-  class="banner bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
+  class="bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom"
   style="background-image: url('{{`images/brushes/svgviewer-png-output.png` | absURL }}')"
   data-aos="fade-in"
-  data-aos-delay="150"
+  data-aos-delay="0"
 >
 
 <div class="container text-center">
-  <h2 class="section-title">Spritle Software, an award-winning Integration Partner with ManageEngine</h2>
+  <h2 class="section-title mt-3">Spritle Software, an award-winning Integration Partner with ManageEngine</h2>
 </div>
 <!-- <div style="height: 400px; width: 900px;" id="carouselExampleIndicators" class=" carsol carousel slide container img-responsive" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -333,7 +333,7 @@
 
 
 <!-- start of Capablities -->
-<section class=" bg-light-gray  has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="150">
+<section class=" bg-light-gray  has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="0">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-9 text-center mt-4 mb-40">
@@ -401,8 +401,6 @@
 {{ if .Params.section3.enable }} {{ with .Params.section3 }}
 <section
   class=" image-info-section has-shapes "
-  data-aos="fade-up"
-  data-aos-delay="150"
 >
   <div class="container">
     <div class="row align-items-center justify-content-around">
@@ -454,7 +452,7 @@
 <section class=" my-5">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-9 text-center">
+        <div class="col-lg-6 col-md-9 text-center mb-30">
           <p>{{ .Params.section3_sub.description | markdownify }}</p>
         </div>
       </div>
@@ -494,10 +492,8 @@
 
 {{ if .Params.section4.enable }} {{ with .Params.section4 }}
 <section style="z-index:-1;"
-  class="image-info-section has-shapes bg-brash-y"
+  class="image-info-section has-shapes bg-brash-y my-5"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
-  data-aos="fade-up"
-  data-aos-delay="150"
 >
   <div class="container">
     <div class="row align-items-center justify-content-around">
@@ -558,10 +554,8 @@
 
 {{ if .Params.section5.enable }} {{ with .Params.section5 }}
 <section style="z-index:-1;"
-  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y aos-init aos-animate"
+  class="image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
-  data-aos="fade-up"
-  data-aos-delay="150"
 >
   <div class="container">
     <div class="row align-items-center justify-content-around">
@@ -589,7 +583,7 @@
 {{ end }} {{ end }}
 <!-- end section -->
 
-<section class="section-padding testimonials-section pb-20 has-shapes" data-aos="fade-in" data-aos-delay="150">
+<section class="section-padding testimonials-section pb-20 has-shapes" data-aos="fade-in" data-aos-delay="">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-9 text-center mb-30">
