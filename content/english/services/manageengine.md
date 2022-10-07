@@ -110,7 +110,7 @@ capablities:
   title : "**Our Integration Capabilities using ManageEngine Services**"
   description : "Our roadmap towards,"
   items:
-  - name: "IT service Management"
+  - name: "IT Service Management"
     event: true
     target: "#"
     imageevent: true
@@ -190,7 +190,7 @@ section3:
     link: "contact"
 
 section3_sub:
-  description : "We have also seamlessly integrated, delivered, and enhanced the custom-built Fault Management System for the below verticals"
+  description : "We have also seamlessly integrated, delivered, and enhanced the custom-built **Fault Management System** for the below verticals"
   items:
   - name: "**TRANSPORTATION**"
     event: true

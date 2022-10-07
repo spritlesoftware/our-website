@@ -13,7 +13,7 @@
 </section>
 
 <div style="background-color:#F3F5F7 ;" class="d-flex d-xl-none d-sm-block" id="mybutton">
-  <div class="col-lg-6 d-flex justify-content-center my-2">
+  <div style="background-color: #fff;" class="col-lg-6 d-flex justify-content-center my-2">
     <a href="#" class="Enquire btn btn-primary" data-toggle="modal" data-target="#myModal" type="submit">Request Demo</a>
   </div>
 </div>
@@ -199,7 +199,6 @@
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-block text-center">
           <img
-            style="height: 100%; width: 500px;"
             loading="lazy"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
@@ -372,6 +371,13 @@
   <div class="container">
     <div class="row align-items-center justify-content-around">
         <div class="col-lg-5 col-md-8 col-sm-10">
+          <img
+            style="height: 100%; width: 500px;"
+            loading="lazy"
+            class="img-fluid rounded-sm d-lg-none"
+            src="{{ .image | absURL }}"
+            alt="{{ .alt }}"
+          />
             <h2 class="section-title">{{ .title | markdownify }}</h2>
             <p class="pb-20 mb-20">{{ .contents | markdownify }}</p>
             {{if .button.enable }} {{with .button }}
@@ -399,7 +405,7 @@
           <img
             style="height: 100%; width: 500px;"
             loading="lazy"
-            class="img-fluid rounded-sm"
+            class="img-fluid rounded-sm d-none d-lg-block"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
           />
