@@ -3,34 +3,35 @@
 custom_title_enabled: true
 custom_title_value: "FMS & BMS Services"
 layout : "fms"
-title: "Conversational Voicebot"
-description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
-keywords : [voicebots,conversational voicebots,custom built software for healthcare,voice assistance,healthcare conversational voicebots for hospitals]
+title: "Top Building and Facility Management service providers in the industry"
+description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
+keywords : [Bms & Fms,BMS installation companies,Building Management System,Facility Management System,
+Building management software ,facility management services software,Best Building Management System Companies ,Facilities management software companies,Top facility management software]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Healthcare Conversational Voicebot for Hospitals" 
-ogdescription: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."   
-link: "https://www.spritle.com/products/voicebot/"
+ogtitle: "Top Building and Facility Management service providers in the industry" 
+ogdescription: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."   
+link: "https://www.spritle.com/bms-fms/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
 alt: "Conversational Voicebot" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Healthcare Conversational Voicebot for Hospitals"  
-twitter_description: "AI conversational voice bots in healthcare for patient engagement. Voice assistance in hospitals to help doctors save time and improvise the patient experience."
+twitter_title: "Top Building and Facility Management service providers in the industry"  
+twitter_description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
-formlink : "voicebot"
+formlink : "bms-fms"
 labels : "hi"
 banner:
   enable : true
-  title : "Our voicebot can understand your patient"
+  title : "Top Building and Facility Management service providers in the industry"
   banner_heading:
   - " Leaders in **FMS & BMS** space for a decade"
   contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future"
