@@ -32,14 +32,14 @@ banner:
   enable : true
   title : "Our voicebot can understand your patient"
   banner_heading:
-  - "Leaders in **FMS & BMS** space for a decade "
-  contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future"
+  - "A tool for managing the **airport's facilities** as a whole! "
+  contents : "A one-stop Facility Management System using ServiceDeskPlus designed to improve passengers’ overall experience at Airports. Integrating ManageEngine's SDP with your in-house system to create a powerful Airport Maintenance System."
   image: "images/voicebot/AI-powered-Conversational-Bot.gif"
   alt : "Conversational AI Voice Bots for Hospital Automation"
    
   button:
     enable: true
-    button_label: "Automation? We are the ones"
+    button_label: "Airport management?we are the ones."
     link: "contact"
 collect_info:
   title: "Have a project in mind?"

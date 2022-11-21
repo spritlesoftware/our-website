@@ -85,7 +85,7 @@
       
       
        <!-- mobile-nav control button -->
-
+       {{ if and (not .Params.Islanding)}}
        <div class="collapse navbar-collapse" id="navlinks">
         <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }} {{ if .HasChildren }}
@@ -214,6 +214,7 @@
           {{ end }}
         </div>-->
       </div>
+      {{ end }}
       <!-- nav links -->
       {{ end }}
     </nav>

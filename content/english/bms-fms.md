@@ -32,7 +32,7 @@ banner:
   enable : true
   title : "Our voicebot can understand your patient"
   banner_heading:
-  - " Leaders in**FMS & BMS** space for a decade"
+  - " Leaders in **FMS & BMS** space for a decade"
   contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future"
   image: "images/voicebot/AI-powered-Conversational-Bot.gif"
   alt : "Conversational AI Voice Bots for Hospital Automation"
@@ -50,7 +50,7 @@ collect_info:
 
 verticals:
   title : "Why choose us?"
-  description : "Witness the Next-Gen Building automation Experience with us."
+  description : "Take a look at one of the best Building Management System Company"
   layout : "services"
   draft : false
   services:
@@ -93,18 +93,18 @@ section2:
   title : "**Take control** over your buildings totally!"
   image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : " Remember how long it took us to keep an eye on all the operations of a building? But here we are now with Building Management System<br/><br/>Our extensive field devices and software help customize your Building with all the features a smart building requires<br/><br/>Smart buildings need smart controls. We help the flow with Facility Management System."
+  contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your Building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
 
 section3:
   enable : true
-  title : "**Turn your buildings smart and healthy!**"
+  title : "The changing reality of FMS in Smart Buildings! "
   image : "images/voicebot/AI-Query-Voicebot-for-Patients.webp"
   alt: "Query Management using Conversational AI Bots "
   contents : ""
   bulletpoints:
-    - "A smart building runs with AI which helps in tracking usage patterns and alerts when abnormality is deducted."
-    - "The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
-    - "Even complex tasks are managed in a way that buildings perform more efficiently and environment friendly."
+    - "We handle everything for you, from minor to major incidents. Our integrated Facility management system allows you to relax and feel stress-free."
+    - "AI in smart buildings monitors deviation and issues warnings that our FMS can resolve."
+    - "FMS enhance building maintenance capabilities, raise productivity and efficiency, and reduce labor intensity."
 
 
 faq:
