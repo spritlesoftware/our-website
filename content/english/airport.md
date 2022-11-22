@@ -54,18 +54,20 @@ verticals:
   layout : "services"
   draft : false
   services:
-  - name : "Adaptable"
+  - name : "Maintenance management"
     color : "#F3FCFD"
-    contents : "Our solutions are adaptable to meet the needs of any building, from complex to light solutions."
+    contents : "View service schedule tickets, Push notifications of tickets status,Calendar & list view of maintenance tasks."
     
 
-  - name : "Tech Savvy"
+  - name : "E-Services"
     color : "#FFFCF4"
-    contents : "We use sensors, AI, and IOT to automate predictive maintenance systems, making it easier to identify and solve problems."
+    contents : "Raise tickets for your vehicle’s faults, Mobile app custom built with SDP, Easy Account Management & Customer Portal."
     
-  - name : "Well-Being"
+  - name : "Facility Management"
     color : "#FFF4F4"
-    contents : "We prioritize well-being in everything we do, from automating maintenance to smart controls."
+    contents : "Customized mobile app, Automated Ticket generation with sensor inputs,Data migration to new database  made easier."
+
+  
  
 
 
@@ -76,35 +78,36 @@ audio_section:
 ############################## about us ################################
 about_us:
   enable : true
-  title : "Why **BMS & FMS** ?" 
+  title : "Why Integrate with SDP?" 
   image : "images/voicebot/AI-powered-Voicebots.webp"
   alt: "Automated Appointment Booking using Conversational AI Bot"
   contents : ""
   bulletpoints:
-    - "We have come to a new age in building construction making attainable services more than the occupants need."
-    - "BMS & FMS work together to help make smarter choices and shrewd decisions while enhancing safety, productivity and comfort for occupants." 
-    - "Reduces energy consumption from 5% to 35% also ensuring cost minimization evidently."
-    - "Sensors can be used to detect underused or overused space in the building, making it easier to manage."
+    - "Powerful incident management starts with SLAs, automations, and customizable workflows. With these in place, every incident is handled quickly and efficiently."
+    - "Dynamically assign tickets according to predefined business logic which makes sure that the right task is pinned to the right person." 
+    - "The self-service portal provides role-based access permissions, approval workflows, topic-wise browsing, and keyword search options."
+    - "Use the simplified drag and drop interface to draw out CI relationship maps so you can have a better understanding of your assets and infrastructure."
+    - "SDP’s Web interface is designed to be simple and easy-to-use for end users. They can choose new services and track the status of those services with ease."
   images:
 
 section2:
   description: "asd ad asDA dASD"
   enable : true
-  title : "**Take control** over your buildings totally!"
+  title : "Break down **complex tasks to simplified tickets**!"
   image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : " Remember how long it took us to keep an eye on all the operations of a building? But here we are now with Building Management System<br/><br/>Our extensive field devices and software help customize your Building with all the features a smart building requires<br/><br/>Smart buildings need smart controls. We help the flow with Facility Management System."
+  contents : " Our Unified ticket portal can help solve any issues from clearing trashes to runway light services<br/><br/>A Flexible ticketing system that can take care of all the technical & non technical issues while integrating with an existing system.<br/><br/>Assists in monitoring all the natural calamities  to prevent incidents from occurring to protect people and property from harm<br/><br/>We collaborate closely with you in order to deliver intelligent technological solutions to meet all your needs and concerns."
 
 section3:
   enable : true
-  title : "**Turn your buildings smart and healthy!**"
+  title : "**Why use an Integrated Facility Management?**"
   image : "images/voicebot/AI-Query-Voicebot-for-Patients.webp"
   alt: "Query Management using Conversational AI Bots "
   contents : ""
   bulletpoints:
-    - "A smart building runs with AI which helps in tracking usage patterns and alerts when abnormality is deducted."
-    - "The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
-    - "Even complex tasks are managed in a way that buildings perform more efficiently and environment friendly."
+    - "No matter where you are in the airport, it's important to be aware of your surroundings at all times. Keep an eye out for any unusual activity."
+    - "One of the best ways to keep your data organized and accessible is to keep it all in one centralized location which  makes it much easier for you to find what and when you need."
+    - "Automation is key for businesses as it can help prevent downtime and provide a better user experience."
 
 
 faq:
