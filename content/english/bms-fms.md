@@ -1,7 +1,7 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "FMS & BMS Services"
+custom_title_value: "Top Building and Facility Management service providers in the industry"
 layout : "fms"
 title: "Top Building and Facility Management service providers in the industry"
 description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
@@ -34,7 +34,7 @@ banner:
   title : "Top Building and Facility Management service providers in the industry"
   banner_heading:
   - " Leaders in **FMS & BMS** space for a decade"
-  contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future"
+  contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
   image: "images/voicebot/AI-powered-Conversational-Bot.gif"
   alt : "Conversational AI Voice Bots for Hospital Automation"
 
@@ -48,6 +48,8 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
+  page : "bms-fms"
+  
 
 verticals:
   title : "Why choose us?"
@@ -69,11 +71,6 @@ verticals:
     contents : "We prioritize well-being in everything we do, from automating maintenance to smart controls."
 
 
-
-audio_section:
-  enable : false
-  title : "VoiceBot Audio"
-  contents : "Voice Bot Patient post-surgery pain handling call for Singapore Eye Hospital"
 ############################## about us ################################
 about_us:
   enable : true
@@ -94,7 +91,7 @@ section2:
   title : "**Take control** over your buildings totally!"
   image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your Building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
+  contents : " Remember how long it took us to keep an eye on all the operations of a building.But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
 
 section3:
   enable : true

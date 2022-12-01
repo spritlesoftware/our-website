@@ -1,6 +1,7 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="header-nav {{.Scratch.Get `bg`}} fixed-top">
   <div class="container">
+    
     <nav class="navbar navbar-expand-xl navbar-light px-0">
       {{ if eq .Params.custom_header true}}
       <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}">
@@ -14,7 +15,7 @@
         />
         {{ else }} {{site.Params.logo_text | markdownify}} {{ end }}
       </a>
-
+      
       <button
         class="navbar-toggler bg-white rounded-0 p-0"
         type="button"
@@ -43,7 +44,7 @@
       </button>
 
       {{ else }}
-
+      
       <a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}">
         {{ if site.Params.logo }}
         <img
@@ -51,9 +52,11 @@
           src="{{ site.Params.logo | relURL}}"
           alt="{{ site.Title }}"
         />
-        {{ else }} {{site.Params.logo_text | markdownify}} {{ end }}
+        
       </a>
-
+      {{ else }} {{site.Params.logo_text | markdownify}} {{ end }}
+      {{ if and (not .Params.Islanding)}}
+      <!--- mobile hamburger --->
       <button
         class="navbar-toggler bg-white rounded-0 p-0"
         type="button"
@@ -80,11 +83,13 @@
           />
         </svg>
       </button>
+      {{end}}{{end}}
+      <!---end mobile hamburger --->
 
 
       
       
-       <!-- mobile-nav control button -->
+       <!--mobile nav control button -->
        {{ if and (not .Params.Islanding)}}
        <div class="collapse navbar-collapse" id="navlinks">
         <ul class="navbar-nav ml-auto">
@@ -216,7 +221,7 @@
       </div>
       {{ end }}
       <!-- nav links -->
-      {{ end }}
+      
     </nav>
   </div>
 </header>
