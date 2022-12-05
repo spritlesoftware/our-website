@@ -224,7 +224,7 @@
     $("#waitingPreloader").removeClass("loaded");
     $.ajax({
       type: "post",
-      url: "https://nodemailernew.herokuapp.com/contact",
+      url: "http://154.53.50.40:5000/contact",
       data: frm.serialize(),
       success: function (data) {
         console.log("Submission was successful.");
