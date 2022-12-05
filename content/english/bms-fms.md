@@ -35,7 +35,7 @@ banner:
   banner_heading:
   - " Leaders in **FMS & BMS** space for a decade"
   contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
-  image: "images/voicebot/AI-powered-Conversational-Bot.gif"
+  image: "images/bmsimages/Smart-home-bro.webp"
   alt : "Conversational AI Voice Bots for Hospital Automation"
 
   button:
@@ -48,7 +48,7 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
-  page : "bms-fms"
+  
   
 
 verticals:
@@ -75,7 +75,7 @@ verticals:
 about_us:
   enable : true
   title : "Why **BMS & FMS?** " 
-  image : "images/voicebot/AI-powered-Voicebots.webp"
+  image : "images/bmsimages/Smart-home-rafiki.webp"
   alt: "Automated Appointment Booking using Conversational AI Bot"
   contents : ""
   bulletpoints:
@@ -89,14 +89,14 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Take control** over your buildings totally!"
-  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
+  image : "images/bmsimages/Smart-home-cuate.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
   contents : " Remember how long it took us to keep an eye on all the operations of a building.But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
 
 section3:
   enable : true
   title : "The changing reality of FMS in Smart Buildings! "
-  image : "images/voicebot/AI-Query-Voicebot-for-Patients.webp"
+  image : "images/bmsimages/Smart-home-pana.webp"
   alt: "Query Management using Conversational AI Bots "
   contents : ""
   bulletpoints:
