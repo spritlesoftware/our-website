@@ -88,6 +88,7 @@
                     />
                   </div>
                 </div>
+                <input type="hidden" name="pagename" value={{.pagename}} />
                 <div class="form-group mb-30">
                   <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="message">{{i18n "message"}}*</label>-->
                   <textarea
@@ -201,7 +202,7 @@ input::-webkit-inner-spin-button {
     $("#waitingPreloader").removeClass("loaded");
     $.ajax({
       type: "post",
-      url: "https://nodemailernew.herokuapp.com/contact",
+      url: "http://154.53.50.40:5000/contact",
       data: frm.serialize(),
       success: function (data) {
         console.log("Submission was successful.");

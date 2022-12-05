@@ -52,6 +52,7 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
+  pagename: "AI & ML"
 
 genomic:
   enable: true
