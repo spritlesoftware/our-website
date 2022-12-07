@@ -1,7 +1,7 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "FMS & BMS Services"
+custom_title_value: "Top Building and Facility Management service providers in the industry"
 layout : "fms"
 title: "Top Building and Facility Management service providers in the industry"
 description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
@@ -33,10 +33,10 @@ banner:
   enable : true
   title : "Top Building and Facility Management service providers in the industry"
   banner_heading:
-  - " Leaders in **FMS & BMS** space for a decade"
-  contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future"
-  image: "images/voicebot/AI-powered-Conversational-Bot.gif"
-  alt : "Conversational AI Voice Bots for Hospital Automation"
+  - "Leaders in **FMS & BMS** space for a decade"
+  contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
+  image: "images/bmsimages/Smart-home-bro.webp"
+  alt : "Top Building and Facility Management service providers in the industry"
 
   button:
     enable: true
@@ -70,17 +70,12 @@ verticals:
     contents : "We prioritize well-being in everything we do, from automating maintenance to smart controls."
 
 
-
-audio_section:
-  enable : false
-  title : "VoiceBot Audio"
-  contents : "Voice Bot Patient post-surgery pain handling call for Singapore Eye Hospital"
 ############################## about us ################################
 about_us:
   enable : true
   title : "Why **BMS & FMS?** " 
-  image : "images/voicebot/AI-powered-Voicebots.webp"
-  alt: "Automated Appointment Booking using Conversational AI Bot"
+  image : "images/bmsimages/Smart-home-rafiki.webp"
+  alt: "BMS & FMS together makes smart"
   contents : ""
   bulletpoints:
     - "We have come to a new age in building construction making attainable services more than the occupants need."
@@ -93,29 +88,29 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Take control** over your buildings totally!"
-  image : "images/voicebot/AI-Voicebots-Flow-Diagram.gif"
-  alt: "Workflow Diagram for Conversational AI Bots"
-  contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your Building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
+  image : "images/bmsimages/Smart-home-cuate.webp"
+  alt: "Take control over your buildings"
+  contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
 
 section3:
   enable : true
   title : "The changing reality of FMS in Smart Buildings! "
-  image : "images/voicebot/AI-Query-Voicebot-for-Patients.webp"
-  alt: "Query Management using Conversational AI Bots "
+  image : "images/bmsimages/Smart-home-pana.webp"
+  alt: "The changing reality of FMS in Smart Buildings "
   contents : ""
   bulletpoints:
-    - "We handle everything for you, from minor to major incidents. Our integrated Facility management system allows you to relax and feel stress-free."
+    - "We handle everything for you, from minor to major incidents. Our integrated Facility Management System allows you to relax and feel stress-free."
     - "AI in smart buildings monitors deviation and issues warnings that our FMS can resolve."
     - "FMS enhance building maintenance capabilities, raise productivity and efficiency, and reduce labor intensity."
 
 
 faq:
-  question1: "Why is the Healthcare Conversational Voice bot for Hospitals needed?"
-  answer1: "The reason why your hospital requires the Healthcare Conversational Voice bot is due to the simple task of reducing the burden of the nurses by dealing with calls & appointments by making the handling of patients even smoother. "
-  question2: "How does the Healthcare Conversational Voice Bot for Hospitals handle the patients? "
-  answer2: "The Healthcare conversational voice bots play a crucial role in patient management by making follow-up calls, pre, and post-surgery calls, check-up calls, and appointment calls. This greatly helps to reduce the stress on the medical staffs and improves remote monitoring."
-  question3: "Why go for Spritle's Healthcare Conversational Voicebots for Hospitals?"
-  answer3: "The Healthcare Conversational Voice Bot helps improve your hospital experience by automating the manual calling process, with seamless implementation of the bot into your existing system. You can reduce a significant percentage in your overall expense spent over manual support. Also, the patient's queries can be handled smoothly without causing any trouble for both the parties."
+  question1: "Why do we need building automation?"
+  answer1: "The primary goals of BMS include lowering energy consumption, lowering maintenance costs, enhancing tenant comfort and productivity, and prolonging the life cycle of the utility. "
+  question2: "What makes Spritle the best BMS & FMS company?"
+  answer2: "Regardless of the scale of the building, we have already intervened and handled enhancements utilizing ticketing and automation systems. Airports, engineering firms, and other buildings are covered by our expertise in building management. And our talented crew is dedicated to improving any type of building and its facilities through their skills."
+  question3: "Why do we need to integrate Facility management along with Building Management System?"
+  answer3: "When we integrate both systems, the facility management completely takes care of the building by automating the tasks to resolve any kind of faults occurring in the building. This ensures to prolong the life of the assets on the premises which in turn reduces the cost of maintenance."
 
 
 ---
