@@ -34,11 +34,17 @@ weight = 2
   url =  "/services/ai-ml-application-development-services/"
   weight= 4 
 
-   [[main]]
+  [[main]]
+  parent = "Services"
+  name = "Blockchain Development Services"
+  url =  "/services/blockchain-services/"
+  weight= 5 
+
+  [[main]]
   parent = "Services"
   name = "Testing Services"
   url =  "/services/Testing Services/"
-  weight= 5
+  weight= 6
 
 [[main]]
 name = "Products"

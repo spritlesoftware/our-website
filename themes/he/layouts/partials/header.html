@@ -53,6 +53,8 @@
         />
         {{ else }} {{site.Params.logo_text | markdownify}} {{ end }}
       </a>
+      {{ if and (not .Params.Islanding)}}
+      <!--- mobile hamburger --->
 
       <button
         class="navbar-toggler bg-white rounded-0 p-0"
@@ -80,6 +82,8 @@
           />
         </svg>
       </button>
+      {{end}}{{end}}
+      <!---end mobile hamburger --->
 
 
       
@@ -216,7 +220,7 @@
       </div>
       {{ end }}
       <!-- nav links -->
-      {{ end }}
+      
     </nav>
   </div>
 </header>

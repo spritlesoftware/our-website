@@ -1,0 +1,320 @@
+{{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
+<!-- start of banner  -->
+<section class="banner pt-60 pb-60 bg-cover-bottom has-shapes   has-bg-brash  bg-brash-bottom"
+style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+
+  <div class="container h-100">
+    <div class="d-block d-lg-flex no-gutters align-items-center h-100">
+      <div class="col-12 col-xl-6 col-lg-6 order-lg-1">
+        <div
+          class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0"
+        >
+
+          {{ if .video.enable }} {{ with .video }}
+          <button
+            type="button"
+            class="video-play-btn"
+            data-toggle="modal"
+            data-src="{{ .video_embed_link | absURL }}"
+            data-target="#videoModal"
+          >
+            <svg
+              width="1.8em"
+              height="1.8em"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
+              />
+            </svg>
+          </button>
+          {{ end }} {{ end }}
+
+          <img
+          style="margin-left:0px;
+          width:550px ;
+          height:350px ;"
+            loading="lazy"
+            class="img-fluid"
+            alt="{{ .alt }}"
+            src="{{ .image | absURL }}"
+            alt="{{ .alt }}"
+          />
+
+          <div class="shape-lg bg-cyan rounded-circle"></div>
+          <div class="shape-md bg-orange rounded-circle"></div>
+          <div class="shape-sm bg-yellow rounded-circle"></div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 order-lg-0">
+        <!--<h2 class="h1 mb-20">{{ .title | markdownify }}</h2>-->
+        <div class="banner-heading-slider mb-20">
+          {{ range .banner_heading }}
+          <div>
+            <h1 class="h1">{{ . | markdownify }}</h1>
+          </div>
+          {{ end }}
+        </div>
+        <p>{{ .contents | markdownify }}</p>
+
+        {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="shape-1 shape-sm bg-secondary rounded-circle"></div>
+  <div class="shape-3 shape-sm-2 bg-primary rounded-circle"></div>
+  <div class="shape-4 shape-sm-2 bg-primary rounded-circle"></div>
+  <div class="shape-5 shape-xs bg-secondary rounded-circle"></div>
+  <div class="shape-6 shape-xs bg-tertiary rounded-circle"></div>
+  <div class="shape-7 shape-xs-2 bg-tertiary rounded-circle"></div>
+</section>
+<!-- end of banner -->
+
+     {{ end }} {{ end }}
+
+    
+
+     
+<!-- end of videoModal -->
+
+
+<!-- end of video-testimonials -->
+
+{{ partial "verticals-home-voicebot.html" . }} {{ with .Params.audio_section }}
+
+{{ end }}
+<!--end-->
+
+
+{{ if .Params.why_choos_us.enable }}
+{{ with .Params.why_choos_us }}
+<section class="section-padding  " data-aos="fade-in">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-9 text-center mb-40">
+        <h2 class="section-title">{{.title}}</h2>
+        <p>{{.content}}</p>
+      </div>
+      <div class="col-xl-12">
+        <div class="row align-items-center colored-icon-box">
+
+          {{ range $i, $e:= .list }}
+
+          <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
+            <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5 mb-30">
+              <img style="height: 60px; width: 60px;" loading="lazy" alt="{{ .alt }}" class="img-fluid" src="{{ .image | absURL }}" alt="">
+              <h2 class="section-title">{{.title}}</h2>
+              <p class="text-black-300 font-weight-light">{{ .name | markdownify }}</p>
+            </div>
+          </div>
+          
+          {{end}}
+
+        </div>
+      </div>
+      {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- end of Why us -->
+{{if .Params.section1 }} {{with .Params.section1 }} {{ partial
+  "left-image-right-text.html" . }} {{ end }} {{ end }}
+
+{{if .Params.section2.enable }} {{with .Params.section2 }} {{ partial
+  "right-image-left-text.html" . }} {{ end }} {{ end }}
+  <!-- end section --> 
+
+
+    
+   
+
+    
+
+    
+    
+    
+
+{{ if .Params.why_choose_us.enable }}
+{{ with .Params.why_choose_us }}
+<section class="section-padding pb-50" data-aos="fade-in">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-9 text-center mb-40">
+        <h2 class="section-title">{{.title}}</h2>
+        <p>{{.content}}</p>
+      </div>
+      <div class="col-xl-12">
+        <div class="row align-items-center colored-icon-box">
+
+          {{ range $i, $e:= .list }}
+
+          <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
+            <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5 mb-30">
+              <img style="height: 60px; width: 60px;" loading="lazy" alt="{{ .alt }}" class="img-fluid" src="{{ .image | absURL }}" alt="">
+              <h2 class="section-title">{{.title}}</h2>
+              <p class="text-black-300 font-weight-light">{{ .name | markdownify }}</p>
+            </div>
+          </div>
+          
+          {{end}}
+
+        </div>
+      </div>
+      {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- end of Why us -->
+
+    
+{{if .Params.genomic.enable }} {{with .Params.genomic }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
+
+<!--end-->
+{{if .Params.geosnapshot.enable }} {{with .Params.geosnapshot }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
+
+<!--end-->
+{{if .Params.phraze.enable }} {{with .Params.phraze }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
+
+
+{{if .Params.section3 }} {{with .Params.section3 }} {{ partial
+  "left-image-right-text.html" . }} {{ end }} {{ end }}
+
+
+
+
+<!--end-->
+{{if .Params.aivoicebot.enable }} {{with .Params.aivoicebot }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
+
+
+<!--end-->
+{{if .Params.computervision.enable }} {{with .Params.computervision }} {{
+partial "left-image-right-text.html" . }} {{ end }} {{ end }}
+
+<!--end-->
+{{if .Params.start.enable }} {{with .Params.start }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
+<!-- end section -->
+
+
+{{if .Params.section4.enable }} {{with .Params.section4 }} {{ partial
+"right-image-left-text.html" . }} {{ end }} {{ end }}
+<!-- end section -->
+
+{{if .Params.section5 }} {{with .Params.section5 }} {{ partial
+"left-image-right-text.html" . }} {{ end }} {{ end }}
+<!-- end section -->
+
+{{if .Params.floating }} {{with .Params.floating }} {{if .button.enable }}
+{{with .button }}
+
+
+<div id="mybutton">
+  <a
+    href="#"
+    class="Enquire"
+    data-toggle="modal"
+    data-target="#myModal"
+    type="submit"
+    >{{.button_label}}
+  </a>
+</div>
+
+{{ end }} {{ end }}
+
+<style>
+  a:hover {
+    text-decoration: none;
+  }
+  .Enquire {
+    background-color: #31b0d5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+  }
+
+  #mybutton {
+    position: fixed;
+    bottom: -4px;
+    z-index: 9;
+    margin-bottom: 300px;
+    transform: rotate(270deg);
+    right: -40px;
+  }
+  .tab-link{
+    padding: 8px 10px !important;
+  }
+  a {
+    text-decoration: none;
+    transition: all .3s;
+    padding: 8px 10px;
+  }
+  
+
+
+</style>
+{{ end }} {{ end }}  
+
+
+{{partial
+"collect-info-modal.html" .}}
+
+
+<script defer>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    var Choose = setTimeout(() => {
+      $("#myModal").modal("show");
+      clearTimeout(Choose);
+    }, 6000);
+  });
+</script>
+{{ partial "faq.html" .}}
+{{ end }}
+
