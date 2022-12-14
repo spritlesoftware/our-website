@@ -83,13 +83,12 @@
                       type="tel"
                       name="phone_number"
                       placeholder="Phone number*"
-                      maxlength="10"
-                      minlength="10"
+                      
                       id="phone"
                       required
-                      onkeyup="phonefun()"
+                      
                     />
-                    <span id="mypspan"></span>
+                    
                   </div>
                 </div>
                 <input type="hidden" name="pagename" value={{.pagename}} />
@@ -246,24 +245,5 @@ input::-webkit-inner-spin-button {
   }
 }
 
-function phonefun()
-    {
-      let phonenum = document.querySelector('#phone');
-      let pspanval = document.querySelector('#mypspan');
-      let phnum = phonenum.value;
-      var phoneno = /^\d{10}$/;
-      if(phnum .match(phoneno)){
-        phonenum.style.borderColor = "";
-        pspanval.innerHTML="";
-        pspanval.style.color = "";
 
-      }
-      else{
-        phonenum.style.borderColor = "red";
-    pspanval.innerHTML="Enter valid phone.No";
-    pspanval.style.color = "red";
-
-      }
-
-    }
 </script>
