@@ -140,6 +140,19 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </li>
           {{ end }}
         </ul>
+        {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>
@@ -190,8 +203,19 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </li>
           {{ end }}
         </ul>
-        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
-        end }} {{ end }}
+        {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
       </div>
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-block text-center">
@@ -265,6 +289,19 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </li>
           {{ end }}
         </ul>
+        {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>
