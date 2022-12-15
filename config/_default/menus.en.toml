@@ -36,8 +36,8 @@ weight = 2
 
   [[main]]
   parent = "Services"
-  name = "Blockchain Development Services"
-  url =  "/services/blockchain-services/"
+  name = "ITSM Services"
+  url =  "/services/itsm-services/"
   weight= 5 
 
   [[main]]

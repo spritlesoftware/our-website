@@ -140,6 +140,19 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </li>
           {{ end }}
         </ul>
+        {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>
@@ -160,7 +173,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           <div class="col-md-4 text-center">
             <img
               loading="lazy"
-              class="img-fluid"
+              class="img-fluid "
               src="{{ . |absURL}}"
               alt="{{ .alt }}"
             />
@@ -190,14 +203,25 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </li>
           {{ end }}
         </ul>
-        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
-        end }} {{ end }}
+        {{if .button.enable }} {{with .button }}
+
+        <a
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myModal"
+        type="submit"
+        class="btn btn-primary mt-15"
+        >{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
       </div>
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-block text-center">
           <img
             loading="lazy"
-            class="img-fluid rounded-sm"
+            class="img-fluid rounded-sm pt-60"
             src="{{ .image | absURL }}"
             alt="{{ .alt }}"
           />
@@ -265,6 +289,14 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </li>
           {{ end }}
         </ul>
+        {{if .button.enable }} {{with .button }}
+
+        <a href="images/airport/bootstrap_tutorial.pdf"  class="btn btn-primary mt-15" download="newfilename">
+       
+        {{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>
