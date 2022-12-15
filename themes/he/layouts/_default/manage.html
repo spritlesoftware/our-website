@@ -214,11 +214,8 @@
         <p class="pb-20 mb-20">{{ .contents | markdownify }}</p>
         {{if .button.enable }} {{with .button }}
         <a
-        href="#"
-        id="open-demo-modal"
-        data-toggle="modal"
-        data-target="#myModal"
-        type="submit"
+        href="bms-fms"
+        
         class="btn btn-primary mt-15"
         >{{.button_label}}</a
       >
@@ -299,7 +296,7 @@
 
 
 <!-- start of Capablities -->
-<section class=" section-padding  has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="0">
+<section class=" section-padding bg-light-gray has-bg-brash bg-brash-y" data-aos="fade-in" data-aos-delay="0">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-9 text-center mt-4 mb-40">
@@ -343,7 +340,7 @@
 <!-- start of brand-carousel -->
 {{ if .Params.clients_logo_slider.enable }} {{ with .Params.clients_logo_slider
 }}
-<section class="section-padding bg-light-gray" data-aos="fade-in">
+<section class="section-padding " data-aos="fade-in">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -366,7 +363,7 @@
 
 {{ if .Params.section3.enable }} {{ with .Params.section3 }}
 <section
-  class=" section-padding image-info-section has-shapes "
+  class=" section-padding image-info-section bg-light-gray has-shapes "
 >
   <div class="container">
     <div class="row align-items-center justify-content-around">
@@ -420,7 +417,7 @@
 
 
 <!-- start of section 3 subsection -->
-<section class=" section-padding bg-light-gray my-5 ">
+<section class=" section-padding  my-5 ">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-9 text-center mb-30">
@@ -457,8 +454,67 @@
   <!-- end of section 3 subsection -->
 
 
-  {{if .Params.sectionnew.enable }} {{with .Params.sectionnew }} {{ partial
-    "right-image-left-text.html" . }} {{ end }} {{ end }}
+  {{if .Params.sectionnew.enable }} {{with .Params.sectionnew }}
+  <section class="section-padding  bg-light-gray has-shapes bg-brash-y ">
+    <div class="container">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <p class="pb-20">{{ .content | markdownify }}</p>
+          
+          <div class="has-colored-text growth-rate-counter">
+            {{ range .facts }}
+            <div class="d-inline-block block-sm mr-30 mt-10">
+              <h2 class="has-text-color font-weight-bold">
+                <span class="jsCounter" data-count="{{.count}}">0</span
+                >{{.extension}}
+              </h2>
+              <p class="mt-10">{{ .name | markdownify }}</p>
+            </div>
+            {{ end }}
+          </div>
+          <ul class="check-list list-unstyled">
+            {{ range .bulletpoints }}
+            <li class="mb-15">
+              <svg
+                width="16"
+                height="11"
+                viewBox="0 0 18 13"
+                class="text-primary mr-2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 6.125L6.91892 11L16 2"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              {{. | markdownify}}
+            </li>
+            {{ end }}
+          </ul>
+  
+          {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
+          end }} {{ end }}
+        </div>
+  
+        <div class="col-lg-5 col-md-8 col-sm-10 mt-3">
+          <div class="d-inline-block">
+            <img
+              loading="lazy"
+              class="img-fluid rounded-sm"
+              src="{{ .image | absURL}}"
+              alt="{{ .alt }}"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{partial "collect-info-modal.html" .}} {{ end }} {{ end }}
 
 
 {{ if .Params.section4.enable }} {{ with .Params.section4 }}

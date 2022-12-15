@@ -105,7 +105,7 @@ section2:
   button:
     enable: true
     button_label: "Let's have a talk!"
-    link: "contact"
+    link: "bms-fms"
 
 capablities:
   title : "**Our Integration Capabilities using ManageEngine Services**"

@@ -82,6 +82,11 @@ about_us:
     - "BMS & FMS work together to help make smarter choices and shrewd decisions while enhancing safety, productivity and comfort for occupants." 
     - "Reduces energy consumption from 5% to 35% also ensuring cost minimization evidently."
     - "Sensors can be used to detect underused or overused space in the building, making it easier to manage."
+  button:
+    enable: true
+    button_label: "Automation? we are the ones"
+    link: ""
+
   images:
 
 section2:
@@ -91,6 +96,17 @@ section2:
   image : "images/bmsimages/Smart-home-cuate.webp"
   alt: "Take control over your buildings"
   contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
+  button:
+    enable: true
+    button_label: "Automation? we are the ones"
+    link: "contact"
+collect_info:
+  title: "Have a project in mind?"
+  button_name: "Submit"
+  link: "thankyouenquiry"
+  details_textarea_title: "Have Somthing to say to us?*"
+  form_name: "Project requirment"
+  pagename: "FMS & BMS"
 
 section3:
   enable : true
@@ -102,6 +118,17 @@ section3:
     - "We handle everything for you, from minor to major incidents. Our integrated Facility Management System allows you to relax and feel stress-free."
     - "AI in smart buildings monitors deviation and issues warnings that our FMS can resolve."
     - "FMS enhance building maintenance capabilities, raise productivity and efficiency, and reduce labor intensity."
+  button:
+    enable: true
+    button_label: "Automation? we are the ones"
+    link: "contact"
+collect_info:
+  title: "Have a project in mind?"
+  button_name: "Submit"
+  link: "thankyouenquiry"
+  details_textarea_title: "Have Somthing to say to us?*"
+  form_name: "Project requirment"
+  pagename: "FMS & BMS"
 
 
 faq:
