@@ -86,7 +86,7 @@ about_us:
   button:
     enable: true
     button_label: "Get ready to take off !"
-    pdf: "images/pdf/bootstrap_tutorial.pdf"
+    pdf: "images/pdf/SDP.pptx.pdf"
 
     
   images:

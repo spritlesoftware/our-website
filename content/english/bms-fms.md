@@ -85,7 +85,7 @@ about_us:
   button:
     enable: true
     button_label: "Automation? we are the ones"
-    pdf: "images/pdf/bootstrap_tutorial.pdf"
+    pdf: "images/pdf/SDP.pptx.pdf"
 
   images:
 
