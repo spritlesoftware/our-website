@@ -212,14 +212,10 @@
       <div class="col-lg-5 col-md-8 col-sm-10">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p class="pb-20 mb-20">{{ .contents | markdownify }}</p>
-        {{if .button.enable }} {{with .button }}
-        <a
-        href="bms-fms"
         
-        class="btn btn-primary mt-15"
-        >{{.button_label}}</a
-      >
-        {{ end }} {{ end }}
+        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
+          end }} {{ end }}
+
         <div class="row mb-15">
           {{ range .images }}
           <div class="col-md-4 text-center">
@@ -377,14 +373,9 @@
           />
             <h2 class="section-title">{{ .title | markdownify }}</h2>
             <p class="pb-20 mb-20">{{ .contents | markdownify }}</p>
-            {{if .button.enable }} {{with .button }}
-            <a
-            href="airport-management"
-            
-            class="btn btn-primary mt-15"
-            >{{.button_label}}</a
-          >
-            {{ end }} {{ end }}
+            {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
+              end }} {{ end }}
+    
             <div class="row mb-15">
               {{ range .images }}
               <div class="col-md-4 text-center">
@@ -518,7 +509,7 @@
 
 
 {{ if .Params.section4.enable }} {{ with .Params.section4 }}
-<section style="z-index:-1;"
+<section 
   class=" section-padding image-info-section  has-shapes bg-brash-y "
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
 >
@@ -581,7 +572,7 @@
 <!-- end section -->
 
 {{ if .Params.section5.enable }} {{ with .Params.section5 }}
-<section style="z-index:-1;"
+<section 
   class=" section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
 >

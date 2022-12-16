@@ -85,8 +85,7 @@ about_us:
   button:
     enable: true
     button_label: "Automation? we are the ones"
-    link: "bms-fms"
-    pdf: "images/airport/bootstrap_tutorial.pdf"
+    pdf: "images/pdf/bootstrap_tutorial.pdf"
 
   images:
 

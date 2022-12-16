@@ -36,7 +36,7 @@ banner:
   banner_heading:
   - "**One-stop solution for all your Airport facilities**"
   contents : "We provide a one-stop Facility Management System using ServiceDeskPlus. Integrate ManageEngine's SDP with your in-house system to create a powerful Airport Maintenance System and improve the whole airport experience."
-  image: "images/airport/banner.png"
+  image: "images/airport/banner.webp"
   alt : "One-stop solution for all your Airport facilities"
 
   button:
@@ -75,7 +75,7 @@ verticals:
 about_us:
   enable : true
   title : "Why Integrate with SDP?" 
-  image : "images/airport/laptop.jpg"
+  image : "images/airport/laptop.webp"
   alt: "Integrate with SDP"
   contents : ""
   bulletpoints:
@@ -86,8 +86,7 @@ about_us:
   button:
     enable: true
     button_label: "Get ready to take off !"
-    link: ""
-    pdf: "pdf/bootstrap_tutorial.pdf"
+    pdf: "images/pdf/bootstrap_tutorial.pdf"
 
     
   images:
@@ -96,7 +95,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Say Goodbye to Complicated to-do Lists!**"
-  image : "images/airport/sec2.jpg"
+  image : "images/airport/sec2.webp"
   alt: "Goodbye to Complicated to-do Lists"
   contents : " Our unified ticketing system can help solve any issue, from clearing trash to runway light services.<br/><br/>This versatile ticketing system integrates with a current system and can handle all technical and non-technical difficulties.<br/><br/>Automatically assign tickets according to preset business logic, ensuring that the right task is pinned to the right person."
   button:
@@ -114,7 +113,7 @@ collect_info:
 section3:
   enable : true
   title : "**Everything is at your fingertips!**"
-  image : "images/airport/airport.png"
+  image : "images/airport/airport.webp"
   alt: "Everything is at your fingertips!"
   contents : ""
   bulletpoints:
