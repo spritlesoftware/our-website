@@ -291,7 +291,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         </ul>
         {{if .button.enable }} {{with .button }}
 
-        <a href="images/airport/bootstrap_tutorial.pdf"  class="btn btn-primary mt-15" download="newfilename">
+        <a href= {{ .pdf | markdownify }}  class="btn btn-primary mt-15" download="newfilename">
        
         {{.button_label}}</a>
 

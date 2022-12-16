@@ -86,14 +86,9 @@ about_us:
   button:
     enable: true
     button_label: "Get ready to take off !"
-    link: "contact"
-collect_info:
-  title: "Have a project in mind?"
-  button_name: "Submit"
-  link: "thankyouenquiry"
-  details_textarea_title: "Have Somthing to say to us?*"
-  form_name: "Project requirment"
-  pagename: "Airport"
+    link: ""
+    pdf: "pdf/bootstrap_tutorial.pdf"
+
     
   images:
 
