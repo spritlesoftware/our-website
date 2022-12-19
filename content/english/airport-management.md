@@ -85,8 +85,8 @@ about_us:
     - "SDP’s Web interface is designed to be simple. Users can choose new services and track the status of those services."
   button:
     enable: true
-    button_label: "Get ready to take off !"
-    pdf: "images/pdf/SDP.pptx.pdf"
+    button_label: "Take a look at our work!"
+    pdf: "/images/pdf/SDP.pptx.pdf"
 
     
   images:
@@ -100,7 +100,7 @@ section2:
   contents : " Our unified ticketing system can help solve any issue, from clearing trash to runway light services.<br/><br/>This versatile ticketing system integrates with a current system and can handle all technical and non-technical difficulties.<br/><br/>Automatically assign tickets according to preset business logic, ensuring that the right task is pinned to the right person."
   button:
     enable: true
-    button_label: "Get ready to take off !"
+    button_label: "Join us today!"
     link: "contact"
 collect_info:
   title: "Have a project in mind?"
@@ -122,7 +122,7 @@ section3:
     - "The asset management portal helps you track and manage your purchases from creation of purchase orders to receipt of assets."
   button:
     enable: true
-    button_label: "Get ready to take off !"
+    button_label: "Ready? Take me there!"
     link: "contact"
 collect_info:
   title: "Have a project in mind?"

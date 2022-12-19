@@ -290,7 +290,10 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         </ul>
         {{if .button.enable }} {{with .button }}
 
-        <a href= {{ .pdf | markdownify }}  class="btn btn-primary mt-15" download="newfilename">
+        <a 
+        href= "{{ .pdf | markdownify }} "
+        class="btn btn-primary mt-15"
+        download="newfilename">
        
         {{.button_label}}</a>
 

@@ -40,7 +40,7 @@ banner:
 
   button:
     enable: true
-    button_label: "Automation? We are the ones"
+    button_label: "Talk to our Experts!"
     link: "contact"
 collect_info:
   title: "Have a project in mind?"
@@ -84,8 +84,8 @@ about_us:
     - "Sensors can be used to detect underused or overused space in the building, making it easier to manage."
   button:
     enable: true
-    button_label: "Automation? we are the ones"
-    pdf: "images/pdf/SDP.pptx.pdf"
+    button_label: "checkout our projects!"
+    pdf: "/pdf/SDP.pptx.pdf"
 
   images:
 
@@ -98,7 +98,7 @@ section2:
   contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
   button:
     enable: true
-    button_label: "Automation? we are the ones"
+    button_label: "Click to get started!"
     link: "contact"
 collect_info:
   title: "Have a project in mind?"
@@ -120,7 +120,7 @@ section3:
     - "FMS enhance building maintenance capabilities, raise productivity and efficiency, and reduce labor intensity."
   button:
     enable: true
-    button_label: "Automation? we are the ones"
+    button_label: "Get in Touch!"
     link: "contact"
 collect_info:
   title: "Have a project in mind?"
