@@ -41,7 +41,6 @@ banner:
   button:
     enable: true
     button_label: "Talk to our Experts!"
-    link: "contact"
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
@@ -85,7 +84,12 @@ about_us:
   button:
     enable: true
     button_label: "checkout our projects!"
-    pdf: "/pdf/SDP.pptx.pdf"
+collect:
+  title: "Have a project in ?"
+  button_name: "Submit"
+  pagename: "downloaded pdf from BMS"
+  
+   
 
   images:
 
@@ -99,7 +103,7 @@ section2:
   button:
     enable: true
     button_label: "Click to get started!"
-    link: "contact"
+    
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
@@ -121,7 +125,7 @@ section3:
   button:
     enable: true
     button_label: "Get in Touch!"
-    link: "contact"
+    
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"

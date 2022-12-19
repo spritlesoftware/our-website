@@ -42,7 +42,7 @@ banner:
   button:
     enable: true
     button_label: "Get ready to take off !"
-    link: "contact"
+    
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
@@ -86,7 +86,11 @@ about_us:
   button:
     enable: true
     button_label: "Take a look at our work!"
-    pdf: "/images/pdf/SDP.pptx.pdf"
+collect:
+  title: "Have a project in ?"
+  button_name: "Submit"
+  pagename: "downloaded pdf from airport"
+    
 
     
   images:
@@ -101,7 +105,7 @@ section2:
   button:
     enable: true
     button_label: "Join us today!"
-    link: "contact"
+    
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
@@ -123,7 +127,6 @@ section3:
   button:
     enable: true
     button_label: "Ready? Take me there!"
-    link: "contact"
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"

@@ -1,6 +1,6 @@
 {{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
 <!-- start of banner  -->
-<section class="banner pt-60 pb-60 bg-cover-bottom has-shapes  bg-light-gray has-bg-brash  bg-brash-bottom"
+<section class="banner  bg-cover-bottom has-shapes  bg-light-gray has-bg-brash  bg-brash-bottom"
 style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}');">
 
   <div class="container h-100">
@@ -34,6 +34,8 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
 
           <img
           style="margin-left:0px;
+                 width:520px;
+                 height: 341px;
           "
             loading="lazy"
             class="img-fluid"
@@ -291,12 +293,13 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         {{if .button.enable }} {{with .button }}
 
         <a 
-        href= "{{ .pdf | markdownify }} "
+        href="#"
+        id="open-demo-modal"
+        data-toggle="modal"
+        data-target="#myyModal"
+        type="submit"
         class="btn btn-primary mt-15"
-        download="newfilename">
-       
-        {{.button_label}}</a>
-
+        >{{.button_label}}</a>
 
         {{ end }} {{ end }}
       </div>
@@ -318,4 +321,5 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
 <!-- end section -->
 {{ partial "faq.html" .}}
 {{ partial "collect-info-modal" .}}
+{{ partial "collect" .}}
   {{ end }}
