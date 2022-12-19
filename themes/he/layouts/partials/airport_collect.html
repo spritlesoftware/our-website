@@ -1,7 +1,7 @@
-{{ with .Params.collect }}
+{{ with .Params.airport_collect }}
 <div
   class="modal fade"
-  id="myyModal"
+  id="airport_Modal"
   tabindex="-1"
   role="dialog"
   aria-labelledby="exampleModalLongTitle"
@@ -31,7 +31,7 @@
         <div class="row justify-content-center">
           <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-sm-10 col-md-12">
-              <form class="rounded shadow p-30" id="email_request_form">
+              <form class="rounded shadow p-30" id="airportemail_request_form">
                 <div class="form-row">
                   <div class="form-group mb-30 col-md-6">
                     <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="email">{{i18n "mail"}}*</label>-->
@@ -162,8 +162,7 @@ input::-webkit-inner-spin-button {
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
-  var frm = $("#email_request_form");
-  var pdf = $('#pagename').val();
+  var frm = $("#airportemail_request_form");
   frm.submit(function (e) {
     e.preventDefault();
     // $("#waitingPreloader").removeClass("loaded");
@@ -173,8 +172,8 @@ input::-webkit-inner-spin-button {
       data: frm.serialize(),
       success: function (data) {
         console.log("Submission was successful.");
-        $("#email_request_form")[0].reset();
-        $("#myyModal").modal("hide");
+        $("#airportemail_request_form")[0].reset();
+        $("#airport_Modal").modal("hide");
         $("#waitingPreloader").addClass("loaded");
         fetch('/pdf/SDP.pptx.pdf')
         .then(resp => resp.blob())
@@ -184,7 +183,7 @@ input::-webkit-inner-spin-button {
             a.style.display = 'none';
             a.href = url;
             // the filename you want
-            a.download = 'BMS usecase';
+            a.download = 'Airport management usecase';
             document.body.appendChild(a);
             a.click();
             window.URL.revokeObjectURL(url);

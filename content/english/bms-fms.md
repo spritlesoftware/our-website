@@ -35,7 +35,7 @@ banner:
   banner_heading:
   - "Leaders in **FMS & BMS** space for a decade"
   contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
-  image: "images/bmsimages/Smart-home-bro.webp"
+  image: "images/bmsimages/smart.png"
   alt : "Top Building and Facility Management service providers in the industry"
 
   button:
@@ -85,7 +85,7 @@ about_us:
     enable: true
     button_label: "checkout our projects!"
 collect:
-  title: "Have a project in ?"
+  title: "Fill out to view our projects!"
   button_name: "Submit"
   pagename: "downloaded pdf from BMS"
   
