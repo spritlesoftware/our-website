@@ -41,7 +41,7 @@ banner:
 
   button:
     enable: true
-    button_label: "Get ready to take off !"
+    button_label: "Get ready to take off!"
     
 collect_info:
   title: "Have a project in mind?"
@@ -59,16 +59,16 @@ verticals:
   services:
   - name : "Maintenance management"
     color : "#F3FCFD"
-    contents : "View service schedule tickets, Push notifications of tickets status,Calendar & list view of maintenance tasks."
+    contents : "View service schedule tickets, Push notifications of tickets status, Calendar & list view of maintenance tasks."
 
 
   - name : "E-Services"
     color : "#FFFCF4"
-    contents : "Raise tickets for your vehicle’s faults,Mobile app custom built with SDP,Easy Account Management & Customer Portal."
+    contents : "Raise tickets for your vehicle’s faults, Mobile app custom built with SDP, Easy Account Management & Customer Portal."
 
   - name : "Facility Management"
     color : "#FFF4F4"
-    contents : "Customized mobile app, Automated Ticket generation with sensor inputs,Data migration to a new database  made easier."
+    contents : "Customized mobile app, Automated Ticket generation with sensor inputs, Data migration to a new database  made easier."
 
 
 ############################## about us ################################
@@ -90,10 +90,11 @@ airport_collect:
   title: "Fill out to view our projects!"
   button_name: "Submit"
   pagename: "downloaded pdf from airport"
+  
     
 
     
-  images:
+  
 
 section2:
   description: "asd ad asDA dASD"
