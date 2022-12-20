@@ -34,7 +34,7 @@ banner:
   title : "Top Building and Facility Management service providers in the industry"
   banner_heading:
   - "Leaders in **FMS & BMS** space for a decade"
-  contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
+  contents : "Our Building Automation System can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
   image: "images/bmsimages/smart.webp"
   alt : "Top Building and Facility Management service providers in the industry"
 
@@ -99,7 +99,11 @@ section2:
   title : "**Take control** over your buildings totally!"
   image : "images/bmsimages/Smart-home-cuate.webp"
   alt: "Take control over your buildings"
-  contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
+  bulletpoints:
+    - " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System."
+    - "Our extensive field devices and software help customize your building with all the features a smart building requires." 
+    - "The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
+    
   button:
     enable: true
     button_label: "Click to get started!"
@@ -119,7 +123,7 @@ section3:
   alt: "The changing reality of FMS in Smart Buildings "
   contents : ""
   bulletpoints:
-    - "We handle everything for you, from minor to major incidents. Our integrated Facility Management System allows you to relax and feel stress-free."
+    - "We handle everything for you, from minor to major incidents. Our Integrated Facility Management System allows you to relax and feel stress-free."
     - "AI in smart buildings monitors deviation and issues warnings that our FMS can resolve."
     - "FMS enhance building maintenance capabilities, raise productivity and efficiency, and reduce labor intensity."
   button:

@@ -57,7 +57,7 @@ verticals:
   layout : "services"
   draft : false
   services:
-  - name : "Maintenance management"
+  - name : "Support"
     color : "#F3FCFD"
     contents : "View service schedule tickets, Push notifications of tickets status, Calendar & list view of maintenance tasks."
 
@@ -102,6 +102,10 @@ section2:
   title : "**Say Goodbye to Complicated to-do Lists!**"
   image : "images/airport/sec2.webp"
   alt: "Goodbye to Complicated to-do Lists"
+  bulletpoints:
+    - "Our unified ticketing system can help solve any issue, from clearing trash to runway light services." 
+    - "This versatile ticketing system integrates with a current system and can handle all technical and non-technical difficulties."
+    - "Automatically assign tickets according to preset business logic, ensuring that the right task is pinned to the right person."
   contents : " Our unified ticketing system can help solve any issue, from clearing trash to runway light services.<br/><br/>This versatile ticketing system integrates with a current system and can handle all technical and non-technical difficulties.<br/><br/>Automatically assign tickets according to preset business logic, ensuring that the right task is pinned to the right person."
   button:
     enable: true
