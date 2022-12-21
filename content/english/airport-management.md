@@ -80,7 +80,7 @@ about_us:
   contents : ""
   bulletpoints:
     - "With SLAs, automation, and customizable workflows in place, every incident is handled quickly and efficiently."
-    - "Assists in monitoring all-natural calamities in order to prevent incidents and protect people and property from harm." 
+    - "Assists in monitoring all-natural calamities in order to prevent incidents." 
     - "Asset inventory provides a better understanding of your assets and infrastructure."
     - "SDP’s Web interface is designed to be simple. Users can choose new services and track the status of those services."
   button:
@@ -105,8 +105,7 @@ section2:
   bulletpoints:
     - "Our unified ticketing system can help solve any issue, from clearing trash to runway light services." 
     - "This versatile ticketing system integrates with a current system and can handle all technical and non-technical difficulties."
-    - "Automatically assign tickets according to preset business logic, ensuring that the right task is pinned to the right person."
-  contents : " Our unified ticketing system can help solve any issue, from clearing trash to runway light services.<br/><br/>This versatile ticketing system integrates with a current system and can handle all technical and non-technical difficulties.<br/><br/>Automatically assign tickets according to preset business logic, ensuring that the right task is pinned to the right person."
+    - "Automatically assign tickets according to Preset Business Logic, ensuring that the right task is pinned to the right person."
   button:
     enable: true
     button_label: "Join us today!"
@@ -126,7 +125,7 @@ section3:
   alt: "Everything is at your fingertips!"
   contents : ""
   bulletpoints:
-    - "No matter where you are in the airport, get notified and track the progress of existing issues under the incident management portal."
+    - "No matter where you are in the airport, get notified and track the progress of existing issues under the Fault Management portal."
     - "Track the utilization of your resources and task relationships to monitor the overall progress of the task using color-coded Gantt charts."
     - "The asset management portal helps you track and manage your purchases from creation of purchase orders to receipt of assets."
   button:
@@ -143,10 +142,10 @@ collect_info:
 
 faq:
   question1: "Why do we need Airport Management?"
-  answer1: "Airport Administration seems to be hectic but with our Airport Management System in place, any kind of faults, or abnormal activities can be deducted from our Fault Management System through the web or Mobile application and resolved using our unified ticketing portal."
+  answer1: "Managing Airport  seems to be hectic but with our Airport Management System in place, any kind of faults or abnormal activities can be deducted by our Fault Management System through the web or Mobile application and resolved using our unified ticketing portal."
   question2: "What are the benefits of Airport Management?"
   answer2: "1. Ensures operational functions<br>2. Efficient resource handling<br>3. Regulates maintenance activities<br>4. Saves time & hassle<br>5. Improves safety and security."
   question3: "Why are we the best Airport Facility Management Company?"
-  answer3: "We are the best in the industry because we understand what exactly our customers need and we provide services above the level of their expectations. Our Airport Management System allows you to keep track of all the operations & maintenance on the premises. We also provide support and enhancements accordingly"
+  answer3: "We are the best in the industry because we have already stepped into Asia’s largest airport which was awarded as World’s Best Airport for five consecutive years. We understand what exactly our customers need and provide services beyond their expectations. Our Airport Management System allows you to keep track of all the operations & maintenance on the premises. Our system acts as an integrated Facility Management System and E-Services portal."
   
 ---
