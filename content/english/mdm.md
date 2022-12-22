@@ -14,7 +14,7 @@ ogdescription: "The only solution you will need to manage all the devices under 
 link: "https://www.spritle.com/mdm/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/airport/airport-runway.png.pagespeed.ic._Eo2HDj5Em.webp" 
-alt: "Best Airport Facility Management Company in the industry" 
+alt: "Best Mobile Device Management provider in the industry" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
@@ -34,8 +34,8 @@ banner:
   banner_heading:
   - "**Pioneers in Mobile Device Management!**"
   contents : "Our Mobile device Management solution supports you in managing and controlling all the devices in your workplace. Provide a safe and secure digital workplace while ensuring productivity."
-  image: "images/mdm-images/banner.webp"
-  alt : "One-stop solution for all your Airport facilities"
+  image: "images/mdm-images/banne.webp"
+  alt : "Pioneers in Mobile Device Management"
 
   button:
     enable: true
@@ -74,7 +74,7 @@ about_us:
   enable : true
   title : "Ensure Productivity and Security!" 
   image : "images/mdm-images/about.webp"
-  alt: "Integrate with SDP"
+  alt: "Ensure Productivity and Security"
   contents : ""
   bulletpoints:
     - "Get a view and track all the activities performed by all the users on the dashboard." 
@@ -99,7 +99,7 @@ section2:
   enable : true
   title : "**Secure your devices with our MDM!**"
   image : "images/mdm-images/sec2.webp"
-  alt: "Goodbye to Complicated to-do Lists"
+  alt: "Secure your devices with our MDM"
   bulletpoints:
     - "Our MDM offers security controls that can keep data secured and prevent corporate data leakage." 
     - "Restrict users from copying, pasting, and taking screenshots of any work-related data while using personal devices."
@@ -121,7 +121,7 @@ section3:
   enable : true
   title : "**Manage devices with One Click!**"
   image : "images/mdm-images/sec3.webp"
-  alt: "Goodbye to Complicated to-do Lists"
+  alt: "Manage devices with One Click"
   bulletpoints:
     - "Control any devices, be it BYOD (Bring Your Own Device) or COPE (Corporate Owned Personally Enabled) devices, rugged mobile devices, smartphones, laptops, computers, etc" 
     - "Ensure zero-touch application & content distribution via groups created based on their operations."

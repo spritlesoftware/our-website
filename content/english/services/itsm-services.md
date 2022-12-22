@@ -33,7 +33,7 @@ banner1:
   description: ""
   banner_heading: ""
   contents : ""
-  image: "images/voicebot/AI-powered-Conversational-Bot.gif"
+  image: "images/manageengine/ManageEngine-Banner.gif"
   alt : ""
    
   button:
