@@ -175,7 +175,7 @@ input::-webkit-inner-spin-button {
         $("#mdmemail_request_form")[0].reset();
         $("#mdmcollect_Modal").modal("hide");
         $("#waitingPreloader").addClass("loaded");
-        fetch('/pdf/SDP.pptx.pdf')
+        fetch('/pdf/mdm-usecase.pdf')
         .then(resp => resp.blob())
         .then(blob => {
             const url = window.URL.createObjectURL(blob);

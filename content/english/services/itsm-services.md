@@ -27,14 +27,13 @@ custom_footer: "The rest of the world isn’t going to wait for you to keep up w
 custom_button: true
 formlink : "voicebot"
 labels : "hi"
-banner:
+banner1:
   enable : true
   title : ""
   description: ""
   banner_heading: ""
   contents : ""
-  image: "images/home/serviceimages/ManageEngine_Integration_Services.png"
-  mimage: "/images/home/serviceimages/mimage.png"
+  image: "images/voicebot/AI-powered-Conversational-Bot.gif"
   alt : ""
    
   button:
@@ -60,7 +59,7 @@ banner:
   alt: "Custom Software Development Services"
   video:
     enable: true
-    video_embed_link: "https://www.youtube.com/embed/Gw3B1HzL-CY"
+    video_embed_link: "images/manageengine/manageengine-main.mp4"
   button:
     enable: true
     button_label: "Get in touch"
@@ -98,13 +97,13 @@ sectionbanner:
 section2:
   description: "asd ad asDA dASD"
   enable : true
-  title : "**Flawlessly Integrating & Enhancing Applications With ManageEngine**"
+  title : "**Building Management System**"
   image : "/images/manageengine/manageengineservices.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "Integration can be stressful when it comes to legacy systems. We take the burden, You have your data organized."
+  contents : "Any building may be improved in terms of comfort, effectiveness, and delight by using our building automation system. Your building is prepared for the future with our system in place, so you can be confident."
   button:
     enable: true
-    button_label: "Let's have a talk!"
+    button_label: "Know more"
     link: "bms-fms"
 
 capablities:
@@ -181,13 +180,13 @@ clients_logo_slider:
 
 section3:
   enable : true
-  title : "**Fault Management, simplified**"
+  title : "**Airport Management System**"
   image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/manageenginedashboard.webp"
   alt: "Query Management using Conversational AI Bots "
-  contents : "A complete one-stop Fault Management System built using ManageEngine to handle all faults raised as tickets starting from the Terminals to the Runway, for one of the world's major airports."
+  contents : "Using Service Desk Plus, we offer a one-stop Facility Management System. Create a sophisticated Airport Maintenance System by integrating ManageEngine's SDP with your own system to enhance the entire airport experience."
   button:
     enable: true
-    button_label: "Let your service take off!"
+    button_label: "Know more "
     link: "airport-management"
 
 section3_sub:
@@ -215,14 +214,14 @@ section3_sub:
 
 sectionnew:
   enable: true
-  title: "Automation with ManageEngine"
+  title: "Mobile Device Management"
   image: "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/automation-with-manage-engine-min.webp"
   alt: "Cross Platform Mobile Application Development Services"
-  content: "Integration, Automation & Syncing to your SAP system with ManageEngine ServiceDesk Plus is available up for grabs"
+  content: "Our mobile device management technology enables you to manage and regulate any device in your workplace. Create a secure digital workspace to ensure efficiency."
   button:
     enable : true
-    button_label : "Lets unite by integration"
-    link : "services/cross-platform-mobile-app-development/"
+    button_label : "Know more"
+    link : "mdm"
 
 section4:
   enable : true
