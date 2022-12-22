@@ -106,6 +106,79 @@ section2:
     button_label: "Know more"
     link: "bms-fms"
 
+    
+section3:
+  enable : true
+  title : "**Airport Management System**"
+  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/manageenginedashboard.webp"
+  alt: "Query Management using Conversational AI Bots "
+  contents : "Using Service Desk Plus, we offer a one-stop Facility Management System. Create a sophisticated Airport Maintenance System by integrating ManageEngine's SDP with your own system to enhance the entire airport experience."
+  button:
+    enable: true
+    button_label: "Know more "
+    link: "airport-management"
+
+section3_sub:
+  description : "We have also seamlessly integrated, delivered, and enhanced the custom-built **Fault Management System** for the below verticals"
+  items:
+  - name: "**TRANSPORTATION**"
+    event: true
+    target: "#"
+    imageevent: true
+    image: "/images/home/serviceimages/icon011.png"
+   
+
+  - name: "**MANUFACTURING**"
+    event: true
+    target: "/services/custom-software-development/"
+    imageevent: true
+    image: "/images/home/serviceimages/icon022.png"
+ 
+
+  - name: "**SMART CITIES**"
+    event: true
+    target: "/services/ai-ml-application-development-services"
+    imageevent: true
+    image: "/images/home/serviceimages/icon033.png"
+
+sectionnew:
+  enable: true
+  title: "Mobile Device Management"
+  image: "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/automation-with-manage-engine-min.webp"
+  alt: "Cross Platform Mobile Application Development Services"
+  content: "Our mobile device management technology enables you to manage and regulate any device in your workplace. Create a secure digital workspace to ensure efficiency."
+  button:
+    enable : true
+    button_label : "Know more"
+    link : "mdm"
+
+section4:
+  enable : true
+  title : "**Integration services with great transparency**"
+  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/metickets.webp"
+  alt: "Query Management using Conversational AI Bots "
+  contents : "With **ManageEngine's CMDB & KB features**, our solution roadmap calls for the **On-ground Technicians** to have access to all information to help in troubleshooting & fixing the problem, and also give a hand to achieve their SLAs."
+
+  button:
+    enable: true
+    button_label: "Let your service take off!"
+    link: "contact"
+
+  bulletpoints:
+    - "Seamless Integration to BIM solution"
+    - "Obtain CCTV snapshots to faults"
+    - "Equipment Location Map (Pathfinding)"
+    - "Historical information using Analytics"
+    - "Knowledge Base Directory (Instruction Manual, Troubleshooting Guides, etc)"
+
+section5:
+  description: ""
+  enable : true
+  title : "**Custom Mobile App Development for ManageEngine**"
+  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/fms-mob-img-min.webp"
+  alt: "cross platform mobile application company in USA"
+  contents : "Spritle, the **first customer of ManageEngine to build custom mobile application**, specifically designed for on-the-ground Technicians to have access to data, monitor & perform actions from where they are!"
+
 capablities:
   title : "**Our Integration Capabilities using ManageEngine Services**"
   description : "Our roadmap towards,"
@@ -178,77 +251,6 @@ clients_logo_slider:
     - "images/clients/clientslogonew/unitednations.webp"
 
 
-section3:
-  enable : true
-  title : "**Airport Management System**"
-  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/manageenginedashboard.webp"
-  alt: "Query Management using Conversational AI Bots "
-  contents : "Using Service Desk Plus, we offer a one-stop Facility Management System. Create a sophisticated Airport Maintenance System by integrating ManageEngine's SDP with your own system to enhance the entire airport experience."
-  button:
-    enable: true
-    button_label: "Know more "
-    link: "airport-management"
-
-section3_sub:
-  description : "We have also seamlessly integrated, delivered, and enhanced the custom-built **Fault Management System** for the below verticals"
-  items:
-  - name: "**TRANSPORTATION**"
-    event: true
-    target: "#"
-    imageevent: true
-    image: "/images/home/serviceimages/icon011.png"
-   
-
-  - name: "**MANUFACTURING**"
-    event: true
-    target: "/services/custom-software-development/"
-    imageevent: true
-    image: "/images/home/serviceimages/icon022.png"
- 
-
-  - name: "**SMART CITIES**"
-    event: true
-    target: "/services/ai-ml-application-development-services"
-    imageevent: true
-    image: "/images/home/serviceimages/icon033.png"
-
-sectionnew:
-  enable: true
-  title: "Mobile Device Management"
-  image: "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/automation-with-manage-engine-min.webp"
-  alt: "Cross Platform Mobile Application Development Services"
-  content: "Our mobile device management technology enables you to manage and regulate any device in your workplace. Create a secure digital workspace to ensure efficiency."
-  button:
-    enable : true
-    button_label : "Know more"
-    link : "mdm"
-
-section4:
-  enable : true
-  title : "**Integration services with great transparency**"
-  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/metickets.webp"
-  alt: "Query Management using Conversational AI Bots "
-  contents : "With **ManageEngine's CMDB & KB features**, our solution roadmap calls for the **On-ground Technicians** to have access to all information to help in troubleshooting & fixing the problem, and also give a hand to achieve their SLAs."
-
-  button:
-    enable: true
-    button_label: "Let your service take off!"
-    link: "contact"
-
-  bulletpoints:
-    - "Seamless Integration to BIM solution"
-    - "Obtain CCTV snapshots to faults"
-    - "Equipment Location Map (Pathfinding)"
-    - "Historical information using Analytics"
-    - "Knowledge Base Directory (Instruction Manual, Troubleshooting Guides, etc)"
-
-section5:
-  description: ""
-  enable : true
-  title : "**Custom Mobile App Development for ManageEngine**"
-  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/fms-mob-img-min.webp"
-  alt: "cross platform mobile application company in USA"
-  contents : "Spritle, the **first customer of ManageEngine to build custom mobile application**, specifically designed for on-the-ground Technicians to have access to data, monitor & perform actions from where they are!"
  
 
 testimonial:
