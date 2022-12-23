@@ -1,7 +1,7 @@
 {{ with .Params.collect }}
 <div
   class="modal fade"
-  id="myyModal"
+  id="collect-modal"
   tabindex="-1"
   role="dialog"
   aria-labelledby="exampleModalLongTitle"
@@ -31,7 +31,7 @@
         <div class="row justify-content-center">
           <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-sm-10 col-md-12">
-              <form class="rounded shadow p-30" id="bms_email_request_form">
+              <form class="rounded shadow p-30" id="pdf_download_form">
                 <div class="form-row">
                   <div class="form-group mb-30 col-md-6">
                     <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="email">{{i18n "mail"}}*</label>-->
@@ -162,20 +162,34 @@ input::-webkit-inner-spin-button {
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
-  var frm = $("#bms_email_request_form");
+  var frm = $("#pdf_download_form");
+  let filePath = "";
   frm.submit(function (e) {
     e.preventDefault();
-    // $("#waitingPreloader").removeClass("loaded");
+      $("#waitingPreloader").removeClass("loaded");
     $.ajax({
       type: "post",
       url: "https://form.spritle.com/contact",
       data: frm.serialize(),
       success: function (data) {
         console.log("Submission was successful.");
-        $("#bms_email_request_form")[0].reset();
-        $("#myyModal").modal("hide");
+        $("#pdf_download_form")[0].reset();
+        $("#collect-modal").modal("hide");
         $("#waitingPreloader").addClass("loaded");
-        fetch('/pdf/SDP.pptx.pdf')
+          switch ($('#pagename').val()) { 
+            case 'Downloaded pdf from BMS': 
+              filePath = "/pdf/bms-usecase.pdf"
+              break;
+            case 'Downloaded pdf from AIRPORT': 
+            filePath = "/pdf/airport_management_usecase.pdf"
+              break;
+            case 'Downloaded pdf from MDM': 
+            filePath = "/pdf/mdm-usecase.pdf"
+              break;		
+            default:
+              alert('Nobody Wins!');
+          }
+        fetch(filePath)
         .then(resp => resp.blob())
         .then(blob => {
             const url = window.URL.createObjectURL(blob);
@@ -183,7 +197,7 @@ input::-webkit-inner-spin-button {
             a.style.display = 'none';
             a.href = url;
             // the filename you want
-            a.download = 'Building Management Systemusecase';
+            a.download = 'downloaded';
             document.body.appendChild(a);
             a.click();
             window.URL.revokeObjectURL(url);

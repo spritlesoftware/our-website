@@ -55,7 +55,7 @@ banner:
     - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
     - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
   content: "Advanced custom made Softwares. <br>  Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
-  image: "/images/manageengine/managevideo.jpg"
+  image: "/images/manageengine/me_video.webp"
   alt: "Custom Software Development Services"
   video:
     enable: true
@@ -98,24 +98,24 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Building Management System**"
-  image : "/images/manageengine/manageengineservices.webp"
+  image : "/images/manageengine/bms.webp"
   alt: "Workflow Diagram for Conversational AI Bots"
-  contents : "Any building may be improved in terms of comfort, effectiveness, and delight by using our building automation system. Your building is prepared for the future with our system in place, so you can be confident."
+  contents : "We use a variety of techniques and technologies to deliver Airport Management System services, guaranteeing that there is no downtime at the airports. Even the smallest errors are recorded, raised as tickets, and automatically assigned to the relevant party."
   button:
     enable: true
-    button_label: "Know more"
+    button_label: "Reform your building!"
     link: "bms-fms"
 
     
 section3:
   enable : true
   title : "**Airport Management System**"
-  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/manageenginedashboard.webp"
+  image : "images/manageengine/airport.webp"
   alt: "Query Management using Conversational AI Bots "
-  contents : "Using Service Desk Plus, we offer a one-stop Facility Management System. Create a sophisticated Airport Maintenance System by integrating ManageEngine's SDP with your own system to enhance the entire airport experience."
+  contents : "We use a variety of techniques and technologies to deliver Airport Management System services, guaranteeing that there is no downtime at the airports. Even the smallest errors are recorded, raised as tickets, and automatically assigned to the relevant party."
   button:
     enable: true
-    button_label: "Know more "
+    button_label: "Get ready to fly!"
     link: "airport-management"
 
 section3_sub:
@@ -144,32 +144,15 @@ section3_sub:
 sectionnew:
   enable: true
   title: "Mobile Device Management"
-  image: "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/automation-with-manage-engine-min.webp"
+  image: "images/manageengine/mdm.webp"
   alt: "Cross Platform Mobile Application Development Services"
-  content: "Our mobile device management technology enables you to manage and regulate any device in your workplace. Create a secure digital workspace to ensure efficiency."
+  content: "Our Mobile Device Management provides you access to all of your devices through one platform. Using our MDM system, you can track locations, lock down personal apps, get alerts when devices leave a permitted region, erase business data, and more."
   button:
     enable : true
-    button_label : "Know more"
+    button_label : "Tap to Sway!"
     link : "mdm"
 
-section4:
-  enable : true
-  title : "**Integration services with great transparency**"
-  image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/metickets.webp"
-  alt: "Query Management using Conversational AI Bots "
-  contents : "With **ManageEngine's CMDB & KB features**, our solution roadmap calls for the **On-ground Technicians** to have access to all information to help in troubleshooting & fixing the problem, and also give a hand to achieve their SLAs."
 
-  button:
-    enable: true
-    button_label: "Let your service take off!"
-    link: "contact"
-
-  bulletpoints:
-    - "Seamless Integration to BIM solution"
-    - "Obtain CCTV snapshots to faults"
-    - "Equipment Location Map (Pathfinding)"
-    - "Historical information using Analytics"
-    - "Knowledge Base Directory (Instruction Manual, Troubleshooting Guides, etc)"
 
 section5:
   description: ""

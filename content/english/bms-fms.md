@@ -87,7 +87,7 @@ about_us:
 collect:
   title: "Fill out to view our projects!"
   button_name: "Submit"
-  pagename: "downloaded pdf from BMS"
+  pagename: "Downloaded pdf from BMS"
   
    
 

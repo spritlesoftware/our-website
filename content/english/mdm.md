@@ -2,7 +2,7 @@
 ############################ Banner ##################################
 custom_title_enabled: true
 custom_title_value: " Best Mobile Device Management provider in the industry"
-layout : "mdm"
+layout : "fms"
 title: "Best Mobile Device Management provider in the industry"
 description: "The only solution you will need to manage all the devices under one roof is our Mobile Device Management. Our solution ensures that all your needs are met from sharing the corporate data securely to remotely troubleshooting devices with unattended access. Our solution is stunning when you need to wipe corporate data from jailbroken devices."
 keywords : [airport,e services,mobile app,ticket portal,service deskplusintegrated facility management,facility management system,maintenance management,airport facility management,airport management,building maintance,data migration,best airport facility management company,top facilities management companies,Top integrated facility management companies,top building management companies]
@@ -84,10 +84,10 @@ about_us:
   button:
     enable: true
     button_label: "Checkout our projects!"
-mdmcollect:
-  title: "Fill out to view our projects!"
-  button_name: "Submit"
-  pagename: "downloaded pdf from MDM"
+collect:
+    title: "Fill out to view our projects!"
+    button_name: "Submit"
+    pagename: "Downloaded pdf from MDM"
   
     
 

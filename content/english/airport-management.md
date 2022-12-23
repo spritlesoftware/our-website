@@ -2,7 +2,7 @@
 ############################ Banner ##################################
 custom_title_enabled: true
 custom_title_value: "Best Airport Facility Management Company in the industry"
-layout : "airport"
+layout : "fms"
 title: "Best Airport Facility Management Company in the industry"
 description: "A powerful tool that can help you manage all your airport facilities as a whole. It can help you keep your staff on task and keep your facilities running smoothly. 
 From clearing trash to runway lights, we take care of everything for you. Get notified every minute about the incidents happening and their resolution status."
@@ -86,10 +86,10 @@ about_us:
   button:
     enable: true
     button_label: "Take a look at our work!"
-airport_collect:
-  title: "Fill out to view our projects!"
-  button_name: "Submit"
-  pagename: "downloaded pdf from airport"
+collect:
+    title: "Fill out to view our projects!"
+    button_name: "Submit"
+    pagename: "Downloaded pdf from AIRPORT"
   
     
 
