@@ -34,14 +34,13 @@ banner:
   title : "Top Building and Facility Management service providers in the industry"
   banner_heading:
   - "Leaders in **FMS & BMS** space for a decade"
-  contents : "Our building automation system can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
-  image: "images/bmsimages/Smart-home-bro.webp"
+  contents : "Our Building Automation System can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
+  image: "images/bmsimages/smart.webp"
   alt : "Top Building and Facility Management service providers in the industry"
 
   button:
     enable: true
-    button_label: "Automation? We are the ones"
-    link: "contact"
+    button_label: "Talk to our Experts!"
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
@@ -58,7 +57,7 @@ verticals:
   services:
   - name : "Adaptable"
     color : "#F3FCFD"
-    contents : "Our solutions are adaptable to meet the needs of any building, from complex to light solutions."
+    contents : "Our solutions are adaptable to meet the needs of any building, from small to large."
 
 
   - name : "Tech Savvy"
@@ -80,19 +79,18 @@ about_us:
   bulletpoints:
     - "We have come to a new age in building construction making attainable services more than the occupants need."
     - "BMS & FMS work together to help make smarter choices and shrewd decisions while enhancing safety, productivity and comfort for occupants." 
-    - "Reduces energy consumption from 5% to 35% also ensuring cost minimization evidently."
+    - "Reduces energy consumption from 5% to 35% while ensuring cost minimization evidently."
     - "Sensors can be used to detect underused or overused space in the building, making it easier to manage."
   button:
     enable: true
-    button_label: "Automation? we are the ones"
-    link: "contact"
-collect_info:
-  title: "Have a project in mind?"
+    button_label: "Checkout our projects!"
+collect:
+  title: "Fill out to view our projects!"
   button_name: "Submit"
-  link: "thankyouenquiry"
-  details_textarea_title: "Have Somthing to say to us?*"
-  form_name: "Project requirment"
-  pagename: "FMS & BMS"
+  pagename: "Downloaded pdf from BMS"
+  
+   
+
   images:
 
 section2:
@@ -101,11 +99,15 @@ section2:
   title : "**Take control** over your buildings totally!"
   image : "images/bmsimages/Smart-home-cuate.webp"
   alt: "Take control over your buildings"
-  contents : " Remember how long it took us to keep an eye on all the operations of a building But here we are now with Building Management System.<br/><br/>Our extensive field devices and software help customize your building with all the features a smart building requires.<br/><br/>The tailor made automations can reduce daily consumption, cut back on unintended waste and save cost."
+  bulletpoints:
+    - " Remember, how long it took us to keep an eye on all the operations of a building! But, here we are now with a Building Management System."
+    - "Our extensive field devices and software help customize your building with all the features a smart building requires." 
+    - "The tailor made automations can reduce daily consumption and cut back on unintended waste while saving cost."
+    
   button:
     enable: true
-    button_label: "Automation? we are the ones"
-    link: "contact"
+    button_label: "Click to get started!"
+    
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
@@ -121,13 +123,13 @@ section3:
   alt: "The changing reality of FMS in Smart Buildings "
   contents : ""
   bulletpoints:
-    - "We handle everything for you, from minor to major incidents. Our integrated Facility Management System allows you to relax and feel stress-free."
-    - "AI in smart buildings monitors deviation and issues warnings that our FMS can resolve."
-    - "FMS enhance building maintenance capabilities, raise productivity and efficiency, and reduce labor intensity."
+    - "We handle everything for you, from minor to major incidents. Our Integrated Facility Management System allows you to relax and feel stress-free."
+    - "AI in a Smart Building monitors deviation and issues warnings that our FMS can resolve."
+    - "FMS enhances building maintenance capabilities, raises efficiency and reduces labor intensity."
   button:
     enable: true
-    button_label: "Automation? we are the ones"
-    link: "contact"
+    button_label: "Get in Touch!"
+    
 collect_info:
   title: "Have a project in mind?"
   button_name: "Submit"
@@ -138,10 +140,10 @@ collect_info:
 
 
 faq:
-  question1: "Why do we need building automation?"
-  answer1: "The primary goals of BMS include lowering energy consumption, lowering maintenance costs, enhancing tenant comfort and productivity, and prolonging the life cycle of the utility. "
+  question1: "Why do we need Building Automation?"
+  answer1: "The primary goals of BMS include lowering energy consumption, reducing maintenance costs, enhancing tenant comfort and prolonging the life cycle of the utility."
   question2: "What makes Spritle the best BMS & FMS company?"
-  answer2: "Regardless of the scale of the building, we have already intervened and handled enhancements utilizing ticketing and automation systems. Airports, engineering firms, and other buildings are covered by our expertise in building management. And our talented crew is dedicated to improving any type of building and its facilities through their skills."
+  answer2: "Regardless of the scale of the building, we have already intervened and handled enhancements utilizing ticketing and automation systems. our expertise in Building Management includes buildings like Airports, engineering firms,etc. And our talented crew is dedicated to improving any type of building and its facilities through their skills."
   question3: "Why do we need to integrate Facility management along with Building Management System?"
   answer3: "When we integrate both systems, the facility management completely takes care of the building by automating the tasks to resolve any kind of faults occurring in the building. This ensures to prolong the life of the assets on the premises which in turn reduces the cost of maintenance."
 

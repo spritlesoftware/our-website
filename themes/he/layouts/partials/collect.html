@@ -1,0 +1,239 @@
+{{ with .Params.collect }}
+<div
+  class="modal fade"
+  id="collect-modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLongTitle"
+  aria-hidden="true"
+  data-backdrop="static"
+  data-keyboard="true"
+>
+  <!-- Modal content -->
+  <div class="modal-dialog" role="document"></div>
+  <div class="modal-content col-lg-12 col-xl-12 col-md-12 col-sm-9">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="row">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-md-10 text-center">
+            <div class="content">
+              <h3
+                id="have-a-project-in-mind-lets-talk-together-to-collaborate-on-your-project-and-get-it-done-quickly"
+              >
+                {{.title}}
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-sm-10 col-md-12">
+              <form class="rounded shadow p-30" id="pdf_download_form">
+                <div class="form-row">
+                  <div class="form-group mb-30 col-md-6">
+                    <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="email">{{i18n "mail"}}*</label>-->
+                    <input
+                      class="form-control shadow-none"
+                      autocomplete="off"
+                      type="email"
+                      name="email_address"
+                      placeholder="Email address*"
+                      id="email_id"
+                      required
+                      onkeyup="myfunc()"
+                    />
+                    <span id="myspan"></span>
+                  </div>
+                  <div class="form-group mb-30 col-md-6">
+                    <!--<label class="text-black-200 h5 font-weight-600 mb-2" for="phone">{{i18n "phone_number"}}*</label>-->
+                    <input
+                    class="form-control shadow-none"
+                    autocomplete="off"
+                    pattern="(\+\d{1,3}\s?)?((\(\d{3}\)\s?)|(\d{3})(\s|-?))(\d{3}(\s|-?))(\d{4})(\s?(([E|e]xt[:|.|]?)|x|X)(\s?\d+))?"
+                      type="tel"
+                      name="phone_number"
+                      placeholder="Phone number*"
+                      
+                      id="phone"
+                      required
+                      
+                    />
+                    
+                  </div>
+                </div>
+                <input type="hidden" name="pagename"  id ="pagename" value={{.pagename}} />
+                
+                <div class="form-group mb-30">
+                  <div
+                    class="g-recaptcha"
+                    data-sitekey="6Lf9RNkcAAAAAI5PRaFKWTHmioK6NYeyJVu9JbPk"
+                    data-callback="enableSubmit"
+                  ></div>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-submit w-100"
+                  style="width: 100"
+                >
+                  {{ i18n "submit"}}
+                </button>
+              </form>
+            </div>
+            <div
+              class="contact-response col-xl-12 col-lg-12 col-sm-8 col-md-9"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    /*z-index: 1031; Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    display: block;
+    background-color: #FEFEFE;
+    margin: 1% auto; /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: auto;
+  }
+  @media (min-width: 320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .modal-content {
+      width: 100%;
+      margin-bottom: 40px;
+      padding-left: 30px;
+    }
+  }
+  @media (min-width: 480px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .modal-content {
+      width: 90%;
+    }
+  }
+  @media (min-width: 600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .modal-content {
+      width: 60%;
+    }
+  }
+  @media (min-width: 801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .modal-content {
+      width: 60%;
+    }
+  }
+  @media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .modal-content {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+    .modal-content {
+      width: 40%;
+    }
+  }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var frm = $("#pdf_download_form");
+  let filePath = "";
+  frm.submit(function (e) {
+    e.preventDefault();
+      $("#waitingPreloader").removeClass("loaded");
+    $.ajax({
+      type: "post",
+      url: "https://form.spritle.com/contact",
+      data: frm.serialize(),
+      success: function (data) {
+        console.log("Submission was successful.");
+        $("#pdf_download_form")[0].reset();
+        $("#collect-modal").modal("hide");
+        $("#waitingPreloader").addClass("loaded");
+          switch ($('#pagename').val()) { 
+            case 'Downloaded pdf from BMS': 
+              filePath = "/pdf/bms-usecase.pdf"
+              break;
+            case 'Downloaded pdf from AIRPORT': 
+            filePath = "/pdf/Airport_management_usecase.pdf"
+              break;
+            case 'Downloaded pdf from MDM': 
+            filePath = "/pdf/mdm-usecase.pdf"
+              break;		
+            default:
+              alert('Nobody Wins!');
+          }
+        fetch(filePath)
+        .then(resp => resp.blob())
+        .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            // the filename you want
+            a.download = 'downloaded';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            alert('your file has downloaded!'); // or you know, something with better UX...
+        })
+        .catch(() => alert('oh no!, Something went wrong'));
+      },
+      error: function (data) {
+        console.log("An error occurred.");
+        console.log(data);
+        $("#waitingPreloader").addClass("loaded");
+      },
+    });
+  });
+  function myfunc()
+  {
+  let mail_val = document.querySelector('#email_id');
+  let spanval = document.querySelector('#myspan');
+  let email_input = mail_val.value;
+  let reg_exp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if(reg_exp.test(email_input)){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "";
+  }
+  else{
+    mail_val.style.borderColor = "red";
+    spanval.innerHTML="Enter valid Email id";
+    spanval.style.color = "red";
+  }
+  if(email_input.length===0){
+    mail_val.style.borderColor = "";
+    spanval.innerHTML="";
+    spanval.style.color = "none";
+  }
+}
+
+
+</script>
