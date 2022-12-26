@@ -88,7 +88,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
     </div>
     <div class="col-lg-5 col-md-8 col-sm-10">
       <h2 class="section-title">{{ .title | markdownify }}</h2>
-      <div class="row mb-9">
+      <div class="row mb-10">
         {{ range .images }}
         <div class="col-md-4 text-center">
           <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
@@ -160,7 +160,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         </div>
         <ul class="check-list list-unstyled">
           {{ range .bulletpoints }}
-          <li class="mb-15">
+          <li class="mb-10">
             <svg
               width="16"
               height="11"

@@ -13,7 +13,7 @@ ogtitle: "Best Mobile Device Management provider in the industry"
 ogdescription: "The only solution you will need to manage all the devices under one roof is our Mobile Device Management. Our solution ensures that all your needs are met from sharing the corporate data securely to remotely troubleshooting devices with unattended access. Our solution is stunning when you need to wipe corporate data from jailbroken devices."   
 link: "https://www.spritle.com/mdm/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/airport/airport-runway.png.pagespeed.ic._Eo2HDj5Em.webp" 
+Ogimage: "https://www.spritle.com/images/airport-managemnt/airport-runway.png.pagespeed.ic._Eo2HDj5Em.webp" 
 alt: "Best Mobile Device Management provider in the industry" 
 
 ########################### Twitter #################################
@@ -57,7 +57,7 @@ verticals:
   services:
   - name : "Adaptable"
     color : "#F3FCFD"
-    contents : "Our solutions can be integrated with a existing helpdesk application which reduces the burden."
+    contents : "Our solutions can be integrated with an existing helpdesk application, which reduces the burden."
 
 
   - name : "Improve Efficiency"
@@ -123,7 +123,7 @@ section3:
   image : "images/mdm-images/sec3.webp"
   alt: "Manage devices with One Click"
   bulletpoints:
-    - "Control any devices, be it BYOD (Bring Your Own Device) or COPE (Corporate Owned Personally Enabled) devices, rugged mobile devices, smartphones, laptops, computers, etc" 
+    - "Control any devices, be it BYOD (Bring Your Own Device) or COPE (Corporate Owned Personally Enabled) devices, rugged mobile devices, smartphones, laptops, computers, etc." 
     - "Ensure zero-touch application & content distribution via groups created based on their operations."
     - "Receive updates on applications and operating systems of all the managed devices."
   button:
