@@ -5,7 +5,7 @@ custom_title_value: " Best Mobile Device Management provider in the industry"
 layout : "fms"
 title: "Best Mobile Device Management provider in the industry"
 description: "The only solution you will need to manage all the devices under one roof is our Mobile Device Management. Our solution ensures that all your needs are met from sharing the corporate data securely to remotely troubleshooting devices with unattended access. Our solution is stunning when you need to wipe corporate data from jailbroken devices."
-keywords : [airport,e services,mobile app,ticket portal,service deskplusintegrated facility management,facility management system,maintenance management,airport facility management,airport management,building maintance,data migration,best airport facility management company,top facilities management companies,Top integrated facility management companies,top building management companies]
+keywords : [Mobile Device Management,Best MDM software,MDM software,BYOD ]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
@@ -73,7 +73,7 @@ verticals:
 about_us:
   enable : true
   title : "Ensure Productivity and Security!" 
-  image : "images/mdm-images/about.webp"
+  image : "images/mdm-images/Section-4.webp"
   alt: "Ensure Productivity and Security"
   contents : ""
   bulletpoints:
@@ -98,7 +98,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Secure your devices with our MDM!**"
-  image : "images/mdm-images/sec2.webp"
+  image : "images/mdm-images/Section-2.webp"
   alt: "Secure your devices with our MDM"
   bulletpoints:
     - "Our MDM offers security controls that can keep data secured and prevent corporate data leakage." 
@@ -120,7 +120,7 @@ section3:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Manage devices with One Click!**"
-  image : "images/mdm-images/sec3.webp"
+  image : "images/mdm-images/Section-3.webp"
   alt: "Manage devices with One Click"
   bulletpoints:
     - "Control any devices, be it BYOD (Bring Your Own Device) or COPE (Corporate Owned Personally Enabled) devices, rugged mobile devices, smartphones, laptops, computers, etc." 
