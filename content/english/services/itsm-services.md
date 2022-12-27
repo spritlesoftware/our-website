@@ -1,7 +1,7 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "ITSM sevices"
+custom_title_value: "ITSM services"
 layout : "manage"
 title: "Enterprise Integration Services using ManageEngine"
 description: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"
@@ -11,7 +11,7 @@ locale: "en_US"
 type: "website"
 title: "ITSM sevices" 
 ogdescription: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"   
-link: "https://www.spritle.com/products/voicebot/"
+link: "https://www.spritle.com/services/itsm-services/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
 alt: "Conversational Voicebot" 
@@ -59,7 +59,7 @@ banner:
   alt: "Custom Software Development Services"
   video:
     enable: true
-    video_embed_link: "images/manageengine/manageengine-main.mp4"
+    video_embed_link: "/images/manageengine/manageengine-main.mp4"
   button:
     enable: true
     button_label: "Get in touch"
@@ -90,7 +90,7 @@ verticals:
 sectionbanner:
   enable : true
   title : "**Integration, Your way...**"
-  contents : "Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, Netflow analyser, firewall reporting tool, and much more."
+  contents : "Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, netflow analyzer, firewall reporting tool, and much more."
   content2: "You name it, we do it"
  
 
