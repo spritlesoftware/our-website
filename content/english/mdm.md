@@ -73,7 +73,7 @@ verticals:
 about_us:
   enable : true
   title : "Ensure Productivity and Security!" 
-  image : "images/mdm-images/Section-4.webp"
+  image : "images/mdm-images/Sec-4.webp"
   alt: "Ensure Productivity and Security"
   contents : ""
   bulletpoints:
@@ -98,7 +98,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Secure your devices with our MDM!**"
-  image : "images/mdm-images/Section-2.webp"
+  image : "images/mdm-images/Sec-2.webp"
   alt: "Secure your devices with our MDM"
   bulletpoints:
     - "Our MDM offers security controls that can keep data secured and prevent corporate data leakage." 
@@ -120,7 +120,7 @@ section3:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Manage devices with One Click!**"
-  image : "images/mdm-images/Section-3.webp"
+  image : "images/mdm-images/Sec-3.webp"
   alt: "Manage devices with One Click"
   bulletpoints:
     - "Control any devices, be it BYOD (Bring Your Own Device) or COPE (Corporate Owned Personally Enabled) devices, rugged mobile devices, smartphones, laptops, computers, etc." 
