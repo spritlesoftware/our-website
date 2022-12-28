@@ -2,7 +2,7 @@
 ############################ Banner ##################################
 custom_title_enabled: true
 custom_title_value: " Best Mobile Device Management provider in the industry"
-layout : "fms"
+layout : "mdm"
 title: "Best Mobile Device Management provider in the industry"
 description: "The only solution you will need to manage all the devices under one roof is our Mobile Device Management. Our solution ensures that all your needs are met from sharing the corporate data securely to remotely troubleshooting devices with unattended access. Our solution is stunning when you need to wipe corporate data from jailbroken devices."
 keywords : [Mobile Device Management,Best MDM software,MDM software,BYOD ]
@@ -34,7 +34,7 @@ banner:
   banner_heading:
   - "**Pioneers in Mobile Device Management!**"
   contents : "Our Mobile device Management solution supports you in managing and controlling all the devices in your workplace. Provide a safe and secure digital workplace while ensuring productivity."
-  image: "images/mdm-images/banne.webp"
+  image: "images/mdm-images/banne.png"
   alt : "Pioneers in Mobile Device Management"
 
   button:
@@ -73,7 +73,7 @@ verticals:
 about_us:
   enable : true
   title : "Ensure Productivity and Security!" 
-  image : "images/mdm-images/Sec-4.webp"
+  image : "images/mdm-images/Design-stats-pana.png"
   alt: "Ensure Productivity and Security"
   contents : ""
   bulletpoints:
@@ -98,7 +98,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Secure your devices with our MDM!**"
-  image : "images/mdm-images/Sec-2.webp"
+  image : "images/mdm-images/Security-cuate.png"
   alt: "Secure your devices with our MDM"
   bulletpoints:
     - "Our MDM offers security controls that can keep data secured and prevent corporate data leakage." 
@@ -120,7 +120,7 @@ section3:
   description: "asd ad asDA dASD"
   enable : true
   title : "**Manage devices with One Click!**"
-  image : "images/mdm-images/Sec-3.webp"
+  image : "images/mdm-images/Multi-device-targeting-rafiki.png"
   alt: "Manage devices with One Click"
   bulletpoints:
     - "Control any devices, be it BYOD (Bring Your Own Device) or COPE (Corporate Owned Personally Enabled) devices, rugged mobile devices, smartphones, laptops, computers, etc." 

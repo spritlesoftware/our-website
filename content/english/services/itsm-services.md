@@ -55,11 +55,11 @@ banner:
     - "Your go to **Technology Partner** for a best ever **Automation Experience.**"
     - "**Reimagining & Re-engineering** Enterprise Solutions towards **efficiency.**"
   content: "Advanced custom made Softwares. <br>  Premium Apps, Portals & Digital Solutions.<br> We aim to innovate cutting-edge technologies for a better tomorrow."
-  image: "/images/manageengine/me_video.webp"
+  image: "/images/manageengine/me_video.png"
   alt: "Custom Software Development Services"
   video:
     enable: true
-    video_embed_link: "/images/manageengine/manageengine-main.mp4"
+    video_embed_link: "/images/manageengine/managngine-main.mp4"
   button:
     enable: true
     button_label: "Get in touch"
@@ -160,7 +160,7 @@ section5:
   title : "**Custom Mobile App Development for ManageEngine**"
   image : "https://spritle-house-assets.s3.ap-southeast-1.amazonaws.com/manageengine/fms-mob-img-min.webp"
   alt: "cross platform mobile application company in USA"
-  contents : "Spritle, the **first customer of ManageEngine to build custom mobile application**, specifically designed for on-the-ground Technicians to have access to data, monitor & perform actions from where they are!"
+  contents : "Spritle, the **first customer of ManageEngine to build a custom mobile application**, specifically designed for on-the-ground Technicians to have access to data, monitor & perform actions from where they are!"
 
 capablities:
   title : "**Our Integration Capabilities using ManageEngine Services**"
