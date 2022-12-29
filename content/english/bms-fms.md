@@ -35,7 +35,7 @@ banner:
   banner_heading:
   - "Leaders in **FMS & BMS** space for a decade"
   contents : "Our Building Automation System can make any building more comfortable, efficient, and joyful. With our system in place, you can be confident your building is ready for the future."
-  image: "images/bmsimages/smart.webp"
+  image: "images/bmsimages/smartt.webp"
   alt : "Top Building and Facility Management service providers in the industry"
 
   button:
