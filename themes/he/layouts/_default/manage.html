@@ -1,7 +1,7 @@
 {{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
 <!-- start of banner  -->
 
-<section class="banner1 bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom aos-init aos-animate d-none d-xl-block ">
+<section class="banner1 bg-cover-bottom has-shapes bg-light-gray has-bg-brash bg-brash-bottom aos-init aos-animate d-xl-block ">
   <div class="">
     <div class="">
       <div style="background-color: #fff;" class="col-12 ">
@@ -148,7 +148,7 @@
             src=""
             id="showVideo"
             allowscriptaccess="always"
-            allow="autoplay"
+            
           ></iframe>
         </div>
       </div>
@@ -166,7 +166,7 @@
 
 <section 
   class=" section-padding bg-cover-bottom has-shapes has-bg-brash bg-brash-bottom"
-  style="background-image: url('{{`images/brushes/svgviewer-png-output.png` | absURL }}')"
+  
   data-aos="fade-in"
   data-aos-delay="0"
 >
@@ -526,14 +526,6 @@ data-aos="fade-in" data-aos-delay="0">
 {{ end }} {{ end }}
 <!-- end of brand-carousel -->
 
-
-
-<script>
-  $('.teamSelector').click(function() { 
-    // some functions
-});
-</script>
-
   <style>
 
     /* Media Query for Mobile Devices */
@@ -813,4 +805,6 @@ data-aos="fade-in" data-aos-delay="0">
 }
    }
     </style>
+
+    
 {{ end }} 

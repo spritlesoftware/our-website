@@ -34,7 +34,7 @@ banner:
   banner_heading:
   - "**Pioneers in Mobile Device Management!**"
   contents : "Our Mobile device Management solution supports you in managing and controlling all the devices in your workplace. Provide a safe and secure digital workplace while ensuring productivity."
-  image: "images/mdm-images/banne.png"
+  image: "images/mdm-images/Meeting-pana.png"
   alt : "Pioneers in Mobile Device Management"
 
   button:

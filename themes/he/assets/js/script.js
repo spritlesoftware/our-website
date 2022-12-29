@@ -405,7 +405,7 @@ $(window).bind("load", function () {
           );
         });
         $("#videoModal").on("hide.bs.modal", function (e) {
-          $("#showVideo").attr("src", $videoSrc);
+          $("#showVideo").attr("src", '');
         });
       }
       videoPopupInit();
