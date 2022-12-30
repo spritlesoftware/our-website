@@ -206,6 +206,7 @@ input::-webkit-inner-spin-button {
             document.body.appendChild(a);
             a.click();
             window.URL.revokeObjectURL(url);
+            window.open(filePath, '_blank').focus();
              // or you know, something with better UX...
              
         })
