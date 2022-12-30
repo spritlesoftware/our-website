@@ -121,7 +121,7 @@ collect_info:
 section3:
   enable : true
   title : "**Everything is at your fingertips!**"
-  image : "images/airport/airport.webp"
+  image : "images/airport/handmob.png"
   alt: "Everything is at your fingertips!"
   contents : ""
   bulletpoints:
