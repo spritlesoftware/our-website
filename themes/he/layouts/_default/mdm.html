@@ -34,7 +34,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </div>
           {{ end }}
         </div>
-        <p>{{ .contents | markdownify }}</p>
+        <p class="">{{ .contents | markdownify }}</p>
 
         {{if .button.enable }} {{with .button }}
 
@@ -44,7 +44,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         data-toggle="modal"
         data-target="#myModal"
         type="submit"
-        class="btn btn-primary mt-15 banner-btn"
+        class="btn btn-primary mt-25 banner-btn"
         style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
         >{{.button_label}}</a>
 
