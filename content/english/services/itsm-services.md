@@ -99,7 +99,7 @@ section2:
   enable : true
   title : "**Building Management System**"
   image : "/images/manageengine/bms.png"
-  alt: "Workflow Diagram for Conversational AI Bots"
+  alt: "Building Management System"
   contents : "We use a variety of techniques and technologies to deliver Airport Management System services, guaranteeing that there is no downtime at the airports. Even the smallest errors are recorded, raised as tickets, and automatically assigned to the relevant party."
   button:
     enable: true
@@ -111,7 +111,7 @@ section3:
   enable : true
   title : "**Airport Management System**"
   image : "images/manageengine/airport.png"
-  alt: "Query Management using Conversational AI Bots "
+  alt: "Airport Management System"
   contents : "We use a variety of techniques and technologies to deliver Airport Management System services, guaranteeing that there is no downtime at the airports. Even the smallest errors are recorded, raised as tickets, and automatically assigned to the relevant party."
   button:
     enable: true
@@ -145,7 +145,7 @@ sectionnew:
   enable: true
   title: "Mobile Device Management"
   image: "images/manageengine/mdm.png"
-  alt: "Cross Platform Mobile Application Development Services"
+  alt: "Mobile Device Management"
   content: "Our Mobile Device Management provides you access to all of your devices through one platform. Using our MDM system, you can track locations, lock down personal apps, get alerts when devices leave a permitted region, erase business data, and more."
   button:
     enable : true

@@ -13,16 +13,15 @@ ogtitle: "Best Mobile Device Management provider in the industry"
 ogdescription: "The only solution you will need to manage all the devices under one roof is our Mobile Device Management. Our solution ensures that all your needs are met from sharing the corporate data securely to remotely troubleshooting devices with unattended access. Our solution is stunning when you need to wipe corporate data from jailbroken devices."   
 link: "https://www.spritle.com/mdm/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/airport-managemnt/airport-runway.png.pagespeed.ic._Eo2HDj5Em.webp" 
+Ogimage: "https://www.spritle.com/mdm-images/Meeting-pana.png.pagespeed.ic._Eo2HDj5Em.webp" 
 alt: "Best Mobile Device Management provider in the industry" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Best Airport Facility Management Company in the industry"  
-twitter_description: "A powerful tool that can help you manage all your airport facilities as a whole. It can help you keep your staff on task and keep your facilities running smoothly. 
-From clearing trash to runway lights, we take care of everything for you. Get notified every minute about the incidents happening and their resolution status."
+twitter_title: "Best Mobile Device Management Company in the industry"  
+twitter_description: "The only solution you will need to manage all the devices under one roof is our Mobile Device Management. Our solution ensures that all your needs are met from sharing the corporate data securely to remotely troubleshooting devices with unattended access. Our solution is stunning when you need to wipe corporate data from jailbroken devices."
 twitter_creater: "@spritlesoftware"
-twitter_image: "https://www.spritle.com/images/airport/airport-runway.webp.pagespeed.ic._Eo2HDj5Em.webp" 
+twitter_image: "https://www.spritle.com/images/mdm-images/Meeting-pana.png.pagespeed.ic._Eo2HDj5Em.webp" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true

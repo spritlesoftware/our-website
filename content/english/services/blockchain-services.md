@@ -50,6 +50,7 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
+  pagename: "Blockchain-services"
 
 verticals:
   title : "Our Blockchain Development Services"
@@ -88,7 +89,7 @@ verticals:
 
 
 
-section1:
+genomic:
   enable: true
   title: "StromX"
   image: "images/blockchain/stromx.png"
@@ -97,7 +98,7 @@ section1:
 By utilizing the powers of blockchain technology, the company has been able to offer rewards.
 In order to turn bitcoin cashbacks into cryptocurrency credit cards, Spritle assists StromX."
 
-section2:
+geosnapshot:
   enable: true
   title: "D’Atelier"
   image: "images/blockchain/datlier.jpg"
@@ -131,22 +132,22 @@ why_choose_us:
   image : "/images/screenshots/03.png" 
   list:
   - name : "**360° Holistic Approach.**"
-    image : "images/blockchain/360.jpg"  
+    image : "images/blockchain/366.png"  
 
   - name : "**Dynamic Engagement Model**"
-    image : "/images/blockchain/dynamic.png"  
+    image : "/images/blockchain/dynamicc.png"  
       
   - name : "**Client Association at Each Stage**"
-    image : "/images/blockchain/client.png"
+    image : "/images/blockchain/Mask.png"
 
   - name : "**Use of Latest Technologies**"
-    image : "/images/blockchain/use.png" 
+    image : "/images/blockchain/usee.png" 
     
   - name : "**Center of Excellence and Research Team**"
-    image : "/images/blockchain/center.png"
+    image : "/images/blockchain/centerr.png"
 
   - name : "**Agile and Lean Project Execution Approach**"
-    image : "/images/blockchain/agile.png" 
+    image : "/images/blockchain/agilee.png" 
 
   button:
     enable: true
