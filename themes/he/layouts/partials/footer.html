@@ -45,7 +45,7 @@
           <h5 class="font-weight-600 mb-20">{{ i18n "quick_links"}}</h5>
           <ul class="list-unstyled footer-links">
             {{ range site.Menus.footer }}
-            <li><a href="{{ .URL | absLangURL }}" target="new">{{.Name}}</a></li>
+            <li><a href="{{ .URL | absLangURL }}" target="_blank">{{.Name}}</a></li>
             {{ end }}
           </ul>
         </div>

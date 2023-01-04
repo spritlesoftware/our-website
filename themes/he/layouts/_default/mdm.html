@@ -1,6 +1,6 @@
 {{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
 <!-- start of banner  -->
-<section class="banner  bg-cover-bottom has-shapes  bg-light-gray has-bg-brash  bg-brash-bottom"
+<section class="banner bg-cover-bottom has-shapes  bg-light-gray has-bg-brash  bg-brash-bottom"
 style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}');">
 
   <div class="container h-100">
@@ -11,8 +11,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         >
           <img
           style="margin-left:0px;
-                 width:520px;
-                 height: 341px;
+                 
           "
             loading="lazy"
             class="img-fluid"
@@ -35,7 +34,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           </div>
           {{ end }}
         </div>
-        <p>{{ .contents | markdownify }}</p>
+        <p class="">{{ .contents | markdownify }}</p>
 
         {{if .button.enable }} {{with .button }}
 
@@ -45,7 +44,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         data-toggle="modal"
         data-target="#myModal"
         type="submit"
-        class="btn btn-primary mt-15"
+        class="btn btn-primary mt-25 banner-btn"
         style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
         >{{.button_label}}</a>
 
@@ -67,7 +66,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
 <!-- start section -->
 
 <section
-  class="section-padding  sec2 pt-60 pb-60 image-info-section has-shapes has-bg-brash bg-brash-y"
+  class="section-padding  sec2 pt-50 pb-60 image-info-section has-shapes has-bg-brash bg-brash-y"
   data-aos="fade-up"
   data-aos-delay="150"
 >
@@ -88,7 +87,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
     </div>
     <div class="col-lg-5 col-md-8 col-sm-10">
       <h2 class="section-title">{{ .title | markdownify }}</h2>
-      <div class="row mb-9">
+      <div class="row mb-10">
         {{ range .images }}
         <div class="col-md-4 text-center">
           <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
@@ -189,7 +188,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         data-toggle="modal"
         data-target="#myModal"
         type="submit"
-        class="btn btn-primary mt-25"
+        class="btn btn-primary mt-15"
         style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
         >{{.button_label}}</a>
 
@@ -287,19 +286,24 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
 </section>
 
 <style>
-
-  @media only screen and (max-width: 768px) {
-       .banner-btn {
-        margin-bottom: 30px;
-       }
-       .sec2 {
-        padding-top: 10px;
-       }
-       .vert {
-        padding-bottom: 20px;
-       }
-  }
-  </style>
+    
+    .banner {
+       padding-top: 10px !important;
+       padding-bottom: 20px !important;
+    }
+@media only screen and (max-width: 768px) {
+     .banner-btn {
+      margin-bottom: 30px;
+     }
+     .sec2 {
+      padding-top: 10px;
+     }
+     .vert {
+      padding-bottom: 20px;
+     }
+     
+}
+</style>
 
 <script>
   document.addEventListener('DOMContentLoaded', (event) => {
