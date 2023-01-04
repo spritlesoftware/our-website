@@ -91,6 +91,7 @@ verticals:
 
 genomic:
   enable: true
+  htitle: "Our Blockchain Projects"
   title: "StromX"
   image: "images/blockchain/stromx.png"
   alt: "Target Audience and Solution Partners "
@@ -144,10 +145,12 @@ why_choose_us:
     image : "/images/blockchain/usee.png" 
     
   - name : "**Center of Excellence and Research Team**"
-    image : "/images/blockchain/centerr.png"
+    image : "/images/blockchain/shield.svg"
 
-  - name : "**Agile and Lean Project Execution Approach**"
-    image : "/images/blockchain/agilee.png" 
+  - name : "**Center of Excellence and Research Team**"
+    image : "/images/blockchain/shield.svg"
+
+  
 
   button:
     enable: true

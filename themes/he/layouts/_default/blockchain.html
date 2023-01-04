@@ -120,6 +120,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
               <img style="height: 60px; width: 60px;" loading="lazy" alt="{{ .alt }}" class="img-fluid" src="{{ .image | absURL }}" alt="">
               <h2 class="section-title">{{.title}}</h2>
               <p class="text-black-300 font-weight-light">{{ .name | markdownify }}</p>
+              
             </div>
           </div>
           
@@ -156,6 +157,11 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
 >
   <div>
     <div class="container" >
+      <div class="row align-items-center justify-content-around">
+        <div class="col-lg-12">
+          <h2 class="section-title text-center">{{ .htitle | markdownify }}</h2>
+        </div>
+      </div>
       <div class="row align-items-center justify-content-around">
         <div class="col-lg-5 col-md-8 col-sm-10">
           <div class="d-inline-block">
@@ -285,16 +291,16 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
   {{ end }} {{ end }}
   <!-- end section --> 
 
-  <section class="section-padding  " data-aos="fade-in">
+  <section class="section-padding pt-50 pb-50  " data-aos="fade-in">
   <div class="container">
     <h2 class="text-center mb-40">Our Blockchain Technology Stack</h2>
     <div class="">
       <ul class="nav nav-pills nav-tabs justify-content-center ">
-       <li class="active p-20 fs"><a class="tab-link"  data-toggle="pill" href="#home">Smart Contracts</a></li>
-       <li class="fs p-20"><a  class="tab-link " data-toggle="pill" href="#menu1">Programming Languages</a></li>
-       <li class="fs p-20"><a class="tab-link "  data-toggle="pill" href="#menu2">Frameworks</a></li>
-       <li class="fs p-20"><a class="tab-link " data-toggle="pill" href="#menu3">Database</a></li>
-       <li class="fs p-20"><a class="tab-link "  data-toggle="pill" href="#menu4">Wallets</a></li> 
+       <li class="active p-20 fs"><a class="tab-link" id="a-line"  data-toggle="pill" href="#home">Smart Contracts</a></li>
+       <li class="fs p-20"><a  class="tab-link "id="a-line" data-toggle="pill" href="#menu1">Programming Languages</a></li>
+       <li class="fs p-20"><a class="tab-link "id="a-line"  data-toggle="pill" href="#menu2">Frameworks</a></li>
+       <li class="fs p-20"><a class="tab-link "id="a-line" data-toggle="pill" href="#menu3">Database</a></li>
+       <li class="fs p-20"><a class="tab-link "id="a-line"  data-toggle="pill" href="#menu4">Wallets</a></li> 
      
       </ul>
    </div>
@@ -302,47 +308,42 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
     <div class="tab-content mt-20">
       <div id="home" class="tab-pane fade-in active">
         <div class=" d-flex flex-row justify-content-center">
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/alchemy.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/hardhat.jpg" class="img-fluid"></div></div>
-          
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/alchemy.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/hardhat.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/metamask.png" class="img-fluid"></div></div>
         </div>
       </div>
       <div id="menu1" class="tab-pane fade">
         <div class=" d-flex flex-row justify-content-center">
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/python.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/cp.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/solidity.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/python.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/cp.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/solidity.jpg" class="img-fluid"></div></div>
          
         </div>
       </div>
       <div id="menu2" class="tab-pane fade">
         <div class=" d-flex flex-row justify-content-center">
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/node.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/Ethers.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/web3.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/react.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/Angular-JS.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/next.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/node.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/Ethers.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/web3.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/react.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/Angular-JS.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/next.jpg" class="img-fluid"></div></div>
         </div>
       </div>
       <div id="menu3" class="tab-pane fade">
         <div class=" d-flex flex-row justify-content-center">
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/mongodb.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/mongodb.jpg" class="img-fluid"></div></div>
         </div>
       </div>
       
       <div id="menu4" class="tab-pane fade">
         <div class=" d-flex flex-row justify-content-center">
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/node.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/Ethers.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/web3.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/react.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/Angular-JS.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="images/blockchain/next.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/binance.png" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/metamask.png" class="img-fluid"></div></div>
+         
         </div>
-          
-          
-        </div>
+      </div>
     </div>
   </div>
 </section>  
@@ -370,10 +371,45 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           {{ range $i, $e:= .list }}
 
           <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
-            <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5 mb-30">
-              <img style="height: 60px; width: 60px;" loading="lazy" alt="{{ .alt }}" class="img-fluid" src="{{ .image | absURL }}" alt="">
+            <div class=" text-center mb-30">
+             
               <h2 class="section-title">{{.title}}</h2>
-              <p class="text-black-300 font-weight-light">{{ .name | markdownify }}</p>
+              <h4 class="text-black-300 font-weight-light">{{ .name | markdownify }}</h4>
+              <div class="row mb-7">
+                {{ range .images }}
+                <div class="col-md-4 text-center">
+                  <img
+                    loading="lazy"
+                    class="img-fluid "
+                    src="{{ . |absURL}}"
+                    alt="{{ .alt }}"
+                  />
+                </div>
+                {{ end }}
+              </div>
+              <ul class="check-list list-unstyled">
+                {{ range .bulletpoints }}
+                <li class="mb-10">
+                  <svg
+                    width="16"
+                    height="11"
+                    viewBox="0 0 18 13"
+                    class="text-primary mr-2"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 6.125L6.91892 11L16 2"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  {{. | markdownify}}
+                </li>
+                {{ end }}
+              </ul>
             </div>
           </div>
           
@@ -460,6 +496,7 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
 <style>
   .fs {
     font-size: 20px;
+    margin-left: 3%;
   }
   .border-round {
     padding: 0;
@@ -479,6 +516,29 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
     justify-content: center;
     flex-direction: column;
   }
+  #a-line {
+    text-decoration: none;
+  }
+  .check-list li {
+    position: relative;
+    padding-left: 35px;
+  }
+
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1024px){
+      .fs {
+        margin-left: 0% !important;
+        padding: 10px 20px !important;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .fs {
+        margin-left: 0% !important;
+        padding: 5px 10px !important;
+
+      }
+    }
 
 </style>
 
