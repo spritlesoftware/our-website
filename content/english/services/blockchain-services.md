@@ -135,19 +135,19 @@ why_choose_us:
   - name : "**360° Holistic Approach.**"
     image : "images/blockchain/366.png"  
 
-  - name : "**Dynamic Engagement Model**"
+  - name : "**Use of Latest Technologies**"
     image : "/images/blockchain/dynamicc.png"  
       
   - name : "**Client Association at Each Stage**"
     image : "/images/blockchain/Mask.png"
 
-  - name : "**Use of Latest Technologies**"
+  - name : "**Dynamic Engagement Model**"
     image : "/images/blockchain/usee.png" 
     
   - name : "**Center of Excellence and Research Team**"
     image : "/images/blockchain/shield.svg"
 
-  - name : "**Center of Excellence and Research Team**"
+  - name : "**Agile and Lean Project Execution Approach**"
     image : "/images/blockchain/shield.svg"
 
   
