@@ -33,11 +33,11 @@ draft: false
 
 banner:
   enable : true
-  title : "Our voicebot can understand your patient"
+  title : "Blockchain Development Company"
   banner_heading:
   - "Blockchain Development Company "
   contents : "Give your company access to immutable, decentralized, and secure blockchain technologies. With our broad range of blockchain development services, we aid startups, companies, and enterprises in creating more automated, transparent, and effective versions of their operations."
-  image: "images/blockchain/banner.jpg"
+  image: "images/blockchain/block-chain.png"
   alt : "Conversational AI Voice Bots for Hospital Automation"
 
   button:

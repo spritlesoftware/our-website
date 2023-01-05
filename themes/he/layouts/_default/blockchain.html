@@ -33,9 +33,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           {{ end }} {{ end }}
 
           <img
-          style="margin-left:0px;
-          width:550px ;
-          height:350px ;"
+          style="margin-left:0px;"
             loading="lazy"
             class="img-fluid"
             alt="{{ .alt }}"
@@ -120,7 +118,6 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
               <img style="height: 60px; width: 60px;" loading="lazy" alt="{{ .alt }}" class="img-fluid" src="{{ .image | absURL }}" alt="">
               <h2 class="section-title">{{.title}}</h2>
               <p class="text-black-300 font-weight-light">{{ .name | markdownify }}</p>
-              
             </div>
           </div>
           
@@ -293,7 +290,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
 
   <section class="section-padding pt-50 pb-50  " data-aos="fade-in">
   <div class="container">
-    <h2 class="text-center mb-40">Our Blockchain Technology Stack</h2>
+    <h2 class=" section-title text-center mb-40">Our Blockchain Technology Stack</h2>
     <div class="">
       <ul class="nav nav-pills nav-tabs justify-content-center ">
        <li class="active p-20 fs"><a class="tab-link" id="a-line"  data-toggle="pill" href="#home">Smart Contracts</a></li>
@@ -371,7 +368,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
           {{ range $i, $e:= .list }}
 
           <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
-            <div class=" text-center mb-30">
+            <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5 mb-30">
              
               <h2 class="section-title">{{.title}}</h2>
               <h4 class="text-black-300 font-weight-light">{{ .name | markdownify }}</h4>
@@ -518,10 +515,6 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
   }
   #a-line {
     text-decoration: none;
-  }
-  .check-list li {
-    position: relative;
-    padding-left: 35px;
   }
 
    /* Media Query for Tablets Ipads portrait mode */
