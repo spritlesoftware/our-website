@@ -13,7 +13,7 @@ ogtitle: "Best Mobile Device Management provider in the industry"
 ogdescription: "The only solution you will need to manage all the devices under one roof is our Mobile Device Management. Our solution ensures that all your needs are met from sharing the corporate data securely to remotely troubleshooting devices with unattended access. Our solution is stunning when you need to wipe corporate data from jailbroken devices."   
 link: "https://www.spritle.com/mdm/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/mdm-images/Device.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+Ogimage: "https://www.spritle.com/mdm-images/Devices.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 alt: "Best Mobile Device Management provider in the industry" 
 
 ########################### Twitter #################################

@@ -47,7 +47,7 @@
 
 <div class="container">
   <h2 class="section-title text-center">Integration, Your way...</h2>
-  <h3 class="pb-20 mb-20 text-center">Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, Netflow analyser, firewall reporting tool, and much more.</h3>
+  <h3 class="pb-20 mb-20 text-center">Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, netflow analyser, firewall reporting tool, and much more.</h3>
   <h3 class="pb-20 mb-20 text-center">You name it, we do it</h3>   
 </div>
 
@@ -237,7 +237,7 @@ data-aos-delay="0"
             alt="{{ .alt }}"
           />
             <h2 class="section-title">{{ .title | markdownify }}</h2>
-            <p class="pb-20 ">{{ .contents | markdownify }}</p>
+            <p class="pb-20">{{ .contents | markdownify }}</p>
             {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
               end }} {{ end }}
     
@@ -251,7 +251,7 @@ data-aos-delay="0"
             
           </div>
         <div class="col-lg-5 col-md-8 col-sm-10">
-        <div class="d-block text-center">
+        <div class=" text-center">
           <img
             style="height: 100%; width: 500px;"
             loading="lazy"
@@ -272,7 +272,7 @@ data-aos-delay="0"
 <!-- end section -->
 
 <!-- start of section 3 subsection -->
-<section class=" section-padding pt-60 pb-60">
+<section class=" section-padding pad pt-60 pb-60">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-30">
@@ -311,7 +311,7 @@ data-aos-delay="0"
 
 {{ if .Params.section2.enable }} {{ with .Params.section2 }}
 <section 
-  class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
+  class="section-padding pt-60 pb-70 image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
   data-aos="fade-up"
   data-aos-delay="0"
@@ -320,7 +320,7 @@ data-aos-delay="0"
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-block text-center">
-          <img
+          <img 
             loading="lazy"
             class="img-fluid rounded-sm"
             src="{{ .image | absURL }}"
@@ -354,10 +354,10 @@ data-aos-delay="0"
 <!-- end section -->
 
 {{if .Params.sectionnew.enable }} {{with .Params.sectionnew }}
-  <section class="section-padding pt-60 pb-60  has-shapes bg-brash-y ">
+  <section class="section-padding pt-30 pb-30  has-shapes bg-brash-y ">
     <div class="container">
       <div class="row align-items-center justify-content-around">
-        <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
+        <div class="col-lg-5 col-md-8 col-sm-10  mt-lg-0">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
           <p class="pb-20">{{ .content | markdownify }}</p>
           
@@ -401,7 +401,7 @@ data-aos-delay="0"
         </div>
   
         <div class="col-lg-5 col-md-8 col-sm-10 mt-3">
-          <div class="d-inline-block">
+          <div class="d-block text-cente">
             <img
               loading="lazy"
               class="img-fluid rounded-sm"
@@ -536,6 +536,23 @@ data-aos="fade-in" data-aos-delay="0">
       .mbanner{
       display: block;
       }
+      #videoModal .close {
+          position: absolute;
+          right: -4px !important;
+          top: -40px;
+          z-index: 999;
+          font-size: 2rem !important;
+          font-weight: 400;
+          color: #fff;
+          opacity: 1;
+      }
+      .modal-content {
+          padding-left: 19px !important;
+      }
+      .pad {
+        padding-bottom: 10px !important;
+      }
+
     }
     /* Media Query for low resolution  Tablets, Ipads */
     @media (min-width: 481px) and (max-width: 767px) {
@@ -563,18 +580,44 @@ data-aos="fade-in" data-aos-delay="0">
         {
           left: 50% !important;
         }
-    }
+        #videoModal .close {
+          position: absolute;
+          right: 0px;
+          top: -40px;
+          z-index: 999;
+          font-size: 38px;
+          font-weight: 400;
+          color: #fff;
+          opacity: 1;
+        }
+        .modal-content {
+          padding-left: 19px !important;
+        }
+  }
     
     /* Media Query for Laptops and Desktops */
-    @media (min-width: 1025px) and (max-width: 1280px){
-      .dbanner{
-      display: block;
-      }
+    @media (min-width: 1025px) and (max-width: 1450px){
+        .dbanner{
+          display: block;
+        }
     
-      .mbanner{
-      display:none;
-      }
-    }
+        .mbanner{
+          display:none;
+        }
+        #videoModal .close {
+          position: absolute;
+          right: -8px !important;
+          top: -40px;
+          z-index: 999;
+          font-size: 38px !important;
+          font-weight: 400;
+          color: #fff;
+          opacity: 1;
+        }
+        .modal-content {
+          padding-left: 19px !important;
+        }
+  }
     
     /* Media Query for Large screens */
     @media (min-width: 1281px) {
@@ -635,6 +678,7 @@ data-aos="fade-in" data-aos-delay="0">
     .containere{
       width: 1400px;
     }
+    
 
     @media (max-width: 576px) { 
       .mb-img 
