@@ -47,7 +47,7 @@
 
 <div class="container">
   <h2 class="section-title text-center">Integration, Your way...</h2>
-  <h3 class="pb-20 mb-20 text-center">Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, netflow analyser, firewall reporting tool, and much more.</h3>
+  <h3 class="pb-20 mb-20 text-center">Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, netflow analyzer, firewall reporting tool, and much more.</h3>
   <h3 class="pb-20 mb-20 text-center">You name it, we do it</h3>   
 </div>
 
@@ -64,9 +64,9 @@
         
       </div>
     </div>
-    <div class="col-lg-6 mx-auto d-block ">
+    <div class="col-lg-8 mx-auto d-block ">
       <div
-        class="has-video-popup has-shapes mb-4 mb-md-5"
+        class="has-video-popup has-shapes center"
       >
         {{ if .video.enable }} {{ with .video }}
         <button
@@ -90,18 +90,16 @@
         </button>
         {{ end }} {{ end }}
         <img
-          class="mb-img center-block img-thumbnail"
+          class="mb-img center center-block img-thumbnail"
           height="500px"
           width="700px"
           src="{{ .image | absURL }}"
           alt="{{ .alt }}"
         />
-        <div class="shape-lg bg-cyan rounded-circle"></div>
-        <div class="shape-md bg-orange rounded-circle"></div>
-        <div class="shape-sm bg-yellow rounded-circle"></div>
+        
       </div>
     </div>
-    <div class=" col-lg-3">
+    <div class=" col-lg-2">
       <!--<h2 class="h1 mb-20">{{ .title | markdownify }}</h2>-->
       <div class="banner-heading-slider mb-20">
         {{ range .banner_heading }}
@@ -111,6 +109,9 @@
       
     </div>
   </div>
+  <div class="shape-lg bg-cyan rounded-circle"></div>
+        <div class="shape-md bg-orange rounded-circle"></div>
+        <div class="shape-sm bg-yellow rounded-circle"></div>
   </div>
 
 
@@ -604,6 +605,10 @@ data-aos="fade-in" data-aos-delay="0">
         .mbanner{
           display:none;
         }
+        .has-video-popup .video-play-btn
+        {
+          left: 48% !important;
+        }
         #videoModal .close {
           position: absolute;
           right: -8px !important;
@@ -677,6 +682,11 @@ data-aos="fade-in" data-aos-delay="0">
 
     .containere{
       width: 1400px;
+    }
+    .center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     
 
