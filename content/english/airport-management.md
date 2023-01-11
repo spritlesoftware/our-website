@@ -15,7 +15,7 @@ ogdescription: "A powerful tool that can help you manage all your airport facili
 From clearing trash to runway lights, we take care of everything for you. Get notified every minute about the incidents happening and their resolution status."   
 link: "https://www.spritle.com/airport-management/"
 site_name: "Spritle Software"
-Ogimage: "images/airport/airplane.webp" 
+Ogimage: "/images/airport/airplane.webp" 
 alt: "Best Airport Facility Management Company in the industry" 
 
 ########################### Twitter #################################
@@ -24,7 +24,7 @@ twitter_title: "Best Airport Facility Management Company in the industry"
 twitter_description: "A powerful tool that can help you manage all your airport facilities as a whole. It can help you keep your staff on task and keep your facilities running smoothly. 
 From clearing trash to runway lights, we take care of everything for you. Get notified every minute about the incidents happening and their resolution status."
 twitter_creater: "@spritlesoftware"
-twitter_image: "images/airport/airplane.webp" 
+twitter_image: "/images/airport/airplane.webp" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
