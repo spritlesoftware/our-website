@@ -14,7 +14,7 @@ ogtitle: "Top Building and Facility Management service providers in the industry
 ogdescription: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."   
 link: "https://www.spritle.com/bms-fms/"
 site_name: "Spritle Software"
-Ogimage: "images/bmsimages/modern-creative.webp" 
+Ogimage: "http://demo.spritle.com/images/bmsimages/modern-creative.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 alt: "Top Building and Facility Management service providers in the industry" 
 
 ########################### Twitter #################################
@@ -23,7 +23,7 @@ twitter_title: "Top Building and Facility Management service providers in the in
 twitter_description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "images/bmsimages/modern-creative.webp" 
+twitter_image: "http://demo.spritle.com/images/bmsimages/modern-creative.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
