@@ -3,6 +3,7 @@ title: "Business Analyst (Fresher)"
 description: "this is meta description"
 job_type: "Full Time"
 draft: false
+careers: true
 ---
 
 ### **Job Description**

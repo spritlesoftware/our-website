@@ -3,6 +3,7 @@ title: "Ruby on Rails Developer-(Experience)"
 description: "this is meta description"
 job_type: "Full Time"
 draft: false
+careers: true
 ---
 
 ​

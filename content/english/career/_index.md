@@ -4,6 +4,7 @@ custom_title_enabled: true
 custom_title_value: "Careers"
 description: "Find your dream job in custom software development, Ruby on Rails, React Native and cross platofrm app development."
 draft: false
+careers: true
 keywords:
   [
     Find Your Dream Job,
