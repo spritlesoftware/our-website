@@ -33,13 +33,13 @@ testimonial:
   testimonial_item:
     - date: "28 Jan 2023"
       title: "Functional Medicine title title Functional "
-      image: "/images/webinars/sid.png"
+      image: "/images/webinars/mohan.png"
       name: "Mohan Kumar & Avi"
       role: "BLockchain developer"
       time: "09:25 AM IST"
       duration: "45 mins English"
       desc: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions ."
-      register_link: "#"
+      register_link: "/events_webniars/blockchain-dapps/"
       button_text: "Register"
       past: false
 
@@ -52,7 +52,7 @@ testimonial:
       duration: "45 mins | English"
       desc: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions ."
       register_link: "#"
-      button_text: "Register"
+      button_text: "View"
       past: true
 
     - date: "08 Dec 2022"
