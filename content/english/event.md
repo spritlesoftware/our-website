@@ -39,7 +39,7 @@ Location link: https://maps.app.goo.gl/kDcuQFFC8LF911tx7
   button:
     enable : true
     button_label : "Register"
-    link : "services/web-application-development-services/"
+    link : "https://www.meetup.com/blockchain-developers-community-chennai/events/291139042/"
 
 section1:
   enable: true
