@@ -123,9 +123,14 @@ url = "blogs/"
 weight = 6
 
 [[main]]
+name = "Events"
+url = "events/"
+weight = 7
+
+[[main]]
 name = "Contact"
 url = "contact/"
-weight = 7
+weight = 8
 
 
 # Footer menu

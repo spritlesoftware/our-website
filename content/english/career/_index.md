@@ -4,6 +4,7 @@ custom_title_enabled: true
 custom_title_value: "Careers"
 description: "Find your dream job in custom software development, Ruby on Rails, React Native and cross platofrm app development."
 draft: false
+careers: true
 keywords:
   [
     Find Your Dream Job,
@@ -65,7 +66,7 @@ flexibility:
 ################ Benifit ####################
 benifits:
   enable: true
-  title: "Benifits Of **Joining Our Team**"
+  title: "Benefits Of **Joining Our Team**"
   content: "The main benefits of working in our company are that you’ll get to know everyone, including the leadership team, and the workforce is more interconnected. Your responsibilities will often stretch outside of those in your job description, so you’ll get a good understanding of what the company does as a whole, and your day-to-day life will often be quite varied. The breadth of exposure to diverse roles can aid your development and improve your holistic knowledge of how a company seamlessly works together. This means there’s more opportunity for training and mentoring, so you can advance in your career and reach your goals even quicker."
   item:
     - name: "Annual travel and <br>credit Too"

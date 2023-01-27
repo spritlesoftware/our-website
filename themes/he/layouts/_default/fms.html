@@ -46,6 +46,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         data-target="#myModal"
         type="submit"
         class="btn btn-primary mt-25 banner-btn"
+        class="btn btn-primary mt-15"
         style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
         >{{.button_label}}</a>
 
@@ -88,7 +89,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
     </div>
     <div class="col-lg-5 col-md-8 col-sm-10">
       <h2 class="section-title">{{ .title | markdownify }}</h2>
-      <div class="row mb-10">
+      <div class="row mb-9">
         {{ range .images }}
         <div class="col-md-4 text-center">
           <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
@@ -288,18 +289,18 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
 
 <style>
 
-@media only screen and (max-width: 768px) {
-     .banner-btn {
-      margin-bottom: 30px;
-     }
-     .sec2 {
-      padding-top: 10px;
-     }
-     .vert {
-      padding-bottom: 20px;
-     }
-}
-</style>
+  @media only screen and (max-width: 768px) {
+       .banner-btn {
+        margin-bottom: 30px;
+       }
+       .sec2 {
+        padding-top: 10px;
+       }
+       .vert {
+        padding-bottom: 20px;
+       }
+  }
+  </style>
 
 <script>
   document.addEventListener('DOMContentLoaded', (event) => {
