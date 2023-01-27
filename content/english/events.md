@@ -31,7 +31,7 @@ draft: false
 testimonial:
   enable: true
   testimonial_item:
-    - date: "28 Jan 2023"
+    - date: "29 Jan 2023"
       title: "Develop a DApp with Ethereum Blockchain "
       image: "/images/webinars/mohan.png"
       name: "Mohan Kumar & Avi"
@@ -46,7 +46,7 @@ testimonial:
     - date: "20 Jan 2023"
       title: "Enacting Blockchain in Supply Chain Management!"
       image: "/images/webinars/sid.png"
-      name: Siddharrth K"
+      name: "Siddharrth K"
       role: "Blockchain Consultant"
       time: "03:00 PM IST"
       duration: "45 mins | English"

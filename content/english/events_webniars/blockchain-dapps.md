@@ -54,7 +54,7 @@ section2:
   title: "Learning Outcomes"
   image: "images/event/web3.webp"
   alt: "Cross Platform Mobile Application Development Services"
-  content: "Web3 and Blockchain fundamentals.</br>Web3 and Blockchain fundamentals.</br>Wise hacks to keep in mind while working on DApp deployment projects"
+  content: "Web3 and Blockchain fundamentals.</br>Practical examples of employing blockchain technology.</br>Wise hacks to keep in mind while working on DApp deployment projects"
   
 section3:
   enable: true
