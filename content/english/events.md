@@ -1,7 +1,7 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Webinars and Events at Spritle Software"
-title: "Webinars and Events at Spritle Software"
+custom_title_value: "Events"
+title: "Events"
 description: "Allowing ease of acces with our custom built software solutions for heathcare while allowing web and cross platform application development."
 keywords:
   [
@@ -35,10 +35,10 @@ testimonial:
       title: "Develop a DApp with Ethereum Blockchain "
       image: "/images/webinars/mohan.png"
       name: "Mohan Kumar & Avi"
-      role: "BLockchain developer"
+      role: "Blockchain developer"
       time: "03:00 PM IST"
-      duration: "2 hours English"
-      desc: "With Web3  gaining fame, let's discuss our ideas on deploying DApps using blockchain technology in this Sunday's event"
+      duration: "2 hours | English"
+      desc: "With Web3  gaining fame, let's discuss our ideas on deploying DApps using blockchain technology in this Sunday's event."
       register_link: "/events_webniars/blockchain-dapps/"
       button_text: "Register"
       past: false

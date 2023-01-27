@@ -9,7 +9,7 @@ locale: "en_US"
 type: "website"
 ogtitle: "Develop a DApp with Ethereum Blockchain" 
 ogdescription: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
-link: "https://www.spritle.com/custom-software-development/"
+link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
 Ogimage: "http://demo.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
 alt: "DApp with Ethereum Blockchain" 
@@ -51,7 +51,7 @@ section1:
   
 section2:
   enable: true
-  title: "Learning Outcome "
+  title: "Learning Outcomes"
   image: "images/event/web3.webp"
   alt: "Cross Platform Mobile Application Development Services"
   content: "Web3 and Blockchain fundamentals.</br>Web3 and Blockchain fundamentals.</br>Wise hacks to keep in mind while working on DApp deployment projects"
