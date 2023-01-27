@@ -32,25 +32,25 @@ testimonial:
   enable: true
   testimonial_item:
     - date: "28 Jan 2023"
-      title: "Functional Medicine title title Functional "
+      title: "Develop a DApp with Ethereum Blockchain "
       image: "/images/webinars/mohan.png"
       name: "Mohan Kumar & Avi"
       role: "BLockchain developer"
-      time: "09:25 AM IST"
-      duration: "45 mins English"
-      desc: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions ."
+      time: "03:00 PM IST"
+      duration: "2 hours English"
+      desc: "With Web3  gaining fame, let's discuss our ideas on deploying DApps using blockchain technology in this Sunday's event"
       register_link: "/events_webniars/blockchain-dapps/"
       button_text: "Register"
       past: false
 
-    - date: "28 Jan 2023"
-      title: "Functional Medicine title  Functional title"
+    - date: "20 Jan 2023"
+      title: "Enacting Blockchain in Supply Chain Management!"
       image: "/images/webinars/sid.png"
       name: Siddharrth K"
       role: "Blockchain Consultant"
-      time: "03:30 AM IST"
+      time: "03:00 PM IST"
       duration: "45 mins | English"
-      desc: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions ."
+      desc: "Ever wondered how far we have progressed in enacting blockchain in the supply chain? Let's convene and discuss this in this session!"
       register_link: "#"
       button_text: "View"
       past: true
