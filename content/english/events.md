@@ -1,7 +1,7 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Webinars and Events at Spritle Software"
-title: "Webinars and Events at Spritle Software"
+custom_title_value: "Events"
+title: "Events"
 description: "Allowing ease of acces with our custom built software solutions for heathcare while allowing web and cross platform application development."
 keywords:
   [
@@ -12,7 +12,7 @@ keywords:
     ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Custom Web and mobile app development|Softwares for healthcare"
+ogtitle: "Events"
 ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
 link: "https://www.spritle.com/custom-build-software-solution"
 site_name: "Spritle Software"
@@ -31,26 +31,26 @@ draft: false
 testimonial:
   enable: true
   testimonial_item:
-    - date: "28 Jan 2023"
-      title: "Functional Medicine title title Functional "
+    - date: "29 Jan 2023"
+      title: "Develop a DApp with Ethereum Blockchain "
       image: "/images/webinars/mohan.png"
       name: "Mohan Kumar & Avi"
-      role: "BLockchain developer"
-      time: "09:25 AM IST"
-      duration: "45 mins English"
-      desc: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions ."
+      role: "Blockchain developer"
+      time: "03:00 PM IST"
+      duration: "2 hours | English"
+      desc: "With Web3  gaining fame, let's discuss our ideas on deploying DApps using blockchain technology in this Sunday's event."
       register_link: "/events_webniars/blockchain-dapps/"
       button_text: "Register"
       past: false
 
-    - date: "28 Jan 2023"
-      title: "Functional Medicine title  Functional title"
+    - date: "20 Jan 2023"
+      title: "Enacting Blockchain in Supply Chain Management!"
       image: "/images/webinars/sid.png"
-      name: Siddharrth K"
+      name: "Siddharrth K"
       role: "Blockchain Consultant"
-      time: "03:30 AM IST"
+      time: "03:00 PM IST"
       duration: "45 mins | English"
-      desc: "A cutting-edge analytical tool to serve functional doctors to get accurate depiction of patient's health based on symptoms, questions ."
+      desc: "Ever wondered how far we have progressed in enacting blockchain in the supply chain? Let's convene and discuss this in this session!"
       register_link: "#"
       button_text: "View"
       past: true

@@ -1,38 +1,38 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Web3 and Blockchain technologies"
-title: "Web3 and Blockchain technologies"
-description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
+custom_title_value: "Develop a DApp with Ethereum Blockchain"
+title: "Develop a DApp with Ethereum Blockchain"
+description: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
 keywords : [Custom web application development services,Cross platform mobile app development services]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Web3 and Blockchain technologies" 
-ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
-link: "https://www.spritle.com/custom-software-development/"
+ogtitle: "Develop a DApp with Ethereum Blockchain" 
+ogdescription: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
+link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
-Ogimage: "https://www.spritle.com/images/custom_software_development/400x400xCustom-Web-Application-Services.png.pagespeed.ic.i5WzLPtjq7.webp"
-alt: "Custom--Built Software Solutions" 
+Ogimage: "http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
+alt: "DApp with Ethereum Blockchain" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Web3 and Blockchain technologies" 
-twitter_description: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
+twitter_title: "Develop a DApp with Ethereum Blockchain" 
+twitter_description: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
+twitter_image: ="http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
 layout: "specific-service"
 draft: false
 
 start:
   enable: true
   title: "When and Where? "
-  image: "images/event/bc3.jpg"
+  image: "images/event/bannerr.webp"
   alt: "Application Development Services Web & Mobile"
   content: "
 Date: 29 January 2023, Sunday </br>
 Venue: Spritle Software </br>
-Address: Plot no 20, 2nd floor, Alapakkam Main road, Maduravoyal, Chennai, Tamil Nadu 600116</br>
+Address: Plot no 20, 2nd floor, Alapakkam Main road, Maduravoyal, Chennai, Tamil Nadu 600116.</br>
 Location link: https://maps.app.goo.gl/kDcuQFFC8LF911tx7
 
 "
@@ -51,10 +51,10 @@ section1:
   
 section2:
   enable: true
-  title: "Learning Outcome "
+  title: "Learning Outcomes"
   image: "images/event/web3.webp"
   alt: "Cross Platform Mobile Application Development Services"
-  content: "Web3 and Blockchain fundamentals.</br>Web3 and Blockchain fundamentals.</br>Wise hacks to keep in mind while working on DApp deployment projects"
+  content: "Web3 and Blockchain fundamentals.</br>Practical examples of employing blockchain technology.</br>Wise hacks to keep in mind while working on DApp deployment projects"
   
 section3:
   enable: true
@@ -63,7 +63,7 @@ section3:
   alt: "Cross Platform Mobile Application Development Services"
   content: "1. Spritle- who we are and what we do?</br>2. Tell us a little about You- Participants Introduction</br>3. Our deep dive into Web3- Blockchain network 
 (more specific to Ethereum blockchain), Smart Contracts
-and Mining.
+and Mining.</br> 4. Take a look at our Polling System- Demo</br>5. Let’s have a talk- Q&A session
 "
 
 ---
