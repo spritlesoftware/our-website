@@ -1,64 +1,69 @@
- ---
+---
 custom_title_enabled: true
-custom_title_value: "Custom web & Cross platform mobile application development services"
-title: "Custom Software Development Services"
-description: "Get custom-tailored web application and cross platform mobile application developed by one of the best team in spritle.We offer End-to-End development services."
+custom_title_value: "Develop a DApp with Ethereum Blockchain"
+title: "Develop a DApp with Ethereum Blockchain"
+description: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
 keywords : [Custom web application development services,Cross platform mobile app development services]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Custom Software Development Services" 
-ogdescription: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
-link: "https://www.spritle.com/custom-software-development/"
+ogtitle: "Develop a DApp with Ethereum Blockchain" 
+ogdescription: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
+link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
-Ogimage: "https://www.spritle.com/images/custom_software_development/400x400xCustom-Web-Application-Services.png.pagespeed.ic.i5WzLPtjq7.webp"
-alt: "Custom--Built Software Solutions" 
+Ogimage: "http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
+alt: "DApp with Ethereum Blockchain" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Custom Software Development Services" 
-twitter_description: "Get custom-tailored web applications and cross-platform mobile applications developed by one of the best teams in Spritle. We offer End-to-End development services."
+twitter_title: "Develop a DApp with Ethereum Blockchain" 
+twitter_description: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/custom_software_developmentxDigital-Application-Development-Company.png.pagespeed.ic.bVx5Niq8s2.webp"
+twitter_image: ="http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
 layout: "specific-service"
 draft: false
 
 start:
   enable: true
-  title: "Your Digital Guide for Transformation"
-  image: "images/custom_software_development/Digital-Application-Development-Company.png"
+  title: "When and Where? "
+  image: "images/event/map.jpg"
   alt: "Application Development Services Web & Mobile"
-  content: "We at Spritle are always in the hunt for new techniques where we can merge the technology revolution to bring you flawless applications four times faster into the market.
-We craft & deliver custom software solutions using present-day technologies like AI & ML, React, Cloud, etc. to your hands fast & quick."
+  content: "
+Date: 29 January 2023, Sunday </br>
+Venue: Spritle Software </br>
+Address: Plot no 20, 2nd floor, Alapakkam Main road, Maduravoyal, Chennai, Tamil Nadu 600116.</br>
+Location link: https://maps.app.goo.gl/kDcuQFFC8LF911tx7
+
+"
+  button:
+    enable : true
+    button_label : "Register"
+    link : "https://www.meetup.com/blockchain-developers-community-chennai/events/291139042/"
 
 section1:
   enable: true
-  title: "Web"
-  image: "images/custom_software_development/Custom-Web-Application-Services.png"
+  title: "Why should you attend? "
+  image: "images/event/why.jpg"
   alt: "Web Engineering Services "
-  content: "Highly secure, reliable web applications to add more value to your business"
-  button:
-    enable : true
-    button_label : "Read more.."
-    link : "services/web-application-development-services/"
+  content: "Best opportunity to get in touch with Web3 and Blockchain Tech Experts.</br>Informative session on DApps and how to deploy them seamlessly."
+  
   
 section2:
   enable: true
-  title: "mobile"
-  image: "images/custom_software_development/crossplat-form-mobile-app-development.png"
+  title: "Learning Outcomes"
+  image: "images/event/arrow.jpg"
   alt: "Cross Platform Mobile Application Development Services"
-  content: "Native and Cross-platform mobile applications with flexible features and design"
-  button:
-    enable : true
-    button_label : "Read more.."
-    link : "services/cross-platform-mobile-app-development/"
+  content: "Web3 and Blockchain fundamentals.</br>Practical examples of employing blockchain technology.</br>Wise hacks to keep in mind while working on DApp deployment projects"
+  
+section3:
+  enable: true
+  title: "Event Agenda "
+  image: "images/event/outcome.jpg"
+  alt: "Cross Platform Mobile Application Development Services"
+  content: "1. Spritle- who we are and what we do?</br>2. Tell us a little about You- Participants Introduction</br>3. Our deep dive into Web3- Blockchain network 
+(more specific to Ethereum blockchain), Smart Contracts
+and Mining.</br> 4. Take a look at our Polling System- Demo</br>5. Let’s have a talk- Q&A session
+"
 
-faq:
-  question1: "Why choose Spritle Software for your Custom Software Development Solutions?"
-  answer1: "We at Spritle have over 10 years of experince in this particular field and have managed to satisfy many of our fellow clients when it comes to custom software development solutions. Our development team completely devotes themselves to the perfect completion of the required solution."
-  question2: "Why do Custom Software Development Solutions matters?"
-  answer2: "It is best to get a solution that is based on custom software development than using an existing one as no two businesses are the same."
-  question3: "Why do Custom Software Development Solutions take time?"
-  answer3: "Spritle Software spends more time on the initial phases like Analyzing, Designing, and finally Developing your idea into the custom software solution you require. The primary reason is the meticulous planning and developing of the software."
 ---
