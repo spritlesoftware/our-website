@@ -27,7 +27,7 @@ draft: false
 start:
   enable: true
   title: "When and Where? "
-  image: "images/event/bannerr.webp"
+  image: "images/event/map.jpg"
   alt: "Application Development Services Web & Mobile"
   content: "
 Date: 29 January 2023, Sunday </br>
@@ -44,7 +44,7 @@ Location link: https://maps.app.goo.gl/kDcuQFFC8LF911tx7
 section1:
   enable: true
   title: "Why should you attend? "
-  image: "images/event/web3.jpg"
+  image: "images/event/why.jpg"
   alt: "Web Engineering Services "
   content: "Best opportunity to get in touch with Web3 and Blockchain Tech Experts.</br>Informative session on DApps and how to deploy them seamlessly."
   
@@ -52,14 +52,14 @@ section1:
 section2:
   enable: true
   title: "Learning Outcomes"
-  image: "images/event/web3.webp"
+  image: "images/event/arrow.jpg"
   alt: "Cross Platform Mobile Application Development Services"
   content: "Web3 and Blockchain fundamentals.</br>Practical examples of employing blockchain technology.</br>Wise hacks to keep in mind while working on DApp deployment projects"
   
 section3:
   enable: true
   title: "Event Agenda "
-  image: "images/event/web33.jfif"
+  image: "images/event/outcome.jpg"
   alt: "Cross Platform Mobile Application Development Services"
   content: "1. Spritle- who we are and what we do?</br>2. Tell us a little about You- Participants Introduction</br>3. Our deep dive into Web3- Blockchain network 
 (more specific to Ethereum blockchain), Smart Contracts
