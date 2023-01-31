@@ -37,8 +37,8 @@ banner:
   banner_heading:
   - ""
   contents : ""
-  image: "images/home/serviceimages/ManageEngine_Integration_Services.png"
-  mimage: "images/home/serviceimages/mimage.png"
+  image: "images/home/serviceimages/me_image_mumbai.jpg"
+  mimage: "images/home/serviceimages/me_mimage_mumbai.jpg"
   alt : ""
    
   button:
