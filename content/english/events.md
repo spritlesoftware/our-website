@@ -39,9 +39,9 @@ testimonial:
       time: "03:00 PM IST"
       duration: "2 hours | English"
       desc: "With Web3  gaining fame, let's discuss our ideas on deploying DApps using blockchain technology in this Sunday's event."
-      register_link: "/events_webniars/blockchain-dapps/"
-      button_text: "Register"
-      past: false
+      register_link: "#"
+      button_text: "View"
+      past: true
 
     - date: "20 Jan 2023"
       title: "Enacting Blockchain in Supply Chain Management!"
@@ -61,7 +61,7 @@ testimonial:
       name: "Mano Rajashri D.S"
       role: "ITSM Consultant"
       time: "03:30 PM IST"
-      duration: "45 mins English"
+      duration: "45 mins | English"
       desc: "Know more about Mobile Device Manager, another product of ManageEngine. A product that has incredible features ensuring corporate ..."
       register_link: "#"
       button_text: "View"
