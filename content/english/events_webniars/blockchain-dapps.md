@@ -11,7 +11,7 @@ ogtitle: "Develop a DApp with Ethereum Blockchain"
 ogdescription: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
 link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
-Ogimage: "http://demo.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
+Ogimage: "http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
 alt: "DApp with Ethereum Blockchain" 
 
 ########################### Twitter #################################
@@ -20,7 +20,7 @@ twitter_title: "Develop a DApp with Ethereum Blockchain"
 twitter_description: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="http://demo.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
+twitter_image: ="http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
 layout: "specific-service"
 draft: false
 
