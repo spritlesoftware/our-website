@@ -31,6 +31,18 @@ draft: false
 testimonial:
   enable: true
   testimonial_item:
+    - date: "18 February 2023"
+      title: "Marriages and Blockchain Smart Contracts "
+      image: "/images/webinars/mohan.png"
+      name: "Mohan Kumar & Avi"
+      role: "Blockchain developer"
+      time: "11:00 AM IST"
+      duration: "2 hours | English"
+      desc: "With Smart Contracts becoming the backbone of every blockchain-based application, let's gather to discuss it in detail in this Saturday's event."
+      register_link: "/events_webniars/blockchain-dapps/"
+      button_text: "Register"
+      past: false
+
     - date: "29 Jan 2023"
       title: "Develop a DApp with Ethereum Blockchain "
       image: "/images/webinars/mohan.png"
