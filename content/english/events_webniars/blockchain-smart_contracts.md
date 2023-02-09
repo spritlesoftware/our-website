@@ -2,16 +2,13 @@
 custom_title_enabled: true
 custom_title_value: "Marriages and Blockchain Smart Contracts"
 title: "Marriages and Blockchain Smart Contracts"
-description: "With Web3 and Blockchain-based applications becoming an area of innovation for the last few years, have you ever wondered how a Smart contract gets created on a blockchain? And how it acts as a backbone of every decentralized platform is always a quest to take over.</br>
-So, as curious and mysterious as it might be, find your answers to the questions on Smart Contracts like this by joining our techies at this event and exploring your way into Web3.
-"
+description: "With Web3 and Blockchain-based applications becoming an area of innovation, this event aims to give answers to your questions on Smart Contracts."
 keywords : [Custom web application development services,Cross platform mobile app development services]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
 ogtitle: "Marriages and Blockchain Smart Contracts" 
-ogdescription: "With Web3 and Blockchain-based applications becoming an area of innovation for the last few years, have you ever wondered how a Smart contract gets created on a blockchain? And how it acts as a backbone of every decentralized platform is always a quest to take over.</br>
-So, as curious and mysterious as it might be, find your answers to the questions on Smart Contracts like this by joining our techies at this event and exploring your way into Web3."
+ogdescription: "With Web3 and Blockchain-based applications becoming an area of innovation, this event aims to give answers to your questions on Smart Contracts."
 link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
 Ogimage: "http://demo.spritle.com/images/event/feb_poster.webp.pagespeed.ce.WkfbS_QTE-.webp"
