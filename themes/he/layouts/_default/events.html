@@ -34,11 +34,12 @@ font-weight: bold;
 ">{{.date}}</div>
 <h5 class="font-weight-600 mb-10" style="line-height:22px">{{.title}}</h5>
 <div class="user-info d-flex align-items-center mt-30 mb-30">
-<img style="max-width: 80px;" loading="lazy" class="d-inline rounded-circle mr-3" src="{{.image}}" alt="Angela Markel">
+<img style="max-width: 80px;" loading="lazy" class="d-inline rounded-circle mr-2" src="{{.image}}" alt="{{.image_alt}}">
 <div class="pt-1">
-<h5 class="font-weight-bold">{{.name}}</h5>
-<p>{{.role}}</p>
+<h5 class="font-weight-bold text-center">{{.name}}</h5>
+<p class="text-center">{{.role}}</p>
 </div>
+<img style="max-width: 80px;" loading="lazy" class="d-inline rounded-circle " src="{{.image1}}" alt="{{.image1_alt}}">
 </div>
 <div class="mb-15" style=""> 
 <span class="badge badge-added ml-10">{{.time}}

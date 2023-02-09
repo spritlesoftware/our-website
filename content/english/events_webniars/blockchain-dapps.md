@@ -14,16 +14,17 @@ ogdescription: "With Web3 and Blockchain-based applications becoming an area of 
 So, as curious and mysterious as it might be, find your answers to the questions on Smart Contracts like this by joining our techies at this event and exploring your way into Web3."
 link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
-Ogimage: "http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
-alt: "DApp with Ethereum Blockchain" 
+Ogimage: "http://demo.spritle.com/images/event/feb_poster.webp.pagespeed.ce.WkfbS_QTE-.webp"
+alt: "Marriages and Blockchain Smart Contractsn" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
 twitter_title: "Marriages and Blockchain Smart Contracts" 
-twitter_description: "With Web3 and Blockchain Technologies soaring high as the best tech trends of recent years, this event aims to throw light on advancements in Web3 and Blockchain technologies with extra focus on how to deploy DApps using Ethereum blockchain."
+twitter_description: "With Web3 and Blockchain-based applications becoming an area of innovation for the last few years, have you ever wondered how a Smart contract gets created on a blockchain? And how it acts as a backbone of every decentralized platform is always a quest to take over.</br>
+So, as curious and mysterious as it might be, find your answers to the questions on Smart Contracts like this by joining our techies at this event and exploring your way into Web3."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="http://www.spritle.com/images/event/banner.jpg.pagespeed.ce.WkfbS_QTE-.webp"
+twitter_image: ="http://demo.spritle.com/images/event/feb_poster.webp.pagespeed.ce.WkfbS_QTE-.webp"
 layout: "event_desc"
 draft: false
 
@@ -42,12 +43,12 @@ start:
   button:
     enable : true
     button_label : "Register"
-    link : "https://www.meetup.com/blockchain-developers-community-chennai/events/291139042/"
+    link : "https://www.meetup.com/blockchain-developers-community-chennai/events/291488708"
 
 section2:
   enable: true
   title: "Why should you attend? "
-  image: "images/event/queston.webp"
+  image: "images/event/question.webp"
   alt: "Web Engineering Services "
   content: "Exploratory session themed to improve your perception of smart contracts and their applications.</br>It's a perfect opportunity to exchange your thoughts on Smart Contracts with our Tech experts in Web3."
   bulletpoints:
@@ -72,7 +73,7 @@ section3:
 section4:
   enable: true
   title: "Event Agenda "
-  image: "images/event/outcome.jpg"
+  image: "images/event/outcome.webp"
   alt: "Cross Platform Mobile Application Development Services"
   bulletpoints:
     - " Spritle Software - Introduction to the company and event."
