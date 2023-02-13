@@ -13,8 +13,8 @@ title: "ITSM services"
 ogdescription: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"   
 link: "https://www.spritle.com/services/itsm-services/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/manageengine/modern_buiding.png.pagespeed.ic._Eo2HDj5Em.webp" 
-alt: "itsm-services" 
+Ogimage: "https://www.spritle.com/images/manageengine/itsm-preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+alt: "Conversational Voicebot" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
@@ -22,7 +22,7 @@ twitter_title: "Enterprise Integration Services using ManageEngine"
 twitter_description: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "https://www.spritle.com/images/manageengine/modern_buiding.png.pagespeed.ic._Eo2HDj5Em.webp" 
+twitter_image: "https://www.spritle.com/images/manageengine/itsm-preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
 formlink : "voicebot"
@@ -34,7 +34,7 @@ banner1:
   banner_heading: ""
   contents : ""
   image: "images/manageengine/ManageEngine-Banner.gif"
-  alt : "ManageEngine-Banne"
+  alt : ""
    
   button:
     enable: true
@@ -90,7 +90,7 @@ verticals:
 sectionbanner:
   enable : true
   title : "**Integration, Your way...**"
-  contents : "Spritle Software is an award winning Integration Partners with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, netflow analyzer, firewall reporting tool, and much more."
+  contents : "Spritle Software is an award winning Integration Partner with ManageEngine rendering active directory monitoring software, software metering tools, hardware inventory management system, netflow analyzer, firewall reporting tool, and much more."
   content2: "You name it, we do it"
  
 
@@ -100,7 +100,7 @@ section2:
   title : "**Building Management System**"
   image : "/images/manageengine/bms.png"
   alt: "Building Management System"
-  contents : "We use a variety of techniques and technologies to deliver Airport Management System services, guaranteeing that there is no downtime at the airports. Even the smallest errors are recorded, raised as tickets, and automatically assigned to the relevant party."
+  contents : "Our building management system outperforms all others in terms of effectiveness. Real-time digital access to the building is made possible by our seamless integration with existing systems. Automate building operations while ensuring productivity."
   button:
     enable: true
     button_label: "Reform your building!"
