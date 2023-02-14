@@ -61,19 +61,7 @@ data-aos-delay="150"
         </li>
         {{ end }}
       </ul>
-      {{if .button.enable }} {{with .button }}
-        <a
-        href="#"
-        id="open-demo-modal"
-        data-toggle="modal"
-        data-target="#myModal"
-        type="submit"
-        class="btn btn-primary mt-15"
-        style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
-        >{{.button_label}}</a>
 
-
-        {{ end }} {{ end }}
       </div>
     </div>
   </div>
@@ -146,19 +134,7 @@ data-aos-delay="150"
           </li>
           {{ end }}
         </ul>
-        {{if .button.enable }} {{with .button }}
-          <a
-          href="#"
-          id="open-demo-modal"
-          data-toggle="modal"
-          data-target="#myModal"
-          type="submit"
-          class="btn btn-primary mt-15"
-          style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
-          >{{.button_label}}</a>
-
-
-          {{ end }} {{ end }}
+         
         </div>
       </div>
     </div>
@@ -169,97 +145,5 @@ data-aos-delay="150"
     <div class="shape-7 shape-xs-2 bg-tertiary rounded-circle"></div>
   </section>
   {{ end }} {{ end }}
-  <!-- end section --> 
 
-
-
-<!--end-->
-{{if .Params.genomic.enable }} {{with .Params.genomic }} {{ partial
-"left-image-right-text.html" . }} {{ end }} {{ end }}
-
-<!--end-->
-{{if .Params.geosnapshot.enable }} {{with .Params.geosnapshot }} {{ partial
-"right-image-left-text.html" . }} {{ end }} {{ end }}
-
-<!--end-->
-{{if .Params.phraze.enable }} {{with .Params.phraze }} {{ partial
-"left-image-right-text.html" . }} {{ end }} {{ end }}
-
-<!--end-->
-{{if .Params.aivoicebot.enable }} {{with .Params.aivoicebot }} {{ partial
-"right-image-left-text.html" . }} {{ end }} {{ end }}
-
-
-<!--end-->
-{{if .Params.computervision.enable }} {{with .Params.computervision }} {{
-partial "left-image-right-text.html" . }} {{ end }} {{ end }}
-
-
-
-
-
-
-<!-- end section -->
-
-
-<!-- end section -->
-
-{{if .Params.section5 }} {{with .Params.section5 }} {{ partial
-"left-image-right-text.html" . }} {{ end }} {{ end }}
-<!-- end section -->
-
-{{if .Params.floating }} {{with .Params.floating }} {{if .button.enable }}
-{{with .button }}
-
-
-<div id="mybutton">
-  <a
-    href="#"
-    class="Enquire"
-    data-toggle="modal"
-    data-target="#myModal"
-    type="submit"
-    >{{.button_label}}
-  </a>
-</div>
-
-{{ end }} {{ end }}
-
-<style>
-  a:hover {
-    text-decoration: none;
-  }
-  .Enquire {
-    background-color: #31b0d5;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    border-color: #46b8da;
-  }
-
-  #mybutton {
-    position: fixed;
-    bottom: -4px;
-    z-index: 9;
-    margin-bottom: 300px;
-    transform: rotate(270deg);
-    right: -40px;
-  }
-</style>
-{{ end }} {{ end }} {{ partial "verticals-home.html" . }} 
-
-
-{{partial
-"collect-info-modal.html" .}}
-
-
-<script defer>
-  document.addEventListener("DOMContentLoaded", (event) => {
-    var Choose = setTimeout(() => {
-      $("#myModal").modal("show");
-      clearTimeout(Choose);
-    }, 6000);
-  });
-</script>
-{{ partial "faq.html" .}}
 {{ end }}
