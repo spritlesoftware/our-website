@@ -76,9 +76,9 @@ verticals:
     contents : "Enabling organizations to automate task completion while preserving the integrity of multi-party contracts."
 
 
-  - name : "NFT Marketing Services"
+  - name : "Decentralized Finance"
     color : "#FFFCF4"
-    contents : " Offering NFT markets that are simple to use, transparent, and packed with features that make it easier to buy, sell, bid on, and mint NFTs that are interoperable with several chains."
+    contents : "  We aim to provide a more secure and transparent way of transaction with the use of blockchain technology"
 
   - name : "Smart Contracts Audit"
     color : "#F3FCFD"
