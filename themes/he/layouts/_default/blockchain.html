@@ -65,7 +65,9 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         data-toggle="modal"
         data-target="#myModal"
         type="submit"
+        class="btn btn-primary mt-25 banner-btn"
         class="btn btn-primary mt-15"
+        style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
         >{{.button_label}}</a>
 
 
@@ -287,13 +289,13 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
   
   {{ end }} {{ end }}
   <!-- end section --> 
-
+  {{if .Params.tabs.enable }} {{with .Params.tabs }}
   <section class="section-padding pt-50 pb-50  " data-aos="fade-in">
   <div class="container">
     <h2 class=" section-title text-center mb-40">Our Blockchain Technology Stack</h2>
     <div class="">
       <ul class="nav nav-pills nav-tabs justify-content-center ">
-       <li class="active p-20 fs"><a class="tab-link" id="a-line"  data-toggle="pill" href="#home">Smart Contracts</a></li>
+       <li class=" p-20 fs"><a class="tab-link active" id="a-line"  data-toggle="pill" href="#home">Smart Contracts</a></li>
        <li class="fs p-20"><a  class="tab-link "id="a-line" data-toggle="pill" href="#menu1">Programming Languages</a></li>
        <li class="fs p-20"><a class="tab-link "id="a-line"  data-toggle="pill" href="#menu2">Frameworks</a></li>
        <li class="fs p-20"><a class="tab-link "id="a-line" data-toggle="pill" href="#menu3">Database</a></li>
@@ -312,20 +314,20 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
       </div>
       <div id="menu1" class="tab-pane fade">
         <div class=" d-flex flex-row justify-content-center">
-          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/python.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/python.webp" class="img-fluid"></div></div>
           <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/cp.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/solidity.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/solidity.webp" class="img-fluid"></div></div>
          
         </div>
       </div>
       <div id="menu2" class="tab-pane fade">
         <div class=" d-flex flex-row justify-content-center">
-          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/node.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/node.webp" class="img-fluid"></div></div>
           <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/Ethers.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/web3.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/react.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/web3.webp" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/react.webp" class="img-fluid"></div></div>
           <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/Angular-JS.jpg" class="img-fluid"></div></div>
-          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/next.jpg" class="img-fluid"></div></div>
+          <div class="border-round p-20"><div class="border-1"><img src="/images/blockchain/next.webp" class="img-fluid"></div></div>
         </div>
       </div>
       <div id="menu3" class="tab-pane fade">
@@ -344,6 +346,7 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
     </div>
   </div>
 </section>  
+{{end}}{{end}}
     
    
 
@@ -362,71 +365,63 @@ style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}')
         <h2 class="section-title">{{.title}}</h2>
         <p>{{.content}}</p>
       </div>
-      <div class="col-xl-12">
-        <div class="row align-items-center colored-icon-box">
-
-          {{ range $i, $e:= .list }}
-
-          <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
-            <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5 mb-30">
-             
-              <h2 class="section-title">{{.title}}</h2>
-              <h4 class="text-black-300 font-weight-light">{{ .name | markdownify }}</h4>
-              <div class="row mb-7">
-                {{ range .images }}
-                <div class="col-md-4 text-center">
-                  <img
-                    loading="lazy"
-                    class="img-fluid "
-                    src="{{ . |absURL}}"
-                    alt="{{ .alt }}"
-                  />
-                </div>
-                {{ end }}
-              </div>
-              <ul class="check-list list-unstyled">
-                {{ range .bulletpoints }}
-                <li class="mb-10">
-                  <svg
-                    width="16"
-                    height="11"
-                    viewBox="0 0 18 13"
-                    class="text-primary mr-2"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2 6.125L6.91892 11L16 2"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                  {{. | markdownify}}
-                </li>
-                {{ end }}
-              </ul>
+      </div>
+      <div class="row align-items-center justify-content-around">
+        <div class="col-lg-5 col-md-8 col-sm-10">
+          <div class="row mb-9">
+            {{ range .images }}
+            <div class="col-md-4 text-center">
+              <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
             </div>
+            {{ end }}
           </div>
-          
-          {{end}}
+          <ul class="check-list list-unstyled">
+            {{ range .list }}
+            <li class="mb-10">
+              <h4><span class="text-primary mr-2"><i class="fa fa-check fa-primary" aria-hidden="true"></i></span> {{. | markdownify}}</h4>
+            </li>
+            {{ end }}
+          </ul>
+            <div class="shape-1 shape-md bg-yellow rounded-circle"></div>
+            <div class="shape-2 shape-xl bg-cyan rounded-circle"></div>
+            <div class="shape-3 shape-lg bg-orange rounded-circle"></div>
+          </div>
+          <div class="col-lg-5 col-md-8 col-sm-10">
+            <div class="row mb-9">
+              {{ range .images }}
+              <div class="col-md-4 text-center">
+                <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
+              </div>
+              {{ end }}
+            </div>
+            <ul class="check-list list-unstyled">
+              {{ range .bulletpoints }}
+              <li class="mb-10">                
+               <h4><span class="text-primary mr-2"><i class="fa fa-check fa-primary" aria-hidden="true"></i></span> {{. | markdownify}}</h4>
+              </li>
+              {{ end }}
+            </ul>
+  
+            </div>
+            {{if .button.enable }} {{with .button }}
+
+            <a
+            href="#"
+            id="open-demo-modal"
+            data-toggle="modal"
+            data-target="#myModal"
+            type="submit"
+            class="btn btn-primary mt-25 banner-btn"
+            class="btn btn-primary mt-15"
+            style="-webkit-appearance: none; -moz-appearance: none; appearance: none"
+            >{{.button_label}}</a>
+    
+    
+            {{ end }} {{ end }}
+        </div>
 
         </div>
-      </div>
-      {{if .button.enable }} {{with .button }}
 
-        <a
-        href="#"
-        id="open-demo-modal"
-        data-toggle="modal"
-        data-target="#myModal"
-        type="submit"
-        class="btn btn-primary mt-15"
-        >{{.button_label}}</a>
-
-
-        {{ end }} {{ end }}
     </div>
   </div>
 </section>
@@ -491,9 +486,13 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
 
 {{ end }} {{ end }}  
 <style>
+
   .fs {
     font-size: 20px;
     margin-left: 3%;
+  }
+  a.tab-link.active {
+    color: black;
   }
   .border-round {
     padding: 0;
@@ -516,6 +515,7 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
   #a-line {
     text-decoration: none;
   }
+ 
 
    /* Media Query for Tablets Ipads portrait mode */
    @media (min-width: 768px) and (max-width: 1024px){
@@ -529,25 +529,17 @@ partial "left-image-right-text.html" . }} {{ end }} {{ end }}
       .fs {
         margin-left: 0% !important;
         padding: 5px 10px !important;
-
+      }
+      .border-round {
+        max-width:29% !important;
       }
     }
 
 </style>
 
-
 {{partial
 "collect-info-modal.html" .}}
 
-
-<script defer>
-  document.addEventListener("DOMContentLoaded", (event) => {
-    var Choose = setTimeout(() => {
-      $("#myModal").modal("show");
-      clearTimeout(Choose);
-    }, 6000);
-  });
-</script>
 {{ partial "faq.html" .}}
 {{ end }}
 

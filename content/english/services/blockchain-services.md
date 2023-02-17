@@ -2,24 +2,22 @@
 custom_title_enabled: true
 custom_title_value: "Blockchain Development services"
 title: "Blockchain Development services"
-description: "Spritle offers Custom Built Software Solutions for Digital Healthcare Industries, Supplement Solutions through Gene Analysis. A HIPAA-certified company in the USA."
+description: "Blockchain-based services for everyone! We bridge blockchain technology with innovation and offer best blockchain-based services to companies and businesses"
 keywords:
   [
-    Healthcare Conversational Voice bot for Hospitals,
-    custom built software for healthcare,
-    Supplement Solutions through gene analysis,
-    HIPAA Certified Software development companies,
-    Digital Healthcare Solutions,
+   Blockchain Development Company,Decentralized,secure blockchain technologies,
+   Blockchain Technology Consulting,dApps Development,Enterprise Blockchain Development,
+   Smart Contracts Development,Decentralized Finance,Smart Contracts Audit,Ethereum,Polygon,Avalanche
   ]
         ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Digital Healthcare Solutions"
-ogdescription: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
-link: "https://www.spritle.com/digital-healthcare-innovations/"
+ogtitle: "Blockchain Development services"
+ogdescription: "Blockchain-based services for everyone! We bridge blockchain technology with innovation and offer best blockchain-based services to companies and businesses" 
+link: "https://www.spritle.com/blockchain-services/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/digital_healthcare/Business-Target-Audience.webp.pagespeed.ce.WkfbS_QTE-.webp"
-alt: "Digital Healthcare Software Solutions" 
+Ogimage: "http://demo.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp"
+alt: "Blockchain Development services" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
@@ -27,7 +25,7 @@ twitter_title: "Digital Healthcare Solutions"
 twitter_description: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "https://www.spritle.com/images/digital_healthcare/Business-Target-Audience.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+twitter_image: "http://demo.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 layout: "blockchain"
 draft: false
 
@@ -35,7 +33,7 @@ banner:
   enable : true
   title : "Blockchain Development Company"
   banner_heading:
-  - "Blockchain Development Company "
+  - "Blockchain Development Company"
   contents : "Give your company access to immutable, decentralized, and secure blockchain technologies. With our broad range of blockchain development services, we aid startups, companies, and enterprises in creating more automated, transparent, and effective versions of their operations."
   image: "images/blockchain/block-chain.png"
   alt : "Conversational AI Voice Bots for Hospital Automation"
@@ -93,7 +91,7 @@ genomic:
   enable: true
   htitle: "Our Blockchain Projects"
   title: "StromX"
-  image: "images/blockchain/stromx.png"
+  image: "images/blockchain/stromx.webp"
   alt: "Target Audience and Solution Partners "
   content: "StormX is a Blockchain and micro-task company that provides crypto cashback.
 By utilizing the powers of blockchain technology, the company has been able to offer rewards.
@@ -117,12 +115,15 @@ why_choos_us:
     title : "Ethereum" 
 
   - name : "**Reduced network expenses due to an easily interoperable network**"
-    image : "/images/blockchain/Polygon.png"
+    image : "/images/blockchain/Polygon.webp"
     title : "Polygon"  
       
   - name : "**Consensus protocol features include lightning-fast transactions**"
     image : "/images/blockchain/Avalanche.png"
     title : "Avalanche"
+
+tabs:
+ enable : true
 
 
 
@@ -130,25 +131,16 @@ why_choose_us:
   enable : true
   title : "Why Choose Spritle Software as Blockchain Development Company?"
   content : "No matter how complicated your project is, we always promise to deliver results. We deliver on our promises and live out what we teach. The first 15 days of blockchain development services from Spritle are entirely free. During this time, your team has the opportunity to observe Spritle's working methods and communication techniques."
-  image : "/images/screenshots/03.png" 
+  bulletpoints: 
+   - "360° Holistic Approach."
+   - "Client Association at Each Stage"
+   - "Center of Excellence and Research Team"
+
   list:
-  - name : "**360° Holistic Approach.**"
-    image : "images/blockchain/366.png"  
+   - "Use of Latest Technologies"
+   - "Dynamic Engagement Model"
+   - "Agile and Lean Project Execution Approach"
 
-  - name : "**Use of Latest Technologies**"
-    image : "/images/blockchain/dynamicc.png"  
-      
-  - name : "**Client Association at Each Stage**"
-    image : "/images/blockchain/Mask.png"
-
-  - name : "**Dynamic Engagement Model**"
-    image : "/images/blockchain/usee.png" 
-    
-  - name : "**Center of Excellence and Research Team**"
-    image : "/images/blockchain/shield.svg"
-
-  - name : "**Agile and Lean Project Execution Approach**"
-    image : "/images/blockchain/shield.svg"
 
   
 
@@ -162,6 +154,7 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
+  pagename: "Blockchain-services"
 
 faq:
   question1: "What is a blockchain and BaaS ?"
@@ -173,6 +166,7 @@ faq:
   answer3: "Architecture - Blockchain uses Distributed Ledger Technology whereas Database utilizes client-server architecture.<br></br>
   Integrity - Blockchain Supports data integrity whereas, in the database, there is a possibility for malicious activity.<br></br>
   Transparency - Blockchain offers High Transparency Whereas in Database admin has the control."
+  
 
   
 ---
