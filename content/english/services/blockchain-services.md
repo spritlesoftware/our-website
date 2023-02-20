@@ -1,7 +1,7 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Blockchain Development services"
-title: "Blockchain Development services"
+custom_title_value: "Blockchain Development Services"
+title: "Blockchain Development Services"
 description: "Blockchain-based services for everyone! We bridge blockchain technology with innovation and offer best blockchain-based services to companies and businesses"
 keywords:
   [
@@ -12,7 +12,7 @@ keywords:
         ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Blockchain Development services"
+ogtitle: "Blockchain Development Services"
 ogdescription: "Blockchain-based services for everyone! We bridge blockchain technology with innovation and offer best blockchain-based services to companies and businesses" 
 link: "https://www.spritle.com/blockchain-services/"
 site_name: "Spritle Software"
@@ -76,7 +76,7 @@ verticals:
 
   - name : "Decentralized Finance"
     color : "#FFFCF4"
-    contents : "  We aim to provide a more secure and transparent way of transaction with the use of blockchain technology"
+    contents : "  We aim to provide a more secure and transparent way of transaction with the use of blockchain technology."
 
   - name : "Smart Contracts Audit"
     color : "#F3FCFD"
@@ -102,12 +102,12 @@ geosnapshot:
   title: "D’Atelier"
   image: "images/blockchain/datlier.jpg"
   alt: "Innovative Digital Healthcare Solutions Development "
-  content: "A jewellery design firm called D'Atelier creates jewellery for clients on their specific requests. By developing an NFT marketplace where they may sell their unique creations as digital assets, Spritle assists them"
+  content: "A jewellery design firm called D'Atelier creates jewellery for clients on their specific requests. By developing an NFT marketplace where they may sell their unique creations as digital assets, Spritle assists them."
 
 why_choos_us:
   enable : true
   title : "Blockchain Networks We Support"
-  content : "Blockchain establishes a link to a decentralized network where users may transmit transactions and create apps without the need for a server or centralized control. Make use of our extensive network assistance for you"
+  content : "Blockchain establishes a link to a decentralized network where users may transmit transactions and create apps without the need for a server or centralized control. Make use of our extensive network assistance for you."
   image : "/images/screenshots/03.png" 
   list:
   - name : "**Renowned network for the certification of smart contracts and transactions involving digital assets**"
@@ -124,6 +124,44 @@ why_choos_us:
 
 tabs:
  enable : true
+ title: "Our Blockchain Technology Stack"
+ tab1_title: "Smart Contracts"
+ tab2_title: "Programming Languages"
+ tab3_title: "Frameworks"
+ tab4_title: "Database"
+ tab5_title: "Wallets"
+ tab1_img1: "/images/blockchain/alchemy.webp"
+ img1_alt: "alchemy"
+ tab1_img2: "/images/blockchain/hardhat.webp"
+ img2_alt: "hardhat"
+ tab1_img3: "/images/blockchain/metamask.webp"
+ img3_alt: "metamask"
+ tab2_img4: "/images/blockchain/python.webp"
+ img4_alt: "python"
+ tab2_img5: "/images/blockchain/cp.webp"
+ img5_alt: "cp"
+ tab2_img6: "/images/blockchain/solidity.webp"
+ img6_alt: "solidity"
+ tab3_img7: "/images/blockchain/node.webp"
+ img7_alt: "node"
+ tab3_img8: "/images/blockchain/Ethers.webp"
+ img8_alt: "Ether"
+ tab3_img9: "/images/blockchain/web3.webp"
+ img9_alt: "web3"
+ tab3_img10: "/images/blockchain/react.webp"
+ img10_alt: "react"
+ tab3_img11: "/images/blockchain/Angular-JS.webp"
+ img11_alt: "Angular-JS"
+ tab3_img12: "/images/blockchain/next.webp"
+ img12_alt: "next"
+ tab4_img13: "/images/blockchain/mongodb.webp"
+ img13_alt: "mongodb"
+ tab5_img14: "/images/blockchain/binance.webp"
+ img14_alt: "binance"
+ tab5_img15: "/images/blockchain/metamask.webp"
+ img15_alt: "metamask"
+
+
 
 
 
@@ -133,13 +171,13 @@ why_choose_us:
   content : "No matter how complicated your project is, we always promise to deliver results. We deliver on our promises and live out what we teach. The first 15 days of blockchain development services from Spritle are entirely free. During this time, your team has the opportunity to observe Spritle's working methods and communication techniques."
   bulletpoints: 
    - "360° Holistic Approach."
-   - "Client Association at Each Stage"
-   - "Center of Excellence and Research Team"
+   - "Client Association at Each Stage."
+   - "Center of Excellence and Research Team."
 
   list:
-   - "Use of Latest Technologies"
-   - "Dynamic Engagement Model"
-   - "Agile and Lean Project Execution Approach"
+   - "Use of Latest Technologies."
+   - "Dynamic Engagement Model."
+   - "Agile and Lean Project Execution Approach."
 
 
   
@@ -163,7 +201,7 @@ faq:
   question2: "What are the benefits of blockchain technology ? "
   answer2: "Blockchain technology provides a wide range of advantages for both local communities and multinational corporations. Trusted data coordination, attack resistance, shared IT infrastructure, tokenization, and built-in incentivization are some of a blockchain's most often mentioned advantages."
   question3: "How Blockchain differs from Traditional Database?"
-  answer3: "Architecture - Blockchain uses Distributed Ledger Technology whereas Database utilizes client-server architecture.<br></br>
+  answer3: "Architecture - Blockchain uses Distributed Ledger Technology, whereas Database utilizes client-server architecture.<br></br>
   Integrity - Blockchain Supports data integrity whereas, in the database, there is a possibility for malicious activity.<br></br>
   Transparency - Blockchain offers High Transparency Whereas in Database admin has the control."
   
