@@ -42,9 +42,9 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "With Smart Contracts becoming the backbone of every blockchain-based application, let's gather to discuss it in detail in this Saturday's event."
-      register_link: "/events_webniars/blockchain-smart_contracts/"
-      button_text: "Register"
-      past: false
+      register_link: "#"
+      button_text: "view"
+      past: true
       
 
     - date: "29 Jan 2023"
