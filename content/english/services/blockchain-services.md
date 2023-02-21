@@ -35,7 +35,7 @@ banner:
   banner_heading:
   - "Blockchain Development Company"
   contents : "Give your company access to immutable, decentralized, and secure blockchain technologies. With our broad range of blockchain development services, we aid startups, companies, and enterprises in creating more automated, transparent, and effective versions of their operations."
-  image: "images/blockchain/block-chain.png"
+  image: "images/blockchain/block-chain.webp"
   alt : "Conversational AI Voice Bots for Hospital Automation"
 
   button:
@@ -100,7 +100,7 @@ In order to turn bitcoin cashbacks into cryptocurrency credit cards, Spritle ass
 geosnapshot:
   enable: true
   title: "D’Atelier"
-  image: "images/blockchain/datlier.jpg"
+  image: "images/blockchain/datlier.webp"
   alt: "Innovative Digital Healthcare Solutions Development "
   content: "A jewellery design firm called D'Atelier creates jewellery for clients on their specific requests. By developing an NFT marketplace where they may sell their unique creations as digital assets, Spritle assists them."
 
@@ -111,7 +111,7 @@ why_choos_us:
   image : "/images/screenshots/03.png" 
   list:
   - name : "**Renowned network for the certification of smart contracts and transactions involving digital assets**"
-    image : "images/blockchain/Ethereum.png" 
+    image : "images/blockchain/Ethereum.webp" 
     title : "Ethereum" 
 
   - name : "**Reduced network expenses due to an easily interoperable network**"
@@ -119,7 +119,7 @@ why_choos_us:
     title : "Polygon"  
       
   - name : "**Consensus protocol features include lightning-fast transactions**"
-    image : "/images/blockchain/Avalanche.png"
+    image : "/images/blockchain/Avalanche.webp"
     title : "Avalanche"
 
 tabs:
