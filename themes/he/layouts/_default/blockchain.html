@@ -128,7 +128,7 @@
             .image | absURL}}" alt="{{ .alt }}" />
           </div>
         </div>
-        <div class="col-lg-5 col-md-8 col-sm-10 pt-20 mt-lg-0">
+        <div class="col-lg-5 col-md-8 col-sm-10 pt-20 pb-10 mt-lg-0">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
           <p class="pb-20" style="font-size: 16px;">{{ .content | markdownify }}</p>
 
@@ -407,9 +407,11 @@
     font-size: 20px;
     margin-left: 3%;
   }
-
+  .nav-tabs {
+    border: none;
+  }
   .check-list li {
-    text-indent: -1rem;
+    text-indent: -17px;
   }
 
   a.tab-link.active {
