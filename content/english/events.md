@@ -43,7 +43,7 @@ testimonial:
       duration: "2 hours | English"
       desc: "With Smart Contracts becoming the backbone of every blockchain-based application, let's gather to discuss it in detail in this Saturday's event."
       register_link: "#"
-      button_text: "view"
+      button_text: "View"
       past: true
       
 
