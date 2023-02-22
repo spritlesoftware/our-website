@@ -1,0 +1,499 @@
+{{ define "main" }} {{ if .Params.banner.enable }} {{ with .Params.banner }}
+<!-- start of banner  -->
+<section class="banner pt-60 pb-60 bg-cover-bottom has-shapes   has-bg-brash  bg-brash-bottom"
+  style="background-image: url('{{`images/brushes/section-bottom.svg` | absURL}}');">
+  <div class="container h-100">
+    <div class="d-block d-lg-flex no-gutters align-items-center h-100">
+      <div class="col-12 col-xl-6 col-lg-6 order-lg-1">
+        <div class="banner-image has-video-popup has-shapes mb-4 mb-md-5 mb-lg-0">
+          {{ if .video.enable }} {{ with .video }}
+          <button type="button" class="video-play-btn" data-toggle="modal" data-src="{{ .video_embed_link | absURL }}"
+            data-target="#videoModal">
+            <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+            </svg>
+          </button>
+          {{ end }} {{ end }}
+          <img style="margin-left:0px;" loading="lazy" class="img-fluid" alt="{{ .alt }}" src="{{ .image | absURL }}"
+            alt="{{ .alt }}" />
+          <div class="shape-lg bg-cyan rounded-circle"></div>
+          <div class="shape-md bg-orange rounded-circle"></div>
+          <div class="shape-sm bg-yellow rounded-circle"></div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 order-lg-0">
+        <!--<h2 class="h1 mb-20">{{ .title | markdownify }}</h2>-->
+        <div class="banner-heading-slider mb-20">
+          {{ range .banner_heading }}
+          <div>
+            <h1 class="h1">{{ . | markdownify }}</h1>
+          </div>
+          {{ end }}
+        </div>
+        <p>{{ .contents | markdownify }}</p>
+
+        {{if .button.enable }} {{with .button }}
+
+        <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
+          class="btn btn-primary mt-25 banner-btn" class="btn btn-primary mt-15"
+          style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
+
+
+        {{ end }} {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="shape-1 shape-sm bg-secondary rounded-circle"></div>
+  <div class="shape-3 shape-sm-2 bg-primary rounded-circle"></div>
+  <div class="shape-4 shape-sm-2 bg-primary rounded-circle"></div>
+  <div class="shape-5 shape-xs bg-secondary rounded-circle"></div>
+  <div class="shape-6 shape-xs bg-tertiary rounded-circle"></div>
+  <div class="shape-7 shape-xs-2 bg-tertiary rounded-circle"></div>
+</section>
+<!-- end of banner -->
+
+{{ end }} {{ end }}
+
+
+
+
+<!-- end of videoModal -->
+
+
+<!-- end of video-testimonials -->
+
+{{ partial "verticals-home-voicebot.html" . }} {{ with .Params.audio_section }}
+
+{{ end }}
+<!--end-->
+
+{{ if .Params.why_choos_us.enable }}
+{{ with .Params.why_choos_us }}
+<section class="section-padding  " data-aos="fade-in">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-9 text-center mb-40">
+        <h2 class="section-title">{{.title}}</h2>
+        <p>{{.content}}</p>
+      </div>
+      <div class="col-xl-12">
+        <div class="row align-items-center colored-icon-box">
+
+          {{ range $i, $e:= .list }}
+
+          <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
+            <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5 mb-30">
+              <img style="height: 60px; width: 60px;" loading="lazy" alt="{{ .alt }}" class="img-fluid"
+                src="{{ .image | absURL }}" alt="">
+              <h2 class="section-title">{{.title}}</h2>
+              <p class="text-black-300 font-weight-light">{{ .name | markdownify }}</p>
+            </div>
+          </div>
+
+          {{end}}
+
+        </div>
+      </div>
+      {{if .button.enable }} {{with .button }}
+
+      <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
+        class="btn btn-primary mt-15">{{.button_label}}</a>
+
+
+      {{ end }} {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- end of Why us -->
+{{if .Params.genomic.enable }} {{with .Params.genomic }}
+<section class="section-padding  image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
+  style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
+  data-aos="fade-up" data-aos-delay="150">
+  <div>
+    <div class="container">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-lg-12">
+          <h2 class="section-title text-center">{{ .htitle | markdownify }}</h2>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-around">
+        <div class="col-lg-5 col-md-8 col-sm-10">
+          <div class="d-block text-center">
+            <img loading="lazy" height="320px" width="309px" class="img-fluid rounded-lg" src="{{ 
+            .image | absURL}}" alt="{{ .alt }}" />
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-8 col-sm-10 pt-20 pb-10 mt-lg-0">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <p class="pb-20" style="font-size: 16px;">{{ .content | markdownify }}</p>
+
+          {{if .button.enable }} {{with .button }} {{ partial "button.html" .}}
+          {{ end }} {{ end }}
+          <ul class="check-list list-unstyled">
+            {{ range .bulletpoints }}
+            <li class="mb-15">
+              <svg width="16" height="11" viewBox="0 0 18 13" class="text-primary mr-2" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              {{. | markdownify}}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shape-3 shape-xs-2 bg-secondary rounded-circle"></div>
+  <div class="shape-4 shape-sm-2 bg-tertiary rounded-circle"></div>
+  <div class="shape-5 shape-sm bg-primary rounded-circle"></div>
+  <div class="shape-6 shape-xs bg-secondary rounded-circle"></div>
+  <div class="shape-7 shape-xs-2 bg-tertiary rounded-circle"></div>
+</section>
+{{ end }} {{ end }}
+<!--end-->
+
+{{if .Params.geosnapshot.enable }} {{with .Params.geosnapshot }}
+<section class="section-padding pt-60 pb-60 ">
+  <div class="container">
+    <div class="row align-items-center justify-content-around">
+      <div class="col-lg-5 col-md-8 col-sm-10 mt-5 mt-lg-0">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p class="pb-20">{{ .content | markdownify }}</p>
+
+        <div class="has-colored-text growth-rate-counter">
+          {{ range .facts }}
+          <div class="d-inline-block block-sm mr-30 mt-10">
+            <h2 class="has-text-color font-weight-bold">
+              <span class="jsCounter" data-count="{{.count}}">0</span>{{.extension}}
+            </h2>
+            <p class="mt-10">{{ .name | markdownify }}</p>
+          </div>
+          {{ end }}
+        </div>
+        <ul class="check-list list-unstyled">
+          {{ range .bulletpoints }}
+          <li class="mb-15">
+            <svg width="16" height="11" viewBox="0 0 18 13" class="text-primary mr-2" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 6.125L6.91892 11L16 2" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            {{. | markdownify}}
+          </li>
+          {{ end }}
+        </ul>
+
+        {{if .button.enable }} {{with .button }} {{ partial "button.html" .}} {{
+        end }} {{ end }}
+      </div>
+
+      <div class="col-lg-5 col-md-8 col-sm-10 mt-3">
+        <div class="d-block text-center">
+          <img loading="lazy" class="img-fluid rounded-sm" src="{{ .image | absURL}}" alt="{{ .alt }}" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{partial "collect-info-modal.html" .}}
+{{ end }} {{ end }}
+<!-- end section -->
+{{if .Params.tabs.enable }} {{with .Params.tabs }}
+<section class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
+  style="background-image: url('{{`images/brushes/section-top.svg` | absURL }}'), url('{{`images/brushes/section-bottom.svg` | absURL}}');"
+  data-aos="fade-up" data-aos-delay="150">
+  <div class="container">
+    <h2 class=" section-title text-center mb-40">{{.title | markdownify}}</h2>
+    <div class="">
+      <ul class="nav nav-pills nav-tabs justify-content-center ">
+        <li class=" p-20 fs"><a class="tab-link active" id="a-line" data-toggle="pill" href="#home">{{.tab1_title |
+            markdownify}}</a></li>
+        <li class="fs p-20"><a class="tab-link " id="a-line" data-toggle="pill" href="#menu1">{{.tab2_title |
+            markdownify}}</a></li>
+        <li class="fs p-20"><a class="tab-link " id="a-line" data-toggle="pill" href="#menu2">{{.tab3_title |
+            markdownify}}</a></li>
+        <li class="fs p-20"><a class="tab-link " id="a-line" data-toggle="pill" href="#menu3">{{.tab4_title |
+            markdownify}}</a></li>
+        <li class="fs p-20"><a class="tab-link " id="a-line" data-toggle="pill" href="#menu4">{{.tab5_title |
+            markdownify}}</a></li>
+
+      </ul>
+    </div>
+
+    <div class="tab-content mt-20">
+      <div id="home" class="tab-pane fade-in active">
+        <div class=" d-flex-icon flex-row justify-content-center">
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab1_img1 | markdownify}}" class="img-fluid"
+                alt="{{.img1_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab1_img2 | markdownify}}" class="img-fluid"
+                alt="{{.img2_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab1_img3 | markdownify}}" class="img-fluid"
+                alt="{{.img3_alt | markdownify}}"></div>
+          </div>
+        </div>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <div class=" d-flex-icon flex-row justify-content-center">
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab2_img4 | markdownify}}" class="img-fluid"
+                alt="{{.img4_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab2_img5 | markdownify}}" class="img-fluid"
+                alt="{{.img5_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab2_img6 | markdownify}}" class="img-fluid"
+                alt="{{.img6_alt | markdownify}}"></div>
+          </div>
+
+        </div>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <div class=" d-flex-icon flex-row justify-content-center">
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab3_img7 | markdownify}}" class="img-fluid"
+                alt="{{.img7_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab3_img8 | markdownify}}" class="img-fluid"
+                alt="{{.img8_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab3_img9 | markdownify}}" class="img-fluid"
+                alt="{{.img9_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab3_img10 | markdownify}}" class="img-fluid"
+                alt="{{.img11_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab3_img11 | markdownify}}" class="img-fluid"
+                alt="{{.img11_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab3_img12 | markdownify}}" class="img-fluid"
+                alt="{{.img12_alt | markdownify}}"></div>
+          </div>
+        </div>
+      </div>
+      <div id="menu3" class="tab-pane fade">
+        <div class=" d-flex-icon flex-row justify-content-center">
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab4_img13 | markdownify}}" class="img-fluid"
+                alt="{{.img13_alt | markdownify}}"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="menu4" class="tab-pane fade">
+        <div class=" d-flex-icon flex-row justify-content-center">
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab5_img14 | markdownify}}" class="img-fluid"
+                alt="{{.img14_alt | markdownify}}"></div>
+          </div>
+          <div class="border-round p-20">
+            <div class="border-1"><img src="{{.tab5_img15 | markdownify}}" class="img-fluid"
+                alt="{{.img15_alt | markdownify}}"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shape-3 shape-xs-2 bg-secondary rounded-circle"></div>
+  <div class="shape-4 shape-sm-2 bg-tertiary rounded-circle"></div>
+  <div class="shape-5 shape-sm bg-primary rounded-circle"></div>
+  <div class="shape-6 shape-xs bg-secondary rounded-circle"></div>
+  <div class="shape-7 shape-xs-2 bg-tertiary rounded-circle"></div>
+</section>
+{{end}}{{end}}
+
+{{ if .Params.why_choose_us.enable }}
+{{ with .Params.why_choose_us }}
+<section class="section-padding pt-60 pb-60" data-aos="fade-in">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-9 text-center mb-40">
+        <h2 class="section-title">{{.title}}</h2>
+        <p>{{.content}}</p>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-around">
+      <div class="col-lg-5 col-md-8 col-sm-10">
+        <div class="row mb-9">
+          {{ range .images }}
+          <div class="col-md-4 text-center">
+            <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
+          </div>
+          {{ end }}
+        </div>
+        <ul class="check-list list-unstyled">
+          {{ range .list }}
+          <li class="mb-10">
+            <h4><span class="text-primary mr-2"><i class="fa fa-check fa-primary" aria-hidden="true"></i></span> {{. |
+              markdownify}}</h4>
+          </li>
+          {{ end }}
+        </ul>
+        <div class="shape-1 shape-md bg-yellow rounded-circle"></div>
+        <div class="shape-2 shape-xl bg-cyan rounded-circle"></div>
+        <div class="shape-3 shape-lg bg-orange rounded-circle"></div>
+      </div>
+      <div class="col-lg-5 col-md-8 col-sm-10">
+        <div class="row mb-9">
+          {{ range .images }}
+          <div class="col-md-4 text-center">
+            <img loading="lazy" class="img-fluid" src="{{ . |absURL}}" alt="" />
+          </div>
+          {{ end }}
+        </div>
+        <ul class="check-list list-unstyled">
+          {{ range .bulletpoints }}
+          <li class="mb-10">
+            <h4><span class="text-primary mr-2"><i class="fa fa-check fa-primary" aria-hidden="true"></i></span> {{. |
+              markdownify}}</h4>
+          </li>
+          {{ end }}
+        </ul>
+
+      </div>
+      {{if .button.enable }} {{with .button }}
+
+      <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
+        class="btn btn-primary mt-25 banner-btn" class="btn btn-primary mt-15"
+        style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
+
+
+      {{ end }} {{ end }}
+    </div>
+
+  </div>
+
+  </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- end of Why us -->
+
+{{if .Params.floating }} {{with .Params.floating }} {{if .button.enable }}
+{{with .button }}
+
+
+<div id="mybutton">
+  <a href="#" class="Enquire" data-toggle="modal" data-target="#myModal" type="submit">{{.button_label}}
+  </a>
+</div>
+
+{{ end }} {{ end }}
+
+
+{{ end }} {{ end }}
+<style>
+  .fs {
+    font-size: 20px;
+    margin-left: 3%;
+  }
+  .nav-tabs {
+    border: none;
+  }
+  .check-list li {
+    text-indent: -17px;
+  }
+  .equal_row {
+    height: 109px;
+  }
+
+  a.tab-link.active {
+    color: black;
+    box-shadow: 8px 8px 10px #767a7a;
+    padding: 10px;
+    border-radius: 7px;
+  }
+
+  .d-flex-icon {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .border-round {
+    padding: 0;
+    flex: 1 20%;
+    margin: 0;
+    max-width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .border-1 {
+
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #a-line {
+    text-decoration: none;
+  }
+
+
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .fs {
+      margin-left: 0% !important;
+      padding: 10px 20px !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .fs {
+      margin-left: 0% !important;
+      padding: 5px 10px !important;
+    }
+
+    .border-round {
+      padding: 0;
+      flex: 2 50% !important;
+      margin: 0;
+      max-width: 50% !important;
+      display: flex;
+      align-items: center;
+
+    }
+
+    .border-1 {
+      width: 100%;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+  }
+</style>
+
+{{partial
+"collect-info-modal.html" .}}
+
+{{ partial "faq.html" .}}
+{{ end }}
