@@ -29,6 +29,7 @@ twitter_image: "http://demo.spritle.com/images/blockchain/blockchain_preview.web
 layout: "blockchain"
 draft: false
 
+
 banner:
   enable : true
   title : "Blockchain Development Company"
@@ -56,31 +57,38 @@ verticals:
   layout : "services"
   draft : false
   services:
+  
   - name : "Blockchain Technology Consulting"
     color : "#F3FCFD"
     contents : "An individual consultation helping you create a functional blockchain business network that is safe, democratic, and cutting edge."
+    blockchain: true
 
 
-  - name : "dApps Development"
+  - name : "dApps </br> Development"
     color : "#FFFCF4"
     contents : "Developing enterprise-grade decentralized apps from conception to design, development to support, customers to speed up, the proper time to market, and ROI maximization."
+    blockchain: true
 
   - name : "Enterprise Blockchain Development"
     color : "#FFF4F4"
     contents : "Utilize the power of innovative technology to create a long-lasting blockchain solution."
+    blockchain: true
 
   - name : "Smart Contracts Development"
     color : "#FFF4F4"
     contents : "Enabling organizations to automate task completion while preserving the integrity of multi-party contracts."
+    blockchain: true
 
 
-  - name : "Decentralized Finance"
+  - name : "Decentralized </br>Finance"
     color : "#FFFCF4"
     contents : "  We aim to provide a more secure and transparent way of transaction with the use of blockchain technology."
+    blockchain: true
 
   - name : "Smart Contracts Audit"
     color : "#F3FCFD"
     contents : "Providing smart contract audits at a very low cost and with security. With frequent auditing reports, you may complete your task quickly."
+    blockchain: true
 
   
 
