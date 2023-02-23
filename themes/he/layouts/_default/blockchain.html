@@ -39,8 +39,6 @@
         <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
           class="btn btn-primary mt-25 banner-btn" class="btn btn-primary mt-15"
           style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
-
-
         {{ end }} {{ end }}
       </div>
     </div>
@@ -57,13 +55,6 @@
 
 {{ end }} {{ end }}
 
-
-
-
-<!-- end of videoModal -->
-
-
-<!-- end of video-testimonials -->
 
 {{ partial "verticals-home-voicebot.html" . }} {{ with .Params.audio_section }}
 
@@ -87,7 +78,7 @@
           <div class="col-sm-6 mx-auto" data-aos-delay="{{mul $i 100}}">
             <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5 mb-30">
               <img style="height: 60px; width: 60px;" loading="lazy" alt="{{ .alt }}" class="img-fluid"
-                src="{{ .image | absURL }}" alt="">
+                src="{{ .image | absURL }}">
               <h2 class="section-title">{{.title}}</h2>
               <p class="text-black-300 font-weight-light">{{ .name | markdownify }}</p>
             </div>
@@ -101,8 +92,6 @@
 
       <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
         class="btn btn-primary mt-15">{{.button_label}}</a>
-
-
       {{ end }} {{ end }}
     </div>
   </div>
@@ -373,13 +362,13 @@
 
     </div>
     <div class="row align-items-center justify-content-around">
-    {{if .button.enable }} {{with .button }}
+      {{if .button.enable }} {{with .button }}
 
-    <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
-      class="btn btn-primary mt-25 " class="btn btn-primary mt-15"
-      style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
-    {{ end }} {{ end }}
-  </div>
+      <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
+        class="btn btn-primary mt-25 " class="btn btn-primary mt-15"
+        style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
+      {{ end }} {{ end }}
+    </div>
   </div>
 
   </div>
@@ -407,20 +396,26 @@
     font-size: 20px;
     margin-left: 3%;
   }
+
   .nav-tabs {
     border: none;
   }
+
   .check-list li {
     text-indent: -17px;
   }
+
   .equal_row {
     height: 109px;
+  }
+  a.tab-link {
+    color: #15aed5;
   }
 
   a.tab-link.active {
     color: black;
     padding: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid #15aed5;
   }
 
   .d-flex-icon {
@@ -442,7 +437,6 @@
   }
 
   .border-1 {
-
     width: 100%;
     margin: 10px;
     display: flex;
@@ -454,7 +448,6 @@
   #a-line {
     text-decoration: none;
   }
-
 
   /* Media Query for Tablets Ipads portrait mode */
   @media (min-width: 768px) and (max-width: 1024px) {

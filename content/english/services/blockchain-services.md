@@ -16,7 +16,7 @@ ogtitle: "Blockchain Development Services"
 ogdescription: "Blockchain-based services for everyone! We bridge blockchain technology with innovation and offer best blockchain-based services to companies and businesses" 
 link: "https://www.spritle.com/blockchain-services/"
 site_name: "Spritle Software"
-Ogimage: "http://demo.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp"
+Ogimage: "https://www.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp"
 alt: "Blockchain Development services" 
 
 ########################### Twitter #################################
@@ -25,7 +25,7 @@ twitter_title: "Digital Healthcare Solutions"
 twitter_description: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "http://demo.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+twitter_image: "https://www.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 layout: "blockchain"
 draft: false
 
@@ -37,7 +37,7 @@ banner:
   - "Blockchain Development Company"
   contents : "Give your company access to immutable, decentralized, and secure blockchain technologies. With our broad range of blockchain development services, we aid startups, companies, and enterprises in creating more automated, transparent, and effective versions of their operations."
   image: "images/blockchain/block-chain.webp"
-  alt : "Conversational AI Voice Bots for Hospital Automation"
+  alt : "Blockchain Development"
 
   button:
     enable: true
@@ -90,17 +90,12 @@ verticals:
     contents : "Providing smart contract audits at a very low cost and with security. With frequent auditing reports, you may complete your task quickly."
     blockchain: true
 
-  
-
-
-
-
 genomic:
   enable: true
   htitle: "Our Blockchain Projects"
   title: "StromX"
   image: "images/blockchain/stromx.webp"
-  alt: "Target Audience and Solution Partners "
+  alt: "stromx "
   content: "StormX is a Blockchain and micro-task company that provides crypto cashback.
 By utilizing the powers of blockchain technology, the company has been able to offer rewards.
 In order to turn bitcoin cashbacks into cryptocurrency credit cards, Spritle assists StromX."
@@ -109,7 +104,7 @@ geosnapshot:
   enable: true
   title: "D’Atelier"
   image: "images/blockchain/datlier.webp"
-  alt: "Innovative Digital Healthcare Solutions Development "
+  alt: "D’Atelier"
   content: "A jewellery design firm called D'Atelier creates jewellery for clients on their specific requests. By developing an NFT marketplace where they may sell their unique creations as digital assets, Spritle assists them."
 
 why_choos_us:
@@ -120,15 +115,18 @@ why_choos_us:
   list:
   - name : "**Renowned network for the certification of smart contracts and transactions involving digital assets**"
     image : "images/blockchain/Ethereum.webp" 
+    alt: "Ethereum"
     title : "Ethereum" 
 
   - name : "**Reduced network expenses due to an easily interoperable network**"
     image : "/images/blockchain/Polygon.webp"
-    title : "Polygon"  
+    title : "Polygon"
+    alt: "Polygon"  
       
   - name : "**Consensus protocol features include lightning-fast transactions**"
     image : "/images/blockchain/Avalanche.webp"
     title : "Avalanche"
+    alt: "Avalanche"
 
 tabs:
  enable : true
@@ -169,10 +167,6 @@ tabs:
  tab5_img15: "/images/blockchain/metamask.webp"
  img15_alt: "metamask"
 
-
-
-
-
 why_choose_us:
   enable : true
   title : "Why Choose Spritle Software as Blockchain Development Company?"
@@ -186,10 +180,6 @@ why_choose_us:
    - "Use of Latest Technologies."
    - "Dynamic Engagement Model."
    - "Agile and Lean Project Execution Approach."
-
-
-  
-
   button:
     enable: true
     button_label: "Talk to our experts!"
@@ -205,14 +195,11 @@ collect_info:
 faq:
   question1: "What is a blockchain and BaaS ?"
   answer1: "A blockchain is a distributed, cryptographically-secure database structure that allows network participants to establish a trusted and immutable record of transactional data without the need for intermediaries.<br></br>
-   Blockchain as a Service, or Baas. These days, technology may be rented, much as how Blockchain-as-a-Service enables businesses to rent cloud-based blockchain infrastructure."
+   Blockchain as a Service, or Baas. These days, technology may be rented, much as how Blockchain-as-a-Service enables businesses to rent cloud-based blockchain infrastructure"
   question2: "What are the benefits of blockchain technology ? "
   answer2: "Blockchain technology provides a wide range of advantages for both local communities and multinational corporations. Trusted data coordination, attack resistance, shared IT infrastructure, tokenization, and built-in incentivization are some of a blockchain's most often mentioned advantages."
   question3: "How Blockchain differs from Traditional Database?"
   answer3: "Architecture - Blockchain uses Distributed Ledger Technology, whereas Database utilizes client-server architecture.<br></br>
   Integrity - Blockchain Supports data integrity whereas, in the database, there is a possibility for malicious activity.<br></br>
-  Transparency - Blockchain offers High Transparency Whereas in Database admin has the control."
-  
-
-  
+  Transparency - Blockchain offers High Transparency Whereas in Database admin has the control." 
 ---
