@@ -16,7 +16,7 @@ ogtitle: "Blockchain Development Services"
 ogdescription: "Blockchain-based services for everyone! We bridge blockchain technology with innovation and offer best blockchain-based services to companies and businesses" 
 link: "https://www.spritle.com/blockchain-services/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp"
+Ogimage: "http://demo.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp"
 alt: "Blockchain Development services" 
 
 ########################### Twitter #################################
@@ -25,7 +25,7 @@ twitter_title: "Digital Healthcare Solutions"
 twitter_description: "Gene-based supplement solutions that use AI technology in Healthcare.We are HIPAA certified and offer custom built digital healthcare solutions for hospitals to improve their performance." 
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "https://www.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+twitter_image: "http://demo.spritle.com/images/blockchain/blockchain_preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 layout: "blockchain"
 draft: false
 
@@ -37,7 +37,7 @@ banner:
   - "Blockchain Development Company"
   contents : "Give your company access to immutable, decentralized, and secure blockchain technologies. With our broad range of blockchain development services, we aid startups, companies, and enterprises in creating more automated, transparent, and effective versions of their operations."
   image: "images/blockchain/block-chain.webp"
-  alt : "Blockchain Development"
+  alt : "Conversational AI Voice Bots for Hospital Automation"
 
   button:
     enable: true
@@ -100,7 +100,7 @@ genomic:
   htitle: "Our Blockchain Projects"
   title: "StromX"
   image: "images/blockchain/stromx.webp"
-  alt: "StromX "
+  alt: "Target Audience and Solution Partners "
   content: "StormX is a Blockchain and micro-task company that provides crypto cashback.
 By utilizing the powers of blockchain technology, the company has been able to offer rewards.
 In order to turn bitcoin cashbacks into cryptocurrency credit cards, Spritle assists StromX."
@@ -109,7 +109,7 @@ geosnapshot:
   enable: true
   title: "D’Atelier"
   image: "images/blockchain/datlier.webp"
-  alt: "D’Atelier "
+  alt: "Innovative Digital Healthcare Solutions Development "
   content: "A jewellery design firm called D'Atelier creates jewellery for clients on their specific requests. By developing an NFT marketplace where they may sell their unique creations as digital assets, Spritle assists them."
 
 why_choos_us:
@@ -176,7 +176,7 @@ tabs:
 why_choose_us:
   enable : true
   title : "Why Choose Spritle Software as Blockchain Development Company?"
-  content : "No matter how complicated your project is, we always promise to deliver results. We deliver on our promises and live out what we teach. The first 15 days of blockchain development services from Spritle are entirely free. During this time, your team has the opportunity to observe Spritle's working methods and communication techniques."
+  content : ""
   bulletpoints: 
    - "360° Holistic Approach."
    - "Client Association at Each Stage."
@@ -192,7 +192,7 @@ why_choose_us:
 
   button:
     enable: true
-    button_label: "TALK TO BLOCKCHAIN EXPERTS"
+    button_label: "Talk to our experts!"
     link: "contact"
 collect_info:
   title: "Have a project in mind?"
