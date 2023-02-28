@@ -176,7 +176,7 @@ tabs:
 why_choose_us:
   enable : true
   title : "Why Choose Spritle Software as Blockchain Development Company?"
-  content : "No matter how complicated your project is, we always promise to deliver results. We deliver on our promises and live out what we teach. The first 15 days of blockchain development services from Spritle are entirely free. During this time, your team has the opportunity to observe Spritle's working methods and communication techniques."
+  content : ""
   bulletpoints: 
    - "360° Holistic Approach."
    - "Client Association at Each Stage."
@@ -192,7 +192,7 @@ why_choose_us:
 
   button:
     enable: true
-    button_label: "TALK TO BLOCKCHAIN EXPERTS"
+    button_label: "Talk to our experts!"
     link: "contact"
 collect_info:
   title: "Have a project in mind?"

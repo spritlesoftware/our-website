@@ -370,16 +370,16 @@
         </ul>
 
       </div>
-      {{if .button.enable }} {{with .button }}
 
-      <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
-        class="btn btn-primary mt-25 banner-btn" class="btn btn-primary mt-15"
-        style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
-
-
-      {{ end }} {{ end }}
     </div>
+    <div class="row align-items-center justify-content-around">
+    {{if .button.enable }} {{with .button }}
 
+    <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#myModal" type="submit"
+      class="btn btn-primary mt-25 " class="btn btn-primary mt-15"
+      style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
+    {{ end }} {{ end }}
+  </div>
   </div>
 
   </div>
@@ -419,9 +419,8 @@
 
   a.tab-link.active {
     color: black;
-    box-shadow: 8px 8px 10px #767a7a;
-    padding: 10px;
-    border-radius: 7px;
+    padding: 5px;
+    border-bottom: 1px solid black;
   }
 
   .d-flex-icon {
