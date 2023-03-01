@@ -1,16 +1,16 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "Performance Testing Services"
+custom_title_value: "Robotic Process Automation Services"
 layout : "testing_landing"
-title: "Performance Testing Services"
+title: "Top Building and Facility Management service providers in the industry"
 description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
 keywords : [Bms & Fms,BMS installation companies,Building Management System,Facility Management System,
 Building management software ,facility management services software,Best Building Management System Companies ,Facilities management software companies,Top facility management software]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Performance Testing Services" 
+ogtitle: "Robotic Process Automation Services" 
 ogdescription: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."   
 link: "https://www.spritle.com/bms-fms/"
 site_name: "Spritle Software"
@@ -19,7 +19,7 @@ alt: "Top Building and Facility Management service providers in the industry"
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Top Building and Facility Management service providers in the industry"  
+twitter_title: "Robotic Process Automation Services"  
 twitter_description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
@@ -31,8 +31,8 @@ banner:
   enable : true
   title : ""
   banner_heading:
-  - "Be application ready with our **Performance Testing** Services"
-  contents : "We assiste you in enhancing the quality of your software and reach the market four times faster."
+  - "Take hold of our **Robotic Process Automation** Services to empower your workforce. "
+  contents : "We blend the best of AI, automation and software testing techniques to help companies like you to upscale business growth through Robotic Process Automation. "
   image: "images/bmsimages/smartt.webp"
   alt : "Top Building and Facility Management service providers in the industry"
 
@@ -45,53 +45,49 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
-  pagename: "Performance Testing Services"
+  pagename: "Robotic Process Automation Services"
 
 vision:
   enable : true
-  content1: "Performance Testing is one of the crucial steps of software testing process, and involves a thorough investigation of application through a series of test techniques to identify,evakuate and verify it's performance.These testing techniques aim to predict responsiveness,stability,speed,load limit and overall response of an application to variou traffic loads,etc."
-  content2: "So,to keep you application friendly and up tothe standards in this changing tech savvy world,it's crucial to test your software through a series of tests."
+  content1: "Robotic Process Automation(RPA) is one of the fast-growing technologies that has effectively proven to help organizations leverage the best of software robots and automation to eliminate human intervention in doing repetitive, time-consuming, and tedious tasks."
+  content2: "That said, our RPA Services revolve around providing a comprehensive set of services that includes building, testing, and implementing efficient RPA technologies to upscale your business growth exponentially."
   title : "What do we do ?"
   image : "images/casestudies/Improve-your-company's-overall-performance-image.webp"  
   bulletpoints: 
   
-  - "**Identifying the test environment:**
+  - "**Figure out & Analyze your requirements**
   <br>
-  We sketch our testing startegies foryour application by identifying it's testing and production environment with testing tools."
+  We do a thorough analysis on your needs and requirements to suggest and cater our RPA Services. "
 
-  - "**Defining the performance criteria**
+  - "**Choosing automation tool**
   <br>
-  We form the performance criteria of your application by keeping the performance goals and constraints in metrics."
+  We specialize in choosing the appropriate automation tools  and frameworks."
   
-  - "**Plan,configure,and implement Test Design**
+  - "**Analysing, Building, Testing, and Executing Results**
   <br>
-  We plan your performance testing and building test cases around performance metrics.We configure test design and then test in an approporiate environment."
+  The next step in our journey is to analyze, build, test, execute and obtain the test results. "
 
-  - "**Test and Result Analysis**
+  - "**Summing up our RPA services**
   <br>
-  After implementingthe test design,we run tests and analyze the test results to fine tune the performance of the applications."
-
-  - "**All-in-One Solution**
-  <br>
-  Our performance testing services resolves around an all in one solution with capacity,load,scalability,spike,soak and stress testing services."
+  We offer RPA automation, robotic test automation, and RPA testing services for everyone.."
 
 
 why_choos_us:
   enable : true
-  title : "Why choose Performance Testing Services?"
+  title : "Why choose Robotic Process Automation Services?"
   content : ""
   image : "" 
   list:
-  - name : "It helps you to identify the response time,sclability,reliability,resource usage of your application for a particular workload."
+  - name : "It helps in incorporating automation to execute repetitive tasks and empower your workforce with minimal manual work."
     image : "images/blockchain/Ethereum.webp" 
 
-  - name : "It improves the speed,scalability, and the stability of your application."
+  - name : "It boosts productivity by bringing in accuracy and saving time."
     image : "/images/blockchain/Polygon.webp"
       
-  - name : "It helps in measuring the loading time of your application."
+  - name : "It will give you the privilege to automate your operations 24*7."
     image : "/images/blockchain/Avalanche.webp"
 
-  - name : "It helps in arriving at a conclusion about your applictaion's overall performance."
+  - name : "These services aim to upscale your business growth through effective solutions to do time consuming tasks."
     image : "/images/blockchain/Avalanche.webp"
 
 tools_sec:
