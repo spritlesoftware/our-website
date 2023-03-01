@@ -1,16 +1,16 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "Performance Testing Services"
+custom_title_value: "Multi-Platform Testing services"
 layout : "testing_landing"
-title: "Performance Testing Services"
+title: "Top Building and Facility Management service providers in the industry"
 description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
 keywords : [Bms & Fms,BMS installation companies,Building Management System,Facility Management System,
 Building management software ,facility management services software,Best Building Management System Companies ,Facilities management software companies,Top facility management software]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Performance Testing Services" 
+ogtitle: "Multi-Platform Testing services" 
 ogdescription: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."   
 link: "https://www.spritle.com/bms-fms/"
 site_name: "Spritle Software"
@@ -31,8 +31,8 @@ banner:
   enable : true
   title : ""
   banner_heading:
-  - "Be application ready with our **Performance Testing** Services"
-  contents : "We assiste you in enhancing the quality of your software and reach the market four times faster."
+  - "Verify your application's performance on diverse platforms using our **Multi-Platform Testing** services. "
+  contents : "We empower companies like you to keep your applications future-ready for the upcoming era of multi-digital Smart devices. "
   image: "images/bmsimages/smartt.webp"
   alt : "Top Building and Facility Management service providers in the industry"
 
@@ -45,53 +45,49 @@ collect_info:
   link: "thankyouenquiry"
   details_textarea_title: "Have Somthing to say to us?*"
   form_name: "Project requirment"
-  pagename: "Performance Testing Services"
+  pagename: "Multi-Platform Testing Services"
 
 vision:
   enable : true
-  content1: "Performance Testing is one of the crucial steps of software testing process, and involves a thorough investigation of application through a series of test techniques to identify,evakuate and verify it's performance.These testing techniques aim to predict responsiveness,stability,speed,load limit and overall response of an application to variou traffic loads,etc."
-  content2: "So,to keep you application friendly and up tothe standards in this changing tech savvy world,it's crucial to test your software through a series of tests."
+  content1: "With technology bringing new Smart gadgets and updated browser versions for people to tinker with, companies and application developers must tune their applications for high browser compatibility, user-friendliness, and other UI factors to provide a seamless user experience on diverse platforms."
+  content2: "Multi-Platform testing encompasses web and mobile application testing, where the performance of your application gets tested and verified from different user-perspective and needs. From figuring out the application's behaviour for various OS and browser configurations to calibrating the overall efficiency of the user interface, multi-platform testing covers everything and prepares your application for a Smart-future!"
   title : "What do we do ?"
   image : "images/casestudies/Improve-your-company's-overall-performance-image.webp"  
   bulletpoints: 
   
-  - "**Identifying the test environment:**
+  - "**Requirement Analysis**
   <br>
-  We sketch our testing startegies foryour application by identifying it's testing and production environment with testing tools."
+  We do an extensive analysis on your requirements and then devise an appropriate testing methodology to scale your application's performance and device compatibility."
 
-  - "**Defining the performance criteria**
+  - "**Target Audience Identification**
   <br>
-  We form the performance criteria of your application by keeping the performance goals and constraints in metrics."
+  We will help you to identify the target audience of your application and test it accordingly in different platforms from an end-user perspective."
   
-  - "**Plan,configure,and implement Test Design**
+  - "**Automation, Emulators, and Virtualization**
   <br>
-  We plan your performance testing and building test cases around performance metrics.We configure test design and then test in an approporiate environment."
+  We will assist you in taking a cost-effective approach towards testing your application's quality using automation, emulators, etc., "
 
-  - "**Test and Result Analysis**
+  - "**Overview of our services**
   <br>
-  After implementingthe test design,we run tests and analyze the test results to fine tune the performance of the applications."
-
-  - "**All-in-One Solution**
-  <br>
-  Our performance testing services resolves around an all in one solution with capacity,load,scalability,spike,soak and stress testing services."
+  Our Multi-Platform testing services revolve around API testing, Patch Testing, GUI and Installation validation for Mac OS and Windows."
 
 
 why_choos_us:
   enable : true
-  title : "Why choose Performance Testing Services?"
+  title : "Why choose Multi-Platform Testing Services?"
   content : ""
   image : "" 
   list:
-  - name : "It helps you to identify the response time,sclability,reliability,resource usage of your application for a particular workload."
+  - name : "It helps in identifying and fixing your application's performance issues in different browsers, OS, and devices."
     image : "images/blockchain/Ethereum.webp" 
 
-  - name : "It improves the speed,scalability, and the stability of your application."
+  - name : "It validates your application's API functionality, usability, device compatibility, GUI, and graphical UI features on multi-platforms."
     image : "/images/blockchain/Polygon.webp"
       
-  - name : "It helps in measuring the loading time of your application."
+  - name : "It tunes your application for different platforms and ensures reduced testing costs and maintenance efforts."
     image : "/images/blockchain/Avalanche.webp"
 
-  - name : "It helps in arriving at a conclusion about your applictaion's overall performance."
+  - name : "Running a Multi-platform testing on your application will help you to validate its installation and reuse test scripts."
     image : "/images/blockchain/Avalanche.webp"
 
 tools_sec:

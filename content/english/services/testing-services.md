@@ -81,11 +81,13 @@ section6:
       title: "Multi-platform Testing"
       desc: "We do Crash testing and mission-critical scenarios on your preferred devices, platforms, and networks."
       icon: "/images/testing-services/multi_platform_testing.png"
+      link: "/multi_platform_testing_services"
 
     - id: 300 
       title: "End to end Testing"
       desc: "From bug management to surveying and reporting, we handle it all & offer a complete testing solution."
       icon: "/images/testing-services/end_to_end_testing.png"
+      link: "/end_to_end_testing_services"
 
     - id: 500
       title: "Performance Testing"
@@ -94,14 +96,16 @@ section6:
       link: "/performance_testing_services"
 
     - id: 700
-      title: "Crash testing and mission-critical"
+      title: "RPA Testing"
       desc: "Be assured, that your web solution complies with industry standards (HIPAA, FHIR HL7, GDPR, and more)."
       icon: "/images/testing-services/compliance.png"
+      link: "rpa_testing_services"
 
     - id: 900
       title: "Automation Testing"
       desc: "Quality and improved performance (abiding test guidelines) of web solutions by our Test Automation Experts."
       icon: "/images/testing-services/automation_testing.png"
+      link: "/automation_testing_services"
 
 
 section7:
