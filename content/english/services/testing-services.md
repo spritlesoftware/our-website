@@ -91,6 +91,7 @@ section6:
       title: "Performance Testing"
       desc: "We test your online solution for stress, load, scalability, and reliability under any expected demand."
       icon: "/images/testing-services/performance_testing.png"
+      link: "/performance_testing_services"
 
     - id: 700
       title: "Crash testing and mission-critical"
