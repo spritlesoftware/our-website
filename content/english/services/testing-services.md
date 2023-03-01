@@ -99,7 +99,7 @@ section6:
       title: "RPA Testing"
       desc: "Be assured, that your web solution complies with industry standards (HIPAA, FHIR HL7, GDPR, and more)."
       icon: "/images/testing-services/compliance.png"
-      link: "rpa_testing_services"
+      link: "/rpa_testing_services"
 
     - id: 900
       title: "Automation Testing"
