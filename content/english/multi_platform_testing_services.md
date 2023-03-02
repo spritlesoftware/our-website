@@ -81,7 +81,7 @@ why_choos_us:
   - name : "It helps in identifying and fixing your application's performance issues in different browsers, OS, and devices."
     image : "images/blockchain/Ethereum.webp" 
 
-  - name : "It validates your application's API functionality, usability, device compatibility, GUI, and graphical UI features on multi-platforms."
+  - name : "It validates your application's API functionality, usability, device compatibility, GUI features on multi-platforms."
     image : "/images/blockchain/Polygon.webp"
       
   - name : "It tunes your application for different platforms and ensures reduced testing costs and maintenance efforts."

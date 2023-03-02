@@ -82,13 +82,13 @@ why_choos_us:
   content : ""
   image : "" 
   list:
-  - name : "It helps you to identify the response time,sclability,reliability,resource usage of your application for a particular workload."
+  - name : "It identifies the response time,sclability,reliability,resource usage of your application."
     image : "images/blockchain/Ethereum.webp" 
 
   - name : "It improves the speed,scalability, and the stability of your application."
     image : "/images/blockchain/Polygon.webp"
       
-  - name : "It helps in measuring the loading time of your application."
+  - name : "It helps in measuring the loading time of your application  for a particular workload."
     image : "/images/blockchain/Avalanche.webp"
 
   - name : "It helps in arriving at a conclusion about your applictaion's overall performance."

@@ -84,7 +84,7 @@ why_choos_us:
   - name : "It empowers you to take a cost-effective approach and identify user concerns before deployment. "
     image : "/images/blockchain/Polygon.webp"
       
-  - name : "These services leverage ready-to-use test automation frameworks and bot-based testing to calibrate your application performance and efficiency. "
+  - name : "It leverage's ready-to-use test automation frameworks and bot-based testing to calibrate your application performance. "
     image : "/images/blockchain/Avalanche.webp"
 
   - name : "These services decrease the overall developmental time and add a touch of seamless UX for your application"
