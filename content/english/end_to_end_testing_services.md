@@ -81,7 +81,7 @@ why_choos_us:
   - name : "It helps you to foresee the bugs and performance issues of your application at every level. "
     image : "images/blockchain/Ethereum.webp" 
 
-  - name : "It widens the test coverage of your application and calibrates its efficiency and user-friendliness before deployment."
+  - name : "It widens  your application's test coverage and calibrates its efficiency and user-friendliness before deployment."
     image : "/images/blockchain/Polygon.webp"
       
   - name : "It reduces testing and maintenance costs and lowers the possibility of constantly fixing bugs."

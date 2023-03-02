@@ -78,7 +78,7 @@ why_choos_us:
   content : ""
   image : "" 
   list:
-  - name : "It helps in incorporating automation to execute repetitive tasks and empower your workforce with minimal manual work."
+  - name : "It helps in incorporating automation to execute repetitive tasks and empower your workforce with less manual work."
     image : "images/blockchain/Ethereum.webp" 
 
   - name : "It boosts productivity by bringing in accuracy and saving time."
