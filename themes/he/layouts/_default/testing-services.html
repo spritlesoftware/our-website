@@ -185,14 +185,18 @@
     <h2 class="font-weight-bold my-5">
       For each challenge, We have a unique solution.
     </h2>
-    <div class="row justify-content-center">
+    <div class="row align-items-center colored-icon-box">
       {{ range .Params.section6.content }}
-      <div class="my-5 col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="{{ .id }}" data-aos-duration="1000">
-        <div class="px-5">
-          <img src="{{.icon}}" alt="testing process" class="img-fluid">
+      <div class="my-5 col-12 col-lg-4 text-center" data-aos="fade-up" data-aos-delay="{{ .id }}" data-aos-duration="1000">
+        <div class="icon-box text-center shadow px-3 px-md-5 px-2 py-5">
+        <a class= "testing_card" href="{{.link | markdownify }}" style="text-decoration: none !important; color: black;" >
+          <div class="px-5">
+            <img src="{{.icon}}" alt="testing process" class="img-fluid">
+          </div>
+          <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
+          <p class="text-center my-2">{{ .desc }}</p>
+        </a>
         </div>
-        <h4 class="font-weight-bolder mt-4">{{ .title }}</h4>
-        <p class="text-center my-2">{{ .desc }}</p>
       </div>
       {{ end }}
     </div>
@@ -283,12 +287,13 @@
   }
 </script>
 
-<script>
-  
-</script>
+
   <style>
     /* ts - test services */
-
+a.testing_card {
+    text-decoration: none;
+    color: black;
+}
  
 
     svg {
