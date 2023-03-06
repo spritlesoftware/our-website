@@ -15,7 +15,7 @@ ogdescription: "Spritle and ManageEngine are always on the path of Bringing IT T
 
 link: "https://www.spritle.com/products/voicebot/"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
+Ogimage: "https://www.spritle.com/images/home/serviceimages/me_mumbai_prev.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 alt: "Conversational Voicebot" 
 
 ########################### Twitter #################################
@@ -24,7 +24,7 @@ twitter_title: "Enterprise Integration Services using ManageEngine"
 twitter_description: "Spritle and ManageEngine are always on the path of Bringing IT Together by Integrating two different systems to create a unified system, migrating data from legacy systems, building custom applications, etc. We build systems that monitor & manage the slightest problem, keeping your process intact and your business on track!"
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "https://www.spritle.com/images/voicebot/xAI-Query-Voicebot-for-Patients.png.pagespeed.ic._Eo2HDj5Em.webp" 
+twitter_image: "https://www.spritle.com/images/home/serviceimages/me_mumbai_prev.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
@@ -37,8 +37,8 @@ banner:
   banner_heading:
   - ""
   contents : ""
-  image: "images/home/serviceimages/ManageEngine_Integration_Services.png"
-  mimage: "images/home/serviceimages/mimage.png"
+  image: "images/home/serviceimages/me_image_mumbai.jpg"
+  mimage: "images/home/serviceimages/me_mimage_mumbai.jpg"
   alt : ""
    
   button:
