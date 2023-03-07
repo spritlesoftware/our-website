@@ -32,6 +32,7 @@ testimonial:
   enable: true
   testimonial_item:
     - date: "11 March 2023"
+      upcoming: "Upcoming..."
       title: "Bringing Quips on GitHub and Wikisource To You! "
       image: "/images/webinars/ram1.png"
       image_alt: "Ram"
