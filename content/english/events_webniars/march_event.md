@@ -33,9 +33,7 @@ start:
 **Date:** 11 March 2023, Saturday. </br>
 **Venue:** Spritle Software. </br>
 **Address:** Plot no 20, 2nd floor, Alapakkam Main road, Maduravoyal, Chennai, Tamil Nadu 600116.</br>
-**Location link:** https://maps.app.goo.gl/kDcuQFFC8LF911tx7
-
-"
+**Location link:** https://maps.app.goo.gl/kDcuQFFC8LF911tx7"
   button:
     enable : true
     button_label : "Register"
@@ -50,12 +48,8 @@ section2:
   bulletpoints:
    - "It will give you exposure to GitHub and its services."
    - "It will be your perfect opportunity to discuss GitHub services and Wikisource with our techies."
-   - "Hands-on activities in Wikisource will make you an expert in restoring archaic books!"
+   - "Hands-on activities in Wikisource will make you an expert in restoring archaic books!" 
 
-
-
-     
-  
 section3:
   enable: true
   title: "Learning Outcomes"
@@ -66,8 +60,6 @@ section3:
    - "In-depth knowledge of GitHub Actions and its role in automating workflows"
    - "Knowledge of using Wikisource for restoring books"
 
-
-  
 section4:
   enable: true
   title: "Event Agenda "
@@ -82,9 +74,4 @@ section4:
     - "**Session2-Wikisource: Find the உ.வே.சா in you!**"
     - "Hands on activity on Wikisource to restore and curate archaic books on Google?"
     - "Q&A session"
-
-
-
-
-
 ---
