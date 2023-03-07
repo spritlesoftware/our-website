@@ -41,7 +41,7 @@ testimonial:
       role: "Software Developers"
       time: "11:00 AM IST"
       duration: "2 hours | English"
-      desc: "Have you ever pondered about GitHub Suite of Services and Wikisource? Let's gather and share our thoughts on this on Saturday."
+      desc: "Have you ever pondered about GitHub Services and Wikisource? Let's gather together and share our thoughts on this on Saturday."
       register_link: "/events_webniars/march_event"
       button_text: "Register"
       past: false
