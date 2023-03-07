@@ -31,6 +31,21 @@ draft: false
 testimonial:
   enable: true
   testimonial_item:
+    - date: "11 March 2023"
+      title: "Bringing Quips on GitHub and Wikisource To You! "
+      image: "/images/webinars/ram1.png"
+      image_alt: "Ram"
+      image1: "/images/webinars/murali2.jpg"
+      image1_alt: "Murali"
+      name: "Ram & Murali"
+      role: "Software Developers"
+      time: "11:00 AM IST"
+      duration: "2 hours | English"
+      desc: "Have you ever pondered about GitHub Services and Wikisource? Let's gather together and share our thoughts on this on Saturday."
+      register_link: "/events_webniars/march_event"
+      button_text: "Register"
+      past: false
+
     - date: "18 February 2023"
       title: "Marriages and Blockchain Smart Contracts "
       image: "/images/webinars/mohan.png"
