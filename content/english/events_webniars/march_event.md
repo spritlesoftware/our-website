@@ -31,7 +31,7 @@ start:
   alt: "location"
   content: "
 **Date:** 11 March 2023, Saturday. </br>
-**Time:** 11.00 AM - 01.00 PM
+**Time:** 11.00 AM - 01.00 PM. </br>
 **Venue:** Spritle Software. </br>
 **Address:** Plot no 20, 2nd floor, Alapakkam Main road, Maduravoyal, Chennai, Tamil Nadu 600116.</br>
 **Location link:** https://maps.app.goo.gl/kDcuQFFC8LF911tx7"
