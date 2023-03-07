@@ -41,7 +41,7 @@ testimonial:
       role: "Software Developers"
       time: "11:00 AM IST"
       duration: "2 hours | English"
-      desc: "With Smart Contracts becoming the backbone of every blockchain-based application, let's gather to discuss it in detail in this Saturday's event."
+      desc: "Have you ever pondered about GitHub Suite of Services and Wikisource? Let's gather and share our thoughts on this on Saturday."
       register_link: "/events_webniars/opensource_event"
       button_text: "Register"
       past: false

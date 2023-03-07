@@ -2,13 +2,13 @@
 custom_title_enabled: true
 custom_title_value: "Bringing Quips on GitHub and Wikisource To You!"
 title: "Bringing Quips on GitHub and Wikisource To You!"
-description: "With Web3 and Blockchain-based applications becoming an area of innovation, this event aims to give answers to your questions on Smart Contracts."
+description: "Gather with our techies this Saturday and have fun learning the GitHub Suite of Services and Wikisource with them!"
 keywords : [Custom web application development services,Cross platform mobile app development services]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
 ogtitle: "Bringing Quips on GitHub and Wikisource To You!" 
-ogdescription: "With Web3 and Blockchain-based applications becoming an area of innovation, this event aims to give answers to your questions on Smart Contracts."
+ogdescription: "Gather with our techies this Saturday and have fun learning the GitHub Suite of Services and Wikisource with them!"
 link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
 Ogimage: "http://demo.spritle.com/images/event/banner.webp.pagespeed.ce.WkfbS_QTE-.webp"
