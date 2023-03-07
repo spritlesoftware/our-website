@@ -1,17 +1,17 @@
 ---
 custom_title_enabled: true
-custom_title_value: "Marriages and Blockchain Smart Contracts"
-title: "Marriages and Blockchain Smart Contracts"
-description: "With Web3 and Blockchain-based applications becoming an area of innovation, this event aims to give answers to your questions on Smart Contracts."
+custom_title_value: "Bringing Quips on GitHub and Wikisource To You!"
+title: "Bringing Quips on GitHub and Wikisource To You!"
+description: "Gather with our techies this Saturday and have fun learning the GitHub Suite of Services and Wikisource with them!"
 keywords : [Custom web application development services,Cross platform mobile app development services]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Marriages and Blockchain Smart Contracts" 
-ogdescription: "With Web3 and Blockchain-based applications becoming an area of innovation, this event aims to give answers to your questions on Smart Contracts."
+ogtitle: "Bringing Quips on GitHub and Wikisource To You!" 
+ogdescription: "Gather with our techies this Saturday and have fun learning the GitHub Suite of Services and Wikisource with them!"
 link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
 site_name: "Spritle Software" 
-Ogimage: "http://demo.spritle.com/images/event/feb_poster.webp.pagespeed.ce.WkfbS_QTE-.webp"
+Ogimage: "https://www.spritle.com/images/event/banner.webp.pagespeed.ce.WkfbS_QTE-.webp"
 alt: "Marriages and Blockchain Smart Contractsn" 
 
 ########################### Twitter #################################
@@ -21,7 +21,7 @@ twitter_description: "With Web3 and Blockchain-based applications becoming an ar
 So, as curious and mysterious as it might be, find your answers to the questions on Smart Contracts like this by joining our techies at this event and exploring your way into Web3."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="http://demo.spritle.com/images/event/feb_poster.webp.pagespeed.ce.WkfbS_QTE-.webp"
+twitter_image: ="https://www.spritle.com/images/event/banner.webp.pagespeed.ce.WkfbS_QTE-.webp"
 layout: "event_desc"
 draft: false
 
@@ -31,7 +31,7 @@ start:
   image: "images/event/location.webp"
   alt: "Application Development Services Web & Mobile"
   content: "
-**Date:** 18 February 2023, Saturday. </br>
+**Date:** 11 March 2023, Saturday. </br>
 **Venue:** Spritle Software. </br>
 **Address:** Plot no 20, 2nd floor, Alapakkam Main road, Maduravoyal, Chennai, Tamil Nadu 600116.</br>
 **Location link:** https://maps.app.goo.gl/kDcuQFFC8LF911tx7
@@ -40,7 +40,7 @@ start:
   button:
     enable : true
     button_label : "Register"
-    link : "https://www.meetup.com/blockchain-developers-community-chennai/events/291488708"
+    link : "https://forms.gle/CgEnejBkgfMDJ8B79"
 
 section2:
   enable: true
@@ -49,8 +49,10 @@ section2:
   alt: "Web Engineering Services "
   content: "Exploratory session themed to improve your perception of smart contracts and their applications.</br>It's a perfect opportunity to exchange your thoughts on Smart Contracts with our Tech experts in Web3."
   bulletpoints:
-   - "Exploratory session themed to improve your perception of smart contracts and their applications."
-   - "It's a perfect opportunity to exchange your thoughts on Smart Contracts with our Tech experts in Web3."
+   - "It will give an exposure to know about GitHub and services"
+   - "This event is your opportunity to interact with tech experts and pitch your thoughts on using GitHub services."
+   - "Our hands-on-activities in Wikisource will make you an expert in restoring archaic books!"
+
 
 
      
@@ -61,10 +63,10 @@ section3:
   image: "images/event/arrow_event.webp"
   alt: "Cross Platform Mobile Application Development Services"
   bulletpoints:
-   - "Introduction to Web3 and Blockchain Technologies."
-   - "Smart Contracts and their role in the blockchain network."
-   - "Exploration of smart contract auditing."
-   - "Overview of how smart contracts are related to every blockchain application."
+   - "A comprehensive understanding of Github and its services"
+   - "In-depth knowledge of GitHub Actions and its role in automating workflows"
+   - "Knowledge of using Wikisource for restoring books"
+
 
   
 section4:
@@ -73,15 +75,15 @@ section4:
   image: "images/event/outcome.webp"
   alt: "Cross Platform Mobile Application Development Services"
   bulletpoints:
-    - " Spritle Software - Introduction to the company and event."
+    - " Spritle Software - Introduction to the company and event"
     - "Participants Introduction."
-    - "Introduction to the Web3 and blockchain network."
-    - "What is a Smart contract?"
-    - "Development of smart contracts with Remix-IDE online and locally with VS Code-IDE. "
-    - "Deployment to the Goerli test network."
-    - "Best practices to develop the smart contracts."
-    - "Testing of smart contracts."
-    - "Auditing on smart contracts."
+    - "**Technical Round- GitHubDay:Maximizing your productivity with GitHub Suite of Services**"
+    - "Introduction to GitHub Services
+        GitHub Actions"
+    - "**Non-Technical Round- Wiki Source: Find the உ.வே.சா in you!**"
+    - "Hands on activity on WikiSource to restore and curate archaic books on Google?"
+    - "Q&A session"
+
 
 
 
