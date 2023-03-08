@@ -1,4 +1,4 @@
-User-Agent: *
-Allow: /
-Sitemap:https://www.spritle.com/
+User-agent: *
+
+Sitemap: https://www.spritle.com/sitemap.xml
 
