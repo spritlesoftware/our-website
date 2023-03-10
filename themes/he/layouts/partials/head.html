@@ -101,7 +101,8 @@ content="dxNIUM4gfdJYCXTzoCn-DqfceDt0EDT3wYA_h3QuZeI"/>
 <meta name="twitter:creator" content="{{ .Params.twitter_creater | default site.Params.twitter_creater }}" />
 
 <meta name="twitter:image" content="{{ .Params.twitter_image | default site.Params.twitter_image }}"/>
-
+<meta name=”robots” content=”noindex”>
+<meta name=”robots” content=”nofollow” />
 <!-- google analytics -->
 {{ template "_internal/google_analytics.html" . }}
 
