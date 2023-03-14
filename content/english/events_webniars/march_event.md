@@ -2,25 +2,25 @@
 custom_title_enabled: true
 custom_title_value: "Bringing Quips on GitHub and Wikisource To You!"
 title: "Bringing Quips on GitHub and Wikisource To You!"
-description: "Gather with our techies this Saturday and have fun learning the GitHub Suite of Services and Wikisource with them!"
+description: "Gather with our techies this Saturday and have fun learning the GitHub Services and Wikisource with them!"
 keywords : [GitHub,Wikisource,event]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
 ogtitle: "Bringing Quips on GitHub and Wikisource To You!" 
-ogdescription: "Gather with our techies this Saturday and have fun learning the GitHub Suite of Services and Wikisource with them!"
-link: "https://www.spritle.com/events_webniars/blockchain-dapps/"
+ogdescription: "Gather with our techies this Saturday and have fun learning the GitHub Services and Wikisource with them!"
+link: "https://www.spritle.com/events_webniars/march_event/"
 site_name: "Spritle Software" 
-Ogimage: "http://demo.spritle.com/images/event/banner2.webp.pagespeed.ce.WkfbS_QTE-.webp"
+Ogimage: "https://www.spritle.com/images/event/banner2.webp.pagespeed.ce.WkfbS_QTE-.webp"
 alt: "March event" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
 twitter_title: "Marriages and Blockchain Smart Contracts" 
-twitter_description: "Gather with our techies this Saturday and have fun learning the GitHub Suite of Services and Wikisource with them!"
+twitter_description: "Gather with our techies this Saturday and have fun learning the GitHub Services and Wikisource with them!"
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="http://demo.spritle.com/images/event/banner2.webp.pagespeed.ce.WkfbS_QTE-.webp"
+twitter_image: ="https://www.spritle.com/images/event/banner2.webp.pagespeed.ce.WkfbS_QTE-.webp"
 layout: "event_desc"
 draft: false
 
@@ -31,6 +31,7 @@ start:
   alt: "location"
   content: "
 **Date:** 11 March 2023, Saturday. </br>
+**Time:** 11.00 AM - 01.00 PM. </br>
 **Venue:** Spritle Software. </br>
 **Address:** Plot no 20, 2nd floor, Alapakkam Main road, Maduravoyal, Chennai, Tamil Nadu 600116.</br>
 **Location link:** https://maps.app.goo.gl/kDcuQFFC8LF911tx7"
@@ -74,4 +75,20 @@ section4:
     - "**Session2-Wikisource: Find the உ.வே.சா in you!**"
     - "Hands on activity on Wikisource to restore and curate archaic books on Google?"
     - "Q&A session"
+<<<<<<< HEAD
+=======
+---    - " Spritle Software - Introduction to the company and event"
+    - "Participants Introduction."
+    - "**Technical Round- GitHubDay:Maximizing your productivity with GitHub Suite of Services**"
+    - "Introduction to GitHub Services
+        GitHub Actions"
+    - "**Non-Technical Round- Wiki Source: Find the உ.வே.சா in you!**"
+    - "Hands on activity on WikiSource to restore and curate archaic books on Google?"
+    - "Q&A session"
+
+
+
+
+
+>>>>>>> completed_event
 ---

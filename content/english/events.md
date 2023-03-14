@@ -2,7 +2,7 @@
 custom_title_enabled: true
 custom_title_value: "Events"
 title: "Events"
-description: "Allowing ease of acces with our custom built software solutions for heathcare while allowing web and cross platform application development."
+description: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you."
 keywords:
   [
     Custom web application development services, Cross platform mobile application development,Digital Healthcare Solutions, Software for healthcare
@@ -13,25 +13,26 @@ keywords:
 locale: "en_US"
 type: "website"
 ogtitle: "Events"
-ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
-link: "https://www.spritle.com/custom-build-software-solution"
+ogdescription: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you."
+link: "https://www.spritle.com/events"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp" 
+Ogimage: "http://demo.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 alt: "Custom--Built Software Solutions"
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Custom Web and mobile app development|Softwares for healthcare" 
-twitter_description: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions." 
+twitter_title: "Events" 
+twitter_description: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you." 
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp" 
+twitter_image: ="http://demo.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 layout: "events"
 draft: false
 testimonial:
   enable: true
   testimonial_item:
     - date: "11 March 2023"
+      upcoming: ""
       title: "Bringing Quips on GitHub and Wikisource To You! "
       image: "/images/webinars/ram1.png"
       image_alt: "Ram"
@@ -42,9 +43,9 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "Have you ever pondered about GitHub Services and Wikisource? Let's gather together and share our thoughts on this on Saturday."
-      register_link: "/events_webniars/march_event"
-      button_text: "Register"
-      past: false
+      register_link: "#"
+      button_text: "View"
+      past: true
 
     - date: "18 February 2023"
       title: "Marriages and Blockchain Smart Contracts "
