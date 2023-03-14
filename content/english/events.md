@@ -16,8 +16,8 @@ ogtitle: "Events"
 ogdescription: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you."
 link: "https://www.spritle.com/events"
 site_name: "Spritle Software"
-Ogimage: "http://demo.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
-alt: "Custom--Built Software Solutions"
+Ogimage: "https://www.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+alt: "event_banner"
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
@@ -25,7 +25,7 @@ twitter_title: "Events"
 twitter_description: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you." 
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="http://demo.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+twitter_image: ="https://www.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 layout: "events"
 draft: false
 testimonial:
