@@ -21,7 +21,7 @@ twitter_description: "Gather with our techies this Saturday and have fun learnin
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: ="https://www.spritle.com/images/event/banner2.webp.pagespeed.ce.WkfbS_QTE-.webp"
-layout: "event_desc"
+layout: "completed_event"
 draft: false
 
 start:
