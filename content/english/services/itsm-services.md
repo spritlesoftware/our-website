@@ -104,7 +104,7 @@ section2:
   button:
     enable: true
     button_label: "Reform your building!"
-    link: "bms-fms"
+    link: "building-management-system"
 
     
 section3:
