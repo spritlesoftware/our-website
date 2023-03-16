@@ -75,5 +75,4 @@ section4:
     - "**Session2-Wikisource: Find the உ.வே.சா in you!**"
     - "Hands on activity on Wikisource to restore and curate archaic books on Google?"
     - "Q&A session"
-    
 ---
