@@ -16,8 +16,8 @@ ogtitle: "Events"
 ogdescription: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you."
 link: "https://www.spritle.com/events"
 site_name: "Spritle Software"
-Ogimage: "http://demo.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
-alt: "Custom--Built Software Solutions"
+Ogimage: "https://www.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+alt: "event_banner"
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
@@ -25,7 +25,7 @@ twitter_title: "Events"
 twitter_description: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you." 
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="http://demo.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+twitter_image: ="https://www.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 layout: "events"
 draft: false
 testimonial:
@@ -43,7 +43,7 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "Have you ever pondered about GitHub Services and Wikisource? Let's gather together and share our thoughts on this on Saturday."
-      register_link: "#"
+      register_link: "events_webniars/march_event_completed"
       button_text: "View"
       past: true
 
