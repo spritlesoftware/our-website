@@ -43,7 +43,7 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "Have you ever pondered about GitHub Services and Wikisource? Let's gather together and share our thoughts on this on Saturday."
-      register_link: "events_webniars/march_event_completed"
+      register_link: "/events_webniars/march_event_completed"
       button_text: "View"
       past: true
 
