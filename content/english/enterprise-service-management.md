@@ -1,19 +1,19 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "Building Management System | Building Automation System"
+custom_title_value: "Enterprise Service Management | Enterprise Facility Management Software"
 layout : "fms"
-title: "Building Management System | Building Automation System"
+title: "Enterprise Service Management | Enterprise Facility Management Software"
 description: "Spritle offers a Building management system that monitors & controls building operations, including HVAC, lighting, and security, to improve sustainability & benefit your facility."
-keywords : [Smart building management system, building automation system, building automation services, building automation control system, intelligent building management system, integrated building management system]
+keywords : [Spritle Software is a top-tier enterprise service management solution provider, offering user-friendly service automation for both IT and non-IT departments.]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Building Management System | Building Automation System" 
-ogdescription: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."   
-link: "https://www.spritle.com/building-management-system"
+ogtitle: "Enterprise Service Management | Enterprise Facility Management Software" 
+ogdescription: "Spritle offers a Building management system that monitors & controls building operations, including HVAC, lighting, and security, to improve sustainability & benefit your facility"   
+link: "https://www.spritle.com/enterprise-management-system/"
 site_name: "Spritle Software"
-Ogimage: "http://demo.spritle.com/images/bmsimages/bms-preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+Ogimage: "https://www.spritle.com/images/bmsimages/modern-creative.webp.pagespeed.ic._Eo2HDj5Em.webp" 
 alt: "Top Building and Facility Management service providers in the industry" 
 
 ########################### Twitter #################################
@@ -22,11 +22,11 @@ twitter_title: "Top Building and Facility Management service providers in the in
 twitter_description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: "http://demo.spritle.com/images/bmsimages/bms-preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+twitter_image: "https://www.spritle.com/images/bmsimages/modern-creative.webp.pagespeed.ic._Eo2HDj5Em.webp" 
 Islanding: true
 custom_footer: "The rest of the world isn’t going to wait for you to keep up with the **ever-evolving future** so what’s stopping you?"
 custom_button: true
-formlink : "building-management-system"
+formlink : "enterprise-management-system"
 labels : "hi"
 banner:
   enable : true
