@@ -53,17 +53,22 @@ section2:
 
 section3:
   enable: true
-  title: "Learning Outcomes"
+  title: "Session-1"
   image: "images/event/arrow_event.webp"
   alt: "outcomes"
   bulletpoints:
    - "A comprehensive understanding of Github and its services"
    - "In-depth knowledge of GitHub Actions and its role in automating workflows"
    - "Knowledge of using Wikisource for restoring books"
+  button:
+    enable : true
+    button_label : "View our presentation"
+    link : "/pdf/Github-Day.pdf"
+
 
 section4:
   enable: true
-  title: "Event Agenda "
+  title: "session-2 "
   image: "images/event/outcome.webp"
   alt: "Agenda"
   bulletpoints:
@@ -75,4 +80,8 @@ section4:
     - "**Session2-Wikisource: Find the உ.வே.சா in you!**"
     - "Hands on activity on Wikisource to restore and curate archaic books on Google?"
     - "Q&A session"
+  button:
+    enable : true
+    button_label : "View our presentation"
+    link : "/pdf/Github-Day.pdf"
 ---

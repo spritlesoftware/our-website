@@ -83,6 +83,7 @@
 
 {{if .Params.section3.enable }} {{with .Params.section3 }} {{ partial
   "right-image-left-text.html" . }} {{ end }} {{ end }}
+  
 
   {{ if .Params.section4.enable }} {{ with .Params.section4 }}
   <!-- start section -->
@@ -140,8 +141,18 @@
           </li>
           {{ end }}
         </ul>
+        {{if .button.enable }} {{with .button }} {{ partial "button1.html" .}} {{
+          end }} {{ end }}
          
         </div>
+      </div>
+      <div class="row align-items-center justify-content-around">
+        {{if .button1.enable }} {{with .button1 }}
+  
+        <a href="" type="submit"
+          class="btn btn-primary mt-25 " class="btn btn-primary mt-15"
+          style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
+        {{ end }} {{ end }}
       </div>
     </div>
     <div class="shape-3 shape-xs-2 bg-secondary rounded-circle"></div>
