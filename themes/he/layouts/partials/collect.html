@@ -45,6 +45,7 @@
                       id="fnames"
                       value={{.pagename}}
                       required
+                      oninput="validate(this)"
                     />
                   </div>
                   <div class="form-group mb-30 col-md-6">
@@ -58,6 +59,7 @@
                       id="company"
                       value={{.pagename}}
                       required
+                      oninput="validate(this)"
                     />
                   </div>
                 </div>
@@ -73,6 +75,7 @@
                       id="email_id"
                       required
                       onkeyup="myfunc()"
+                      oninput="validate(this)"
                     />
                     <span id="myspan"></span>
                   </div>
@@ -88,6 +91,7 @@
                     placeholder="Phone number*"
                     id="phone"
                     required
+                    oninput="validate(this)"
                     />
                     
                   </div>
@@ -103,6 +107,7 @@
                     id="message"
                     placeholder="Have something to say to us?*"
                     required
+                    oninput="validate(this)"
                   >{{.pagename}}</textarea>
                 </div>
                 <div class="form-group mb-30">
@@ -278,6 +283,9 @@ input::-webkit-inner-spin-button {
     spanval.innerHTML="";
     spanval.style.color = "none";
   }
+}
+function validate(input){
+    input.value = input.value.trimStart();
 }
 
 
