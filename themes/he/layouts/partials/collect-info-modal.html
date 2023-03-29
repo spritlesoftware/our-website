@@ -208,9 +208,9 @@ input::-webkit-inner-spin-button {
     e.preventDefault();
     $("#waitingPreloader").removeClass("loaded");
     $.ajax({
-      type: "post",
-      url: "https://form.spritle.com/contact",
-      data: frm.serialize(),
+       type: "post",
+       url: "https://form.spritle.com/contact",
+       data: frm.serialize(),
       success: function (data) {
         console.log("Submission was successful.");
         $("#request_form")[0].reset();
