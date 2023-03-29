@@ -84,4 +84,60 @@ section4:
     enable : true
     button_label : "View our presentation"
     link : "/pdf/Github-Day.pdf"
+
+
+testimonial:
+  enable: true
+  title: "Other Events"
+  button:
+    enable : true
+    button_label : "View All"
+    link : "/events/"
+  testimonial_item:
+
+    - date: "18 February 2023"
+      upcoming: "Completed"
+      title: "Marriages and Blockchain Smart Contracts "
+      image: "/images/webinars/mohan.png"
+      image_alt: "Mohan"
+      image1: "/images/webinars/avi2.png"
+      image1_alt: "Avi"
+      name: "Mohan & Avi"
+      role: "Blockchain Developers"
+      time: "11:00 AM IST"
+      duration: "2 hours | English"
+      desc: "With Smart Contracts becoming the backbone of every blockchain-based application, let's gather to discuss it in detail in this Saturday's event."
+      register_link: "#"
+      button_text: "View"
+      past: true
+
+    - date: "20 Jan 2023"
+      title: "Enacting Blockchain in Supply Chain Management!"
+      image: "/images/webinars/sid.png"
+      image_alt: "Siddharrth K"
+      name: "Siddharrth K"
+      role: "Blockchain Consultant"
+      time: "03:00 PM IST"
+      duration: "45 mins | English"
+      desc: "Ever wondered how far we have progressed in enacting blockchain in the supply chain? Let's convene and discuss this in this session!"
+      register_link: "#"
+      button_text: "View"
+      past: true
+      
+
+    - date: "29 Jan 2023"
+      upcoming: "Completed"
+      title: "Develop a DApp with Ethereum Blockchain "
+      image: "/images/webinars/mohan.png"
+      image_alt: "Mohan"
+      image1: "/images/webinars/avi2.png"
+      image1_alt: "Avi"
+      name: "Mohan & Avi"
+      role: "Blockchain Developers"
+      time: "03:00 PM IST"
+      duration: "2 hours | English"
+      desc: "With Web3  gaining fame, let's discuss our ideas on deploying DApps using blockchain technology in this Sunday's event."
+      register_link: "#"
+      button_text: "View"
+      past: true
 ---

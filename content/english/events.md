@@ -32,7 +32,7 @@ testimonial:
   enable: true
   testimonial_item:
     - date: "11 March 2023"
-      upcoming: ""
+      upcoming: "Completed"
       title: "Bringing Quips on GitHub and Wikisource To You! "
       image: "/images/webinars/ram1.png"
       image_alt: "Ram"
@@ -48,6 +48,7 @@ testimonial:
       past: true
 
     - date: "18 February 2023"
+      upcoming: "Completed"
       title: "Marriages and Blockchain Smart Contracts "
       image: "/images/webinars/mohan.png"
       image_alt: "Mohan"
@@ -64,6 +65,7 @@ testimonial:
       
 
     - date: "29 Jan 2023"
+      upcoming: "Completed"
       title: "Develop a DApp with Ethereum Blockchain "
       image: "/images/webinars/mohan.png"
       image_alt: "Mohan"
@@ -79,6 +81,7 @@ testimonial:
       past: true
 
     - date: "20 Jan 2023"
+      upcoming: "Completed"
       title: "Enacting Blockchain in Supply Chain Management!"
       image: "/images/webinars/sid.png"
       image_alt: "Siddharrth K"
@@ -92,6 +95,7 @@ testimonial:
       past: true
 
     - date: "08 Dec 2022"
+      upcoming: "Completed"
       title: "MDM, another product of ManageEngine!"
       image: "/images/webinars/mano.png"
       image_alt: "Mano Rajashri D.S"
@@ -105,6 +109,7 @@ testimonial:
       past: true
 
     - date: "18 Nov 2022"
+      upcoming: "Completed"
       title: "Takeaway from SDP Training Modules!"
       image: "/images/webinars/mano.png"
       name: "Mano Rajashri D.S"
