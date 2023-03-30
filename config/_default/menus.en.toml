@@ -82,6 +82,12 @@ hasChildren = true
   url =  "/products/natural-language-processing" 
   weight= 4 
 
+  [[main]]
+  parent = "Products"
+  name = "Freshworks"
+  url =  "/products/freshworks" 
+  weight= 5
+
 [[main]]
 name = "Company"
 weight = 5 
