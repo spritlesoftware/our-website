@@ -54,12 +54,6 @@ verticals:
   layout : "services"
   draft : false
   services:
-    - name: "Digital Healthcare Services"
-      event: false
-      target: "services/digital-healthcare-innovations/"
-      imageevent: true
-      image: "images/home/serviceimages/Digital-healthcare.webp"
-      content: ""
 
     - name: "Compatible with BMS devices"
       event: false
@@ -93,6 +87,12 @@ verticals:
       image: "images/home/serviceimages/consultant.webp"
       content: ""
 
+    - name: "Customizable Mobile Application"
+      event: false
+      target: "services/digital-healthcare-innovations/"
+      imageevent: true
+      image: "images/home/serviceimages/Digital-healthcare.webp"
+      content: ""
 
 ############################## about us ################################
 about_us1:
