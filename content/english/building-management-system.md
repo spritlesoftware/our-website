@@ -3,7 +3,7 @@
 custom_title_enabled: true
 custom_title_value: "Building Management System | Building Automation System"
 layout : "bms"
-title: "Top Building  Management service providers in the industry"
+title: "Building Management System"
 description: "Spritle offers a Building management system that monitors & controls building operations, including HVAC, lighting, and security, to improve sustainability & benefit your facility."
 keywords : [Smart building management system, building automation system, building automation services, building automation control system, intelligent building management system, integrated building management system]
        ############################ OG tags #################################
@@ -30,9 +30,9 @@ formlink : "building-management-system"
 labels : "hi"
 banner:
   enable : true
-  title : "Building Management Systems"
+  title : "Building Automation System"
   banner_heading:
-  - "Building Management Systems"
+  - "Building Automation System"
   contents : "Power Up Your Building and Business with the Ultimate Integration: Introducing Integrated Building Management Systems - Your All-In-One Solution for Streamlined Control!"
   image: "images/bmsimages/smartt.webp"
   alt : "Top Building and Facility Management service providers in the industry"
@@ -55,21 +55,21 @@ verticals:
   draft : false
   services:
     - name: "Digital Healthcare Services"
-      event: true
+      event: false
       target: "services/digital-healthcare-innovations/"
       imageevent: true
       image: "images/home/serviceimages/Digital-healthcare.webp"
       content: ""
 
     - name: "Compatible with BMS devices"
-      event: true
+      event: false
       target: "services/custom-software-development/"
       imageevent: true
       image: "images/home/serviceimages/custom-software-dev.webp"
       content: ""
 
     - name: "Data-driven results and analysis"
-      event: true
+      event: false
       target: "services/ai-ml-application-development-services"
       imageevent: true
       image: "images/home/serviceimages/al-ml.webp"
@@ -111,7 +111,7 @@ collect:
   
    
 
-  images:
+
 
 section2:
   description: "asd ad asDA dASD"
@@ -170,8 +170,8 @@ start:
   alt: "Vendor Onboarding and Requirement Analysis"
   bulletpoints:
     - "**Customizable Platform** <br>Curate all your Building Management platforms, and HVAC sensors, in one single platform"
-    - "**Facilities Management ** <br>Track the status of all your assets and facilities with instantaneous inputs"
-    - "**Multi-Vendor Management ** <br>Bring and manage all your Building Management Vendors in our single portal"
+    - "**Facilities Management** <br>Track the status of all your assets and facilities with instantaneous inputs"
+    - "**Multi-Vendor Management** <br>Bring and manage all your Building Management Vendors in our single portal"
     - "**Automated Fault Management** <br>Automate and manage your building’s fault ticket with ease."
     - "**Third-Party Application Integration** <br>Integrate any third-party applications of your choice with our services."
     - "**Streamlined Contingency Plans** <br>Streamline and Automate contingency plans for handling crises in building management."
@@ -190,8 +190,31 @@ section1:
     - "Up-to-date Updates on the HVAC systems of your building"
     - "Notifications and Push alerts on the faults that get detected"
     - "24/7 tab on what’s going on inside your building"
+  button:
+    enable: true
+    button_label: "Connect with us"
+    
+    collect_info:
+     title: "Have a project in mind?"
+     button_name: "Submit"
+     link: "thankyouenquiry"
+     details_textarea_title: "Have Somthing to say to us?*"
+     form_name: "Project requirment"
+     pagename: "FMS & BMS"
   title1: "Spritle for Intelligent Building Management Systems"
   contents1: "Take a seamless approach to renovating your building and escalate your business with our Building Management Services!"
+  button1:
+    enable: true
+    button_label: "Talk to us"
+    
+    collect_info:
+     title: "Have a project in mind?"
+     button_name: "Submit"
+     link: "thankyouenquiry"
+     details_textarea_title: "Have Somthing to say to us?*"
+     form_name: "Project requirment"
+     pagename: "FMS & BMS"
+  
 
 start2:
   enable: true
@@ -201,11 +224,11 @@ start2:
   alt: "Vendor Onboarding and Requirement Analysis"
   bulletpoints:
     - "**Excelling Technical Team** <br>Our Spritle team has a flair for taking a cutting-edge approach to craft efficient BMS solutions."
-    - "**In-Depth Portfolio ** <br>We have a diversified and in-depth record of solving several unique BMS problem statements."
-    - "**Technical Simplicity ** <br>We keep our Building Management Solutions tech-savvy and easy to access."
+    - "**In-Depth Portfolio** <br>We have a diversified and in-depth record of solving several unique BMS problem statements."
+    - "**Technical Simplicity** <br>We keep our Building Management Solutions tech-savvy and easy to access."
     - "**Highly Scalable and Secure** <br>Our smart solutions are secure and have more room for innovation in building management"
     - "**Automation-induced** <br>We always harness and wield the power of automation in our BMS services. "
-    - "**SCost-effectives** <br>We keep our BMS solutions cost-effective and less complex for our clients to leverage."
+    - "**Cost-effectives** <br>We keep our BMS solutions cost-effective and less complex for our clients to leverage."
     - "**Transparency** <br>We follow a transparent customization process and get your insights at every step of designing the solution for you."
 
 about_us2:

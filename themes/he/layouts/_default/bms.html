@@ -217,7 +217,7 @@
     data-aos="fade-up" data-aos-delay="150">
     <div id="masonry" class="row team-members has-colored-text">
         {{ range .Params.apps}}
-        <div class="masonry-item team-item col-lg-3 col-sm-6 mt-4" data-groups='["{{.group | urlize}}"]'>
+        <div class="masonry-item team-item col-lg-4 col-sm-6 mt-4" data-groups='["{{.group | urlize}}"]'>
             <div class="text-center mb-30 shadow">
                 <div class="team-image has-shapes d-inline-block mb-25"></div>
 
@@ -228,7 +228,7 @@
                                 alt="{{.name}}" />
                         </div>
                         {{ if eq .event true }}
-                        <a href="{{ .link }}" target="new">
+                        <a href="#" target="new">
                             <h5 class="font-weight-600 mt-20 mb-15 text-capitalize">
                                 {{ .name | markdownify }}
                             </h5>
@@ -307,9 +307,18 @@
             </div>
         </div>
         <div class="row  pt-60 pb-20 align-items-center justify-content-around">
-            <div class="col-lg-12">
+            <div class="col-lg-12 align-items-center justify-content-around">
                 <h2 class="section-title text-center">{{ .title1 | markdownify }}</h2>
                 <p class="text-center">{{ .contents1 | markdownify }}</p>
+                <div class="text-center">
+                {{if .button.enable }} {{with .button1 }}
+
+                <a href="#" id="open-demo-modal" data-toggle="modal" data-target="#collect-modal" type="submit"
+                    class="btn btn-primary mt-15 "
+                    style="-webkit-appearance: none; -moz-appearance: none; appearance: none">{{.button_label}}</a>
+
+                {{ end }} {{ end }}
+            </div>
             </div>
         </div>
     </div>
