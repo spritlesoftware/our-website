@@ -10,47 +10,41 @@ weight = 1
 name = "Services"
 weight = 2
 
- [[main]]
-  parent = "Services"
-  name = "Home"
-  url =  "services/"
-  weight=1
-
   [[main]]
   parent = "Services"
   name = "Custom Software Development"
   url =  "/services/custom-software-development/"
-  weight = 2
+  weight = 1
 
   [[main]]
   parent = "Services"
   name = "Digital Healthcare Services"
   url =  "/services/digital-healthcare-innovations/"
-  weight = 3
+  weight = 2
 
   [[main]]
   parent = "Services"
   name = "AI & ML Application Development Services"
   url =  "/services/ai-ml-application-development-services/"
-  weight= 4 
+  weight= 3 
 
   [[main]]
   parent = "Services"
   name = "ITSM Services"
   url =  "/services/itsm-services/"
-  weight= 5 
+  weight= 4
 
   [[main]]
   parent = "Services"
   name = "Blockchain Development Services"
   url =  "/services/blockchain-development-services/"
-  weight= 6
+  weight= 5
 
   [[main]]
   parent = "Services"
   name = "Testing Services"
   url =  "/services/Testing Services/"
-  weight= 7
+  weight= 6
 
 [[main]]
 name = "Products"
@@ -59,34 +53,28 @@ hasChildren = true
 
   [[main]]
   parent = "Products"
-  name = "Our Products"
-  url =  "/products/our-product"
-  weight= 1
-
-  [[main]]
-  parent = "Products"
   name = "Ruby Gems"
   url =  "/products/rubygems"  
-  weight= 2
+  weight= 1
 
 
   [[main]]
   parent = "Products"
   name = "Voicebot"
   url =  "/products/voicebot" 
-  weight= 3 
+  weight= 2
 
   [[main]]
   parent = "Products"
   name = "NLP Services"
   url =  "/products/natural-language-processing" 
-  weight= 4 
+  weight= 3
 
   [[main]]
   parent = "Products"
   name = "Freshworks"
   url =  "/products/freshworks" 
-  weight= 5
+  weight= 4
 
 [[main]]
 name = "Company"
