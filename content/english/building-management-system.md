@@ -34,7 +34,7 @@ banner:
   banner_heading:
   - "Building Automation System"
   contents : "Power Up Your Building and Business with the Ultimate Integration: Introducing Integrated Building Management Systems - Your All-In-One Solution for Streamlined Control!"
-  image: "images/bmsimages/smartt.webp"
+  image: "images/bmsimages/bms1.png"
   alt : "Top Building and Facility Management service providers in the industry"
 
   button:
@@ -98,7 +98,7 @@ verticals:
 about_us1:
   enable : true
   title : "Embrace our Integrated platform and say farewell to manual tasks! " 
-  image : "images/bmsimages/Smart-home-rafiki.webp"
+  image : "images/bmsimages/embrace.webp"
   alt: "BMS & FMS together makes smart"
   contents : "You could be a Facility Manager strategizing your maintenance tasks to support your team, a Smart Building Owner looking to upscale your building, or maybe a Smart City Strategist looking for ways to keep your Building Management System integrations less complex and holistic. We have got you covered!"
   button:
@@ -117,7 +117,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "How does our Building Management System Work ?"
-  image : "images/bmsimages/Smart-home-cuate.webp"
+  image : "images/bmsimages/how.png"
   alt: "Take control over your buildings"
   bulletpoints:
     - "Monitors your building through inputs from all the IoT devices"
@@ -145,7 +145,7 @@ collect_info:
 section3:
   enable : true
   title : "Integrated Building Management System and Services "
-  image : "images/bmsimages/Smart-home-pana.webp"
+  image : "images/bmsimages/ibms.webp"
   alt: "The changing reality of FMS in Smart Buildings "
   content1 : "Fall into our highly scalable Building Management Systems and Services you have been looking for ages to upscale and streamline your Building Management Operations! 
 "
@@ -165,7 +165,7 @@ collect_info:
 start:
   enable: true
   title: "Our Treasure Trove of Integrated Building Management Services"
-  image: "images/process/Onboarding-Vendor-and-Software-Requirement-Analysis.webp"
+  image: "images/bmsimages/treasure.webp"
   content: "Enable our BMS services for efficient and simplified integration to keep your Building Management System intact and comprehensive! "
   alt: "Vendor Onboarding and Requirement Analysis"
   bulletpoints:
@@ -181,7 +181,7 @@ section1:
   title: "Keep your Integrated BMS Upgradation Journey Cost effective with our Solution"
   content1: "That’s why we have got you covered from all sides!"
   content2: "Our IBMS solution is futuristic and takes an easy-to-deploy and cost-effective approach to upgrading your Smart buildings and homes. We specialize in simplifying Integrated BMS to aid you in everyday building management tasks, notifications, and insightful reports. Some of the perks of implementing our solution include: "
-  image: "images/process/Custom-Wireframes-and-UX-Design.webp"
+  image: "images/bmsimages/integrated.webp"
   alt: "Custom UI Design Services"
   bulletpoints:
     - "Automated Fault Management and Resolution"
@@ -219,7 +219,7 @@ section1:
 start2:
   enable: true
   title: "Why Tether Your Building Management Journey With Us? "
-  image: "images/process/Onboarding-Vendor-and-Software-Requirement-Analysis.webp"
+  image: "images/bmsimages/tether.png"
   content: ""
   alt: "Vendor Onboarding and Requirement Analysis"
   bulletpoints:
@@ -236,7 +236,7 @@ about_us2:
   enable : true
   title : "Keep your Building Management Platform tech-trendy with our customizable Solutions"
   contents: "With so many innovative changes changing the tech scape of smart buildings, here are some of the tech-trendy places where we can help you to renovate your building! "
-  image : "images/bmsimages/Smart-home-cuate.webp"
+  image : "images/bmsimages/keep.png"
   alt: "Take control over your buildings"
   bulletpoints:
     - "Digital Twins "
