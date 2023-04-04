@@ -1,26 +1,25 @@
 ---
 ############################ Banner ##################################
 custom_title_enabled: true
-custom_title_value: "Top Building and Facility Management service providers in the industry"
+custom_title_value: "Building Management System | Building Automation System"
 layout : "fms"
-title: "Top Building and Facility Management service providers in the industry"
-description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
-keywords : [Bms & Fms,BMS installation companies,Building Management System,Facility Management System,
-Building management software ,facility management services software,Best Building Management System Companies ,Facilities management software companies,Top facility management software]
+title: " Building Management System | Building Automation System"
+description: "Spritle offers a Building management system that monitors & controls building operations, including HVAC, lighting, and security, to improve sustainability & benefit your facility."
+keywords : [Smart building management system, building automation system, building automation services, building automation control system, intelligent building management system, integrated building management system]
        ############################ OG tags #################################
 locale: "en_US"
 type: "website"
-ogtitle: "Top Building and Facility Management service providers in the industry" 
-ogdescription: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."   
-link: "https://www.spritle.com/bms-fms/"
+ogtitle: " Building Management System | Building Automation System" 
+ogdescription: "Spritle offers a Building management system that monitors & controls building operations, including HVAC, lighting, and security, to improve sustainability & benefit your facility."   
+link: "https://www.spritle.com/building-management-system/"
 site_name: "Spritle Software"
 Ogimage: "https://www.spritle.com/images/bmsimages/modern-creative.webp.pagespeed.ic._Eo2HDj5Em.webp" 
 alt: "Top Building and Facility Management service providers in the industry" 
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Top Building and Facility Management service providers in the industry"  
-twitter_description: "As front runners in the FMS and BMS industry, we are proud to offer our customers a wide range of services to automate their buildings easily along with all the facilities needed."
+twitter_title: "Building Management System | Building Automation System"  
+twitter_description: "Spritle offers a Building management system that monitors & controls building operations, including HVAC, lighting, and security, to improve sustainability & benefit your facility."
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: "https://www.spritle.com/images/bmsimages/modern-creative.webp.pagespeed.ic._Eo2HDj5Em.webp" 
