@@ -34,7 +34,7 @@ banner:
   banner_heading:
   - "Building Automation System"
   contents : "Power Up Your Building and Business with the Ultimate Integration: Introducing Integrated Building Management Systems - Your All-In-One Solution for Streamlined Control!"
-  image: "images/bmsimages/smartt.webp"
+  image: "images/bmsimages/bms1.png"
   alt : "Top Building and Facility Management service providers in the industry"
 
   button:
@@ -117,7 +117,7 @@ section2:
   description: "asd ad asDA dASD"
   enable : true
   title : "How does our Building Management System Work ?"
-  image : "images/bmsimages/Smart-home-cuate.webp"
+  image : "images/bmsimages/how.png"
   alt: "Take control over your buildings"
   bulletpoints:
     - "Monitors your building through inputs from all the IoT devices"
@@ -219,7 +219,7 @@ section1:
 start2:
   enable: true
   title: "Why Tether Your Building Management Journey With Us? "
-  image: "images/process/Onboarding-Vendor-and-Software-Requirement-Analysis.webp"
+  image: "images/bmsimages/tether.png"
   content: ""
   alt: "Vendor Onboarding and Requirement Analysis"
   bulletpoints:
@@ -236,7 +236,7 @@ about_us2:
   enable : true
   title : "Keep your Building Management Platform tech-trendy with our customizable Solutions"
   contents: "With so many innovative changes changing the tech scape of smart buildings, here are some of the tech-trendy places where we can help you to renovate your building! "
-  image : "images/bmsimages/keep.webp"
+  image : "images/bmsimages/keep.png"
   alt: "Take control over your buildings"
   bulletpoints:
     - "Digital Twins "
