@@ -13,7 +13,7 @@ type: "website"
 ogtitle: "Best Airport Facility Management Company in the industry" 
 ogdescription: "A powerful tool that can help you manage all your airport facilities as a whole. It can help you keep your staff on task and keep your facilities running smoothly. 
 From clearing trash to runway lights, we take care of everything for you. Get notified every minute about the incidents happening and their resolution status."   
-link: "https://www.spritle.com/airport-management/"
+link: "https://www.spritle.com/airport-management-system/"
 site_name: "Spritle Software"
 Ogimage: "http://demo.spritle.com/images/airport/airport_preview.webp.pagespeed.ce.WkfbS_QTE-.webp" 
 alt: "Best Airport Facility Management Company in the industry" 

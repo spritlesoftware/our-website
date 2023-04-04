@@ -3,7 +3,7 @@
 
 [[main]]
 name = "Our Works"
-url = "custom-build-software-solutions/"
+url = "our-works/"
 weight = 1
 
 [[main]]
@@ -13,37 +13,37 @@ weight = 2
   [[main]]
   parent = "Services"
   name = "Custom Software Development"
-  url =  "/services/custom-software-development/"
+  url =  "/custom-software-development-services/"
   weight = 1
 
   [[main]]
   parent = "Services"
   name = "Digital Healthcare Services"
-  url =  "/services/digital-healthcare-innovations/"
+  url =  "/healthcare-application-development-services/"
   weight = 2
 
   [[main]]
   parent = "Services"
   name = "AI & ML Application Development Services"
-  url =  "/services/ai-ml-application-development-services/"
+  url =  "/ai-ml-application-development-services/"
   weight= 3 
 
   [[main]]
   parent = "Services"
   name = "ITSM Services"
-  url =  "/services/itsm-services/"
+  url =  "/itsm-services/"
   weight= 4
 
   [[main]]
   parent = "Services"
   name = "Blockchain Development Services"
-  url =  "/services/blockchain-development-services/"
+  url =  "/blockchain-development-services/"
   weight= 5
 
   [[main]]
   parent = "Services"
   name = "Testing Services"
-  url =  "/services/Testing Services/"
+  url =  "/software-testing Services/"
   weight= 6
 
 [[main]]
@@ -124,22 +124,22 @@ weight = 8
 # Footer menu
 [[footer]]
 name = " Custom Web Application Development"
-url = "/services/web-application-development-services/"
+url = "/web-application-development-services/"
 weight = 1
 
 [[footer]]
 name = "Cross Platform Mobile App Development"
-url = "/services/cross-platform-mobile-app-development/"
+url = "/cross-platform-mobile-app-development/"
 weight = 2
 
 [[footer]]
 name = " AI ML Development Services"
-url = "/services/ai-ml-application-development-services/"
+url = "/ai-ml-application-development-services/"
 weight = 3
 
 [[footer]]
 name = "Testing Services"
-url = "/services/Testing Services/"
+url = "/software-testing-services/"
 weight = 4
 
 [[footer]]
