@@ -43,7 +43,7 @@ testimonial:
       role: "Software Developers"
       time: "11:00 AM IST"
       duration: "2 hours | English"
-      desc: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and ReduxKit ToolKit! "
+      desc: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and Redux Toolkit Query! "
       register_link: "/events_webniars/april-event"
       button_text: "Register"
       past: false

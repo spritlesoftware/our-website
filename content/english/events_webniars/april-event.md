@@ -2,13 +2,13 @@
 custom_title_enabled: true
 custom_title_value: "Web Development Within the Browser & RTK Query"
 title: "Web Development Within the Browser & RTK Query"
-description: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and ReduxKit ToolKit!"
+description: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and Redux Toolkit Query!"
 keywords : [Web Development Within the Browser,RTK Query,event]
    ############################ OG tags #################################
 locale: "en_US"
 type: "website"
 ogtitle: "Web Development Within the Browser & RTK Query" 
-ogdescription: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and ReduxKit ToolKit! "
+ogdescription: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and Redux Toolkit Query! "
 link: "https://www.spritle.com/events_webniars/april-event/"
 site_name: "Spritle Software" 
 Ogimage: "https://www.spritle.com/images/event/april-banner.webp.pagespeed.ce.WkfbS_QTE-.webp"
@@ -17,7 +17,7 @@ alt: "March event"
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
 twitter_title: "Web Development Within the Browser & RTK Query" 
-twitter_description: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and ReduxKit ToolKit! "
+twitter_description: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and Redux Toolkit Query! "
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
 twitter_image: ="https://www.spritle.com/images/event/april-banner.webp.pagespeed.ce.WkfbS_QTE-.webp"
