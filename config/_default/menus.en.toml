@@ -84,7 +84,7 @@ hasChildren = true
   [[main]]
   parent = "Company"
   name = "Our Process"
-  url =  "/our-process/"
+  url =  "our-process/"
   weight=1
 
   [[main]]
@@ -153,7 +153,7 @@ url = "https://healthengr.io/"
 weight = 6
 
 [[footer]]
-name = "surveillens.ai"
-url = "https://www.surveillens.ai/"
+name = "SeeWise.ai"
+url = "https://www.seewise.ai/"
 weight = 7
 

@@ -31,6 +31,23 @@ draft: false
 testimonial:
   enable: true
   testimonial_item:
+
+    - date: "15 April 2023"
+      upcoming: "Upcoming..."
+      title: "Web Development Within the Browser & RTK Query"
+      image: "/images/webinars/ram23.png"
+      image_alt: "Ram"
+      image1: "/images/webinars/abilash1.webp"
+      image1_alt: "Abilash"
+      name: "Ram & Abilash"
+      role: "Software Developers"
+      time: "11:00 AM IST"
+      duration: "2 hours | English"
+      desc: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and ReduxKit ToolKit! "
+      register_link: "/events_webniars/april-event"
+      button_text: "Register"
+      past: false
+
     - date: "11 March 2023"
       upcoming: "Completed"
       title: "Bringing Quips on GitHub and Wikisource To You! "
