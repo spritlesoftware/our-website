@@ -31,8 +31,25 @@ draft: false
 testimonial:
   enable: true
   testimonial_item:
-    - date: "11 March 2023"
+
+    - date: "15 April 2023"
       upcoming: "Upcoming..."
+      title: "Web Development Within the Browser & RTK Query"
+      image: "/images/webinars/ram23.png"
+      image_alt: "Ram"
+      image1: "/images/webinars/abilash1.webp"
+      image1_alt: "Abilash"
+      name: "Ram & Abilash"
+      role: "Software Developers"
+      time: "11:00 AM IST"
+      duration: "2 hours | English"
+      desc: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and ReduxKit ToolKit! "
+      register_link: "/events_webniars/april-event"
+      button_text: "Register"
+      past: false
+
+    - date: "11 March 2023"
+      upcoming: "Completed"
       title: "Bringing Quips on GitHub and Wikisource To You! "
       image: "/images/webinars/ram1.png"
       image_alt: "Ram"
@@ -43,11 +60,12 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "Have you ever pondered about GitHub Services and Wikisource? Let's gather together and share our thoughts on this on Saturday."
-      register_link: "/events_webniars/march_event"
-      button_text: "Register"
-      past: false
+      register_link: "#"
+      button_text: "View"
+      past: true
 
     - date: "18 February 2023"
+      upcoming: "Completed"
       title: "Marriages and Blockchain Smart Contracts "
       image: "/images/webinars/mohan.png"
       image_alt: "Mohan"
@@ -64,6 +82,7 @@ testimonial:
       
 
     - date: "29 Jan 2023"
+      upcoming: "Completed"
       title: "Develop a DApp with Ethereum Blockchain "
       image: "/images/webinars/mohan.png"
       image_alt: "Mohan"
@@ -79,6 +98,7 @@ testimonial:
       past: true
 
     - date: "20 Jan 2023"
+      upcoming: "Completed"
       title: "Enacting Blockchain in Supply Chain Management!"
       image: "/images/webinars/sid.png"
       image_alt: "Siddharrth K"
@@ -92,6 +112,7 @@ testimonial:
       past: true
 
     - date: "08 Dec 2022"
+      upcoming: "Completed"
       title: "MDM, another product of ManageEngine!"
       image: "/images/webinars/mano.png"
       image_alt: "Mano Rajashri D.S"
@@ -105,6 +126,7 @@ testimonial:
       past: true
 
     - date: "18 Nov 2022"
+      upcoming: "Completed"
       title: "Takeaway from SDP Training Modules!"
       image: "/images/webinars/mano.png"
       name: "Mano Rajashri D.S"
