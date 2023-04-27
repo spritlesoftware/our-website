@@ -68,7 +68,7 @@ testimonial:
     - date: "11 March 2023"
       upcoming: "Completed"
       title: "Bringing Quips on GitHub and Wikisource To You! "
-      image: "/images/webinars/ram1.png"
+      image: "/images/webinars/ram23.png"
       image_alt: "Ram"
       image1: "/images/webinars/murali2.jpg"
       image1_alt: "Murali"
