@@ -45,7 +45,7 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "Register for a tech-savvy Saturday with our techies and follow an adventurous quest into JavaScript and Front-End development! "
-      register_link: "/events_webniars/may-event"
+      register_link: "/events_webniars/how-does-javascript-work-upgrade-front-end-development-to-fullstack"
       button_text: "Register for free"
       past: false
 
