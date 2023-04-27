@@ -2,7 +2,7 @@
 custom_title_enabled: true
 custom_title_value: "Events"
 title: "Events"
-description: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you."
+description: "Allowing ease of acces with our custom built software solutions for heathcare while allowing web and cross platform application development."
 keywords:
   [
     Custom web application development services, Cross platform mobile application development,Digital Healthcare Solutions, Software for healthcare
@@ -13,19 +13,19 @@ keywords:
 locale: "en_US"
 type: "website"
 ogtitle: "Events"
-ogdescription: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you."
-link: "https://www.spritle.com/events"
+ogdescription: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions."
+link: "https://www.spritle.com/custom-build-software-solution"
 site_name: "Spritle Software"
-Ogimage: "https://www.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
-alt: "event_banner"
+Ogimage: "https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp" 
+alt: "Custom--Built Software Solutions"
 
 ########################### Twitter #################################
 twitter_card: "summary_large_image"
-twitter_title: "Events" 
-twitter_description: "Hey readers! Dive into this event page to know more on what are the events scheduled regularly in Spritle's calendar for you." 
+twitter_title: "Custom Web and mobile app development|Softwares for healthcare" 
+twitter_description: "Spritle develops custom web and mobile applications that fit your brand and deliver cost-effective, high-quality patient care with cutting-edge healthcare solutions." 
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/webinars/event_banner.webp.pagespeed.ce.WkfbS_QTE-.webp" 
+twitter_image: ="https://www.spritle.com/images/apps/xfw.png.pagespeed.ic.2u1BXZaPGU.webp" 
 layout: "events"
 draft: false
 testimonial:
@@ -40,17 +40,17 @@ testimonial:
       image_alt: "Ramesh"
       image1: "/images/webinars/prabhu2.jpg"
       image1_alt: "prabhu"
-      name: "Ramesh & Prabhu"
+      name: "Ramesh & Prabu"
       role: "Software Developers"
       time: "11:00 AM IST"
       duration: "2 hours | English"
-      desc: "Register for a tech-savvy Saturday with our techies and follow an adventurous quest into JavaScript and Front-End development! "
-      register_link: "/events_webniars/may-event"
+      desc: "Join us for an enthralling session this Saturday, to explore the world of JavaScript and Front-End development! Register today!"
+      register_link: "/events/how-does-javascript-work-upgrade-front-end-development-to-fullstack"
       button_text: "Register for free"
       past: false
 
     - date: "15 April 2023"
-      upcoming: "Upcoming..."
+      upcoming: "Completed"
       title: "Web Development Within the Browser & RTK Query"
       image: "/images/webinars/ram23.png"
       image_alt: "Ram"
@@ -77,7 +77,7 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "Have you ever pondered about GitHub Services and Wikisource? Let's gather together and share our thoughts on this on Saturday."
-      register_link: "/events_webniars/march_event_completed"
+      register_link: "#"
       button_text: "View"
       past: true
 

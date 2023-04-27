@@ -70,7 +70,7 @@ section4:
     - " Spritle Software - Introduction to the company and event"
     - "Participants Introduction"
     - "**Session 1: How Does JavaScript Work?**"
-    - "**Session 2: Upgrade From FrontEnd To Fullstack**"
+    - "**Session 2: Upgrade From Front-End To Fullstack**"
     - "Q&A session"
     - "Ode of Thanks"
 ---
