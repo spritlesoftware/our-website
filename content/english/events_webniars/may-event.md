@@ -11,7 +11,7 @@ ogtitle: "How Does JavaScript Work? & Upgrade From Front-End to Fullstack"
 ogdescription: "Register for a tech-savvy Saturday with our techies and follow an adventurous quest into JavaScript and Front-End development! "
 link: "https://www.spritle.com/events_webniars/may-event/"
 site_name: "Spritle Software" 
-Ogimage: "https://www.spritle.com/images/event/may-banner.png.pagespeed.ce.WkfbS_QTE-.webp"
+Ogimage: "https://www.spritle.com/images/event/may-banner.webp.pagespeed.ce.WkfbS_QTE-.webp"
 alt: "March event" 
 
 ########################### Twitter #################################
@@ -20,7 +20,7 @@ twitter_title: " How Does JavaScript Work? & Upgrade From Front-End to Fullstack
 twitter_description: "Register for a tech-savvy Saturday with our techies and follow an adventurous quest into JavaScript and Front-End development! "
 twitter_site: "@spritlesoftware"
 twitter_creater: "@spritlesoftware"
-twitter_image: ="https://www.spritle.com/images/event/may-banner.png.pagespeed.ce.WkfbS_QTE-.webp"
+twitter_image: ="https://www.spritle.com/images/event/may-banner.webp.pagespeed.ce.WkfbS_QTE-.webp"
 layout: "event_desc"
 draft: false
 
