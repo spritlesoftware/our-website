@@ -32,6 +32,23 @@ testimonial:
   enable: true
   testimonial_item:
 
+
+    - date: "27 May  2023"
+      upcoming: "Upcoming..."
+      title: "How Does JavaScript Work? & Upgrade From Front-End to Fullstack"
+      image: "/images/webinars/ramesh.jpg"
+      image_alt: "Ramesh"
+      image1: "/images/webinars/prabhu2.jpg"
+      image1_alt: "prabhu"
+      name: "Ramesh & Prabhu"
+      role: "Software Developers"
+      time: "11:00 AM IST"
+      duration: "2 hours | English"
+      desc: "Register for a tech-savvy Saturday with our techies and follow an adventurous quest into JavaScript and Front-End development! "
+      register_link: "/events_webniars/may-event"
+      button_text: "Register for free"
+      past: false
+
     - date: "15 April 2023"
       upcoming: "Upcoming..."
       title: "Web Development Within the Browser & RTK Query"
@@ -44,9 +61,9 @@ testimonial:
       time: "11:00 AM IST"
       duration: "2 hours | English"
       desc: "Register for a geeky Saturday with our techies and follow an adventurous quest into  Web Development within the Browser and Redux Toolkit Query! "
-      register_link: "/events_webniars/april-event"
-      button_text: "Register"
-      past: false
+      register_link: "#"
+      button_text: "View"
+      past: true
 
     - date: "11 March 2023"
       upcoming: "Completed"
